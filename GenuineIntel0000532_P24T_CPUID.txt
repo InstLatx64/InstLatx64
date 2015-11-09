@@ -1,0 +1,33 @@
+------[ Versions ]------
+
+Program Version : EVEREST v5.30.2027 Beta
+BenchDLL Version: 2.5.289.0
+
+------[ CPU Info ]------
+
+CPU Type           : Intel Pentium OverDrive, 83 MHz (2.5 x 33)
+CPU Alias          : P24T OverDrive
+CPU Platform       : Socket 3
+CPU Stepping       : C0
+Instruction Set    : x86
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00001532h
+Platform ID        : C8h  (Socket 3)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Package 0 / Core 0 / Thread 0: Valid
+
+CPUID 00000000: 00000001-756E6547-6C65746E-49656E69
+CPUID 00000001: 00001532-00000000-00000000-0000013F
+
+------[ All CPUs ]------
+
+CPU   0: APICID   0 / Package 0 / Core  0 / Thread 0: Valid
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 1193180
+
+Tjmax Temperature = 0 Celsius

@@ -1,0 +1,35 @@
+------[ Versions ]------
+
+Program Version : EVEREST v4.60.1629 Beta
+BenchDLL Version: 2.4.257.0
+
+------[ CPU Info ]------
+
+CPU Type           : Intel Celeron, 266 MHz (4 x 67)
+CPU Alias          : Covington
+CPU Stepping       : dA1
+Instruction Set    : x86, MMX
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00000651h
+IA Brand ID        : 00h  (Unknown)
+Platform ID        : 00h  (Unknown)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000002-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000651-00000000-00000000-0183F9FF
+CPUID 00000002: 03020101-00000000-00000000-0C040840
+
+------[ MSR Registers ]------
+
+MSR 00000017: 8000-6103-AC6A-E124 [PlatID = 0]
+MSR 0000001B: 0000-0000-FEE0-0100
+MSR 0000002A: 0000-0000-C480-0000
+MSR 0000008B: 0000-0040-0000-0000
+MSR 0000011E: 0000-0000-1180-441E
+
+PerformanceFrequency = 1193182
+
+Tjmax Temperature = 0 Celsius

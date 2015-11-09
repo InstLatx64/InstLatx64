@@ -1,0 +1,30 @@
+------[ Versions ]------
+
+Program Version : EVEREST v5.30.1900
+BenchDLL Version: 2.4.273.0
+
+------[ CPU Info ]------
+
+CPU Type           : IDT WinChip C6, 225 MHz
+CPU Platform       : Socket 7
+Instruction Set    : x86, MMX
+CPUID Manufacturer : CentaurHauls
+CPUID Revision     : 00000542h
+Platform ID        : CBh  (Socket 7)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000001-746E6543-736C7561-48727561
+CPUID 00000001: 00000542-00000000-00000000-008001B5
+CPUID 80000000: 80000000-00000000-00000000-00000000
+CPUID 80860000: 80860000-00000000-00000000-00000000
+CPUID C0000000: C0000000-00000000-00000000-00000000
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 1193182
+
+Tjmax Temperature = 0 Celsius

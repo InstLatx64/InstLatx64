@@ -1,0 +1,28 @@
+------[ Versions ]------
+
+Program Version : EVEREST v4.60.1629 Beta
+BenchDLL Version: 2.4.257.0
+
+------[ CPU Info ]------
+
+CPU Type           : Intel Pentium, 166 MHz
+CPU Alias          : P54C
+CPU Stepping       : aC0/cC0
+Instruction Set    : x86
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 0000052Ch
+Platform ID        : FFh  (Unknown)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000001-756E6547-6C65746E-49656E69
+CPUID 00000001: 0000052C-00000000-00000000-000001BF
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 1193182
+
+Tjmax Temperature = 0 Celsius

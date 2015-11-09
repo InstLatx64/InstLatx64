@@ -1,0 +1,314 @@
+Copyright (C) 1995-2013 FinalWire Ltd. All rights reserved.
+aida_bench64.dll build: 4.1.592.0 Nov  4 2013 09:29:10
+Arch:X64 CPUCount:8 NUMA:0 Freq: 2400.11MHz Priority:080
+OS:6.1.7601 Service Pack 1
+Memory: 16767368KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
+Memory To Test:16384KB 4K DTLB:128 2M DTLB: 16 CLFlush:64
+ProcMask: 0x00000000000000ff 
+Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,MOVBE,RDRAND,CLFLUSH,TSCINV,RDTSCP,3DNOWPREF,LNOP,ERMS,PSE,
+CPU#000 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#000 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#000 AffMask: 0x0000000000000001 
+CPU#000 PhysMask:0x00000000000000ff 
+CPU#000 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 
+CPU#000 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000001 
+CPU#000 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000001 
+CPU#000 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:0000000000000003, non-inclusive
+CPU#000 L0D 4K TLB:            32 entries,           full, SMask:0000000000000001
+CPU#000 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000001
+CPU#000 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000001
+CPU#000 L1I 4K TLB:            48 entries,           full, SMask:0000000000000001
+CPU#001 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#001 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#001 AffMask: 0x0000000000000002 
+CPU#001 PhysMask:0x00000000000000ff 
+CPU#001 APIC_ID:0x00000002 Phys_ID:000 Core_ID:01 SMT_ID:00 
+CPU#001 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000002 
+CPU#001 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000002 
+CPU#001 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:0000000000000003, non-inclusive
+CPU#001 L0D 4K TLB:            32 entries,           full, SMask:0000000000000002
+CPU#001 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000002
+CPU#001 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000002
+CPU#001 L1I 4K TLB:            48 entries,           full, SMask:0000000000000002
+CPU#002 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#002 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#002 AffMask: 0x0000000000000004 
+CPU#002 PhysMask:0x00000000000000ff 
+CPU#002 APIC_ID:0x00000004 Phys_ID:000 Core_ID:02 SMT_ID:00 
+CPU#002 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000004 
+CPU#002 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000004 
+CPU#002 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:000000000000000c, non-inclusive
+CPU#002 L0D 4K TLB:            32 entries,           full, SMask:0000000000000004
+CPU#002 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000004
+CPU#002 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000004
+CPU#002 L1I 4K TLB:            48 entries,           full, SMask:0000000000000004
+CPU#003 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#003 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#003 AffMask: 0x0000000000000008 
+CPU#003 PhysMask:0x00000000000000ff 
+CPU#003 APIC_ID:0x00000006 Phys_ID:000 Core_ID:03 SMT_ID:00 
+CPU#003 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000008 
+CPU#003 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000008 
+CPU#003 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:000000000000000c, non-inclusive
+CPU#003 L0D 4K TLB:            32 entries,           full, SMask:0000000000000008
+CPU#003 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000008
+CPU#003 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000008
+CPU#003 L1I 4K TLB:            48 entries,           full, SMask:0000000000000008
+CPU#004 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#004 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#004 AffMask: 0x0000000000000010 
+CPU#004 PhysMask:0x00000000000000ff 
+CPU#004 APIC_ID:0x00000008 Phys_ID:000 Core_ID:04 SMT_ID:00 
+CPU#004 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000010 
+CPU#004 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000010 
+CPU#004 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:0000000000000030, non-inclusive
+CPU#004 L0D 4K TLB:            32 entries,           full, SMask:0000000000000010
+CPU#004 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000010
+CPU#004 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000010
+CPU#004 L1I 4K TLB:            48 entries,           full, SMask:0000000000000010
+CPU#005 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#005 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#005 AffMask: 0x0000000000000020 
+CPU#005 PhysMask:0x00000000000000ff 
+CPU#005 APIC_ID:0x0000000a Phys_ID:000 Core_ID:05 SMT_ID:00 
+CPU#005 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000020 
+CPU#005 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000020 
+CPU#005 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:0000000000000030, non-inclusive
+CPU#005 L0D 4K TLB:            32 entries,           full, SMask:0000000000000020
+CPU#005 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000020
+CPU#005 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000020
+CPU#005 L1I 4K TLB:            48 entries,           full, SMask:0000000000000020
+CPU#006 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#006 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#006 AffMask: 0x0000000000000040 
+CPU#006 PhysMask:0x00000000000000ff 
+CPU#006 APIC_ID:0x0000000c Phys_ID:000 Core_ID:06 SMT_ID:00 
+CPU#006 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000040 
+CPU#006 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000040 
+CPU#006 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:00000000000000c0, non-inclusive
+CPU#006 L0D 4K TLB:            32 entries,           full, SMask:0000000000000040
+CPU#006 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000040
+CPU#006 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000040
+CPU#006 L1I 4K TLB:            48 entries,           full, SMask:0000000000000040
+CPU#007 Vendor: GenuineIntel Family: 6 Modell: 4d Stepping: 8 CoreType:0x200406d8
+CPU#007 Type: "        Intel(R) Atom(TM) CPU  C2750  @ 2.40GHz"
+CPU#007 AffMask: 0x0000000000000080 
+CPU#007 PhysMask:0x00000000000000ff 
+CPU#007 APIC_ID:0x0000000e Phys_ID:000 Core_ID:07 SMT_ID:00 
+CPU#007 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000080 
+CPU#007 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:0000000000000080 
+CPU#007 L2  cache:   1024KB,   64 byte cache line, 16 way, SMask:00000000000000c0, non-inclusive
+CPU#007 L0D 4K TLB:            32 entries,           full, SMask:0000000000000080
+CPU#007 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000080
+CPU#007 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000080
+CPU#007 L1I 4K TLB:            48 entries,           full, SMask:0000000000000080
+Parameters: "-p=high -b=NGMemLat -l -r=1 "
+NGMemLat #  0 Pmask:0x0000000000000080 Thread(s):  1
+Page_Random Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   3    3    3    3    3    3    3    3 
+       3 KB   3    3    3    3    3    3    3    3 
+       4 KB   3    3    3    3    3    3    3    3    3 
+       6 KB   3    3    3    3    3    3    3    3    3 
+       8 KB   3    3    3    3    3    3    3    3    3    3 
+      12 KB   3    3    3    3    3    3    3    3    3    3 
+      16 KB   3    3    3    3    3    3    3    3    3    3    3 
+      24 KB   3    3    3    3    3    3    3    3    3    3    3 
+      32 KB   6    6    8   10   14   14   14   14   14   14    3    3 
+      48 KB   9    9   10   13   14   14   14   14   14   14    3    3 
+      64 KB  10   11   12   14   14   14   14   14   14   14   14    3 
+      96 KB  12   12   12   14   14   14   14   14   14   14   14    3 
+     128 KB  12   12   13   14   14   14   14   14   14   14   14   14 
+     192 KB  15   15   16   16   16   16   17   17   18   21   14   14 
+     256 KB  17   17   17   17   18   18   18   18   19   21   14   14 
+     384 KB  18   18   18   19   19   19   19   19   20   21   21   14 
+     512 KB  19   19   19   19   19   19   20   20   20   21   21   14 
+     768 KB  18   18   18   19   20   20   21   23   27   38   38   38 
+    1024 KB  20   22   25   29   29   33   39   43   49   54   38   38 
+    1536 KB  31   44   71  125  232  249  246  249  253  265  217   38 
+    2048 KB  33   46   74  130  234  246  248  250  255  264  181  216 
+    3072 KB  33   47   74  130  233  246  248  249  255  265  222  154 
+    4096 KB  32   47   74  131  235  250  249  250  255  266  270  234 
+    6144 KB  33   46   74  130  235  248  248  249  254  268  266  230 
+    8192 KB  33   47   74  130  235  246  248  251  255  266  264  221 
+   12288 KB  33   46   74  130  234  247  248  251  254  267  265  269 
+   16384 KB  33   47   74  131  235  248  248  250  256  268  270  279 
+   24576 KB  33   47   75  129  234  248  246  251  256  270  264  277 
+   32768 KB  33   47   74  131  234  248  247  251  258  272  276  269 
+   49152 KB  33   47   74  130  233  249  248  252  258  270  273  278 
+   65536 KB  33   47   74  131  232  251  248  252  258  271  274  282 
+Linear_Forward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   3    3    3    3    3    3    3    3 
+       3 KB   3    3    3    3    3    3    3    3 
+       4 KB   3    3    3    3    3    3    3    3    3 
+       6 KB   3    3    3    3    3    3    3    3    3 
+       8 KB   3    3    3    3    3    3    3    3    3    3 
+      12 KB   3    3    3    3    3    3    3    3    3    3 
+      16 KB   3    3    3    3    3    3    3    3    3    3    3 
+      24 KB   3    3    3    3    3    3    3    3    3    3    3 
+      32 KB   4    5    8   12   14   14   14   14   14   14    3    3 
+      48 KB   4    5    8   12   14   14   14   14   14   14    3    3 
+      64 KB   4    5    8   12   14   14   14   14   14   14   14    3 
+      96 KB   4    5    8   12   14   14   14   14   14   14   14    3 
+     128 KB   4    5    8   12   14   14   14   14   14   14   14   14 
+     192 KB   4    5    8   12   14   14   15   16   18   21   14   14 
+     256 KB   4    5    8   12   14   14   15   16   18   21   14   14 
+     384 KB   4    5    8   12   14   14   15   16   18   21   21   14 
+     512 KB   4    5    8   12   14   14   15   16   18   21   21   14 
+     768 KB   4    5    8   12   15   16   17   20   26   38   38   38 
+    1024 KB   4    6    9   13   19   24   40   43   49   68   38   38 
+    1536 KB   5    7   15   28   55  110  240  242  249  264  250   38 
+    2048 KB   5    8   15   30   58  117  239  243  252  269  228  180 
+    3072 KB   5    8   15   30   60  119  240  243  250  264  240  169 
+    4096 KB   5    8   15   30   59  117  240  242  250  266  270  232 
+    6144 KB   5    8   16   30   59  115  241  243  251  264  265  252 
+    8192 KB   5    8   16   30   60  117  242  243  252  266  270  234 
+   12288 KB   5    8   15   31   60  118  241  244  251  268  270  269 
+   16384 KB   5    8   16   30   60  118  242  245  252  268  267  275 
+   24576 KB   5    8   16   30   60  115  242  244  253  268  269  273 
+   32768 KB   5    8   16   30   60  119  242  244  254  269  271  277 
+   49152 KB   5    8   16   30   60  118  241  244  253  269  271  279 
+   65536 KB   5    8   16   30   60  118  242  245  253  269  270  275 
+Linear_Backward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   3    3    3    3    3    3    3    3 
+       3 KB   3    3    3    3    3    3    3    3 
+       4 KB   3    3    3    3    3    3    3    3    3 
+       6 KB   3    3    3    3    3    3    3    3    3 
+       8 KB   3    3    3    3    3    3    3    3    3    3 
+      12 KB   3    3    3    3    3    3    3    3    3    3 
+      16 KB   3    3    3    3    3    3    3    3    3    3    3 
+      24 KB   3    3    3    3    3    3    3    3    3    3    3 
+      32 KB   5    7   11   14   14   14   14   14   14   14    3    3 
+      48 KB   5    7   11   14   14   14   14   14   14   14    3    3 
+      64 KB   5    7   11   14   14   14   14   14   14   14   14    3 
+      96 KB   5    7   11   14   14   14   14   14   14   14   14    3 
+     128 KB   5    7   11   14   14   14   14   14   14   14   14   14 
+     192 KB   5    7   11   14   14   14   15   16   18   21   14   14 
+     256 KB   5    7   11   14   14   14   15   16   18   21   14   14 
+     384 KB   5    7   11   14   14   14   15   16   18   21   21   14 
+     512 KB   5    7   11   14   14   14   15   16   18   21   21   14 
+     768 KB   5    7   11   14   15   16   17   20   26   38   38   38 
+    1024 KB   5    8   13   18   20   26   39   42   48   68   38   38 
+    1536 KB   6    9   17   31   55  128  238  243  252  265   38   38 
+    2048 KB   6    9   17   31   61  135  240  243  252  267  171  216 
+    3072 KB   6    9   17   31   60  136  240  243  250  265  265  168 
+    4096 KB   6    9   17   32   61  132  240  243  250  268  270  216 
+    6144 KB   6    9   17   32   61  137  241  242  250  270  267  234 
+    8192 KB   6    9   17   32   61  136  240  243  250  268  270  270 
+   12288 KB   6    9   17   31   61  136  240  243  251  268  268  269 
+   16384 KB   6    9   17   32   61  137  241  243  252  270  271  279 
+   24576 KB   6    9   17   32   61  138  241  242  252  272  270  280 
+   32768 KB   6    9   17   32   61  137  240  243  253  273  271  282 
+   49152 KB   6    9   17   32   61  138  241  243  252  271  273  282 
+   65536 KB   6    9   17   32   61  138  241  243  253  272  274  275 
+Random_Full Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   3    3    3    3    3    3    3    3 
+       3 KB   3    3    3    3    3    3    3    3 
+       4 KB   3    3    3    3    3    3    3    3    3 
+       6 KB   3    3    3    3    3    3    3    3    3 
+       8 KB   3    3    3    3    3    3    3    3    3    3 
+      12 KB   3    3    3    3    3    3    3    3    3    3 
+      16 KB   3    3    3    3    3    3    3    3    3    3    3 
+      24 KB   3    3    3    3    3    3    3    3    3    3    3 
+      32 KB   6    7    8   10   14   14   14   14   14   14    3    3 
+      48 KB   9    9   10   13   14   14   14   14   14   14    3    3 
+      64 KB  10   11   11   14   14   14   14   14   14   14   14    3 
+      96 KB  11   12   12   14   14   14   14   14   14   14   14    3 
+     128 KB  12   12   13   14   14   14   14   14   14   14   14   14 
+     192 KB  15   15   16   16   16   16   17   17   18   21   14   14 
+     256 KB  17   17   17   17   18   18   18   18   19   21   14   14 
+     384 KB  18   18   18   19   19   19   19   19   19   21   21   14 
+     512 KB  19   19   19   19   19   19   20   20   20   21   21   14 
+     768 KB  25   25   25   26   26   26   26   27   30   38   38   38 
+    1024 KB  31   32   33   39   38   41   50   50   54   54   38   38 
+    1536 KB 117  122  134  161  247  261  258  256  260  264  199   38 
+    2048 KB 158  164  172  200  256  265  259  261  261  270  182  173 
+    3072 KB 198  202  210  227  263  271  262  261  261  265  264  135 
+    4096 KB 219  222  228  240  266  272  264  265  266  270  270  145 
+    6144 KB 240  241  247  256  269  275  266  266  265  266  268  265 
+    8192 KB 250  252  257  262  276  276  266  268  267  270  263  242 
+   12288 KB 262  263  264  269  279  276  269  270  271  270  271  266 
+   16384 KB 270  270  270  275  280  278  272  276  277  277  279  279 
+   24576 KB 277  274  275  278  282  283  279  284  284  281  284  288 
+   32768 KB 282  282  283  286  287  289  287  292  292  292  294  295 
+   49152 KB 299  299  299  300  301  309  304  305  302  303  306  306 
+   65536 KB 313  312  314  315  316  324  315  314  310  308  310  313 
+CacheLine_Forward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      12 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      16 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      24 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      32 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+      48 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+      64 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+      96 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+     128 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+     192 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+     256 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+     384 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+     512 KB  11   11   11   11   11   12   14   14   14   14   14   14 
+     768 KB  13   13   13   13   13   13   16   16   16   16   16   16 
+    1024 KB  24   24   24   24   24   24   24   23   23   22   26   25 
+    1536 KB 120  120  120  125  123  126  129  108  106  108  105  110 
+    2048 KB 120  121  120  124  123  126  129  111  112  114  114  116 
+    3072 KB 120  120  120  123  123  127  131  114  114  115  115  114 
+    4096 KB 120  120  120  124  123  126  130  115  115  116  115  119 
+    6144 KB 121  120  120  123  124  126  129  114  112  116  116  119 
+    8192 KB 120  120  120  124  123  126  130  114  115  116  116  118 
+   12288 KB 120  121  120  124  124  127  130  115  115  117  116  119 
+   16384 KB 121  121  121  124  125  127  130  115  115  116  116  118 
+   24576 KB 121  121  121  124  124  127  131  113  115  114  116  116 
+   32768 KB 121  121  121  124  124  127  130  115  113  116  116  119 
+   49152 KB 121  121  121  124  124  127  130  114  115  116  116  118 
+   65536 KB 121  121  121  124  124  127  130  115  115  116  116  119 
+CacheLine_Backward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      12 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      16 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      24 KB   3    3    3    3    3    3    3    3    3    3    3    3 
+      32 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+      48 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+      64 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+      96 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+     128 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+     192 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+     256 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+     384 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+     512 KB  11   11   11   11   11   14   14   14   14   14   14   14 
+     768 KB  13   13   13   13   13   16   16   16   16   16   16   16 
+    1024 KB  24   20   21   20   25   29   30   29   27   27   28   27 
+    1536 KB 120  124  123  123  123  144  144  134  134  133  131  127 
+    2048 KB 120  123  123  124  124  147  146  142  141  140  139  136 
+    3072 KB 120  123  123  123  123  147  145  143  142  141  139  132 
+    4096 KB 120  123  123  123  123  146  149  141  144  142  140  132 
+    6144 KB 120  124  123  123  123  147  148  144  144  143  143  137 
+    8192 KB 121  124  123  123  123  148  146  143  144  141  143  136 
+   12288 KB 120  123  123  123  123  149  149  143  143  144  143  137 
+   16384 KB 120  123  124  123  123  149  146  141  144  141  143  134 
+   24576 KB 121  123  123  124  123  148  147  143  143  143  144  136 
+   32768 KB 120  123  123  124  124  148  149  144  143  144  143  136 
+   49152 KB 120  123  124  124  124  148  148  143  144  142  141  136 
+   65536 KB 120  124  124  124  123  149  146  144  144  143  143  139 
+BenchNGMemLat exit code: 0x1300
+NGMemLat #  0 Pmask:0x0000000000000080 Thread(s):  1
+Best Page_Random Tests
+M32768 Mem   97.932 nsec  235.048 clks (MemSize:  16384 KiB Stride:  128 Movs:   64 Reps: 131072 B:524288 RT: 10.680 s) ------
+M32768 L1D    1.252 nsec    3.004 clks (MemSize:     24 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.001 s) ------
+M32768 L2    12.507 nsec   30.018 clks (MemSize:   1024 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.020 s) ------
+Best Linear_Forward Tests
+M32769 Mem   24.569 nsec   58.969 clks (MemSize:  16384 KiB Stride:  128 Movs:   64 Reps: 131072 B:524288 RT: 10.099 s) ------
+M32769 L1D    1.252 nsec    3.004 clks (MemSize:     24 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.002 s) ------
+M32769 L2     5.908 nsec   14.180 clks (MemSize:   1024 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.011 s) ------
+Best Linear_Backward Tests
+M32770 Mem   25.405 nsec   60.975 clks (MemSize:  16384 KiB Stride:  128 Movs:   64 Reps: 131072 B:524288 RT: 10.016 s) ------
+M32770 L1D    1.252 nsec    3.005 clks (MemSize:     24 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.002 s) ------
+M32770 L2     7.052 nsec   16.927 clks (MemSize:   1024 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.013 s) ------
+Best Random_Full Tests
+M32771 Mem  116.656 nsec  279.988 clks (MemSize:  16384 KiB Stride:  128 Movs:   64 Reps: 131072 B:524288 RT: 10.764 s) ------
+M32771 L1D    1.252 nsec    3.005 clks (MemSize:     24 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.000 s) ------
+M32771 L2    15.909 nsec   38.184 clks (MemSize:   1024 KiB Stride:   64 Movs:   64 Reps:  32768 B:524288 RT: 10.009 s) ------

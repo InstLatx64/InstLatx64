@@ -1,0 +1,27 @@
+------[ Versions ]------
+
+Program Version : EVEREST v5.30.1900
+BenchDLL Version: 2.4.273.0
+
+------[ CPU Info ]------
+
+CPU Type           : Cyrix 6x86MX/MII, 300 MHz (3 x 100) PR433
+Instruction Set    : x86, MMX
+CPUID Manufacturer : CyrixInstead
+CPUID Revision     : 00000601h
+Cyrix CPU Revision : 5335h
+Platform ID        : 00h  (Unknown)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000001-69727943-64616574-736E4978
+CPUID 00000001: 00000601-00000000-00000000-0080A135
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 1193182
+
+Tjmax Temperature = 0 Celsius

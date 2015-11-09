@@ -1,0 +1,43 @@
+------[ Versions ]------
+
+Program Version : EVEREST v4.60.1629 Beta
+BenchDLL Version: 2.4.257.0
+
+------[ CPU Info ]------
+
+CPU Type           : 2x Intel Pentium II, 333 MHz (5 x 67)
+CPU Alias          : Deschutes
+CPU Stepping       : dA1
+Instruction Set    : x86, MMX
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00000651h
+IA Brand ID        : 00h  (Unknown)
+Platform ID        : 00h  (Unknown)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000002-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000651-00000000-00000000-0183FBFF
+CPUID 00000002: 03020101-00000000-00000000-0C040843
+
+------[ Logical CPU #1 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000002-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000651-00000000-00000000-0183FBFF
+CPUID 00000002: 03020101-00000000-00000000-0C040843
+
+------[ MSR Registers ]------
+
+MSR 00000017: 0800-2184-3422-10C1 [PlatID = 0]
+MSR 0000001B: 0000-0000-FEE0-0900
+MSR 0000002A: 0000-0000-C410-0000
+MSR 0000008B: 0000-0040-0000-0000
+MSR 0000011E: 0000-0000-0134-4529
+
+PerformanceFrequency = 333040000
+
+Tjmax Temperature = 0 Celsius

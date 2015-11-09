@@ -1,0 +1,588 @@
+Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
+everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
+CPUCount: 1, procMask: 0x00000001 Size of Memory: 261684KB Priority:080
+CPU#00 Vendor: AuthenticAMD CoreType:0x10000580
+CPU#00 Family: 5 Modell: 08 Stepping: 0 Type: "AMD-K6(tm) 3D processor"
+CPU#00 Features: TSC, FPU, MMX, 3DNow!, CMPXCHG8B
+CPU#00 Frequency:  333.99MHz  OS:5.0.2195 Service Pack 4
+CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 
+CPU#00 L1I cache:    32KB,   32 byte cache line,  2 way, SMask:00000001
+CPU#00 L1D cache:    32KB,   32 byte cache line,  2 way, SMask:00000001
+
+Parameters: "-ph -d4031 "
+Instruction Latency: Used CPUs:  1 ProcMask:0x00000001
+   0 X86   :NOP                         L: [no true dep.]   T:   1.50ns=  0.50c
+   1 X86   :0x66 NOP                    L: [no true dep.]   T:   2.99ns=  1.00c
+   2 X86   : 2x 0x66 NOP                L: [no true dep.]   T:   8.98ns=  3.00c
+   3 X86   : 3x 0x66 NOP                L: [no true dep.]   T:  11.98ns=  4.00c
+   4 X86   : 4x 0x66 NOP                L: [no true dep.]   T:  17.96ns=  6.00c
+   5 X86   : 5x 0x66 NOP                L: [no true dep.]   T:  23.95ns=  8.00c
+   6 X86   : 6x 0x66 NOP                L: [no true dep.]   T:  29.94ns= 10.00c
+   7 X86   : 7x 0x66 NOP                L: [no true dep.]   T:  35.93ns= 12.00c
+   8 X86   : 8x 0x66 NOP                L: [no true dep.]   T:  41.92ns= 14.00c
+   9 X86   : 9x 0x66 NOP                L: [no true dep.]   T:  47.91ns= 16.00c
+  10 X86   :10x 0x66 NOP                L: [no true dep.]   T:  53.89ns= 18.00c
+  11 X86   :11x 0x66 NOP                L: [no true dep.]   T:  59.88ns= 20.00c
+  12 X86   :12x 0x66 NOP                L: [no true dep.]   T:  65.87ns= 22.00c
+  13 X86   :13x 0x66 NOP                L: [no true dep.]   T:  71.86ns= 24.00c
+  14 X86   :14x 0x66 NOP                L: [no true dep.]   T:  77.85ns= 26.00c
+  16 X86   :MOV r8, imm8                L:   1.50ns=  0.5c  T:   1.50ns=  0.50c
+  17 X86   :MOV r16, imm16              L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+  18 X86   :MOV r32, imm32              L:   1.58ns=  0.5c  T:   1.58ns=  0.53c
+  20 X86   :MOV r8, r8                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+  21 X86   :MOV r16, r16                L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+  22 X86   :MOV r32, r32                L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+  24 X86   :MOV r8, [m8]                L:  11.98ns=  4.0c  T:   2.99ns=  1.00c
+  25 X86   :MOV r16, [m16]              L:  11.98ns=  4.0c  T:   3.24ns=  1.08c
+  26 X86   :MOV r32, [m32]              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+  28 X86   :MOV [m8], r8                L: [memory dep.]    T:   2.99ns=  1.00c
+  29 X86   :MOV [m16], r16              L: [memory dep.]    T:   3.24ns=  1.08c
+  30 X86   :MOV [m32], r32              L: [memory dep.]    T:   2.99ns=  1.00c
+  31 X86   :MOV [m32 + 8], r32          L: [memory dep.]    T:   2.99ns=  1.00c
+  34 X86   :MOV r8,[m8]+MOV [m8],r8     L:  14.72ns=  4.9c  T:   4.99ns=  1.67c
+  35 X86   :MOV r16,[m16]+MOV [m16],r16 L:  26.95ns=  9.0c  T:   4.99ns=  1.67c
+  36 X86   :MOV r32,[m32]+MOV [m32],r32 L:  21.21ns=  7.1c  T:  12.73ns=  4.25c
+  43 X86   :MOVSX r16, r8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+  44 X86   :MOVSX r32, r8               L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+  46 X86   :MOVSX r32, r16              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+  49 X86   :MOVZX r16, r8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+  50 X86   :MOVZX r32, r8               L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+  52 X86   :MOVZX r32, r16              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+  54 X86   :XCHG r8, r8                 L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+  55 X86   :XCHG r16, r16               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+  56 X86   :XCHG r32, r32               L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+  58 X86   :XCHG r1_8, r2_8             L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+  59 X86   :XCHG r1_16, r2_16           L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+  60 X86   :XCHG r1_32, r2_32           L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+  62 X86   :XCHG r8, [m8]               L: 194.62ns= 65.0c  T: 194.62ns= 65.00c
+  63 X86   :XCHG r16, [m16]             L: 274.71ns= 91.8c  T: 274.96ns= 91.83c
+  64 X86   :XCHG r32, [m32]             L: 194.62ns= 65.0c  T: 194.62ns= 65.00c
+  66 X86   :ADD r32, 0x04000            L:   2.99ns=  1.0c  T:   1.69ns=  0.56c
+  67 X86   :ADD r32, 0x08000            L:   2.99ns=  1.0c  T:   1.69ns=  0.56c
+  68 X86   :ADD r32, 0x10000            L:   2.99ns=  1.0c  T:   1.69ns=  0.56c
+  69 X86   :ADD r32, 0x20000            L:   2.99ns=  1.0c  T:   1.69ns=  0.56c
+  70 X86   :ADD r8, r8                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+  71 X86   :ADD r16, r16                L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+  72 X86   :ADD r32, r32                L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+  74 X86   :ADD r8, [m8]                L:  14.97ns=  5.0c  T:   2.99ns=  1.00c
+  75 X86   :ADD r16, [m16]              L:  14.97ns=  5.0c  T:   3.24ns=  1.08c
+  76 X86   :ADD r32, [m32]              L:   8.98ns=  3.0c  T:   2.99ns=  1.00c
+  78 X86   :ADD [m8], r8                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+  79 X86   :ADD [m16], r16              L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+  80 X86   :ADD [m32], r32              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+  81 X86   :ADD [m32 + 8], r32          L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+  84 X86   :LOCK ADD [m8], r8           L: 274.71ns= 91.8c  T: 274.96ns= 91.83c
+  85 X86   :LOCK ADD [m16], r16         L: 274.71ns= 91.8c  T: 274.96ns= 91.83c
+  86 X86   :LOCK ADD [m32], r32         L: 194.62ns= 65.0c  T: 194.62ns= 65.00c
+  87 X86   :LOCK ADD [m32 + 8], r32     L: 274.71ns= 91.8c  T: 274.71ns= 91.75c
+  90 X86   :ADD r8, imm8                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+  91 X86   :ADD r16, imm8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+  92 X86   :ADD r32, imm8               L:   2.99ns=  1.0c  T:   1.69ns=  0.56c
+  94 X86   :ADD r16, imm16              L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+  95 X86   :ADD r32, imm32              L:   2.99ns=  1.0c  T:   1.69ns=  0.56c
+  97 X86   :ADD [m8],  imm8             L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+  98 X86   :ADD [m16], imm8             L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+  99 X86   :ADD [m32], imm8             L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 101 X86   :ADD [m16], imm16            L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 102 X86   :ADD [m32], imm32            L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 104 X86   :ADD al, imm8                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 105 X86   :ADD ax, imm16               L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 106 X86   :ADD eax, imm32              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 108 X86   :SUB r8, r8                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 109 X86   :SUB r16, r16                L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 110 X86   :SUB r32, r32                L:   1.50ns=  0.5c  T:   1.50ns=  0.50c
+ 112 X86   :SUB r1_8, r2_8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 113 X86   :SUB r1_16, r2_16            L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 114 X86   :SUB r1_32, r2_32            L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 116 X86   :ADC r8, r8                  L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 117 X86   :ADC r16, r16                L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 118 X86   :ADC r32, r32                L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 120 X86   :SBB r8, r8                  L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 121 X86   :SBB r16, r16                L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 122 X86   :SBB r32, r32                L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 124 X86   :SBB r1_8, r2_8              L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 125 X86   :SBB r1_16, r2_16            L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 126 X86   :SBB r1_32, r2_32            L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 128 X86   :CMP r8, r8                  L: [no true dep.]   T:   2.99ns=  1.00c
+ 129 X86   :CMP r16, r16                L: [no true dep.]   T:   3.24ns=  1.08c
+ 130 X86   :CMP r32, r32                L: [no true dep.]   T:   1.50ns=  0.50c
+ 132 X86   :CMP r1_8, r2_8              L: [no true dep.]   T:   2.99ns=  1.00c
+ 133 X86   :CMP r1_16, r2_16            L: [no true dep.]   T:   3.24ns=  1.08c
+ 134 X86   :CMP r1_32, r2_32            L: [no true dep.]   T:   1.50ns=  0.50c
+ 136 X86   :AND r8, r8                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 137 X86   :AND r16, r16                L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 138 X86   :AND r32, r32                L:   1.50ns=  0.5c  T:   1.50ns=  0.50c
+ 140 X86   :AND r1_8, r2_8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 141 X86   :AND r1_16, r2_16            L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 142 X86   :AND r1_32, r2_32            L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 144 X86   :OR r8, r8                   L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 145 X86   :OR r16, r16                 L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 146 X86   :OR r32, r32                 L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 148 X86   :OR r1_8, r2_8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 149 X86   :OR r1_16, r2_16             L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 150 X86   :OR r1_32, r2_32             L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 152 X86   :XOR r8, r8                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 153 X86   :XOR r16, r16                L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 154 X86   :XOR r32, r32                L:   1.50ns=  0.5c  T:   1.50ns=  0.50c
+ 156 X86   :XOR r1_8, r2_8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 157 X86   :XOR r1_16, r2_16            L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 158 X86   :XOR r1_32, r2_32            L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 160 X86   :NEG r8                      L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 161 X86   :NEG r16                     L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 162 X86   :NEG r32                     L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 164 X86   :NOT r8                      L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 165 X86   :NOT r16                     L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 166 X86   :NOT r32                     L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 168 X86   :TEST r8, r8                 L: [no true dep.]   T:   2.99ns=  1.00c
+ 169 X86   :TEST r16, r16               L: [no true dep.]   T:   3.24ns=  1.08c
+ 170 X86   :TEST r32, r32               L: [no true dep.]   T:   1.50ns=  0.50c
+ 172 X86   :TEST r1_8, r2_8             L: [no true dep.]   T:   2.99ns=  1.00c
+ 173 X86   :TEST r1_16, r2_16           L: [no true dep.]   T:   3.24ns=  1.08c
+ 174 X86   :TEST r1_32, r2_32           L: [no true dep.]   T:   1.50ns=  0.50c
+ 176 X86   :BT r16, r16                 L: [no true dep.]   T:   8.98ns=  3.00c
+ 177 X86   :BT r32, r32                 L: [no true dep.]   T:   5.99ns=  2.00c
+ 179 X86   :BT r16, imm8                L: [no true dep.]   T:   8.98ns=  3.00c
+ 180 X86   :BT r32, imm8                L: [no true dep.]   T:   5.99ns=  2.00c
+ 182 X86   :BTC r16, r16                L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 183 X86   :BTC r32, r32                L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 185 X86   :BTC r16, imm8               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 186 X86   :BTC r32, imm8               L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 188 X86   :BTR r16, r16                L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 189 X86   :BTR r32, r32                L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 191 X86   :BTR r16, imm8               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 192 X86   :BTR r32, imm8               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 194 X86   :BTS r16, r16                L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 195 X86   :BTS r32, r32                L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 197 X86   :BTS r16, imm8               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 198 X86   :BTS r32, imm8               L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 200 X86   :SETC r8                     L:   7.49ns=  2.5c  T:   7.49ns=  2.50c
+ 201 X86   :INC r8                      L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 202 X86   :INC r16                     L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 203 X86   :INC r32                     L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 205 X86   :LEA r16, [r16+r16]          L:  11.98ns=  4.0c  T:   2.99ns=  1.00c
+ 206 X86   :LEA r32, [r32+r32]          L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 208 X86   :LEA r16, [r+r+disp8]        L:  11.98ns=  4.0c  T:   3.24ns=  1.08c
+ 209 X86   :LEA r32, [r+r+disp8]        L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 211 X86   :LEA r16, [r+r*8]            L:  11.98ns=  4.0c  T:   2.99ns=  1.00c
+ 212 X86   :LEA r32, [r+r*8]            L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 214 X86   :LEA r16, [r+r*8+disp8]      L:  11.98ns=  4.0c  T:   3.24ns=  1.08c
+ 215 X86   :LEA r32, [r+r*8+disp8]      L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 217 X86   :SHL r8, 1                   L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 218 X86   :SHL r16, 1                  L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 219 X86   :SHL r32, 1                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 221 X86   :SHL r8, imm8                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 222 X86   :SHL r16, imm8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 223 X86   :SHL r32, imm8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 225 X86   :SHL r8, cl                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 226 X86   :SHL r16, cl                 L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 227 X86   :SHL r32, cl                 L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 229 X86   :SHR r8, 1                   L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 230 X86   :SHR r16, 1                  L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 231 X86   :SHR r32, 1                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 233 X86   :SHR r8, imm8                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 234 X86   :SHR r16, imm8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 235 X86   :SHR r32, imm8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 237 X86   :SHR r8, cl                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 238 X86   :SHR r16, cl                 L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 239 X86   :SHR r32, cl                 L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 241 X86   :SAR r8, 1                   L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 242 X86   :SAR r16, 1                  L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 243 X86   :SAR r32, 1                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 245 X86   :SAR r8, imm8                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 246 X86   :SAR r16, imm8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 247 X86   :SAR r32, imm8               L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 249 X86   :SAR r8, cl                  L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 250 X86   :SAR r16, cl                 L:   3.24ns=  1.1c  T:   3.24ns=  1.08c
+ 251 X86   :SAR r32, cl                 L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 253 X86   :SHLD r16, r16, imm8         L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 254 X86   :SHLD r32, r32, imm8         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 256 X86   :SHLD r16, r16, cl           L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 257 X86   :SHLD r32, r32, cl           L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 259 X86   :SHRD r16, r16, imm8         L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 260 X86   :SHRD r32, r32, imm8         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 262 X86   :SHRD r16, r16, cl           L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 263 X86   :SHRD r32, r32, cl           L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 265 X86   :ROL r8, 1                   L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 266 X86   :ROL r16, 1                  L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 267 X86   :ROL r32, 1                  L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 269 X86   :ROL r8, imm8                L:  20.96ns=  7.0c  T:  20.96ns=  7.00c
+ 270 X86   :ROL r16, imm8               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 271 X86   :ROL r32, imm8               L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 273 X86   :ROL r8, cl                  L:  20.96ns=  7.0c  T:  20.96ns=  7.00c
+ 274 X86   :ROL r16, cl                 L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 275 X86   :ROL r32, cl                 L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 277 X86   :ROR r8, 1                   L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 278 X86   :ROR r16, 1                  L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 279 X86   :ROR r32, 1                  L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 281 X86   :ROR r8, imm8                L:  20.96ns=  7.0c  T:  20.96ns=  7.00c
+ 282 X86   :ROR r16, imm8               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 283 X86   :ROR r32, imm8               L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 285 X86   :ROR r8, cl                  L:  20.96ns=  7.0c  T:  20.96ns=  7.00c
+ 286 X86   :ROR r16, cl                 L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 287 X86   :ROR r32, cl                 L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 289 X86   :RCL r8, 1                   L:  17.96ns=  6.0c  T:  17.96ns=  6.00c
+ 290 X86   :RCL r16, 1                  L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 291 X86   :RCL r32, 1                  L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 293 X86   :RCL r8, imm8                L:  50.90ns= 17.0c  T:  50.90ns= 17.00c
+ 294 X86   :RCL r16, imm8               L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 295 X86   :RCL r32, imm8               L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 297 X86   :RCL r8, cl                  L:  23.95ns=  8.0c  T:  23.95ns=  8.00c
+ 298 X86   :RCL r16, cl                 L:  26.95ns=  9.0c  T:  26.95ns=  9.00c
+ 299 X86   :RCL r32, cl                 L:  26.95ns=  9.0c  T:  26.95ns=  9.00c
+ 301 X86   :RCR r8, 1                   L:  17.96ns=  6.0c  T:  17.96ns=  6.00c
+ 302 X86   :RCR r16, 1                  L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 303 X86   :RCR r32, 1                  L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 305 X86   :RCR r8, imm8                L:  50.90ns= 17.0c  T:  50.90ns= 17.00c
+ 306 X86   :RCR r16, imm8               L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 307 X86   :RCR r32, imm8               L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 309 X86   :RCR r8, cl                  L:  23.95ns=  8.0c  T:  23.95ns=  8.00c
+ 310 X86   :RCR r16, cl                 L:  26.95ns=  9.0c  T:  26.95ns=  9.00c
+ 311 X86   :RCR r32, cl                 L:  26.95ns=  9.0c  T:  26.95ns=  9.00c
+ 313 X86   :BSF r16, r16                L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 314 X86   :BSF r32, r32                L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 316 X86   :BSR r16, r16                L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 317 X86   :BSR r32, r32                L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 319 X86   :BSWAP r32                   L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 327 X86   :IMUL r16, r16               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 328 X86   :IMUL r32, r32               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 330 X86   :IMUL r16, r16, imm8         L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 331 X86   :IMUL r32, r32, imm8         L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 333 X86   :IMUL r16, r16, imm16        L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 334 X86   :IMUL r32, r32, imm32        L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 336 X86   :IMUL r8  (ah)               L:  23.95ns=  8.0c  T:  23.95ns=  8.00c
+ 337 X86   :IMUL r16 (dx)               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 338 X86   :IMUL r32 (edx)              L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 340 X86   :MUL r8   (ah)               L:  23.95ns=  8.0c  T:  23.95ns=  8.00c
+ 341 X86   :MUL r16  (dx)               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 342 X86   :MUL r32  (edx)              L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 344 X86   :IMUL r8  (al)               L:  23.95ns=  8.0c  T:  23.95ns=  8.00c
+ 345 X86   :IMUL r16 (ax)               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 346 X86   :IMUL r32 (eax)              L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 348 X86   :MUL r8   (al)               L:  23.95ns=  8.0c  T:  23.95ns=  8.00c
+ 349 X86   :MUL r16  (ax)               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 350 X86   :MUL r32  (eax)              L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 352 X86   :IDIV r8 14/ 7b (full)       L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 353 X86   :IDIV r8 12/ 7b ax upd       L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 354 X86   :IDIV r8  7/ 7b ax upd       L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 355 X86   :IDIV r8  4/ 7b ax upd       L: [no true dep.]   T:  44.91ns= 15.00c
+ 356 X86   :IDIV r8  0/ 7b              L: [no true dep.]   T:  44.91ns= 15.00c
+ 357 X86   :IDIV r8 11/ 4b ax upd       L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 358 X86   :IDIV r8  8/ 4b ax upd       L: [no true dep.]   T:  44.91ns= 15.00c
+ 359 X86   :IDIV r8  4/ 4b ax upd       L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 360 X86   :IDIV r8  0/ 4b              L: [no true dep.]   T:  44.91ns= 15.00c
+ 361 X86   :IDIV r8 2^12/2^6 ax upd     L: [no true dep.]   T:  44.91ns= 15.00c
+ 362 X86   :IDIV r8 1/1                 L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 363 X86   :IDIV r8 1/1 ax upd          L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 364 X86   :IDIV r16 30/15b (full)      L:  50.90ns= 17.0c  T:  50.90ns= 17.00c
+ 365 X86   :IDIV r16 24/15b ax upd      L:  53.89ns= 18.0c  T:  53.89ns= 18.00c
+ 366 X86   :IDIV r16 15/15b ax upd      L:  53.89ns= 18.0c  T:  53.89ns= 18.00c
+ 367 X86   :IDIV r16  8/15b ax/dx upd   L: [no true dep.]   T:  56.89ns= 19.00c
+ 368 X86   :IDIV r16  0/15b             L: [no true dep.]   T:  50.90ns= 17.00c
+ 369 X86   :IDIV r16 23/ 8b ax upd      L:  53.89ns= 18.0c  T:  53.89ns= 18.00c
+ 370 X86   :IDIV r16 16/ 8b ax upd      L: [no true dep.]   T:  53.89ns= 18.00c
+ 371 X86   :IDIV r16  8/ 8b ax upd      L:  53.89ns= 18.0c  T:  53.89ns= 18.00c
+ 372 X86   :IDIV r16  0/ 8b             L: [no true dep.]   T:  50.90ns= 17.00c
+ 373 X86   :IDIV r16 2^28/2^14 ax/dx    L: [no true dep.]   T:  56.89ns= 19.00c
+ 374 X86   :IDIV r16 1/1                L:  50.90ns= 17.0c  T:  50.90ns= 17.00c
+ 375 X86   :IDIV r16 1/1 ax upd         L:  53.89ns= 18.0c  T:  53.89ns= 18.00c
+ 376 X86   :IDIV r16 1/1 ax/dx upd      L:  56.89ns= 19.0c  T:  56.89ns= 19.00c
+ 377 X86   :IDIV r32 62/31b (full)      L:  71.86ns= 24.0c  T:  68.87ns= 23.00c
+ 378 X86   :IDIV r32 62/31b 0 rem.      L:  71.86ns= 24.0c  T:  68.87ns= 23.00c
+ 379 X86   :IDIV r32 48/31b eax upd     L:  71.86ns= 24.0c  T:  71.86ns= 24.00c
+ 380 X86   :IDIV r32 31/31b eax upd     L:  71.86ns= 24.0c  T:  71.86ns= 24.00c
+ 381 X86   :IDIV r32 16/31b eax/edx     L: [no true dep.]   T:  72.11ns= 24.08c
+ 382 X86   :IDIV r32  0/31b             L: [no true dep.]   T:  68.87ns= 23.00c
+ 383 X86   :IDIV r32 47/16b eax upd     L:  71.86ns= 24.0c  T:  71.86ns= 24.00c
+ 384 X86   :IDIV r32 32/16b eax upd     L: [no true dep.]   T:  71.86ns= 24.00c
+ 385 X86   :IDIV r32 16/16b eax upd     L:  71.86ns= 24.0c  T:  71.86ns= 24.00c
+ 386 X86   :IDIV r32  0/16b             L: [no true dep.]   T:  68.87ns= 23.00c
+ 387 X86   :IDIV r32 2^60/2^30 eax/edx  L: [no true dep.]   T:  72.11ns= 24.08c
+ 388 X86   :IDIV r32 1/1                L:  71.86ns= 24.0c  T:  68.87ns= 23.00c
+ 389 X86   :IDIV r32 1/1 eax upd        L:  71.86ns= 24.0c  T:  71.86ns= 24.00c
+ 390 X86   :IDIV r32 1/1 eax/edx upd    L:  72.11ns= 24.1c  T:  72.11ns= 24.08c
+ 405 X86   :DIV r8 16/ 8b (full)        L:  32.94ns= 11.0c  T:  32.94ns= 11.00c
+ 406 X86   :DIV r8 12/ 8b ax upd        L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 407 X86   :DIV r8  8/ 8b ax upd        L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 408 X86   :DIV r8  4/ 8b ax upd        L: [no true dep.]   T:  29.94ns= 10.00c
+ 409 X86   :DIV r8  0/ 8b               L: [no true dep.]   T:  32.94ns= 11.00c
+ 410 X86   :DIV r8 12/ 4b ax upd        L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 411 X86   :DIV r8  8/ 4b ax upd        L: [no true dep.]   T:  29.94ns= 10.00c
+ 412 X86   :DIV r8  4/ 4b ax upd        L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 413 X86   :DIV r8  0/ 4b               L: [no true dep.]   T:  32.94ns= 11.00c
+ 414 X86   :DIV r8 2^14/2^7 ax upd      L: [no true dep.]   T:  29.94ns= 10.00c
+ 415 X86   :DIV r8 1/1                  L:  32.94ns= 11.0c  T:  32.94ns= 11.00c
+ 416 X86   :DIV r8 1/1 ax upd           L:  29.94ns= 10.0c  T:  29.94ns= 10.00c
+ 417 X86   :DIV r16 32/16b (full)       L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 418 X86   :DIV r16 30/15b 0 rem.       L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 419 X86   :DIV r16 24/16b ax upd       L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 420 X86   :DIV r16 16/16b ax upd       L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 421 X86   :DIV r16  8/16b ax/dx upd    L: [no true dep.]   T:  41.92ns= 14.00c
+ 422 X86   :DIV r16  0/16b              L: [no true dep.]   T:  38.92ns= 13.00c
+ 423 X86   :DIV r16 24/ 8b ax upd       L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 424 X86   :DIV r16 16/ 8b ax upd       L: [no true dep.]   T:  38.92ns= 13.00c
+ 425 X86   :DIV r16  8/ 8b ax upd       L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 426 X86   :DIV r16  0/ 8b              L: [no true dep.]   T:  38.92ns= 13.00c
+ 427 X86   :DIV r16 1/1                 L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 428 X86   :DIV r16 1/1 ax upd          L:  38.92ns= 13.0c  T:  38.92ns= 13.00c
+ 429 X86   :DIV r16 1/1 ax/dx upd       L:  41.92ns= 14.0c  T:  41.92ns= 14.00c
+ 430 X86   :DIV r32 64/32b (full)       L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 431 X86   :DIV r32 62/31b 0 rem.       L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 432 X86   :DIV r32 48/32b eax upd      L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 433 X86   :DIV r32 32/32b eax upd      L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 434 X86   :DIV r32 16/32b eax/edx      L: [no true dep.]   T:  60.13ns= 20.08c
+ 435 X86   :DIV r32  0/32b              L: [no true dep.]   T:  59.88ns= 20.00c
+ 436 X86   :DIV r32 48/16b eax upd      L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 437 X86   :DIV r32 32/16b eax upd      L: [no true dep.]   T:  59.88ns= 20.00c
+ 438 X86   :DIV r32 16/16b eax upd      L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 439 X86   :DIV r32  0/16b              L: [no true dep.]   T:  59.88ns= 20.00c
+ 440 X86   :DIV r32 2^62/2^31 eax/edx   L: [no true dep.]   T:  60.13ns= 20.08c
+ 441 X86   :DIV r32 1/1                 L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 442 X86   :DIV r32 1/1 eax upd         L:  59.88ns= 20.0c  T:  59.88ns= 20.00c
+ 443 X86   :DIV r32 1/1 eax/edx upd     L:  60.13ns= 20.1c  T:  60.13ns= 20.08c
+ 458 X86   :CBW                         L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 459 X86   :CWDE                        L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 461 X86   :CWD                         L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 462 X86   :CDQ                         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 464 X86   :CLC                         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 465 X86   :STC                         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 466 X86   :CMC                         L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 467 X86   :CLD                         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 468 X86   :STD                         L:  26.95ns=  9.0c  T:  26.95ns=  9.00c
+ 469 X86   :AAA                         L:  17.22ns=  5.8c  T:  15.97ns=  5.33c
+ 470 X86   :AAD                         L:   7.49ns=  2.5c  T:   7.49ns=  2.50c
+ 471 X86   :AAM                         L:  16.47ns=  5.5c  T:  16.47ns=  5.50c
+ 472 X86   :AAS                         L:  16.22ns=  5.4c  T:  16.22ns=  5.42c
+ 473 X86   :DAA                         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 474 X86   :DAS                         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 475 X86   :LAHF                        L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 476 X86   :SAHF                        L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 477 X86   :PUSHA                       L: [no true dep.]   T:  29.94ns= 10.00c
+ 478 X86   :POPA                        L: [no true dep.]   T:  23.95ns=  8.00c
+ 479 X86   :PUSHA + POPA                L:  47.91ns= 16.0c  T:  47.91ns= 16.00c
+ 480 X86   :PUSHAD                      L: [no true dep.]   T: 271.47ns= 90.67c
+ 481 X86   :POPAD                       L: [no true dep.]   T: 196.86ns= 65.75c
+ 482 X86   :PUSHAD + POPAD              L:  47.91ns= 16.0c  T:  47.91ns= 16.00c
+ 483 X86   :PUSH r16                    L: [no true dep.]   T:   2.99ns=  1.00c
+ 484 X86   :POP r16                     L: [no true dep.]   T:   2.99ns=  1.00c
+ 485 X86   :PUSH r16 + POP r16          L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 486 X86   :PUSH r32                    L: [no true dep.]   T:   2.99ns=  1.00c
+ 487 X86   :POP r32                     L: [no true dep.]   T:   2.99ns=  1.00c
+ 488 X86   :PUSH r32 + POP r32          L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 489 X86   :PUSH imm8                   L: [no true dep.]   T:   2.99ns=  1.00c
+ 490 X86   :PUSH imm8 + POP r32         L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 491 X86   :PUSH imm32                  L: [no true dep.]   T:   2.99ns=  1.00c
+ 492 X86   :PUSH imm32 + POP r32        L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 493 X86   :PUSH [m16]                  L: [no true dep.]   T:   5.99ns=  2.00c
+ 494 X86   :POP [m16]                   L: [no true dep.]   T:   5.99ns=  2.00c
+ 495 X86   :PUSH [m16] + POP [m16]      L:  11.98ns=  4.0c  T:  11.98ns=  4.00c
+ 496 X86   :PUSH [m32]                  L: [no true dep.]   T:   3.24ns=  1.08c
+ 497 X86   :POP [m32]                   L: [no true dep.]   T:   3.24ns=  1.08c
+ 498 X86   :PUSH [m32] + POP [m32]      L:  11.98ns=  4.0c  T:   8.98ns=  3.00c
+ 499 X86   :PUSHF                       L: [no true dep.]   T:   8.98ns=  3.00c
+ 501 X86   :PUSHF + POPF                L:  65.87ns= 22.0c  T:  65.87ns= 22.00c
+ 502 X86   :PUSHFD                      L: [no true dep.]   T:   5.99ns=  2.00c
+ 503 X86   :POPFD                       L: [no true dep.]   T:  56.89ns= 19.00c
+ 504 X86   :PUSHFD + POPFD              L:  65.87ns= 22.0c  T:  65.87ns= 22.00c
+ 505 X86   :CMPSB                       L:  10.48ns=  3.5c  T:  13.22ns=  4.42c
+ 506 X86   :CMPSW                       L:  10.48ns=  3.5c  T:  20.46ns=  6.83c
+ 507 X86   :CMPSD                       L:  10.98ns=  3.7c  T:  28.44ns=  9.50c
+ 509 X86   :REPE CMPSB                  BW in L1D: 0.49 B/c    164MiB/s
+ 510 X86   :REPE CMPSW                  BW in L1D: 0.95 B/c    317MiB/s
+ 511 X86   :REPE CMPSD                  BW in L1D: 2.10 B/c    702MiB/s
+ 513 X86   :LODSB                       L:   2.99ns=  1.0c  T:   3.24ns=  1.08c
+ 514 X86   :LODSW                       L:   5.99ns=  2.0c  T:  11.98ns=  4.00c
+ 515 X86   :LODSD                       L:   3.74ns=  1.3c  T:  24.95ns=  8.33c
+ 517 X86   :REP LODSB                   BW in L1D: 0.97 B/c    323MiB/s
+ 518 X86   :REP LODSW                   BW in L1D: 1.86 B/c    620MiB/s
+ 519 X86   :REP LODSD                   BW in L1D: 3.51 B/c   1172MiB/s
+ 521 X86   :STOSB                       L:   2.99ns=  1.0c  T:   8.23ns=  2.75c
+ 522 X86   :STOSW                       L:   5.99ns=  2.0c  T:  23.20ns=  7.75c
+ 523 X86   :STOSD                       L:   4.24ns=  1.4c  T:  43.17ns= 14.42c
+ 525 X86   :REP STOSB                   BW in L1D: 0.95 B/c    318MiB/s
+ 526 X86   :REP STOSW                   BW in L1D: 1.75 B/c    584MiB/s
+ 527 X86   :REP STOSD                   BW in L1D: 3.19 B/c   1066MiB/s
+ 529 X86   :MOVSB                       L:   2.99ns=  1.0c  T:   9.23ns=  3.08c
+ 530 X86   :MOVSW                       L:   5.99ns=  2.0c  T:  21.71ns=  7.25c
+ 531 X86   :MOVSD                       L:   3.74ns=  1.3c  T:  40.17ns= 13.42c
+ 533 X86   :REP MOVSB                   BW in L1D: 1.54 B/c    513MiB/s
+ 534 X86   :REP MOVSW                   BW in L1D: 2.84 B/c    950MiB/s
+ 535 X86   :REP MOVSD                   BW in L1D: 5.13 B/c   1713MiB/s
+ 537 X86   :SCASB                       L:   5.99ns=  2.0c  T:   7.49ns=  2.50c
+ 538 X86   :SCASW                       L:   8.98ns=  3.0c  T:  16.22ns=  5.42c
+ 539 X86   :SCASD                       L:   6.49ns=  2.2c  T:  24.95ns=  8.33c
+ 541 X86   :REPNE SCASB                 BW in L1D: 0.66 B/c    219MiB/s
+ 542 X86   :REPNE SCASW                 BW in L1D: 1.16 B/c    388MiB/s
+ 543 X86   :REPNE SCASD                 BW in L1D: 2.21 B/c    737MiB/s
+ 545 X86   :XADD r8, r8                 L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 546 X86   :XADD r16, r16               L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 547 X86   :XADD r32, r32               L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 549 X86   :CMPXCHG r8, r8              L:  14.97ns=  5.0c  T:  11.98ns=  4.00c
+ 550 X86   :CMPXCHG r16, r16            L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 551 X86   :CMPXCHG r32, r32            L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 553 CMPX8 :CMPXCHG8B                   L:  44.91ns= 15.0c  T:  44.91ns= 15.00c
+ 555 X86   :RDTSC                       L: [no true dep.]   T:  22.96ns=  7.67c
+ 556 X86   :CPUID (EAX = 0)             L:  65.87ns= 22.0c  T:  65.87ns= 22.00c
+ 557 X86   :CPUID (EAX = 1)             L:  69.36ns= 23.2c  T:  69.36ns= 23.17c
+ 569 X87   :FNOP                        L: [no true dep.]   T:   5.99ns=  2.00c
+ 570 X87   :FXCH st(i)                  L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 571 X87   :FCHS                        L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 572 X87   :FABS                        L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 573 X87   :FTST                        L: [no true dep.]   T:  11.98ns=  4.00c
+ 574 X87   :FXAM                        L: [no true dep.]   T:   8.98ns=  3.00c
+ 576 X87   :FADD st(i), st (st = 0.0)   L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 577 X87   :FADD st(i), st              L:   5.99ns=  2.0c  T:   8.98ns=  3.00c
+ 578 X87   :FADD st, st(i), FXCH st(i)  L:  11.98ns=  4.0c  T:  11.98ns=  4.00c
+ 579 X87   :FMUL st(i), st (st = 0.0)   L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 580 X87   :FMUL st(i), st              L:   5.99ns=  2.0c  T:   8.98ns=  3.00c
+ 581 X87   :FMUL st, st(i), FXCH st(i)  L:  11.98ns=  4.0c  T:  11.98ns=  4.00c
+ 582 X87   :FMUL + FADD st, st(i)       L:  11.98ns=  4.0c  T: [not enough reg]
+ 583 X87   :FMUL st(2i) FADD st(2i+1)   L:  17.96ns=  6.0c  T: [not enough reg]
+ 584 X87   :FDIV32 st(i), st            L:  59.88ns= 20.0c  T:  62.88ns= 21.00c
+ 585 X87   :FDIV64 st(i), st            L: 101.80ns= 34.0c  T: 104.79ns= 35.00c
+ 586 X87   :FDIV80 st(i), st            L: 119.77ns= 40.0c  T: 122.76ns= 41.00c
+ 587 X87   :FDIV80 (0.0l/x)             L:   5.99ns=  2.0c  T:   5.99ns=  2.00c
+ 588 X87   :FDIV80 (x/1.0l)             L: 119.77ns= 40.0c  T: 122.76ns= 41.00c
+ 589 X87   :FDIV80 (x/2.0l)             L: 119.77ns= 40.0c  T: 122.76ns= 41.00c
+ 590 X87   :FDIV80 (x/0.5l)             L: 119.77ns= 40.0c  T: 122.76ns= 41.00c
+ 591 X87   :FSQRT32 st                  L:  62.88ns= 21.0c  T:  68.87ns= 23.00c
+ 592 X87   :FSQRT64 st                  L: 107.79ns= 36.0c  T: 113.78ns= 38.00c
+ 593 X87   :FSQRT80 st                  L: 122.76ns= 41.0c  T: 128.75ns= 43.00c
+ 594 X87   :FSQRT80 (0.0l)              L:   9.98ns=  3.3c  T:  14.97ns=  5.00c
+ 595 X87   :FSQRT80 (1.0l)              L: 122.76ns= 41.0c  T: 128.75ns= 43.00c
+ 596 X87   :FDECSTP                     L: [no true dep.]   T:   9.98ns=  3.33c
+ 597 X87   :FINCSTP                     L: [no true dep.]   T:   9.98ns=  3.33c
+ 598 X87   :FCOM st(i)                  L: [no true dep.]   T:   8.98ns=  3.00c
+ 600 X87   :FSIN80 (0.0)                L:   9.98ns=  3.3c  T:  14.97ns=  5.00c
+ 601 X87   :FSIN80 (0.0) + FADD         L:  14.97ns=  5.0c  T:  22.46ns=  7.50c
+ 602 X87   :FSIN80 (1.0) + FADD         L: 212.58ns= 71.0c  T: 218.82ns= 73.08c
+ 603 X87   :FSIN80 (4Pi) + FADD         L: 107.79ns= 36.0c  T: 113.78ns= 38.00c
+ 604 X87   :FSIN80 (2Pi) + FADD         L: 104.79ns= 35.0c  T: 110.78ns= 37.00c
+ 605 X87   :FSIN80 (Pi) + FADD          L: 107.79ns= 36.0c  T: 113.78ns= 38.00c
+ 606 X87   :FSIN80 (Pi/2) + FADD        L: 101.80ns= 34.0c  T: 107.79ns= 36.00c
+ 607 X87   :FSIN80 (Pi/4) + FADD        L: 197.61ns= 66.0c  T: 203.85ns= 68.08c
+ 608 X87   :FSIN80 (Pi/8) + FADD        L: 167.67ns= 56.0c  T: 173.91ns= 58.08c
+ 609 X87   :FSIN80 (Pi/16) + FADD       L: 167.67ns= 56.0c  T: 173.91ns= 58.08c
+ 610 X87   :FSIN80 (Pi/32) + FADD       L: 167.67ns= 56.0c  T: 173.91ns= 58.08c
+ 611 X87   :FCOS80 (0.73908513...)      L: 179.65ns= 60.0c  T: 185.89ns= 62.08c
+ 612 X87   :FCOS80 (0.73908513...)+FADD L: 185.64ns= 62.0c  T: 191.87ns= 64.08c
+ 613 X87   :FCOS80 (0.0) + FADD         L:  41.92ns= 14.0c  T:  47.91ns= 16.00c
+ 614 X87   :FCOS80 (1.0) + FADD         L: 203.60ns= 68.0c  T: 209.84ns= 70.08c
+ 615 X87   :FCOS80 (4Pi) + FADD         L: 107.79ns= 36.0c  T: 113.78ns= 38.00c
+ 616 X87   :FCOS80 (2Pi) + FADD         L: 104.79ns= 35.0c  T: 110.78ns= 37.00c
+ 617 X87   :FCOS80 (Pi) + FADD          L:  98.81ns= 33.0c  T: 104.79ns= 35.00c
+ 618 X87   :FCOS80 (Pi/2) + FADD        L: 107.79ns= 36.0c  T: 113.78ns= 38.00c
+ 619 X87   :FCOS80 (Pi/4) + FADD        L: 188.63ns= 63.0c  T: 194.87ns= 65.08c
+ 620 X87   :FCOS80 (Pi/8) + FADD        L: 182.64ns= 61.0c  T: 188.88ns= 63.08c
+ 621 X87   :FCOS80 (Pi/16) + FADD       L: 182.64ns= 61.0c  T: 188.88ns= 63.08c
+ 622 X87   :FCOS80 (Pi/32) + FADD       L: 182.64ns= 61.0c  T: 188.88ns= 63.08c
+ 623 MMX   :EMMS                        L:  14.97ns=  5.0c  T:  14.97ns=  5.00c
+ 624 MMX   :MOVD r32, mm                L: [diff. reg. set] T:   5.99ns=  2.00c
+ 625 MMX   :MOVD mm, r32                L: [diff. reg. set] T:   5.99ns=  2.00c
+ 626 MMX   :MOVD r32, mm+MOVD mm, r32   L:  11.98ns=  4.0c  T:  11.98ns=  4.00c
+ 630 MMX   :MOVD mm, [m32]              L: [memory dep.]    T:   2.99ns=  1.00c
+ 631 MMX   :MOVD [m32], mm              L: [memory dep.]    T:   2.99ns=  1.00c
+ 632 MMX   :MOVD mm,[m32]+MOVD [m32],mm L:   5.99ns=  2.0c  T:   3.74ns=  1.25c
+ 633 MMX   :MOVQ mm, mm                 L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 634 MMX   :MOVQ mm, [m64]              L: [memory dep.]    T:   2.99ns=  1.00c
+ 635 MMX   :MOVQ [m64], mm              L: [memory dep.]    T:   2.99ns=  1.00c
+ 636 MMX   :MOVQ mm,[m64]+MOVQ [m64],mm L:   5.99ns=  2.0c  T:   3.74ns=  1.25c
+ 641 MMX   :PADDB mm, mm                L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 642 MMX   :PADDW mm, mm                L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 643 MMX   :PADDD mm, mm                L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 645 MMX   :PADDSB mm, mm               L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 646 MMX   :PADDSW mm, mm               L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 647 MMX   :PADDUSB mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 648 MMX   :PADDUSW mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 649 MMX   :PSUBB mm, mm                L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 650 MMX   :PSUBB mm_1, mm_2            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 651 MMX   :PSUBW mm, mm                L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 652 MMX   :PSUBW mm_1, mm_2            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 653 MMX   :PSUBD mm, mm                L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 654 MMX   :PSUBD mm_1, mm_2            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 657 MMX   :PSUBSB mm, mm               L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 658 MMX   :PSUBSB mm_1, mm_2           L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 659 MMX   :PSUBSW mm, mm               L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 660 MMX   :PSUBSW mm_1, mm_2           L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 661 MMX   :PSUBUSB mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 662 MMX   :PSUBUSB mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 663 MMX   :PSUBUSW mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 664 MMX   :PSUBUSW mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 665 MMX   :PCMPEQB mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 666 MMX   :PCMPEQB mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 667 MMX   :PCMPEQW mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 668 MMX   :PCMPEQW mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 669 MMX   :PCMPEQD mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 670 MMX   :PCMPEQD mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 671 MMX   :PCMPGTB mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 672 MMX   :PCMPGTB mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 673 MMX   :PCMPGTW mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 674 MMX   :PCMPGTW mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 675 MMX   :PCMPGTD mm, mm              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 676 MMX   :PCMPGTD mm_1, mm_2          L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 677 MMX   :PAND mm, mm                 L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 678 MMX   :PAND mm_1, mm_2             L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 679 MMX   :PANDN mm, mm                L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 680 MMX   :PANDN mm_1, mm_2            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 681 MMX   :POR mm, mm                  L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 682 MMX   :POR mm_1, mm_2              L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 683 MMX   :PXOR mm, mm                 L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 684 MMX   :PXOR mm_1, mm_2             L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 685 MMX   :PMULHW mm, mm               L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 687 3DNOW :PMULHRW mm, mm              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 689 MMX   :PMULLW mm, mm               L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 692 MMX   :PMADDWD mm, mm              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 693 MMX   :PSLLW mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 694 MMX   :PSLLW mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 695 MMX   :PSLLD mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 696 MMX   :PSLLD mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 697 MMX   :PSLLQ mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 698 MMX   :PSLLQ mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 699 MMX   :PSRAW mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 700 MMX   :PSRAW mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 701 MMX   :PSRAD mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 702 MMX   :PSRAD mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 703 MMX   :PSRLW mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 704 MMX   :PSRLW mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 705 MMX   :PSRLD mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 706 MMX   :PSRLD mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 707 MMX   :PSRLQ mm, mm                L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 708 MMX   :PSRLQ mm, imm8              L:   2.99ns=  1.0c  T:   2.99ns=  1.00c
+ 709 MMX   :PUNPCKHBW mm, mm            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 710 MMX   :PUNPCKHWD mm, mm            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 711 MMX   :PUNPCKHDQ mm, mm            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 712 MMX   :PUNPCKLBW mm, mm            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 713 MMX   :PUNPCKLWD mm, mm            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 714 MMX   :PUNPCKLDQ mm, mm            L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 715 MMX   :PACKSSWB mm, mm             L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 716 MMX   :PACKUSWB mm, mm             L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 717 MMX   :PACKSSDW mm, mm             L:   2.99ns=  1.0c  T:   1.78ns=  0.59c
+ 718 3DNOW :FEMMS                       L:   8.98ns=  3.0c  T:   8.98ns=  3.00c
+ 719 3DNOW :PFADD mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 720 3DNOW :PFSUB mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 721 3DNOW :PFSUB mm_1, mm_2            L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 722 3DNOW :PFSUBR mm, mm               L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 723 3DNOW :PFSUBR mm_1, mm_2           L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 724 3DNOW :PFMUL mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 725 3DNOW :PFACC mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 726 3DNOW :PFCMPEQ mm, mm              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 727 3DNOW :PFCMPEQ mm_1, mm_2          L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 728 3DNOW :PFCMPGE mm, mm              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 729 3DNOW :PFCMPGE mm_1, mm_2          L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 730 3DNOW :PFCMPGT mm, mm              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 731 3DNOW :PFCMPGT mm_1, mm_2          L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 732 3DNOW :PFRCP mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 733 3DNOW :PFRCPIT1 mm, mm             L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 734 3DNOW :PFRCPIT2 mm, mm             L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 735 3DNOW :PFRSQIT1 mm, mm             L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 736 3DNOW :PFRSQRT mm, mm              L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 737 3DNOW :PFMAX mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 738 3DNOW :PFMIN mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 739 3DNOW :PF2ID mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 740 3DNOW :PI2FD mm, mm                L:   5.99ns=  2.0c  T:   2.99ns=  1.00c
+ 741 3DNOW :PF2ID mm, mm + PI2FD mm, mm L:  11.98ns=  4.0c  T:   5.74ns=  1.92c
+ 742 3DNOW :PAVGUSB mm, mm              L:   2.99ns=  1.0c  T:   1.50ns=  0.50c
+ 743 3DNOW :PREFETCH [mem]              L: [memory dep.]    T:   5.99ns=  2.00c
+ 744 3DNOW :PREFETCHW [mem]             L: [memory dep.]    T:   5.99ns=  2.00c
+BenchInstLat exit code: 0x0708
+
+Running time:    415 seconds.

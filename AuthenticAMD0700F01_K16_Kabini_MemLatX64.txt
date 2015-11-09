@@ -1,0 +1,184 @@
+Copyright (C) 1995-2013 FinalWire Ltd. All rights reserved.
+aida_bench64.dll build: 4.0.560.0 May  2 2013 15:15:00
+LARNE Arch:X64 CPUCount:4 NUMA:0 Freq: 1497.19MHz Priority:080
+OS:6.1.7601 Service Pack 1
+Memory: 3639348KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
+Memory To Test:16384KB 4K DTLB:128 2M DTLB: 64 CLFlush:64
+ProcMask: 0x000000000000000f 
+Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,MMXP,AMD64,SSSE3,SSE4A,ABM,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,AVX,MOVBE,F16C,BMI,CLFLUSH,TSCINV,TOPEX,RDTSCP,3DNOWPREF,MISALIGNSSE,LNOP,PSE,4LTOP,PAGE1GB,FP128,
+CPU#000 Vendor: AuthenticAMD Family: 7f Modell: 00 Stepping: 1 CoreType:0x10700f01
+CPU#000 Type: "AMD A4-5000 APU with Radeon(TM) HD Graphics    "
+CPU#000 AffMask: 0x0000000000000001 
+CPU#000 PhysMask:0x000000000000000f 
+CPU#000 APIC_ID:0x00000000 Phys_ID:000 Node_ID:00 CU_ID:00 Core_ID:00 
+CPU#000 L1I cache:     32KB,   64 byte cache line,  2 way, SMask:0000000000000001 
+CPU#000 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000001 
+CPU#000 L2  cache:   2048KB,   64 byte cache line, 16 way, SMask:000000000000000f, inclusive
+CPU#000 L1D 4K TLB:            40 entries,           full, SMask:0000000000000001
+CPU#000 L1D 2M TLB:             8 entries,           full, SMask:0000000000000001
+CPU#000 L2D 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+CPU#000 L2D 2M TLB:           256 entries,          2 way, SMask:000000000000000f
+CPU#000 L1I 4K TLB:            32 entries,           full, SMask:0000000000000001
+CPU#000 L1I 2M TLB:             8 entries,           full, SMask:0000000000000001
+CPU#000 L2I 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+CPU#001 Vendor: AuthenticAMD Family: 7f Modell: 00 Stepping: 1 CoreType:0x10700f01
+CPU#001 Type: "AMD A4-5000 APU with Radeon(TM) HD Graphics    "
+CPU#001 AffMask: 0x0000000000000002 
+CPU#001 PhysMask:0x000000000000000f 
+CPU#001 APIC_ID:0x00000001 Phys_ID:000 Node_ID:00 CU_ID:01 Core_ID:01 
+CPU#001 L1I cache:     32KB,   64 byte cache line,  2 way, SMask:0000000000000002 
+CPU#001 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000002 
+CPU#001 L2  cache:   2048KB,   64 byte cache line, 16 way, SMask:000000000000000f, inclusive
+CPU#001 L1D 4K TLB:            40 entries,           full, SMask:0000000000000002
+CPU#001 L1D 2M TLB:             8 entries,           full, SMask:0000000000000002
+CPU#001 L2D 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+CPU#001 L2D 2M TLB:           256 entries,          2 way, SMask:000000000000000f
+CPU#001 L1I 4K TLB:            32 entries,           full, SMask:0000000000000002
+CPU#001 L1I 2M TLB:             8 entries,           full, SMask:0000000000000002
+CPU#001 L2I 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+CPU#002 Vendor: AuthenticAMD Family: 7f Modell: 00 Stepping: 1 CoreType:0x10700f01
+CPU#002 Type: "AMD A4-5000 APU with Radeon(TM) HD Graphics    "
+CPU#002 AffMask: 0x0000000000000004 
+CPU#002 PhysMask:0x000000000000000f 
+CPU#002 APIC_ID:0x00000002 Phys_ID:000 Node_ID:00 CU_ID:02 Core_ID:02 
+CPU#002 L1I cache:     32KB,   64 byte cache line,  2 way, SMask:0000000000000004 
+CPU#002 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000004 
+CPU#002 L2  cache:   2048KB,   64 byte cache line, 16 way, SMask:000000000000000f, inclusive
+CPU#002 L1D 4K TLB:            40 entries,           full, SMask:0000000000000004
+CPU#002 L1D 2M TLB:             8 entries,           full, SMask:0000000000000004
+CPU#002 L2D 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+CPU#002 L2D 2M TLB:           256 entries,          2 way, SMask:000000000000000f
+CPU#002 L1I 4K TLB:            32 entries,           full, SMask:0000000000000004
+CPU#002 L1I 2M TLB:             8 entries,           full, SMask:0000000000000004
+CPU#002 L2I 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+CPU#003 Vendor: AuthenticAMD Family: 7f Modell: 00 Stepping: 1 CoreType:0x10700f01
+CPU#003 Type: "AMD A4-5000 APU with Radeon(TM) HD Graphics    "
+CPU#003 AffMask: 0x0000000000000008 
+CPU#003 PhysMask:0x000000000000000f 
+CPU#003 APIC_ID:0x00000003 Phys_ID:000 Node_ID:00 CU_ID:03 Core_ID:03 
+CPU#003 L1I cache:     32KB,   64 byte cache line,  2 way, SMask:0000000000000008 
+CPU#003 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000008 
+CPU#003 L2  cache:   2048KB,   64 byte cache line, 16 way, SMask:000000000000000f, inclusive
+CPU#003 L1D 4K TLB:            40 entries,           full, SMask:0000000000000008
+CPU#003 L1D 2M TLB:             8 entries,           full, SMask:0000000000000008
+CPU#003 L2D 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+CPU#003 L2D 2M TLB:           256 entries,          2 way, SMask:000000000000000f
+CPU#003 L1I 4K TLB:            32 entries,           full, SMask:0000000000000008
+CPU#003 L1I 2M TLB:             8 entries,           full, SMask:0000000000000008
+CPU#003 L2I 4K TLB:           512 entries,          4 way, SMask:000000000000000f
+Memory Latency #NOP:0 ProcMask: 0x0000000000000008 
+*** Linear Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   3,   4,   3,   3,   4,
+    0.50K,   4,   3,   3,   3,   3,   3,
+     1.0K,   3,   3,   3,   3,   3,   3,   3,
+     2.0K,   3,   3,   3,   3,   3,   3,   3,   3,
+     4.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+     8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    64.0K,   3,   3,   6,   9,  26,  26,  26,  26,  26,  26,   3,   3,
+   128.0K,   3,   3,   6,   9,  26,  26,  26,  26,  26,  26,  26,   3,
+   256.0K,   3,   3,   6,   9,  26,  26,  27,  27,  29,  32,  26,  26,
+   512.0K,   3,   3,   6,   9,  26,  26,  27,  27,  29,  32,  32,  26,
+  1024.0K,   3,   3,   6,   9,  26,  26,  27,  28,  29,  32,  32,  32,
+  2048.0K,   3,   4,   6,  10,  32,  32,  33,  33,  35,  38,  32,  32,
+  4096.0K,   4,   6,  11,  22,  90, 130, 201, 205, 211, 204,  63,  49,
+  8192.0K,   4,   6,  11,  22,  91, 131, 202, 203, 208, 212, 213,  79,
+ 16384.0K,   4,   6,  11,  22,  91, 131, 202, 208, 211, 217, 214, 215,
+ 32768.0K,   4,   6,  11,  22,  91, 131, 202, 209, 210, 222, 217, 218,
+*** Backward Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   3,   3,   3,   3,   3,
+    0.50K,   3,   3,   4,   3,   3,   3,
+     1.0K,   3,   3,   3,   3,   3,   3,   3,
+     2.0K,   3,   3,   3,   3,   3,   3,   3,   3,
+     4.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+     8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    64.0K,   3,   3,   6,   9,  26,  26,  26,  26,  26,  26,   3,   3,
+   128.0K,   3,   3,   6,   9,  26,  26,  26,  26,  26,  26,  26,   3,
+   256.0K,   3,   3,   6,   9,  26,  26,  27,  27,  29,  32,  26,  26,
+   512.0K,   3,   3,   6,   9,  26,  26,  27,  27,  29,  32,  32,  26,
+  1024.0K,   3,   3,   6,   9,  26,  26,  27,  28,  29,  32,  32,  32,
+  2048.0K,   3,   4,   7,  10,  34,  32,  33,  34,  35,  38,  32,  32,
+  4096.0K,   4,   6,  13,  24, 131, 142, 201, 204, 208, 210,  59,  49,
+  8192.0K,   4,   6,  13,  24, 132, 143, 202, 206, 212, 224, 215,  73,
+ 16384.0K,   4,   6,  13,  24, 132, 142, 202, 203, 210, 226, 216, 219,
+ 32768.0K,   4,   6,  13,  24, 131, 143, 203, 209, 210, 222, 219, 217,
+*** BlockRandom Read Latency ***
+Block,      8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.50K,   3,
+     1.0K,   3,   3,
+     2.0K,   3,   3,   3,
+     4.0K,   3,   3,   3,   3,
+     8.0K,   3,   3,   3,   3,   3,
+    16.0K,   3,   3,   3,   3,   3,   3,
+    32.0K,   3,   3,   3,   3,   3,   3,   3,
+    64.0K,  11,  14,  17,  23,  25,  26,  26,  26,
+   128.0K,  11,  14,  17,  23,  25,  26,  26,  26,  26,
+   256.0K,  11,  14,  17,  24,  26,  26,  26,  26,  26,  28,
+   512.0K,  11,  14,  17,  24,  26,  26,  26,  26,  26,  28,  30,
+  1024.0K,  11,  14,  17,  24,  26,  26,  26,  26,  26,  28,  30,  31,
+  2048.0K,  13,  17,  22,  43,  49,  47,  52,  51,  49,  49,  49,  48,
+  4096.0K,  26,  40,  78, 153, 181, 187, 189, 165, 148, 143, 142, 142,
+  8192.0K,  26,  40,  78, 155, 184, 188, 190, 165, 148, 143, 142, 143,
+ 16384.0K,  26,  40,  79, 155, 183, 188, 190, 165, 148, 143, 142, 143,
+ 32768.0K,  26,  40,  78, 155, 183, 188, 190, 166, 148, 144, 142, 143,
+*** Random Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   2,   4,   3,   3,   3,
+    0.50K,   3,   3,   3,   3,   3,   3,
+     1.0K,   3,   3,   3,   3,   3,   3,   3,
+     2.0K,   3,   3,   3,   3,   3,   3,   3,   3,
+     4.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+     8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    64.0K,  15,  16,  19,  26,  26,  26,  26,  26,  26,  26,   3,   3,
+   128.0K,  21,  21,  23,  26,  26,  26,  26,  26,  26,  26,  26,   3,
+   256.0K,  26,  26,  27,  28,  28,  28,  29,  29,  29,  32,  26,  26,
+   512.0K,  29,  29,  29,  30,  30,  30,  30,  31,  31,  32,  32,  26,
+  1024.0K,  30,  31,  31,  31,  31,  31,  31,  31,  32,  32,  32,  32,
+  2048.0K,  34,  35,  38,  48,  41,  39,  37,  36,  36,  36,  32,  32,
+  4096.0K, 140, 145, 157, 186, 217, 216, 215, 215, 217, 215,  67,  54,
+  8192.0K, 190, 193, 199, 212, 228, 226, 223, 223, 222, 224, 220,  82,
+ 16384.0K, 218, 220, 223, 230, 234, 231, 228, 228, 228, 222, 220, 220,
+ 32768.0K, 236, 236, 238, 241, 243, 242, 241, 242, 242, 239, 240, 242,
+*** CacheLine Forward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256,
+     8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    64.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+   128.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+   256.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+   512.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+  1024.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+  2048.0K,  20,  20,  20,  20,  20,  39,  39,  40,  41,  40,  40,  36,
+  4096.0K, 103, 103, 102, 103, 103, 186, 186, 192, 192, 182, 181, 130,
+  8192.0K, 103, 103, 103, 103, 103, 187, 187, 193, 192, 182, 184, 131,
+ 16384.0K, 104, 104, 104, 104, 104, 186, 186, 192, 192, 184, 184, 131,
+ 32768.0K, 104, 104, 104, 104, 104, 186, 186, 192, 192, 183, 184, 131,
+*** CacheLine Backward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256,
+     8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    64.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+   128.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+   256.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+   512.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+  1024.0K,  14,  14,  14,  14,  14,  26,  26,  26,  26,  26,  26,  26,
+  2048.0K,  20,  20,  20,  20,  20,  39,  39,  40,  40,  40,  40,  40,
+  4096.0K, 102, 103, 103, 103, 103, 187, 187, 192, 191, 191, 191, 190,
+  8192.0K, 103, 103, 103, 103, 103, 186, 187, 192, 192, 192, 192, 190,
+ 16384.0K, 104, 104, 104, 104, 104, 187, 187, 192, 193, 192, 192, 190,
+ 32768.0K, 104, 104, 104, 104, 104, 189, 188, 192, 192, 192, 192, 191,
+BenchMemLat exit code: 0x0100
+L1D cacheline size: 64 bytes      [Mode:6 Size:      64K, Stride:   512, #NOP:  0, UnRoll:64]
+L2  cacheline size: 64 bytes      [Mode:6 Size:    4096K, Stride:   512, #NOP:  0, UnRoll:64]
+Mem latency: 135.177ns( 202 clks) [Mode:1 Size:   16384K, Stride:  1024, #NOP: 93, UnRoll:64]
+L1D latency:   1.983ns(   3 clks) [Mode:1 Size:      32K, Stride:    64, #NOP:  0, UnRoll:64]
+L2  latency:   6.901ns(  10 clks) [Mode:1 Size:    2048K, Stride:    64, #NOP:  0, UnRoll:64]

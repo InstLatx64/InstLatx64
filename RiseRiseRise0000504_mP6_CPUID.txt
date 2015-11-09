@@ -1,0 +1,32 @@
+------[ Versions ]------
+
+Program Version : EVEREST v5.30.2034 Beta
+BenchDLL Version: 2.5.289.0
+
+------[ CPU Info ]------
+
+CPU Type           : Rise mP6, 190 MHz PR233
+CPU Alias          : Kirin
+CPU Platform       : Socket 7
+Instruction Set    : x86, MMX
+CPUID Manufacturer : RiseRiseRise
+CPUID Revision     : 00000504h
+Platform ID        : CBh  (Socket 7)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Package 0 / Core 0 / Thread 0: Valid
+
+CPUID 00000000: 00000001-65736952-65736952-65736952
+CPUID 00000001: 00000504-00000000-00000000-00800011
+
+------[ All CPUs ]------
+
+CPU   0: APICID   0 / Package 0 / Core  0 / Thread 0: Valid
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 7159090
+
+Tjmax Temperature = 0 Celsius

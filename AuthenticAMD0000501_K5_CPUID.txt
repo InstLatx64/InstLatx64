@@ -1,0 +1,27 @@
+------[ Versions ]------
+
+Program Version : EVEREST v5.30.1900
+BenchDLL Version: 2.4.273.0
+
+------[ CPU Info ]------
+
+CPU Type           : AMD K5 SSA/5, 100 MHz PR100
+CPU Alias          : SSA/5
+Instruction Set    : x86
+CPUID Manufacturer : AuthenticAMD
+CPUID Revision     : 00000501h
+Platform ID        : 00h  (Unknown)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000001-68747541-444D4163-69746E65
+CPUID 00000001: 00000501-00000000-00000000-000003BF
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 1193182
+
+Tjmax Temperature = 0 Celsius

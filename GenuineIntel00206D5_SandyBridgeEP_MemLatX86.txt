@@ -1,0 +1,629 @@
+Copyright (C) 1995-2013 FinalWire Ltd. All rights reserved.
+aida_bench32.dll build: 4.0.566.0 May 17 2013 19:45:57
+X9DR6 Arch:X32 CPUCount:32 NUMA:1 Freq: 2600.01MHz Priority:080
+OS:6.1.7601 Service Pack 1
+Memory: 2073496KB AllocGran:0x00010000 P:0x00001000 LP:0x00200000
+Memory To Test:131072KB 4K DTLB:256 2M DTLB: 16 1G DTLB:  2 CLFlush:64
+ProcMask: 0xffffffff 
+Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,SSSE3,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,AESNI,CLMUL,AVX,HTT,CLFLUSH,X2APIC,TSCINV,RDTSCP,LNOP,PSE,PAGE1GB,
+CPU#000 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#000 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#000 AffMask: 0x00000001 
+CPU#000 PhysMask:0x00ff00ff 
+CPU#000 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 
+CPU#000 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00010001 
+CPU#000 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00010001 
+CPU#000 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00010001, non-inclusive
+CPU#000 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#000 L0D 2M TLB:            32 entries,          4 way, SMask:00010001
+CPU#000 L1D 4K TLB:            64 entries,          4 way, SMask:00010001
+CPU#000 L1D 1G TLB:             4 entries,          4 way, SMask:00010001
+CPU#000 L1I 4K TLB:            64 entries,          4 way, SMask:00010001
+CPU#000 L1I 2M TLB:             8 entries,           full, SMask:00010001
+CPU#000 L2I+D 4K TLB:         512 entries,          4 way, SMask:00010001
+CPU#001 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#001 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#001 AffMask: 0x00000002 
+CPU#001 PhysMask:0x00ff00ff 
+CPU#001 APIC_ID:0x00000002 Phys_ID:000 Core_ID:01 SMT_ID:00 
+CPU#001 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00020002 
+CPU#001 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00020002 
+CPU#001 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00020002, non-inclusive
+CPU#001 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#001 L0D 2M TLB:            32 entries,          4 way, SMask:00020002
+CPU#001 L1D 4K TLB:            64 entries,          4 way, SMask:00020002
+CPU#001 L1D 1G TLB:             4 entries,          4 way, SMask:00020002
+CPU#001 L1I 4K TLB:            64 entries,          4 way, SMask:00020002
+CPU#001 L1I 2M TLB:             8 entries,           full, SMask:00020002
+CPU#001 L2I+D 4K TLB:         512 entries,          4 way, SMask:00020002
+CPU#002 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#002 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#002 AffMask: 0x00000004 
+CPU#002 PhysMask:0x00ff00ff 
+CPU#002 APIC_ID:0x00000004 Phys_ID:000 Core_ID:02 SMT_ID:00 
+CPU#002 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00040004 
+CPU#002 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00040004 
+CPU#002 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00040004, non-inclusive
+CPU#002 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#002 L0D 2M TLB:            32 entries,          4 way, SMask:00040004
+CPU#002 L1D 4K TLB:            64 entries,          4 way, SMask:00040004
+CPU#002 L1D 1G TLB:             4 entries,          4 way, SMask:00040004
+CPU#002 L1I 4K TLB:            64 entries,          4 way, SMask:00040004
+CPU#002 L1I 2M TLB:             8 entries,           full, SMask:00040004
+CPU#002 L2I+D 4K TLB:         512 entries,          4 way, SMask:00040004
+CPU#003 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#003 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#003 AffMask: 0x00000008 
+CPU#003 PhysMask:0x00ff00ff 
+CPU#003 APIC_ID:0x00000006 Phys_ID:000 Core_ID:03 SMT_ID:00 
+CPU#003 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00080008 
+CPU#003 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00080008 
+CPU#003 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00080008, non-inclusive
+CPU#003 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#003 L0D 2M TLB:            32 entries,          4 way, SMask:00080008
+CPU#003 L1D 4K TLB:            64 entries,          4 way, SMask:00080008
+CPU#003 L1D 1G TLB:             4 entries,          4 way, SMask:00080008
+CPU#003 L1I 4K TLB:            64 entries,          4 way, SMask:00080008
+CPU#003 L1I 2M TLB:             8 entries,           full, SMask:00080008
+CPU#003 L2I+D 4K TLB:         512 entries,          4 way, SMask:00080008
+CPU#004 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#004 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#004 AffMask: 0x00000010 
+CPU#004 PhysMask:0x00ff00ff 
+CPU#004 APIC_ID:0x00000008 Phys_ID:000 Core_ID:04 SMT_ID:00 
+CPU#004 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00100010 
+CPU#004 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00100010 
+CPU#004 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00100010, non-inclusive
+CPU#004 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#004 L0D 2M TLB:            32 entries,          4 way, SMask:00100010
+CPU#004 L1D 4K TLB:            64 entries,          4 way, SMask:00100010
+CPU#004 L1D 1G TLB:             4 entries,          4 way, SMask:00100010
+CPU#004 L1I 4K TLB:            64 entries,          4 way, SMask:00100010
+CPU#004 L1I 2M TLB:             8 entries,           full, SMask:00100010
+CPU#004 L2I+D 4K TLB:         512 entries,          4 way, SMask:00100010
+CPU#005 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#005 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#005 AffMask: 0x00000020 
+CPU#005 PhysMask:0x00ff00ff 
+CPU#005 APIC_ID:0x0000000a Phys_ID:000 Core_ID:05 SMT_ID:00 
+CPU#005 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00200020 
+CPU#005 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00200020 
+CPU#005 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00200020, non-inclusive
+CPU#005 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#005 L0D 2M TLB:            32 entries,          4 way, SMask:00200020
+CPU#005 L1D 4K TLB:            64 entries,          4 way, SMask:00200020
+CPU#005 L1D 1G TLB:             4 entries,          4 way, SMask:00200020
+CPU#005 L1I 4K TLB:            64 entries,          4 way, SMask:00200020
+CPU#005 L1I 2M TLB:             8 entries,           full, SMask:00200020
+CPU#005 L2I+D 4K TLB:         512 entries,          4 way, SMask:00200020
+CPU#006 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#006 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#006 AffMask: 0x00000040 
+CPU#006 PhysMask:0x00ff00ff 
+CPU#006 APIC_ID:0x0000000c Phys_ID:000 Core_ID:06 SMT_ID:00 
+CPU#006 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00400040 
+CPU#006 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00400040 
+CPU#006 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00400040, non-inclusive
+CPU#006 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#006 L0D 2M TLB:            32 entries,          4 way, SMask:00400040
+CPU#006 L1D 4K TLB:            64 entries,          4 way, SMask:00400040
+CPU#006 L1D 1G TLB:             4 entries,          4 way, SMask:00400040
+CPU#006 L1I 4K TLB:            64 entries,          4 way, SMask:00400040
+CPU#006 L1I 2M TLB:             8 entries,           full, SMask:00400040
+CPU#006 L2I+D 4K TLB:         512 entries,          4 way, SMask:00400040
+CPU#007 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#007 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#007 AffMask: 0x00000080 
+CPU#007 PhysMask:0x00ff00ff 
+CPU#007 APIC_ID:0x0000000e Phys_ID:000 Core_ID:07 SMT_ID:00 
+CPU#007 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00800080 
+CPU#007 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00800080 
+CPU#007 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00800080, non-inclusive
+CPU#007 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#007 L0D 2M TLB:            32 entries,          4 way, SMask:00800080
+CPU#007 L1D 4K TLB:            64 entries,          4 way, SMask:00800080
+CPU#007 L1D 1G TLB:             4 entries,          4 way, SMask:00800080
+CPU#007 L1I 4K TLB:            64 entries,          4 way, SMask:00800080
+CPU#007 L1I 2M TLB:             8 entries,           full, SMask:00800080
+CPU#007 L2I+D 4K TLB:         512 entries,          4 way, SMask:00800080
+CPU#008 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#008 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#008 AffMask: 0x00000100 
+CPU#008 PhysMask:0xff00ff00 
+CPU#008 APIC_ID:0x00000020 Phys_ID:001 Core_ID:00 SMT_ID:00 
+CPU#008 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:01000100 
+CPU#008 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:01000100 
+CPU#008 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:01000100, non-inclusive
+CPU#008 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#008 L0D 2M TLB:            32 entries,          4 way, SMask:01000100
+CPU#008 L1D 4K TLB:            64 entries,          4 way, SMask:01000100
+CPU#008 L1D 1G TLB:             4 entries,          4 way, SMask:01000100
+CPU#008 L1I 4K TLB:            64 entries,          4 way, SMask:01000100
+CPU#008 L1I 2M TLB:             8 entries,           full, SMask:01000100
+CPU#008 L2I+D 4K TLB:         512 entries,          4 way, SMask:01000100
+CPU#009 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#009 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#009 AffMask: 0x00000200 
+CPU#009 PhysMask:0xff00ff00 
+CPU#009 APIC_ID:0x00000022 Phys_ID:001 Core_ID:01 SMT_ID:00 
+CPU#009 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:02000200 
+CPU#009 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:02000200 
+CPU#009 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:02000200, non-inclusive
+CPU#009 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#009 L0D 2M TLB:            32 entries,          4 way, SMask:02000200
+CPU#009 L1D 4K TLB:            64 entries,          4 way, SMask:02000200
+CPU#009 L1D 1G TLB:             4 entries,          4 way, SMask:02000200
+CPU#009 L1I 4K TLB:            64 entries,          4 way, SMask:02000200
+CPU#009 L1I 2M TLB:             8 entries,           full, SMask:02000200
+CPU#009 L2I+D 4K TLB:         512 entries,          4 way, SMask:02000200
+CPU#010 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#010 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#010 AffMask: 0x00000400 
+CPU#010 PhysMask:0xff00ff00 
+CPU#010 APIC_ID:0x00000024 Phys_ID:001 Core_ID:02 SMT_ID:00 
+CPU#010 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:04000400 
+CPU#010 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:04000400 
+CPU#010 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:04000400, non-inclusive
+CPU#010 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#010 L0D 2M TLB:            32 entries,          4 way, SMask:04000400
+CPU#010 L1D 4K TLB:            64 entries,          4 way, SMask:04000400
+CPU#010 L1D 1G TLB:             4 entries,          4 way, SMask:04000400
+CPU#010 L1I 4K TLB:            64 entries,          4 way, SMask:04000400
+CPU#010 L1I 2M TLB:             8 entries,           full, SMask:04000400
+CPU#010 L2I+D 4K TLB:         512 entries,          4 way, SMask:04000400
+CPU#011 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#011 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#011 AffMask: 0x00000800 
+CPU#011 PhysMask:0xff00ff00 
+CPU#011 APIC_ID:0x00000026 Phys_ID:001 Core_ID:03 SMT_ID:00 
+CPU#011 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:08000800 
+CPU#011 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:08000800 
+CPU#011 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:08000800, non-inclusive
+CPU#011 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#011 L0D 2M TLB:            32 entries,          4 way, SMask:08000800
+CPU#011 L1D 4K TLB:            64 entries,          4 way, SMask:08000800
+CPU#011 L1D 1G TLB:             4 entries,          4 way, SMask:08000800
+CPU#011 L1I 4K TLB:            64 entries,          4 way, SMask:08000800
+CPU#011 L1I 2M TLB:             8 entries,           full, SMask:08000800
+CPU#011 L2I+D 4K TLB:         512 entries,          4 way, SMask:08000800
+CPU#012 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#012 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#012 AffMask: 0x00001000 
+CPU#012 PhysMask:0xff00ff00 
+CPU#012 APIC_ID:0x00000028 Phys_ID:001 Core_ID:04 SMT_ID:00 
+CPU#012 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:10001000 
+CPU#012 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:10001000 
+CPU#012 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:10001000, non-inclusive
+CPU#012 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#012 L0D 2M TLB:            32 entries,          4 way, SMask:10001000
+CPU#012 L1D 4K TLB:            64 entries,          4 way, SMask:10001000
+CPU#012 L1D 1G TLB:             4 entries,          4 way, SMask:10001000
+CPU#012 L1I 4K TLB:            64 entries,          4 way, SMask:10001000
+CPU#012 L1I 2M TLB:             8 entries,           full, SMask:10001000
+CPU#012 L2I+D 4K TLB:         512 entries,          4 way, SMask:10001000
+CPU#013 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#013 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#013 AffMask: 0x00002000 
+CPU#013 PhysMask:0xff00ff00 
+CPU#013 APIC_ID:0x0000002a Phys_ID:001 Core_ID:05 SMT_ID:00 
+CPU#013 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:20002000 
+CPU#013 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:20002000 
+CPU#013 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:20002000, non-inclusive
+CPU#013 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#013 L0D 2M TLB:            32 entries,          4 way, SMask:20002000
+CPU#013 L1D 4K TLB:            64 entries,          4 way, SMask:20002000
+CPU#013 L1D 1G TLB:             4 entries,          4 way, SMask:20002000
+CPU#013 L1I 4K TLB:            64 entries,          4 way, SMask:20002000
+CPU#013 L1I 2M TLB:             8 entries,           full, SMask:20002000
+CPU#013 L2I+D 4K TLB:         512 entries,          4 way, SMask:20002000
+CPU#014 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#014 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#014 AffMask: 0x00004000 
+CPU#014 PhysMask:0xff00ff00 
+CPU#014 APIC_ID:0x0000002c Phys_ID:001 Core_ID:06 SMT_ID:00 
+CPU#014 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:40004000 
+CPU#014 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:40004000 
+CPU#014 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:40004000, non-inclusive
+CPU#014 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#014 L0D 2M TLB:            32 entries,          4 way, SMask:40004000
+CPU#014 L1D 4K TLB:            64 entries,          4 way, SMask:40004000
+CPU#014 L1D 1G TLB:             4 entries,          4 way, SMask:40004000
+CPU#014 L1I 4K TLB:            64 entries,          4 way, SMask:40004000
+CPU#014 L1I 2M TLB:             8 entries,           full, SMask:40004000
+CPU#014 L2I+D 4K TLB:         512 entries,          4 way, SMask:40004000
+CPU#015 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#015 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#015 AffMask: 0x00008000 
+CPU#015 PhysMask:0xff00ff00 
+CPU#015 APIC_ID:0x0000002e Phys_ID:001 Core_ID:07 SMT_ID:00 
+CPU#015 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:80008000 
+CPU#015 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:80008000 
+CPU#015 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:80008000, non-inclusive
+CPU#015 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#015 L0D 2M TLB:            32 entries,          4 way, SMask:80008000
+CPU#015 L1D 4K TLB:            64 entries,          4 way, SMask:80008000
+CPU#015 L1D 1G TLB:             4 entries,          4 way, SMask:80008000
+CPU#015 L1I 4K TLB:            64 entries,          4 way, SMask:80008000
+CPU#015 L1I 2M TLB:             8 entries,           full, SMask:80008000
+CPU#015 L2I+D 4K TLB:         512 entries,          4 way, SMask:80008000
+CPU#016 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#016 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#016 AffMask: 0x00010000 
+CPU#016 PhysMask:0x00ff00ff 
+CPU#016 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 
+CPU#016 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00010001 
+CPU#016 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00010001 
+CPU#016 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00010001, non-inclusive
+CPU#016 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#016 L0D 2M TLB:            32 entries,          4 way, SMask:00010001
+CPU#016 L1D 4K TLB:            64 entries,          4 way, SMask:00010001
+CPU#016 L1D 1G TLB:             4 entries,          4 way, SMask:00010001
+CPU#016 L1I 4K TLB:            64 entries,          4 way, SMask:00010001
+CPU#016 L1I 2M TLB:             8 entries,           full, SMask:00010001
+CPU#016 L2I+D 4K TLB:         512 entries,          4 way, SMask:00010001
+CPU#017 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#017 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#017 AffMask: 0x00020000 
+CPU#017 PhysMask:0x00ff00ff 
+CPU#017 APIC_ID:0x00000003 Phys_ID:000 Core_ID:01 SMT_ID:01 
+CPU#017 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00020002 
+CPU#017 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00020002 
+CPU#017 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00020002, non-inclusive
+CPU#017 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#017 L0D 2M TLB:            32 entries,          4 way, SMask:00020002
+CPU#017 L1D 4K TLB:            64 entries,          4 way, SMask:00020002
+CPU#017 L1D 1G TLB:             4 entries,          4 way, SMask:00020002
+CPU#017 L1I 4K TLB:            64 entries,          4 way, SMask:00020002
+CPU#017 L1I 2M TLB:             8 entries,           full, SMask:00020002
+CPU#017 L2I+D 4K TLB:         512 entries,          4 way, SMask:00020002
+CPU#018 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#018 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#018 AffMask: 0x00040000 
+CPU#018 PhysMask:0x00ff00ff 
+CPU#018 APIC_ID:0x00000005 Phys_ID:000 Core_ID:02 SMT_ID:01 
+CPU#018 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00040004 
+CPU#018 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00040004 
+CPU#018 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00040004, non-inclusive
+CPU#018 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#018 L0D 2M TLB:            32 entries,          4 way, SMask:00040004
+CPU#018 L1D 4K TLB:            64 entries,          4 way, SMask:00040004
+CPU#018 L1D 1G TLB:             4 entries,          4 way, SMask:00040004
+CPU#018 L1I 4K TLB:            64 entries,          4 way, SMask:00040004
+CPU#018 L1I 2M TLB:             8 entries,           full, SMask:00040004
+CPU#018 L2I+D 4K TLB:         512 entries,          4 way, SMask:00040004
+CPU#019 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#019 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#019 AffMask: 0x00080000 
+CPU#019 PhysMask:0x00ff00ff 
+CPU#019 APIC_ID:0x00000007 Phys_ID:000 Core_ID:03 SMT_ID:01 
+CPU#019 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00080008 
+CPU#019 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00080008 
+CPU#019 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00080008, non-inclusive
+CPU#019 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#019 L0D 2M TLB:            32 entries,          4 way, SMask:00080008
+CPU#019 L1D 4K TLB:            64 entries,          4 way, SMask:00080008
+CPU#019 L1D 1G TLB:             4 entries,          4 way, SMask:00080008
+CPU#019 L1I 4K TLB:            64 entries,          4 way, SMask:00080008
+CPU#019 L1I 2M TLB:             8 entries,           full, SMask:00080008
+CPU#019 L2I+D 4K TLB:         512 entries,          4 way, SMask:00080008
+CPU#020 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#020 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#020 AffMask: 0x00100000 
+CPU#020 PhysMask:0x00ff00ff 
+CPU#020 APIC_ID:0x00000009 Phys_ID:000 Core_ID:04 SMT_ID:01 
+CPU#020 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00100010 
+CPU#020 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00100010 
+CPU#020 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00100010, non-inclusive
+CPU#020 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#020 L0D 2M TLB:            32 entries,          4 way, SMask:00100010
+CPU#020 L1D 4K TLB:            64 entries,          4 way, SMask:00100010
+CPU#020 L1D 1G TLB:             4 entries,          4 way, SMask:00100010
+CPU#020 L1I 4K TLB:            64 entries,          4 way, SMask:00100010
+CPU#020 L1I 2M TLB:             8 entries,           full, SMask:00100010
+CPU#020 L2I+D 4K TLB:         512 entries,          4 way, SMask:00100010
+CPU#021 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#021 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#021 AffMask: 0x00200000 
+CPU#021 PhysMask:0x00ff00ff 
+CPU#021 APIC_ID:0x0000000b Phys_ID:000 Core_ID:05 SMT_ID:01 
+CPU#021 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00200020 
+CPU#021 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00200020 
+CPU#021 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00200020, non-inclusive
+CPU#021 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#021 L0D 2M TLB:            32 entries,          4 way, SMask:00200020
+CPU#021 L1D 4K TLB:            64 entries,          4 way, SMask:00200020
+CPU#021 L1D 1G TLB:             4 entries,          4 way, SMask:00200020
+CPU#021 L1I 4K TLB:            64 entries,          4 way, SMask:00200020
+CPU#021 L1I 2M TLB:             8 entries,           full, SMask:00200020
+CPU#021 L2I+D 4K TLB:         512 entries,          4 way, SMask:00200020
+CPU#022 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#022 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#022 AffMask: 0x00400000 
+CPU#022 PhysMask:0x00ff00ff 
+CPU#022 APIC_ID:0x0000000d Phys_ID:000 Core_ID:06 SMT_ID:01 
+CPU#022 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00400040 
+CPU#022 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00400040 
+CPU#022 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00400040, non-inclusive
+CPU#022 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#022 L0D 2M TLB:            32 entries,          4 way, SMask:00400040
+CPU#022 L1D 4K TLB:            64 entries,          4 way, SMask:00400040
+CPU#022 L1D 1G TLB:             4 entries,          4 way, SMask:00400040
+CPU#022 L1I 4K TLB:            64 entries,          4 way, SMask:00400040
+CPU#022 L1I 2M TLB:             8 entries,           full, SMask:00400040
+CPU#022 L2I+D 4K TLB:         512 entries,          4 way, SMask:00400040
+CPU#023 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#023 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#023 AffMask: 0x00800000 
+CPU#023 PhysMask:0x00ff00ff 
+CPU#023 APIC_ID:0x0000000f Phys_ID:000 Core_ID:07 SMT_ID:01 
+CPU#023 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:00800080 
+CPU#023 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00800080 
+CPU#023 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:00800080, non-inclusive
+CPU#023 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:00ff00ff, hashed LLC
+CPU#023 L0D 2M TLB:            32 entries,          4 way, SMask:00800080
+CPU#023 L1D 4K TLB:            64 entries,          4 way, SMask:00800080
+CPU#023 L1D 1G TLB:             4 entries,          4 way, SMask:00800080
+CPU#023 L1I 4K TLB:            64 entries,          4 way, SMask:00800080
+CPU#023 L1I 2M TLB:             8 entries,           full, SMask:00800080
+CPU#023 L2I+D 4K TLB:         512 entries,          4 way, SMask:00800080
+CPU#024 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#024 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#024 AffMask: 0x01000000 
+CPU#024 PhysMask:0xff00ff00 
+CPU#024 APIC_ID:0x00000021 Phys_ID:001 Core_ID:00 SMT_ID:01 
+CPU#024 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:01000100 
+CPU#024 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:01000100 
+CPU#024 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:01000100, non-inclusive
+CPU#024 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#024 L0D 2M TLB:            32 entries,          4 way, SMask:01000100
+CPU#024 L1D 4K TLB:            64 entries,          4 way, SMask:01000100
+CPU#024 L1D 1G TLB:             4 entries,          4 way, SMask:01000100
+CPU#024 L1I 4K TLB:            64 entries,          4 way, SMask:01000100
+CPU#024 L1I 2M TLB:             8 entries,           full, SMask:01000100
+CPU#024 L2I+D 4K TLB:         512 entries,          4 way, SMask:01000100
+CPU#025 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#025 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#025 AffMask: 0x02000000 
+CPU#025 PhysMask:0xff00ff00 
+CPU#025 APIC_ID:0x00000023 Phys_ID:001 Core_ID:01 SMT_ID:01 
+CPU#025 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:02000200 
+CPU#025 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:02000200 
+CPU#025 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:02000200, non-inclusive
+CPU#025 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#025 L0D 2M TLB:            32 entries,          4 way, SMask:02000200
+CPU#025 L1D 4K TLB:            64 entries,          4 way, SMask:02000200
+CPU#025 L1D 1G TLB:             4 entries,          4 way, SMask:02000200
+CPU#025 L1I 4K TLB:            64 entries,          4 way, SMask:02000200
+CPU#025 L1I 2M TLB:             8 entries,           full, SMask:02000200
+CPU#025 L2I+D 4K TLB:         512 entries,          4 way, SMask:02000200
+CPU#026 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#026 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#026 AffMask: 0x04000000 
+CPU#026 PhysMask:0xff00ff00 
+CPU#026 APIC_ID:0x00000025 Phys_ID:001 Core_ID:02 SMT_ID:01 
+CPU#026 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:04000400 
+CPU#026 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:04000400 
+CPU#026 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:04000400, non-inclusive
+CPU#026 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#026 L0D 2M TLB:            32 entries,          4 way, SMask:04000400
+CPU#026 L1D 4K TLB:            64 entries,          4 way, SMask:04000400
+CPU#026 L1D 1G TLB:             4 entries,          4 way, SMask:04000400
+CPU#026 L1I 4K TLB:            64 entries,          4 way, SMask:04000400
+CPU#026 L1I 2M TLB:             8 entries,           full, SMask:04000400
+CPU#026 L2I+D 4K TLB:         512 entries,          4 way, SMask:04000400
+CPU#027 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#027 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#027 AffMask: 0x08000000 
+CPU#027 PhysMask:0xff00ff00 
+CPU#027 APIC_ID:0x00000027 Phys_ID:001 Core_ID:03 SMT_ID:01 
+CPU#027 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:08000800 
+CPU#027 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:08000800 
+CPU#027 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:08000800, non-inclusive
+CPU#027 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#027 L0D 2M TLB:            32 entries,          4 way, SMask:08000800
+CPU#027 L1D 4K TLB:            64 entries,          4 way, SMask:08000800
+CPU#027 L1D 1G TLB:             4 entries,          4 way, SMask:08000800
+CPU#027 L1I 4K TLB:            64 entries,          4 way, SMask:08000800
+CPU#027 L1I 2M TLB:             8 entries,           full, SMask:08000800
+CPU#027 L2I+D 4K TLB:         512 entries,          4 way, SMask:08000800
+CPU#028 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#028 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#028 AffMask: 0x10000000 
+CPU#028 PhysMask:0xff00ff00 
+CPU#028 APIC_ID:0x00000029 Phys_ID:001 Core_ID:04 SMT_ID:01 
+CPU#028 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:10001000 
+CPU#028 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:10001000 
+CPU#028 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:10001000, non-inclusive
+CPU#028 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#028 L0D 2M TLB:            32 entries,          4 way, SMask:10001000
+CPU#028 L1D 4K TLB:            64 entries,          4 way, SMask:10001000
+CPU#028 L1D 1G TLB:             4 entries,          4 way, SMask:10001000
+CPU#028 L1I 4K TLB:            64 entries,          4 way, SMask:10001000
+CPU#028 L1I 2M TLB:             8 entries,           full, SMask:10001000
+CPU#028 L2I+D 4K TLB:         512 entries,          4 way, SMask:10001000
+CPU#029 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#029 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#029 AffMask: 0x20000000 
+CPU#029 PhysMask:0xff00ff00 
+CPU#029 APIC_ID:0x0000002b Phys_ID:001 Core_ID:05 SMT_ID:01 
+CPU#029 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:20002000 
+CPU#029 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:20002000 
+CPU#029 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:20002000, non-inclusive
+CPU#029 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#029 L0D 2M TLB:            32 entries,          4 way, SMask:20002000
+CPU#029 L1D 4K TLB:            64 entries,          4 way, SMask:20002000
+CPU#029 L1D 1G TLB:             4 entries,          4 way, SMask:20002000
+CPU#029 L1I 4K TLB:            64 entries,          4 way, SMask:20002000
+CPU#029 L1I 2M TLB:             8 entries,           full, SMask:20002000
+CPU#029 L2I+D 4K TLB:         512 entries,          4 way, SMask:20002000
+CPU#030 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#030 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#030 AffMask: 0x40000000 
+CPU#030 PhysMask:0xff00ff00 
+CPU#030 APIC_ID:0x0000002d Phys_ID:001 Core_ID:06 SMT_ID:01 
+CPU#030 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:40004000 
+CPU#030 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:40004000 
+CPU#030 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:40004000, non-inclusive
+CPU#030 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#030 L0D 2M TLB:            32 entries,          4 way, SMask:40004000
+CPU#030 L1D 4K TLB:            64 entries,          4 way, SMask:40004000
+CPU#030 L1D 1G TLB:             4 entries,          4 way, SMask:40004000
+CPU#030 L1I 4K TLB:            64 entries,          4 way, SMask:40004000
+CPU#030 L1I 2M TLB:             8 entries,           full, SMask:40004000
+CPU#030 L2I+D 4K TLB:         512 entries,          4 way, SMask:40004000
+CPU#031 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 5 CoreType:0x200206d5
+CPU#031 Type: "                Genuine Intel(R) CPU  @ 2.60GHz"
+CPU#031 AffMask: 0x80000000 
+CPU#031 PhysMask:0xff00ff00 
+CPU#031 APIC_ID:0x0000002f Phys_ID:001 Core_ID:07 SMT_ID:01 
+CPU#031 L1I cache:     32KB,   64 byte cache line,  8 way, SMask:80008000 
+CPU#031 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:80008000 
+CPU#031 L2  cache:    256KB,   64 byte cache line,  8 way, SMask:80008000, non-inclusive
+CPU#031 L3  cache:  20480KB,   64 byte cache line, 20 way, SMask:ff00ff00, hashed LLC
+CPU#031 L0D 2M TLB:            32 entries,          4 way, SMask:80008000
+CPU#031 L1D 4K TLB:            64 entries,          4 way, SMask:80008000
+CPU#031 L1D 1G TLB:             4 entries,          4 way, SMask:80008000
+CPU#031 L1I 4K TLB:            64 entries,          4 way, SMask:80008000
+CPU#031 L1I 2M TLB:             8 entries,           full, SMask:80008000
+CPU#031 L2I+D 4K TLB:         512 entries,          4 way, SMask:80008000
+*** Linear Read Latency ***
+Stride,     4,   8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   6,   4,   5,   6,   4,   8,
+    0.50K,   4,   4,   4,   4,   5,   4,   6,
+     1.0K,   4,   4,   4,   4,   4,   5,   4,   4,
+     2.0K,   4,   4,   4,   4,   4,   4,   5,   4,   5,
+     4.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,   4,   4,   5,   9,  12,  12,  12,  12,  12,  12,  12,   4,   4,
+   128.0K,   4,   4,   5,   9,  12,  12,  12,  12,  12,  12,  12,  12,   4,
+   256.0K,   4,   4,   5,   9,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,   4,   4,   6,   9,  17,  21,  39,  40,  41,  43,  46,  19,  19,
+  1024.0K,   4,   4,   6,   9,  17,  21,  39,  40,  41,  43,  46,  46,  19,
+  2048.0K,   4,   4,   6,   9,  17,  21,  39,  40,  41,  43,  46,  46,  47,
+  4096.0K,   4,   4,   6,  10,  17,  22,  39,  41,  44,  47,  55,  56,  55,
+  8192.0K,   4,   4,   6,  10,  17,  22,  39,  41,  44,  47,  56,  56,  55,
+ 16384.0K,   4,   5,   6,  11,  19,  32,  69,  79,  63,  66,  84,  55,  56,
+ 32768.0K,   4,   6,  14,  19,  35, 124, 308, 326, 334, 349, 367,  73,  59,
+ 65536.0K,   4,   6,  14,  19,  36, 126, 323, 341, 350, 366, 387, 369,  75,
+131072.0K,   4,   6,  14,  19,  36, 126, 323, 341, 350, 366, 388, 390, 376,
+262144.0K,   4,   6,  14,  19,  36, 126, 323, 341, 351, 368, 391, 396, 399,
+524288.0K,   4,   6,  14,  19,  36, 118, 323, 341, 351, 364, 391, 397, 399,
+*** Backward Read Latency ***
+Stride,     4,   8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   5,   6,   6,   4,   4,   8,
+    0.50K,   4,   4,   5,   4,   5,   4,   6,
+     1.0K,   4,   4,   4,   4,   5,   5,   5,   4,
+     2.0K,   4,   4,   4,   4,   4,   4,   4,   4,   5,
+     4.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,   4,   4,   5,   9,  12,  12,  12,  12,  12,  12,  12,   4,   4,
+   128.0K,   4,   4,   5,   8,  12,  12,  12,  12,  12,  12,  12,  12,   4,
+   256.0K,   4,   4,   5,   9,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,   4,   4,   6,  10,  17,  25,  41,  40,  41,  42,  46,  19,  19,
+  1024.0K,   4,   4,   6,   9,  17,  25,  41,  40,  41,  43,  46,  46,  19,
+  2048.0K,   4,   4,   6,   9,  17,  25,  41,  40,  41,  43,  46,  46,  46,
+  4096.0K,   4,   4,   6,  10,  17,  26,  41,  41,  44,  47,  56,  56,  55,
+  8192.0K,   4,   4,   6,  10,  17,  26,  41,  41,  44,  47,  55,  56,  55,
+ 16384.0K,   4,   5,   7,  11,  20,  44,  71,  77,  77,  88,  86,  56,  56,
+ 32768.0K,   4,   6,  17,  20,  37, 170, 318, 315, 327, 341, 351,  76,  59,
+ 65536.0K,   4,   6,  18,  20,  38, 178, 339, 339, 347, 363, 386, 352,  79,
+131072.0K,   4,   6,  18,  20,  38, 177, 339, 340, 348, 364, 388, 391, 351,
+262144.0K,   4,   6,  18,  20,  38, 177, 340, 340, 349, 364, 390, 395, 396,
+524288.0K,   4,   6,  18,  20,  38, 177, 339, 340, 347, 365, 390, 395, 395,
+*** BlockRandom Read Latency ***
+Block,      8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.50K,   5,
+     1.0K,   4,   4,
+     2.0K,   4,   4,   4,
+     4.0K,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,  12,  12,  12,  12,  12,  12,  12,  12,
+   128.0K,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   256.0K,  12,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  16,  17,  20,  22,  22,  22,  22,  22,  22,  39,  43,
+  1024.0K,  16,  17,  19,  22,  22,  22,  22,  22,  22,  39,  43,  45,
+  2048.0K,  16,  17,  20,  22,  22,  22,  22,  22,  22,  39,  43,  45,
+  4096.0K,  16,  17,  20,  22,  22,  22,  22,  22,  22,  40,  43,  45,
+  8192.0K,  16,  17,  20,  22,  22,  22,  22,  22,  22,  40,  43,  45,
+ 16384.0K,  20,  22,  31,  36,  37,  37,  38,  36,  38,  75,  81, 100,
+ 32768.0K,  39,  51,  96, 120, 126, 131, 132, 133, 135, 351, 354, 355,
+ 65536.0K,  39,  53, 100, 125, 133, 137, 139, 140, 142, 370, 372, 374,
+131072.0K,  39,  53, 100, 125, 133, 137, 135, 140, 142, 371, 372, 373,
+262144.0K,  39,  53, 100, 126, 133, 137, 139, 140, 142, 371, 373, 376,
+524288.0K,  39,  53, 100, 126, 133, 137, 139, 140, 141, 371, 372, 374,
+*** Random Read Latency ***
+Stride,     4,   8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   4,   4,   5,   4,   4,   4,
+    0.50K,   4,   4,   4,   5,   5,   4,   6,
+     1.0K,   5,   4,   4,   4,   4,   4,   5,   4,
+     2.0K,   4,   4,   4,   4,   4,   4,   5,   5,   4,
+     4.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,   8,   8,   9,  10,  12,  12,  12,  12,  12,  12,  12,   4,   4,
+   128.0K,  10,  10,  10,  11,  12,  12,  12,  12,  12,  12,  12,  12,   4,
+   256.0K,  11,  11,  11,  12,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  29,  30,  31,  34,  43,  43,  43,  43,  44,  44,  46,  19,  19,
+  1024.0K,  38,  38,  39,  41,  45,  45,  45,  45,  44,  46,  46,  46,  19,
+  2048.0K,  42,  42,  43,  44,  45,  45,  45,  46,  45,  46,  47,  47,  47,
+  4096.0K,  50,  50,  50,  50,  51,  51,  51,  51,  52,  53,  56,  56,  56,
+  8192.0K,  54,  54,  54,  55,  55,  55,  54,  55,  57,  55,  56,  56,  56,
+ 16384.0K,  65,  65,  65,  68, 100,  94,  94,  90, 106,  95,  93,  56,  56,
+ 32768.0K, 199, 205, 222, 255, 371, 372, 373, 369, 370, 371, 369,  97,  61,
+ 65536.0K, 308, 312, 323, 346, 399, 398, 396, 393, 391, 391, 391, 371,  99,
+131072.0K, 367, 372, 376, 390, 414, 407, 402, 400, 398, 399, 399, 399, 380,
+262144.0K, 401, 401, 405, 411, 421, 418, 416, 415, 416, 418, 417, 418, 423,
+524288.0K, 418, 417, 420, 423, 425, 425, 425, 428, 429, 428, 426, 427, 429,
+*** CacheLine Forward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256, 288,
+     8.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    16.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    32.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    64.0K,   8,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,  12,
+   128.0K,   8,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,  12,
+   256.0K,   9,   9,   9,   9,   9,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  23,  23,  23,  23,  23,  26,  27,  27,  27,  39,  39,  38,  38,
+  1024.0K,  23,  23,  23,  23,  23,  26,  26,  27,  27,  39,  39,  38,  38,
+  2048.0K,  23,  23,  23,  23,  23,  26,  26,  27,  27,  39,  39,  38,  38,
+  4096.0K,  23,  23,  23,  23,  23,  27,  27,  27,  27,  40,  40,  39,  39,
+  8192.0K,  23,  23,  23,  23,  23,  27,  27,  27,  27,  40,  40,  39,  39,
+ 16384.0K,  43,  40,  45,  46,  40,  51,  46,  53,  57,  77,  74,  70,  83,
+ 32768.0K, 163, 163, 163, 163, 164, 184, 183, 185, 185, 305, 306, 303, 308,
+ 65536.0K, 172, 172, 172, 172, 173, 188, 187, 189, 188, 321, 324, 320, 325,
+131072.0K, 173, 173, 173, 173, 173, 188, 187, 189, 189, 321, 323, 321, 323,
+262144.0K, 173, 172, 173, 173, 172, 188, 188, 189, 189, 322, 325, 321, 325,
+524288.0K, 170, 173, 173, 173, 173, 188, 187, 190, 189, 321, 325, 321, 325,
+*** CacheLine Backward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256, 288,
+     8.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    16.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    32.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    64.0K,   8,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,  12,
+   128.0K,   9,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,  12,
+   256.0K,   9,   9,   9,   9,   9,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  23,  23,  23,  23,  23,  27,  27,  40,  41,  41,  41,  31,  31,
+  1024.0K,  23,  23,  23,  23,  23,  26,  26,  40,  41,  41,  40,  31,  31,
+  2048.0K,  23,  23,  23,  23,  23,  26,  27,  41,  40,  41,  40,  32,  31,
+  4096.0K,  23,  23,  23,  23,  23,  27,  27,  41,  41,  41,  41,  32,  32,
+  8192.0K,  23,  23,  23,  23,  23,  27,  27,  41,  41,  41,  41,  32,  32,
+ 16384.0K,  41,  44,  45,  41,  44,  54,  52,  80,  86,  89,  88,  59,  63,
+ 32768.0K, 163, 160, 162, 162, 161, 178, 181, 309, 319, 313, 318, 227, 230,
+ 65536.0K, 172, 172, 172, 172, 173, 189, 188, 342, 345, 342, 345, 244, 245,
+131072.0K, 173, 172, 173, 173, 173, 189, 189, 342, 322, 341, 345, 244, 245,
+262144.0K, 163, 173, 173, 173, 173, 189, 189, 342, 345, 342, 346, 243, 245,
+524288.0K, 172, 173, 173, 173, 173, 189, 189, 342, 346, 343, 345, 244, 245,
+BenchMemLat exit code: 0x0100
+L1D cacheline size: 64 bytes      [Mode:6 Size:      64K, Stride:   512, #NOP:  0, UnRoll:64]
+L2  cacheline size:128 bytes      [Mode:6 Size:     512K, Stride:   512, #NOP:  0, UnRoll:64]
+L3  cacheline size:128 bytes      [Mode:6 Size:   40960K, Stride:   512, #NOP:  0, UnRoll:64]
+Mem latency: 119.735ns( 311 clks) [Mode:1 Size:  524288K, Stride:  1024, #NOP:117, UnRoll:64]
+L1D latency:   1.530ns(   4 clks) [Mode:1 Size:      32K, Stride:    64, #NOP:  0, UnRoll:64]
+L2  latency:   4.647ns(  12 clks) [Mode:1 Size:     256K, Stride:    64, #NOP:  0, UnRoll:64]
+L3  latency:  10.392ns(  27 clks) [Mode:1 Size:   20480K, Stride:    64, #NOP:  0, UnRoll:64]

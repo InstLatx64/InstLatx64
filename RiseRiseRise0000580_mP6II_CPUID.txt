@@ -1,0 +1,27 @@
+------[ Versions ]------
+
+Program Version : EVEREST v5.30.1900
+BenchDLL Version: 2.4.273.0
+
+------[ CPU Info ]------
+
+CPU Type           : Rise mP6, 200 MHz PR266
+CPU Platform       : Socket 7
+Instruction Set    : x86, MMX
+CPUID Manufacturer : RiseRiseRise
+CPUID Revision     : 00000580h
+Platform ID        : CBh  (Socket 7)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000001-65736952-65736952-65736952
+CPUID 00000001: 00000580-00000000-00000000-00800011
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 1193182
+
+Tjmax Temperature = 0 Celsius

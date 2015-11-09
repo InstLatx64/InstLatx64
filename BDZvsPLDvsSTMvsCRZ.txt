@@ -1,0 +1,34 @@
+                          600F1x          610F3x           630F8x          660F0x
+                         Bulldozer      Piledriver      Steamroller      Excavator
+                            L|T             L|T             L|T             L|T
+
+ 391 IDIV64                83|81           74|74           74|74           74|74
+
+ 865 (V)ADD/MUL/FMA xmm     5|.5            5|.5            5|.5            5|.5
+1798 VADD/MUL/FMA ymm       5| 1            5| 1            5| 1            5| 1
+
+ 885 (V)CMP/MAX/MIN xmm     2|.5            2|.5            2|.5            2|.5
+1793 VCMP/MAX/MIN ymm       2| 1            2| 1            2| 1            2| 1
+
+ 900 (V)XORPS|PD xmm       .5|.5           .5|.5           .5|.5            2|.5
+1866 VXORPS|PD ymm         1 | 1           1 | 1           1 | 1            2| 1
+
+ 917 (V)DIVPS xmm          24| 9           24| 9           18| 7           14| 5
+1812 VDIVPS ymm            24|19           24|19           18|13           17| 9
+
+1095 (V)DIVPD xmm          27|10           27| 9           33|14           24|10
+1868 VDIVPD ymm            27|22           27|18           33|28           24|19
+
+ 931 (V)SQRTPS xmm         29|12           29|12           24|10           15| 5
+1817 VSQRTPS ymm           29|24           29|24           24|19           15|10
+
+1109 (V)SQRTPD xmm         38|17           38|15           44|20           25|10
+1873 VSQRTPD ymm           38|33           38|29           44|39           25|20
+
+ (V)DIV/SQRTPx spec case    yes             yes              yes            no
+
+1598 (V)AESDEC|(V)AESENC    9| 1            9| 1            9| 1            6| 1
+
+1596 (V)PCLMUL             13| 7           13| 7           13| 7            6| 4
+
+source:instlatx64.atw.hu

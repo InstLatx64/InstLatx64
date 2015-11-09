@@ -1,0 +1,39 @@
+------[ Versions ]------
+
+Program Version : EVEREST v5.30.2027 Beta
+BenchDLL Version: 2.4.273.0
+
+------[ CPU Info ]------
+
+CPU Type           : Intel Celeron-A, 300 MHz (4.5 x 67)
+CPU Alias          : Mendocino
+CPU Stepping       : A0
+Instruction Set    : x86, MMX
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00000660h
+IA Brand ID        : 00h  (Unknown)
+Platform ID        : 00h  (Unknown)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Package 0 / Core 0 / Thread 0: Valid
+
+CPUID 00000000: 00000002-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000660-00000000-00000000-0183F9FF
+CPUID 00000002: 03020101-00000000-00000000-0C040841
+
+------[ All CPUs ]------
+
+CPU   0: APICID   0 / Package 0 / Core  0 / Thread 0: Valid
+
+------[ MSR Registers ]------
+
+MSR 00000017: 6CA0-0000-0000-0000 [PlatID = 0]
+MSR 0000001B: 0000-0000-FEE0-0100
+MSR 0000002A: 0000-0000-C580-0000
+MSR 0000008B: 0000-0004-0000-0000
+MSR 0000011E: 0000-0000-0134-052B
+
+PerformanceFrequency = 1193180
+
+Tjmax Temperature = 0 Celsius

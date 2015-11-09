@@ -1,0 +1,36 @@
+------[ Versions ]------
+
+Program Version : EVEREST v4.60.1628 Beta
+BenchDLL Version: 2.4.257.0
+
+------[ CPU Info ]------
+
+CPU Type           : Intel Celeron, 700 MHz (10.5 x 67)
+CPU Alias          : Coppermine-128
+CPU Platform       : Socket 370
+CPU Stepping       : cC0
+Instruction Set    : x86, MMX, SSE
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00000686h
+IA Brand ID        : 01h  (Intel Celeron)
+Platform ID        : 04h  (Socket 370)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000002-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000686-00000001-00000000-0383F9FF
+CPUID 00000002: 03020101-00000000-00000000-0C040841
+
+------[ MSR Registers ]------
+
+MSR 00000017: 7F33-0000-0000-0000 [PlatID = 4]
+MSR 0000001B: 0000-0000-FEE0-0100
+MSR 0000002A: 0000-0000-CFC0-0000
+MSR 0000008B: 0000-0008-0000-0000
+MSR 0000011E: 0000-0000-0074-05E5
+
+PerformanceFrequency = 1193182
+
+Tjmax Temperature = 0 Celsius

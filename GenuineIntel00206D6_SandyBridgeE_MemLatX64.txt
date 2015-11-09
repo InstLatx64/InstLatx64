@@ -1,0 +1,267 @@
+Copyright (C) 1995-2011 FinalWire Ltd. All rights reserved.
+aida_bench64.dll build: 2.7.389.0 Oct  6 2011 15:15:13
+DX79SI CPUCount: 12, Size of Memory: 16700192KB
+ProcMask: 0x0000000000000fff 
+DX79SI OS:6.1.7601 Service Pack 1 Priority:020 NUMA:0
+CPU#00 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#00 Freq: 3300.09MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#00 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#00 AffMask: 0x0000000000000001 
+CPU#00 PhysMask:0x0000000000000fff 
+CPU#00 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 
+CPU#00 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#00 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#00 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#00 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#01 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#01 Freq: 3300.08MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#01 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#01 AffMask: 0x0000000000000002 
+CPU#01 PhysMask:0x0000000000000fff 
+CPU#01 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 
+CPU#01 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#01 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#01 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#01 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#02 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#02 Freq: 3300.15MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#02 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#02 AffMask: 0x0000000000000004 
+CPU#02 PhysMask:0x0000000000000fff 
+CPU#02 APIC_ID:0x00000002 Phys_ID:000 Core_ID:01 SMT_ID:00 
+CPU#02 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#02 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#02 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#02 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#03 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#03 Freq: 3300.11MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#03 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#03 AffMask: 0x0000000000000008 
+CPU#03 PhysMask:0x0000000000000fff 
+CPU#03 APIC_ID:0x00000003 Phys_ID:000 Core_ID:01 SMT_ID:01 
+CPU#03 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#03 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#03 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#03 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#04 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#04 Freq: 3300.15MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#04 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#04 AffMask: 0x0000000000000010 
+CPU#04 PhysMask:0x0000000000000fff 
+CPU#04 APIC_ID:0x00000004 Phys_ID:000 Core_ID:02 SMT_ID:00 
+CPU#04 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#04 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#04 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#04 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#05 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#05 Freq: 3300.11MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#05 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#05 AffMask: 0x0000000000000020 
+CPU#05 PhysMask:0x0000000000000fff 
+CPU#05 APIC_ID:0x00000005 Phys_ID:000 Core_ID:02 SMT_ID:01 
+CPU#05 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#05 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#05 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#05 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#06 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#06 Freq: 3300.14MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#06 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#06 AffMask: 0x0000000000000040 
+CPU#06 PhysMask:0x0000000000000fff 
+CPU#06 APIC_ID:0x00000006 Phys_ID:000 Core_ID:03 SMT_ID:00 
+CPU#06 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#06 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#06 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#06 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#07 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#07 Freq: 3300.12MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#07 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#07 AffMask: 0x0000000000000080 
+CPU#07 PhysMask:0x0000000000000fff 
+CPU#07 APIC_ID:0x00000007 Phys_ID:000 Core_ID:03 SMT_ID:01 
+CPU#07 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#07 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#07 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#07 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#08 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#08 Freq: 3300.07MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#08 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#08 AffMask: 0x0000000000000100 
+CPU#08 PhysMask:0x0000000000000fff 
+CPU#08 APIC_ID:0x00000008 Phys_ID:000 Core_ID:04 SMT_ID:00 
+CPU#08 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#08 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#08 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#08 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#09 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#09 Freq: 3300.07MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#09 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#09 AffMask: 0x0000000000000200 
+CPU#09 PhysMask:0x0000000000000fff 
+CPU#09 APIC_ID:0x00000009 Phys_ID:000 Core_ID:04 SMT_ID:01 
+CPU#09 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#09 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#09 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#09 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#10 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#10 Freq: 3300.08MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#10 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#10 AffMask: 0x0000000000000400 
+CPU#10 PhysMask:0x0000000000000fff 
+CPU#10 APIC_ID:0x0000000a Phys_ID:000 Core_ID:05 SMT_ID:00 
+CPU#10 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#10 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#10 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#10 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+CPU#11 Vendor: GenuineIntel Family: 6 Modell: 2d Stepping: 6 CoreType:0x200206d6
+CPU#11 Freq: 3300.13MHz Type: "       Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz"
+CPU#11 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
+CPU#11 AffMask: 0x0000000000000800 
+CPU#11 PhysMask:0x0000000000000fff 
+CPU#11 APIC_ID:0x0000000b Phys_ID:000 Core_ID:05 SMT_ID:01 
+CPU#11 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#11 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#11 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#11 L3  cache: 15360KB,   64 byte cache line, 20 way, SMask:0000000000000fff , SLLC
+Memory Latency #NOP:0 ProcMask: 0x0000000000000001 
+*** Linear Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   4,   4,   4,   4,   4,
+    0.50K,   4,   4,   4,   4,   4,   4,
+     1.0K,   4,   4,   4,   4,   4,   5,   5,
+     2.0K,   4,   4,   4,   4,   4,   4,   4,   4,
+     4.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,   4,   5,   9,  12,  12,  12,  12,  12,  12,  12,   4,   4,
+   128.0K,   4,   5,   8,  12,  12,  12,  12,  12,  12,  12,  12,   4,
+   256.0K,   4,   5,   9,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,   4,   6,   9,  16,  22,  39,  40,  41,  41,  45,  19,  19,
+  1024.0K,   4,   6,   9,  16,  22,  39,  40,  41,  41,  46,  45,  19,
+  2048.0K,   4,   6,   9,  16,  22,  39,  40,  41,  42,  45,  46,  46,
+  4096.0K,   4,   6,   9,  16,  22,  39,  41,  43,  46,  54,  55,  54,
+  8192.0K,   4,   6,   9,  16,  22,  39,  41,  43,  46,  54,  54,  55,
+ 16384.0K,   5,  10,  15,  27,  69, 140, 142, 147, 156, 168,  54,  55,
+ 32768.0K,   6,  10,  16,  28,  80, 198, 211, 219, 247, 255, 170,  58,
+ 65536.0K,   6,  10,  16,  28,  80, 198, 212, 220, 250, 257, 257, 177,
+131072.0K,   6,  10,  16,  29,  80, 198, 212, 222, 251, 265, 259, 264,
+262144.0K,   6,  11,  16,  29,  80, 198, 212, 221, 253, 266, 269, 270,
+524288.0K,   6,  11,  16,  29,  80, 198, 212, 221, 252, 266, 269, 271,
+*** Backward Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   4,   4,   4,   4,   6,
+    0.50K,   4,   4,   4,   4,   5,   5,
+     1.0K,   4,   4,   4,   4,   5,   5,   5,
+     2.0K,   4,   4,   4,   4,   4,   4,   4,   4,
+     4.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,   4,   5,   8,  12,  12,  12,  12,  12,  12,  12,   4,   4,
+   128.0K,   4,   5,   8,  12,  12,  12,  12,  12,  12,  12,  12,   4,
+   256.0K,   4,   5,   8,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,   4,   6,   9,  16,  26,  40,  39,  40,  41,  45,  19,  19,
+  1024.0K,   4,   6,   9,  16,  26,  40,  40,  41,  42,  46,  45,  19,
+  2048.0K,   4,   6,   9,  16,  26,  40,  40,  41,  42,  46,  45,  45,
+  4096.0K,   4,   6,   9,  16,  26,  41,  41,  43,  46,  54,  55,  54,
+  8192.0K,   4,   6,   9,  16,  26,  41,  41,  43,  46,  55,  55,  55,
+ 16384.0K,   5,  11,  15,  27,  81, 122, 120, 117, 119, 115,  54,  55,
+ 32768.0K,   5,  13,  17,  30, 113, 207, 211, 219, 239, 255, 124,  58,
+ 65536.0K,   5,  13,  17,  30, 113, 208, 211, 219, 243, 256, 256, 129,
+131072.0K,   5,  13,  17,  30, 114, 208, 212, 220, 253, 265, 260, 262,
+262144.0K,   6,  12,  17,  30, 114, 208, 212, 220, 252, 265, 270, 270,
+524288.0K,   6,  12,  17,  30, 114, 208, 212, 221, 255, 265, 269, 270,
+*** BlockRandom Read Latency ***
+Block,      8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.50K,   4,
+     1.0K,   4,   4,
+     2.0K,   4,   4,   4,
+     4.0K,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,  12,  12,  12,  12,  12,  12,  12,  12,
+   128.0K,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   256.0K,  12,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  16,  16,  19,  22,  21,  21,  22,  22,  21,  39,  42,
+  1024.0K,  16,  16,  19,  21,  22,  22,  22,  22,  22,  39,  42,  44,
+  2048.0K,  16,  16,  19,  21,  22,  22,  22,  22,  22,  39,  42,  44,
+  4096.0K,  16,  17,  19,  22,  22,  22,  22,  22,  22,  39,  42,  44,
+  8192.0K,  16,  17,  19,  22,  22,  22,  22,  22,  22,  39,  42,  44,
+ 16384.0K,  27,  32,  50,  60,  62,  67,  68,  69,  70, 174, 180, 177,
+ 32768.0K,  31,  38,  65,  80,  85,  92,  96,  98,  98, 247, 251, 250,
+ 65536.0K,  31,  38,  66,  80,  86,  93,  97,  98,  98, 249, 253, 252,
+131072.0K,  31,  38,  66,  80,  86,  92,  97,  98,  98, 249, 253, 251,
+262144.0K,  31,  38,  66,  80,  86,  92,  97,  98,  98, 249, 253, 252,
+524288.0K,  31,  38,  66,  80,  86,  92,  97,  98,  98, 249, 253, 253,
+*** Random Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+    0.25K,   4,   4,   4,   4,   6,
+    0.50K,   4,   4,   4,   4,   5,   5,
+     1.0K,   4,   4,   4,   4,   4,   4,   5,
+     2.0K,   4,   4,   4,   4,   4,   4,   4,   4,
+     4.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+     8.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    16.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    32.0K,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,   4,
+    64.0K,   8,   9,  10,  12,  12,  12,  12,  12,  12,  12,   4,   4,
+   128.0K,  10,  10,  11,  12,  12,  12,  12,  12,  12,  12,  12,   4,
+   256.0K,  11,  11,  12,  12,  12,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  29,  30,  34,  42,  42,  42,  42,  43,  44,  45,  19,  19,
+  1024.0K,  37,  38,  40,  44,  44,  44,  44,  44,  44,  46,  46,  19,
+  2048.0K,  41,  42,  43,  45,  45,  44,  45,  45,  45,  45,  46,  46,
+  4096.0K,  49,  49,  49,  50,  50,  50,  50,  51,  52,  55,  55,  55,
+  8192.0K,  53,  53,  54,  54,  54,  55,  54,  53,  54,  55,  55,  55,
+ 16384.0K,  87,  93, 109, 187, 178, 174, 168, 170, 168, 169,  55,  55,
+ 32768.0K, 185, 195, 215, 270, 273, 270, 268, 268, 267, 267, 171,  60,
+ 65536.0K, 241, 246, 257, 282, 280, 276, 274, 272, 271, 271, 270, 175,
+131072.0K, 271, 277, 283, 294, 294, 292, 291, 291, 292, 292, 277, 279,
+262144.0K, 292, 292, 295, 302, 303, 301, 295, 302, 295, 302, 297, 300,
+524288.0K, 300, 301, 302, 305, 308, 308, 307, 307, 308, 304, 304, 306,
+*** CacheLine Forward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256,
+     8.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    16.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    32.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    64.0K,   8,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,
+   128.0K,   8,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,
+   256.0K,   9,   9,   9,   9,   9,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  22,  22,  22,  22,  22,  26,  26,  27,  27,  38,  38,  38,
+  1024.0K,  22,  22,  22,  22,  22,  26,  26,  27,  27,  38,  38,  38,
+  2048.0K,  22,  22,  22,  22,  22,  26,  26,  27,  27,  38,  38,  38,
+  4096.0K,  23,  23,  23,  23,  23,  27,  27,  27,  27,  38,  38,  38,
+  8192.0K,  23,  24,  23,  23,  23,  27,  27,  28,  28,  38,  39,  39,
+ 16384.0K,  72,  71,  71,  73,  71,  93,  95,  91,  87, 132, 133, 130,
+ 32768.0K, 108, 108, 108, 108, 108, 122, 120, 122, 121, 196, 196, 197,
+ 65536.0K, 109, 109, 109, 109, 109, 122, 120, 123, 121, 197, 196, 198,
+131072.0K, 109, 109, 109, 109, 109, 122, 120, 123, 121, 197, 196, 198,
+262144.0K, 109, 109, 109, 109, 109, 122, 120, 123, 121, 197, 197, 198,
+524288.0K, 109, 109, 109, 109, 109, 122, 120, 123, 121, 197, 197, 198,
+*** CacheLine Backward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256,
+     8.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    16.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    32.0K,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,   5,
+    64.0K,   8,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,
+   128.0K,   8,   8,   8,   8,   8,  12,  12,  12,  12,  12,  12,  12,
+   256.0K,   9,   9,   9,   9,   9,  12,  12,  12,  12,  12,  12,  12,
+   512.0K,  22,  22,  22,  22,  22,  27,  27,  39,  39,  39,  40,  31,
+  1024.0K,  22,  22,  22,  22,  22,  27,  27,  39,  39,  39,  40,  31,
+  2048.0K,  22,  22,  22,  22,  22,  27,  27,  39,  39,  39,  39,  31,
+  4096.0K,  23,  23,  23,  23,  23,  27,  27,  40,  40,  40,  40,  32,
+  8192.0K,  23,  23,  23,  23,  23,  28,  28,  40,  40,  40,  40,  32,
+ 16384.0K,  67,  69,  65,  67,  66,  89,  89, 126, 119, 126, 116,  99,
+ 32768.0K, 108, 108, 108, 108, 108, 121, 120, 212, 212, 208, 209, 151,
+ 65536.0K, 109, 109, 109, 109, 109, 122, 120, 214, 214, 210, 210, 152,
+131072.0K, 109, 109, 109, 109, 109, 122, 120, 214, 214, 210, 210, 152,
+262144.0K, 109, 109, 109, 109, 109, 122, 120, 214, 214, 210, 210, 152,
+524288.0K, 109, 109, 109, 109, 109, 122, 120, 214, 214, 210, 210, 152,
+BenchMemLat exit code: 0x0100
+L1D cacheline size: 64 bytes      [Mode:6 Size:      64K, Stride:   512, #NOP:  0, UnRoll:64]
+L2  cacheline size:128 bytes      [Mode:6 Size:     512K, Stride:   512, #NOP:  0, UnRoll:64]
+L3  cacheline size:128 bytes      [Mode:6 Size:   30720K, Stride:   512, #NOP:  0, UnRoll:64]
+Mem latency:  66.736ns( 220 clks) [Mode:1 Size:  524288K, Stride:  1024, #NOP:  4, UnRoll:64]
+L1D latency:   1.206ns(   4 clks) [Mode:1 Size:      32K, Stride:    64, #NOP:  0, UnRoll:64]
+L2  latency:   3.683ns(  12 clks) [Mode:1 Size:     256K, Stride:    64, #NOP:  0, UnRoll:64]
+L3  latency:   7.443ns(  25 clks) [Mode:1 Size:   15360K, Stride:    64, #NOP:  0, UnRoll:64]

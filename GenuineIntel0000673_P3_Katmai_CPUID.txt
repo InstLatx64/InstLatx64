@@ -1,0 +1,36 @@
+------[ Versions ]------
+
+Program Version : EVEREST v4.60.1628 Beta
+BenchDLL Version: 2.4.257.0
+
+------[ CPU Info ]------
+
+CPU Type           : Intel Pentium III, 450 MHz (4.5 x 100)
+CPU Alias          : Katmai
+CPU Stepping       : kC0
+Instruction Set    : x86, MMX, SSE
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00000673h
+IA Brand ID        : 00h  (Unknown)
+Platform ID        : 00h  (Unknown)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000003-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000673-00000000-00000000-0387F9FF
+CPUID 00000002: 03020101-00000000-00000000-0C040843
+CPUID 00000003: 00000000-00000000-8EF18AEE-0000D043
+
+------[ MSR Registers ]------
+
+MSR 00000017: 1100-0000-0000-0000 [PlatID = 0]
+MSR 0000001B: 0000-0000-FEE0-0100
+MSR 0000002A: 0000-0000-C588-0000
+MSR 0000008B: 0000-000E-0000-0000
+MSR 0000011E: 0000-0000-0134-4531
+
+PerformanceFrequency = 3579545
+
+Tjmax Temperature = 0 Celsius

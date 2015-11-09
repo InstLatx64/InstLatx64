@@ -1,0 +1,10 @@
+Pros:
+- CMOV, SET, LAHF latency, throughput 2->1
+- IDIV64, CMPXCHG8/16B 1 clk faster
+- STD latency, throughput 25->24
+- Better MOVSx
+- Sometimes better FSIN/FCOS
+- MOVUPS throughput 1->0.5
+
+Cons:
+- MULPS+ADDPS throughput 2->5 (????)

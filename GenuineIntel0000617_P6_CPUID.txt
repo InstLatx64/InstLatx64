@@ -1,0 +1,42 @@
+------[ Versions ]------
+
+Program Version : EVEREST v4.60.1629 Beta
+BenchDLL Version: 2.4.257.0
+
+------[ CPU Info ]------
+
+CPU Type           : 2x Intel Pentium Pro, 200 MHz (3 x 67)
+CPU Alias          : P6
+CPU Platform       : Socket 8
+CPU Stepping       : sA1
+Instruction Set    : x86
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00000617h
+IA Brand ID        : 00h  (Unknown)
+Platform ID        : CCh  (Socket 8)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000002-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000617-00000000-00000000-0000FBFF
+CPUID 00000002: 03020101-00000000-00000000-06040A42
+
+------[ Logical CPU #1 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000002-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000617-00000000-00000000-0000FBFF
+CPUID 00000002: 03020101-00000000-00000000-06040A42
+
+------[ MSR Registers ]------
+
+MSR 0000001B: 0000-0000-FEE0-0900
+MSR 0000002A: 0000-0000-C050-0000
+MSR 0000008B: 0000-00C6-0000-0000
+
+PerformanceFrequency = 199460000
+
+Tjmax Temperature = 0 Celsius

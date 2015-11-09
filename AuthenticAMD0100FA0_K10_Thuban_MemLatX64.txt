@@ -1,0 +1,188 @@
+Copyright (C) 2003, 2010 Lavalys Consulting Group, Inc. All rights reserved.
+everest_bench_x64.dll build: 2.6.325.0 Aug 22 2010 17:11:34
+790FXTA CPUCount: 6, procMask: 0x000000000000003f Size of Memory: 2095424KB Priority:080 NUMA:0
+CPU#00 Vendor: AuthenticAMD CoreType:0x10100fa0
+CPU#00 Family: 1f Modell: 0a Stepping: 0 Type: "AMD Phenom(tm) II X6 1055T Processor"
+CPU#00 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
+CPU#00 Frequency: 2811.94MHz  OS:5.2.3790 Service Pack 2
+CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#00 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000001
+CPU#00 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000001
+CPU#00 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000001, exclusive
+CPU#00 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
+CPU#01 Vendor: AuthenticAMD CoreType:0x10100fa0
+CPU#01 Family: 1f Modell: 0a Stepping: 0 Type: "AMD Phenom(tm) II X6 1055T Processor"
+CPU#01 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
+CPU#01 Frequency: 2811.94MHz  OS:5.2.3790 Service Pack 2
+CPU#01 AffMask:0x0000000000000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#01 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000002
+CPU#01 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000002
+CPU#01 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000002, exclusive
+CPU#01 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
+CPU#02 Vendor: AuthenticAMD CoreType:0x10100fa0
+CPU#02 Family: 1f Modell: 0a Stepping: 0 Type: "AMD Phenom(tm) II X6 1055T Processor"
+CPU#02 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
+CPU#02 Frequency: 2811.94MHz  OS:5.2.3790 Service Pack 2
+CPU#02 AffMask:0x0000000000000004 APIC_ID:0x00000003 Phys_ID:000 Core_ID:03 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#02 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000004
+CPU#02 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000004
+CPU#02 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000004, exclusive
+CPU#02 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
+CPU#03 Vendor: AuthenticAMD CoreType:0x10100fa0
+CPU#03 Family: 1f Modell: 0a Stepping: 0 Type: "AMD Phenom(tm) II X6 1055T Processor"
+CPU#03 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
+CPU#03 Frequency: 2811.92MHz  OS:5.2.3790 Service Pack 2
+CPU#03 AffMask:0x0000000000000008 APIC_ID:0x00000005 Phys_ID:000 Core_ID:05 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#03 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000008
+CPU#03 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000008
+CPU#03 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000008, exclusive
+CPU#03 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
+CPU#04 Vendor: AuthenticAMD CoreType:0x10100fa0
+CPU#04 Family: 1f Modell: 0a Stepping: 0 Type: "AMD Phenom(tm) II X6 1055T Processor"
+CPU#04 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
+CPU#04 Frequency: 2811.94MHz  OS:5.2.3790 Service Pack 2
+CPU#04 AffMask:0x0000000000000010 APIC_ID:0x00000002 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#04 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000010
+CPU#04 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000010
+CPU#04 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000010, exclusive
+CPU#04 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
+CPU#05 Vendor: AuthenticAMD CoreType:0x10100fa0
+CPU#05 Family: 1f Modell: 0a Stepping: 0 Type: "AMD Phenom(tm) II X6 1055T Processor"
+CPU#05 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
+CPU#05 Frequency: 2811.94MHz  OS:5.2.3790 Service Pack 2
+CPU#05 AffMask:0x0000000000000020 APIC_ID:0x00000004 Phys_ID:000 Core_ID:04 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#05 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000020
+CPU#05 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000020
+CPU#05 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000020, exclusive
+CPU#05 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
+CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#01 AffMask:0x0000000000000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#02 AffMask:0x0000000000000004 APIC_ID:0x00000003 Phys_ID:000 Core_ID:03 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#03 AffMask:0x0000000000000008 APIC_ID:0x00000005 Phys_ID:000 Core_ID:05 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#04 AffMask:0x0000000000000010 APIC_ID:0x00000002 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x000000000000003f 
+CPU#05 AffMask:0x0000000000000020 APIC_ID:0x00000004 Phys_ID:000 Core_ID:04 SMT_ID:00 PhysMask:0x000000000000003f 
+Parameters: "-ph -d8190 -l "
+Memory Latency ProcMask:0x0000000000000001 #NOP:0
+*** Linear Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+   0.25K,   2,   2,   2,   2,   2,
+   0.50K,   2,   2,   2,   3,   3,   3,
+    1.0K,   3,   3,   3,   3,   3,   3,   3,
+    2.0K,   3,   3,   3,   3,   3,   3,   3,   3,
+    4.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   64.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+  128.0K,   3,   3,   5,   9,  15,  15,  15,  15,  15,  15,  15,  15,
+  256.0K,   3,   3,   5,   9,  15,  15,  15,  16,  16,  17,  15,  15,
+  512.0K,   3,   3,   5,   9,  15,  15,  15,  16,  16,  17,  17,  15,
+ 1024.0K,   3,   6,  11,  21,  48,  52,  53,  53,  54,  55,  17,  17,
+ 2048.0K,   3,   6,  11,  21,  48,  52,  52,  53,  54,  55,  55,  17,
+ 4096.0K,   3,   6,  11,  22,  49,  53,  55,  58,  64,  74,  74,  75,
+ 8192.0K,   5,   9,  18,  35,  78,  87, 144, 151, 164, 166,  80,  80,
+16384.0K,   5,   9,  18,  35,  79,  88, 156, 162, 180, 197, 162,  83,
+32768.0K,   5,   9,  18,  35,  80,  88, 156, 162, 181, 211, 198, 171,
+65536.0K,   5,   9,  18,  35,  80,  88, 156, 163, 182, 219, 213, 199,
+*** Backward Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+   0.25K,   2,   2,   2,   2,   2,
+   0.50K,   3,   2,   2,   3,   3,   3,
+    1.0K,   3,   3,   3,   3,   3,   3,   3,
+    2.0K,   3,   3,   3,   3,   3,   3,   3,   3,
+    4.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   64.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+  128.0K,   3,   3,   5,   9,  15,  15,  15,  15,  15,  15,  15,  15,
+  256.0K,   3,   3,   5,   9,  15,  15,  15,  16,  16,  17,  15,  15,
+  512.0K,   3,   3,   5,   9,  15,  15,  15,  16,  16,  17,  17,  15,
+ 1024.0K,   3,   6,  11,  22,  48,  52,  52,  53,  54,  55,  17,  17,
+ 2048.0K,   3,   6,  11,  22,  48,  52,  52,  53,  54,  55,  55,  17,
+ 4096.0K,   4,   6,  11,  22,  49,  53,  55,  59,  65,  75,  74,  75,
+ 8192.0K,   5,   9,  19,  36,  78,  87, 147, 149, 164, 166,  80,  78,
+16384.0K,   5,   9,  18,  35,  79,  88, 156, 162, 180, 198, 169,  83,
+32768.0K,   5,   9,  18,  35,  80,  88, 156, 162, 181, 213, 200, 173,
+65536.0K,   5,   9,  18,  36,  80,  88, 156, 163, 182, 221, 215, 202,
+*** BlockRandom Read Latency ***
+Block,      8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+   0.50K,   3,
+    1.0K,   3,   3,
+    2.0K,   3,   3,   3,
+    4.0K,   3,   3,   3,   3,
+    8.0K,   3,   3,   3,   3,   3,
+   16.0K,   3,   3,   3,   3,   3,   3,
+   32.0K,   3,   3,   3,   3,   3,   3,   3,
+   64.0K,   3,   3,   3,   3,   3,   3,   3,   3,
+  128.0K,  12,  12,  12,  13,  13,  14,  15,  15,  15,
+  256.0K,  12,  12,  12,  13,  13,  14,  15,  15,  15,  16,
+  512.0K,  12,  12,  12,  13,  13,  14,  15,  15,  15,  16,  16,
+ 1024.0K,  28,  32,  34,  36,  39,  44,  46,  47,  48,  50,  51,  51,
+ 2048.0K,  28,  32,  34,  36,  40,  44,  46,  47,  48,  50,  51,  51,
+ 4096.0K,  28,  33,  34,  37,  40,  44,  47,  48,  49,  50,  51,  52,
+ 8192.0K,  53,  74,  83,  91, 111, 135, 155, 160, 166, 168, 171, 172,
+16384.0K,  52,  77,  88,  96, 119, 146, 165, 175, 179, 182, 185, 187,
+32768.0K,  52,  77,  88,  97, 119, 147, 166, 175, 179, 182, 186, 187,
+65536.0K,  52,  77,  88,  97, 120, 147, 166, 175, 179, 182, 185, 187,
+*** Random Read Latency ***
+Stride,     8,  16,  32,  64, 128, 256, 512,  1K,  2K,  4K,  8K, 16K,
+   0.25K,   2,   2,   2,   2,   2,
+   0.50K,   2,   2,   2,   3,   3,   3,
+    1.0K,   3,   3,   3,   3,   3,   3,   3,
+    2.0K,   3,   3,   3,   3,   3,   3,   3,   3,
+    4.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+    8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   64.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+  128.0K,   9,   9,  11,  15,  15,  16,  15,  16,  17,  20,  21,  21,
+  256.0K,  13,  13,  14,  16,  16,  16,  16,  16,  17,  19,  19,  23,
+  512.0K,  15,  15,  15,  16,  16,  16,  16,  17,  18,  20,  19,  22,
+ 1024.0K,  33,  35,  39,  51,  52,  53,  55,  55,  55,  55,  21,  24,
+ 2048.0K,  43,  44,  47,  51,  52,  53,  55,  55,  55,  55,  56,  25,
+ 4096.0K,  68,  68,  70,  69,  70,  71,  72,  73,  75,  80,  81,  80,
+ 8192.0K, 114, 121, 138, 199, 198, 199, 199, 200, 200, 204,  86,  86,
+16384.0K, 173, 178, 191, 221, 221, 220, 220, 220, 220, 222, 206,  86,
+32768.0K, 203, 207, 213, 227, 226, 225, 223, 222, 222, 223, 222, 209,
+65536.0K, 231, 232, 234, 240, 237, 237, 233, 232, 231, 231, 231, 232,
+*** CacheLine Forward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256,
+    8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   64.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+  128.0K,   7,   7,   7,   7,   7,  15,  15,  12,  12,  12,  12,  12,
+  256.0K,   8,   8,   8,   8,   8,  15,  15,  12,  12,  12,  12,  12,
+  512.0K,   8,   8,   8,   8,   8,  15,  15,  12,  12,  12,  12,  12,
+ 1024.0K,  25,  25,  25,  25,  25,  50,  52,  46,  47,  46,  47,  46,
+ 2048.0K,  25,  25,  25,  25,  25,  50,  52,  46,  47,  46,  47,  46,
+ 4096.0K,  26,  26,  26,  26,  26,  52,  53,  48,  49,  47,  49,  47,
+ 8192.0K,  74,  74,  74,  73,  72, 119, 119, 124, 113, 130, 139,  85,
+16384.0K,  79,  79,  79,  79,  79, 129, 131, 152, 124, 152, 119,  87,
+32768.0K,  79,  80,  80,  80,  80, 130, 131, 125, 152, 125, 118,  87,
+65536.0K,  80,  80,  80,  80,  80, 130, 131, 130, 126, 119, 120,  88,
+*** CacheLine Backward Read Latency ***
+Distance,   8,  16,  24,  32,  48,  64,  96, 128, 160, 192, 224, 256,
+    8.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   16.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   32.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+   64.0K,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,   3,
+  128.0K,   7,   7,   7,   7,   7,  15,  15,  12,  12,  12,  12,  12,
+  256.0K,   8,   8,   8,   8,   8,  15,  15,  12,  12,  12,  12,  12,
+  512.0K,   8,   8,   8,   8,   8,  15,  15,  12,  12,  12,  12,  12,
+ 1024.0K,  25,  25,  25,  25,  25,  50,  52,  46,  47,  46,  47,  46,
+ 2048.0K,  25,  25,  25,  25,  25,  50,  52,  46,  47,  46,  47,  46,
+ 4096.0K,  26,  26,  26,  26,  26,  51,  53,  48,  49,  48,  49,  48,
+ 8192.0K,  72,  74,  74,  73,  72, 134, 142, 124, 125, 139, 134, 139,
+16384.0K,  79,  79,  79,  79,  79, 156, 163, 149, 149, 151, 153, 151,
+32768.0K,  80,  80,  80,  79,  80, 156, 164, 153, 152, 153, 154, 152,
+65536.0K,  80,  80,  80,  80,  80, 157, 164, 152, 152, 152, 152, 152,
+BenchMemLat exit code: 0x0100
+L1D cacheline size: 64 bytes      [Mode:6 Size:   128K, Stride:   512, #NOP:  0, UnRoll:64]
+L2  cacheline size: 64 bytes      [Mode:6 Size:  1024K, Stride:   512, #NOP:  0, UnRoll:64]
+L3  cacheline size: 64 bytes      [Mode:6 Size: 12288K, Stride:   512, #NOP:  0, UnRoll:64]
+Mem latency:  56.846ns( 160 clks) [Mode:1 Size: 24576K, Stride:  1024, #NOP:117, UnRoll:64]
+L1D latency:   1.055ns(   3 clks) [Mode:1 Size:    64K, Stride:    64, #NOP:  0, UnRoll:64]
+L2  latency:   3.284ns(   9 clks) [Mode:1 Size:   512K, Stride:    64, #NOP:  0, UnRoll:64]
+L3  latency:   8.935ns(  25 clks) [Mode:1 Size:  6144K, Stride:    64, #NOP:  0, UnRoll:64]

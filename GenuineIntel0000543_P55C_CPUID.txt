@@ -1,0 +1,36 @@
+------[ Versions ]------
+
+Program Version : EVEREST v4.60.1628 Beta
+BenchDLL Version: 2.4.257.0
+
+------[ CPU Info ]------
+
+CPU Type           : 2x Intel Pentium MMX, 200 MHz
+CPU Alias          : P55C
+CPU Platform       : Socket 7
+CPU Stepping       : xA3
+Instruction Set    : x86, MMX
+CPUID Manufacturer : GenuineIntel
+CPUID Revision     : 00002544h
+Platform ID        : CBh  (Socket 7)
+
+------[ Logical CPU #0 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000001-756E6547-6C65746E-49656E69
+CPUID 00000001: 00000543-00000000-00000000-008003BF
+
+------[ Logical CPU #1 ]------
+
+allcpu: Valid
+
+CPUID 00000000: 00000001-756E6547-6C65746E-49656E69
+CPUID 00000001: 00002544-00000000-00000000-008003BF
+
+------[ MSR Registers ]------
+
+
+PerformanceFrequency = 200520000
+
+Tjmax Temperature = 0 Celsius

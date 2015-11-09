@@ -1,0 +1,18 @@
+                        HSW        BDW
+                       LT|TP      LT|TP
+(V)MULSS/SD/PS/PD       5|0.5  ->  3|0.5 
+(V)DIVSS               13|  7  -> 11|  3
+(V)DIVPS  xmm          13|  7  -> 11|  5
+VDIVPS    ymm          21| 14  -> 17| 10
+(V)DIVSD               20| 14  -> 14|  4
+(V)DIVPD  xmm          20| 14  -> 14|  8
+VDIVPD    ymm          35| 25  -> 23| 16
+(V)DPPS   xmm/ymm      14|     -> 12|
+DPPD      xmm           9|     ->  7|
+(V)PCLMULQDQ xmm        7|  2  ->  5|  1
+(V)ADDQ/SUBQ xmm/ymm    1|  1  ->  1|  0.5
+
+RDRAND                              |252
+RDSEED                              |252
+ADCX/ADOX                          1|  1
+ADC/SBB/CMOV            2|  1      1|  1
