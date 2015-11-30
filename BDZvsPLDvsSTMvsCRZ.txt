@@ -1,5 +1,12 @@
                           600F1x          610F3x           630F8x          660F0x
                          Bulldozer      Piledriver      Steamroller      Excavator
+
+L1I size in KB		    64              64              96              96
+L1D size in KB              16              16              16              32
+L2 size in KB             2048            2048            2048            1024
+L1D latency in TSC clk       4               4               4               4
+L2 latency in TSC clk      ~39             ~39             ~38             ~32
+
                             L|T             L|T             L|T             L|T
 
  391 IDIV64                83|81           74|74           74|74           74|74
