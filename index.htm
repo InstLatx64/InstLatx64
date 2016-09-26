@@ -5,11 +5,12 @@
 </div>
 <br>
 <div align=center>
-Last update: 2016.09.20.<br>
+Last update: 2016.09.26.<br>
 <br>
 <a href=https://twitter.com/InstLatX64>Twitter</a><br>
 <a href=https://github.com/InstLatx64>GitHub Mirror</a><br>
 <a href=CPU_chart_v14.png>CPU comparison chart v1.4</a><br>
+<a href=LPCPU_chart_v10.png>Low power CPU comparison chart v1.0</a><br>
 </div>
 <br>
 <a href=ChangeLog.htm>ChangeLog</a><br>
@@ -127,8 +128,8 @@ Last update: 2016.09.20.<br>
 <i>00800FXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Summit Ridge (8 CPU w/o GPU, AM4, DDR4, Zen core (Carrizo ISA, +RDSEED, +ADCX (BDW), +SHA (GLM), +CLFLUSHOPT (SKL), +CLZERO (Zen specific), -XOP, -TBM, -LWP, -FMA4, <a href=https://benchlife.info/amd-apu-platform-will-add-zen-cpu-architecture-in-2017-06182015/>source1</a>, <a href=https://gcc.gnu.org/ml/gcc-patches/2015-09/msg02311.html>source2</a>))</i>
 <i>00810FXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Raven Ridge (4 CPU + GPU, AM4, DDR4, Zen core (Carrizo ISA, +RDSEED, +ADCX (BDW), +SHA (GLM), +CLFLUSHOPT (SKL), +CLZERO (Zen specific), -XOP, -TBM, -LWP, -FMA4, <a href=https://benchlife.info/amd-apu-platform-will-add-zen-cpu-architecture-in-2017-06182015/>source1</a>, <a href=https://gcc.gnu.org/ml/gcc-patches/2015-09/msg02311.html>source2</a>))</i>
 
-<b><i>0080XXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Naples (Zen server, up to 2 socket, 4 die/socket, 8 core/die, 2 thread/core = 128 threads)</i></b>
-<b><i>008XXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Starship (Zen+ server, 48 core, 96 threads)</i></b>
+<i>0080XXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Naples (Zen server, up to 2 socket, 4 die/socket, 8 core/die, 2 thread/core = 128 threads)</i>
+<i>008XXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Starship (Zen+ server, 48 core, 96 threads)</i>
 
   <u><b>Centaur</b></u><br>
 <a href=CentaurHauls0000541_WinChipC6_CPUID.png>00000541</a>   <a href=CentaurHauls0000541_WinChipC6_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   <a href=CentaurHauls0000541_WinChipC6_InstLatX86.txt>InstLatX86</a>   <a href=CentaurHauls0000541_WinChipC6_MemLatX86.txt>MemLatX86</a>   [No x64]    [No x64]    IDT WinChip C6, 240 MHz
@@ -361,7 +362,7 @@ Last update: 2016.09.20.<br>
 
 <i>000506A0   <a href=GenuineIntel00506A0_Moorefield_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Intel Atom 1.0GHz (Moorefield)</i>
 
-<i>000506C8   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   <a href=https://bugs.freedesktop.org/show_bug.cgi?id=89602>BROXTON-P</a></i>
+<b><i>000506C9   <a href=GenuineIntel00506C9_Goldmont_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  <a href=GenuineIntel00506C9_Goldmont_InstLatX64.txt>InstLatX64</a>   MemLatX64   QuadCore Intel Pentium N4200 (Apollo Lake platform, Goldmont core)</i></b>
 
 <i><a href=http://browser.primatelabs.com/geekbench3/2026268>000506D1</a>   <a href=GenuineIntel00506D1_SoFIA_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Intel Atom x3-C3230 (SoFIA, Smart or Feature phone with Intel Architecture)</i>
 
@@ -384,8 +385,8 @@ Future Server variants:
 
 Future Consumption optimized cores:
 <i>000506Cx   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Goldmont (14 nm Silvermont/Airmont successor, Supported: SHA, RDSEED, ADX, PT; unsupported: BMI, BMI2, AVX (i.e. VEX-encoded ISA) (<a href=http://software.intel.com/en-us/articles/intel-software-development-emulator>source</a>))</i>
-<b><i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Gemini Lake (14 nm)</i></b>
-<b><i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Mercury Lake</i></b>
+<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Gemini Lake (14 nm)</i>
+<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Mercury Lake</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Skymont (10 nm, Goldmont shrink)</i>
 
 Future Tablet/MID platforms:
