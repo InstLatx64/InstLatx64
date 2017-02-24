@@ -5,7 +5,7 @@
 </div>
 <br>
 <div align=center>
-Last update: 2017.02.20.<br>
+Last update: 2017.02.24.<br>
 <br>
 <a href=https://twitter.com/InstLatX64>Twitter</a><br>
 <a href=https://github.com/InstLatx64>GitHub Mirror</a><br>
@@ -126,7 +126,9 @@ Last update: 2017.02.20.<br>
 
 <i>007XXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Nolan (Carizzo-L)</i>
 
-<i>00800FXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Summit Ridge (8 CPU w/o GPU, AM4, DDR4, Zen core (Carrizo ISA, +RDSEED, +ADCX (BDW), +SHA (GLM), +CLFLUSHOPT (SKL), +CLZERO (Zen specific), -XOP, -TBM, -LWP, -FMA4, <a href=https://benchlife.info/amd-apu-platform-will-add-zen-cpu-architecture-in-2017-06182015/>source1</a>, <a href=https://gcc.gnu.org/ml/gcc-patches/2015-09/msg02311.html>source2</a>))</i>
+
+<i><b>00800F0X</b>   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Summit Ridge A stepping, ES (8 CPU w/o GPU, AM4, DDR4, Zen core (<b>AVX,FMA3,MOVBE,F16C,RDRAND,BMI,3DNOWPREF,AVX2,BMI2,RDSEED,ADX8,SHA,CLFLUSHOPT,CLZERO,MONITORX + SEV,SME supported, FMA4,XOP,TBM,LWP,3DNow! unsupported</b>))</i>
+<i><b>00800F1X</b>   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Summit Ridge B stepping, production (8 CPU w/o GPU, AM4, DDR4, Zen core (8 CPU w/o GPU, AM4, DDR4, Zen core (<b>AVX,FMA3,MOVBE,F16C,RDRAND,BMI,3DNOWPREF,AVX2,BMI2,RDSEED,ADX8,SHA,CLFLUSHOPT,CLZERO,MONITORX + SEV,SME supported, FMA4,XOP,TBM,LWP,3DNow! unsupported</b>)))</i>
 <i>00810FXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Raven Ridge (4 CPU + GPU, AM4, DDR4, Zen core (Carrizo ISA, +RDSEED, +ADCX (BDW), +SHA (GLM), +CLFLUSHOPT (SKL), +CLZERO (Zen specific), -XOP, -TBM, -LWP, -FMA4, <a href=https://benchlife.info/amd-apu-platform-will-add-zen-cpu-architecture-in-2017-06182015/>source1</a>, <a href=https://gcc.gnu.org/ml/gcc-patches/2015-09/msg02311.html>source2</a>))</i>
 
 <i>0080XXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Naples (Zen server, up to 2 socket, 4 die/socket, 8 core/die, 2 thread/core = 128 threads)</i>
@@ -376,16 +378,16 @@ Last update: 2017.02.20.<br>
 <i>000506E3   <a href=GenuineIntel00506E3_Skylake_CPUID4.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   DualCore Intel Pentium G4400, 3300 MHz (Skylake) (supported: RDSEED, PT, CLFLUSHOPT, unsupported: AVX, AVX2, FMA, F16C, BMI, BMI2 (VEX-encoded extensions), MPE, SGX, HTT, TSX, ADX)</i>
 
 <i>000806E9   <a href=GenuineIntel00806E9_Kabylake_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   DualCore Intel Core i5-7200U, 3100 MHz (31 x 100) (KabyLake-U/Y)</i>
-<b><i>000806E9   <a href=GenuineIntel00806E9_Kabylake_CPUID2.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   DualCore Intel Pentium 4415U 2300 MHz (23 x 100) (Kaby Lake-U) (Supported: CLFLUSHOPT, SGX, MPE, PT; Not supported: AVX, AVX2, F16C, BMI, BMI2, ADX, TSX)</i></b>
+<i>000806E9   <a href=GenuineIntel00806E9_Kabylake_CPUID2.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   DualCore Intel Pentium 4415U 2300 MHz (23 x 100) (Kaby Lake-U) (Supported: CLFLUSHOPT, SGX, MPE, PT; Not supported: AVX, AVX2, F16C, BMI, BMI2, ADX, TSX)</i>
 
 <i>000906E9   <a href=GenuineIntel00906E9_Kabylake_CPUID2.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   QuadCore Intel Core i5-7600K, 3800 MHz (Kaby Lake-H/S)</i>
-<i>000906E9   <a href=GenuineIntel00906E9_Kabylake_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  <a href=GenuineIntel00906E9_Kabylake_InstLatX64.txt>InstLatX64</a>   MemLatX64   QuadCore Intel Core i7-7700K, 4200 MHz (42 x 100) (Kaby Lake-H/S)</i></b>
-<b><i>000906E9   <a href=GenuineIntel00906E9_Kabylake_CPUID4.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   DualCore Intel Pentium G4600 3600 MHz (Kaby Lake-S) (Supported: CLFLUSHOPT, SGX, MPE, PT; Not supported: AVX, AVX2, F16C, BMI, BMI2, ADX, TSX)</i></b>
+<b><a href=GenuineIntel00906E9_Kabylake_CPUID.png>000906E9</a>   <a href=GenuineIntel00906E9_Kabylake_CPUID.txt>CPUID Dump</a>   <a href=GenuineIntel00906E9_Kabylake_CnM.png>C&M_Panel</a>   <a href=GenuineIntel00906E9_Kabylake_GPGPU.png>GPGPU_Panel</a>   <a href=GenuineIntel00906E9_Kabylake_NewMemLat.txt>NewMemLat</a>   InstLatX86   MemLatX86  <a href=GenuineIntel00906E9_Kabylake_InstLatX64.txt>InstLatX64</a>   MemLatX64   QuadCore Intel Core i7-7700K, 4500 MHz (45 x 100) (Kaby Lake-S)</b>
+<i>000906E9   <a href=GenuineIntel00906E9_Kabylake_CPUID4.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   DualCore Intel Pentium G4600 3600 MHz (Kaby Lake-S) (Supported: CLFLUSHOPT, SGX, MPE, PT; Not supported: AVX, AVX2, F16C, BMI, BMI2, ADX, TSX)</i>
 
 Future Performance optimized cores:
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   CoffeeLake (14 nm KabyLake core, 6 core)</i>
-<i>0006066x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   CannonLake-U/Y (10 nm KabyLake successor, Process, <b>single-issue AVX512(?)</b>, AVX512IFMA52, AVX512VBMI <a href=https://www.linkedin.com/in/ryancortez4740>Gen10 GPU?</a>, <a href=https://www.linkedin.com/in/erannevet>on-die memory?</a>)</i>
-<b><i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   CannonLake-H/S (10 nm KabyLake successor, Process, <b>dual-issue AVX512(?)</b>, AVX512IFMA52, AVX512VBMI)</i></b>
+<i>0006066x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   CannonLake-U/Y (10 nm KabyLake successor, Process, single-issue AVX512(?), AVX512IFMA52, AVX512VBMI <a href=https://www.linkedin.com/in/ryancortez4740>Gen10 GPU?</a>, <a href=https://www.linkedin.com/in/erannevet>on-die memory?</a>)</i>
+<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   CannonLake-H/S (10 nm KabyLake successor, Process, dual-issue AVX512(?), AVX512IFMA52, AVX512VBMI)</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   IceLake (10 nm CannonLake successor, Architecture)</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   TigerLake (10 nm IceLake successor, Optimization)</i>
 
@@ -393,7 +395,7 @@ Future Server variants:
 <i>0005065x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   SkyLake Server (SKX) (AVX512F, AVX512CD, AVX512VL, AVX512BW, AVX512DQ, no SHA)</i>
 
 Future Consumption optimized cores:
-<i><b>000706Ax</b>   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Gemini Lake (14 nm)</i>
+<i>000706Ax   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Gemini Lake (14 nm)</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Mercury Lake</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Skymont (10 nm, Goldmont shrink)</i>
 
