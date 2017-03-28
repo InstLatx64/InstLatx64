@@ -1,0 +1,603 @@
+Copyright (C) 1995-2017 FinalWire Ltd. All rights reserved.
+aida_bench64.dll build: 4.3.741.0 Mar 20 2017 16:42:31
+Arch:X64 CPUCount:16 NUMA:0 Freq: 3393.33MHz Priority:080
+OS:6.3.14393 
+Memory: 16688920KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
+Memory To Test:32768KB 4K DTLB:768 2M DTLB:768 1G DTLB: 32 CLFlush:64
+ProcMask: 0x000000000000ffff 
+Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,MMXP,AMD64,SSSE3,SSE4A,ABM,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,AVX,FMA3,MOVBE,F16C,HTT,RDRAND,FSGSBASE,BMI,CLFLUSH,TSCINV,TOPEX,RDTSCP,3DNOWPREF,MISALIGNSSE,LNOP,AVX2,BMI2,PSE,RDSEED,ADX,SMAP,PAGE1GB,FP128,SHA,CLFLUSHOPT,CLZERO,MONITORX,5LTOP,SEV,SME,
+CPU#000 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#000 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#000 AffMask: 0x0000000000000001 
+CPU#000 PhysMask:0x000000000000ffff 
+CPU#000 APIC_ID:0x00000000 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:00 SMT_ID:00 
+CPU#000 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000003 
+CPU#000 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#000 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000003, Zen L2
+CPU#000 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#000 L1D 4K TLB:            64 entries,           full, SMask:0000000000000003
+CPU#000 L1D 2M TLB:            64 entries,           full, SMask:0000000000000003
+CPU#000 L1D 1G TLB:            64 entries,           full, SMask:0000000000000003
+CPU#000 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000003
+CPU#000 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000003
+CPU#000 L1I 4K TLB:            64 entries,           full, SMask:0000000000000003
+CPU#000 L1I 2M TLB:            64 entries,           full, SMask:0000000000000003
+CPU#000 L1I 1G TLB:            64 entries,           full, SMask:0000000000000003
+CPU#000 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000003
+CPU#000 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000003
+CPU#001 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#001 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#001 AffMask: 0x0000000000000002 
+CPU#001 PhysMask:0x000000000000ffff 
+CPU#001 APIC_ID:0x00000001 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:00 SMT_ID:01 
+CPU#001 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000003 
+CPU#001 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#001 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000003, Zen L2
+CPU#001 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#001 L1D 4K TLB:            64 entries,           full, SMask:0000000000000003
+CPU#001 L1D 2M TLB:            64 entries,           full, SMask:0000000000000003
+CPU#001 L1D 1G TLB:            64 entries,           full, SMask:0000000000000003
+CPU#001 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000003
+CPU#001 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000003
+CPU#001 L1I 4K TLB:            64 entries,           full, SMask:0000000000000003
+CPU#001 L1I 2M TLB:            64 entries,           full, SMask:0000000000000003
+CPU#001 L1I 1G TLB:            64 entries,           full, SMask:0000000000000003
+CPU#001 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000003
+CPU#001 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000003
+CPU#002 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#002 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#002 AffMask: 0x0000000000000004 
+CPU#002 PhysMask:0x000000000000ffff 
+CPU#002 APIC_ID:0x00000002 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:01 SMT_ID:00 
+CPU#002 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:000000000000000c 
+CPU#002 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#002 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:000000000000000c, Zen L2
+CPU#002 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#002 L1D 4K TLB:            64 entries,           full, SMask:000000000000000c
+CPU#002 L1D 2M TLB:            64 entries,           full, SMask:000000000000000c
+CPU#002 L1D 1G TLB:            64 entries,           full, SMask:000000000000000c
+CPU#002 L2D 4K TLB:          1536 entries,          8 way, SMask:000000000000000c
+CPU#002 L2D 2M TLB:          1536 entries,          2 way, SMask:000000000000000c
+CPU#002 L1I 4K TLB:            64 entries,           full, SMask:000000000000000c
+CPU#002 L1I 2M TLB:            64 entries,           full, SMask:000000000000000c
+CPU#002 L1I 1G TLB:            64 entries,           full, SMask:000000000000000c
+CPU#002 L2I 4K TLB:          1024 entries,          8 way, SMask:000000000000000c
+CPU#002 L2I 2M TLB:          1024 entries,          8 way, SMask:000000000000000c
+CPU#003 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#003 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#003 AffMask: 0x0000000000000008 
+CPU#003 PhysMask:0x000000000000ffff 
+CPU#003 APIC_ID:0x00000003 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:01 SMT_ID:01 
+CPU#003 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:000000000000000c 
+CPU#003 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#003 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:000000000000000c, Zen L2
+CPU#003 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#003 L1D 4K TLB:            64 entries,           full, SMask:000000000000000c
+CPU#003 L1D 2M TLB:            64 entries,           full, SMask:000000000000000c
+CPU#003 L1D 1G TLB:            64 entries,           full, SMask:000000000000000c
+CPU#003 L2D 4K TLB:          1536 entries,          8 way, SMask:000000000000000c
+CPU#003 L2D 2M TLB:          1536 entries,          2 way, SMask:000000000000000c
+CPU#003 L1I 4K TLB:            64 entries,           full, SMask:000000000000000c
+CPU#003 L1I 2M TLB:            64 entries,           full, SMask:000000000000000c
+CPU#003 L1I 1G TLB:            64 entries,           full, SMask:000000000000000c
+CPU#003 L2I 4K TLB:          1024 entries,          8 way, SMask:000000000000000c
+CPU#003 L2I 2M TLB:          1024 entries,          8 way, SMask:000000000000000c
+CPU#004 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#004 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#004 AffMask: 0x0000000000000010 
+CPU#004 PhysMask:0x000000000000ffff 
+CPU#004 APIC_ID:0x00000004 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:02 SMT_ID:00 
+CPU#004 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000030 
+CPU#004 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#004 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000030, Zen L2
+CPU#004 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#004 L1D 4K TLB:            64 entries,           full, SMask:0000000000000030
+CPU#004 L1D 2M TLB:            64 entries,           full, SMask:0000000000000030
+CPU#004 L1D 1G TLB:            64 entries,           full, SMask:0000000000000030
+CPU#004 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000030
+CPU#004 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000030
+CPU#004 L1I 4K TLB:            64 entries,           full, SMask:0000000000000030
+CPU#004 L1I 2M TLB:            64 entries,           full, SMask:0000000000000030
+CPU#004 L1I 1G TLB:            64 entries,           full, SMask:0000000000000030
+CPU#004 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000030
+CPU#004 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000030
+CPU#005 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#005 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#005 AffMask: 0x0000000000000020 
+CPU#005 PhysMask:0x000000000000ffff 
+CPU#005 APIC_ID:0x00000005 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:02 SMT_ID:01 
+CPU#005 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000030 
+CPU#005 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#005 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000030, Zen L2
+CPU#005 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#005 L1D 4K TLB:            64 entries,           full, SMask:0000000000000030
+CPU#005 L1D 2M TLB:            64 entries,           full, SMask:0000000000000030
+CPU#005 L1D 1G TLB:            64 entries,           full, SMask:0000000000000030
+CPU#005 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000030
+CPU#005 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000030
+CPU#005 L1I 4K TLB:            64 entries,           full, SMask:0000000000000030
+CPU#005 L1I 2M TLB:            64 entries,           full, SMask:0000000000000030
+CPU#005 L1I 1G TLB:            64 entries,           full, SMask:0000000000000030
+CPU#005 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000030
+CPU#005 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000030
+CPU#006 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#006 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#006 AffMask: 0x0000000000000040 
+CPU#006 PhysMask:0x000000000000ffff 
+CPU#006 APIC_ID:0x00000006 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:03 SMT_ID:00 
+CPU#006 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:00000000000000c0 
+CPU#006 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#006 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:00000000000000c0, Zen L2
+CPU#006 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#006 L1D 4K TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#006 L1D 2M TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#006 L1D 1G TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#006 L2D 4K TLB:          1536 entries,          8 way, SMask:00000000000000c0
+CPU#006 L2D 2M TLB:          1536 entries,          2 way, SMask:00000000000000c0
+CPU#006 L1I 4K TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#006 L1I 2M TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#006 L1I 1G TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#006 L2I 4K TLB:          1024 entries,          8 way, SMask:00000000000000c0
+CPU#006 L2I 2M TLB:          1024 entries,          8 way, SMask:00000000000000c0
+CPU#007 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#007 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#007 AffMask: 0x0000000000000080 
+CPU#007 PhysMask:0x000000000000ffff 
+CPU#007 APIC_ID:0x00000007 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:03 SMT_ID:01 
+CPU#007 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:00000000000000c0 
+CPU#007 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#007 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:00000000000000c0, Zen L2
+CPU#007 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#007 L1D 4K TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#007 L1D 2M TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#007 L1D 1G TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#007 L2D 4K TLB:          1536 entries,          8 way, SMask:00000000000000c0
+CPU#007 L2D 2M TLB:          1536 entries,          2 way, SMask:00000000000000c0
+CPU#007 L1I 4K TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#007 L1I 2M TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#007 L1I 1G TLB:            64 entries,           full, SMask:00000000000000c0
+CPU#007 L2I 4K TLB:          1024 entries,          8 way, SMask:00000000000000c0
+CPU#007 L2I 2M TLB:          1024 entries,          8 way, SMask:00000000000000c0
+CPU#008 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#008 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#008 AffMask: 0x0000000000000100 
+CPU#008 PhysMask:0x000000000000ffff 
+CPU#008 APIC_ID:0x00000008 Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:00 SMT_ID:00 
+CPU#008 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000300 
+CPU#008 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#008 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000300, Zen L2
+CPU#008 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#008 L1D 4K TLB:            64 entries,           full, SMask:0000000000000300
+CPU#008 L1D 2M TLB:            64 entries,           full, SMask:0000000000000300
+CPU#008 L1D 1G TLB:            64 entries,           full, SMask:0000000000000300
+CPU#008 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000300
+CPU#008 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000300
+CPU#008 L1I 4K TLB:            64 entries,           full, SMask:0000000000000300
+CPU#008 L1I 2M TLB:            64 entries,           full, SMask:0000000000000300
+CPU#008 L1I 1G TLB:            64 entries,           full, SMask:0000000000000300
+CPU#008 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000300
+CPU#008 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000300
+CPU#009 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#009 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#009 AffMask: 0x0000000000000200 
+CPU#009 PhysMask:0x000000000000ffff 
+CPU#009 APIC_ID:0x00000009 Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:00 SMT_ID:01 
+CPU#009 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000300 
+CPU#009 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#009 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000300, Zen L2
+CPU#009 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#009 L1D 4K TLB:            64 entries,           full, SMask:0000000000000300
+CPU#009 L1D 2M TLB:            64 entries,           full, SMask:0000000000000300
+CPU#009 L1D 1G TLB:            64 entries,           full, SMask:0000000000000300
+CPU#009 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000300
+CPU#009 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000300
+CPU#009 L1I 4K TLB:            64 entries,           full, SMask:0000000000000300
+CPU#009 L1I 2M TLB:            64 entries,           full, SMask:0000000000000300
+CPU#009 L1I 1G TLB:            64 entries,           full, SMask:0000000000000300
+CPU#009 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000300
+CPU#009 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000300
+CPU#010 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#010 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#010 AffMask: 0x0000000000000400 
+CPU#010 PhysMask:0x000000000000ffff 
+CPU#010 APIC_ID:0x0000000a Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:01 SMT_ID:00 
+CPU#010 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000c00 
+CPU#010 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#010 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000c00, Zen L2
+CPU#010 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#010 L1D 4K TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#010 L1D 2M TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#010 L1D 1G TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#010 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000c00
+CPU#010 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000c00
+CPU#010 L1I 4K TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#010 L1I 2M TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#010 L1I 1G TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#010 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000c00
+CPU#010 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000c00
+CPU#011 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#011 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#011 AffMask: 0x0000000000000800 
+CPU#011 PhysMask:0x000000000000ffff 
+CPU#011 APIC_ID:0x0000000b Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:01 SMT_ID:01 
+CPU#011 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000000c00 
+CPU#011 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#011 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000000c00, Zen L2
+CPU#011 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#011 L1D 4K TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#011 L1D 2M TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#011 L1D 1G TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#011 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000000c00
+CPU#011 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000000c00
+CPU#011 L1I 4K TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#011 L1I 2M TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#011 L1I 1G TLB:            64 entries,           full, SMask:0000000000000c00
+CPU#011 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000000c00
+CPU#011 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000000c00
+CPU#012 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#012 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#012 AffMask: 0x0000000000001000 
+CPU#012 PhysMask:0x000000000000ffff 
+CPU#012 APIC_ID:0x0000000c Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:02 SMT_ID:00 
+CPU#012 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000003000 
+CPU#012 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#012 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000003000, Zen L2
+CPU#012 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#012 L1D 4K TLB:            64 entries,           full, SMask:0000000000003000
+CPU#012 L1D 2M TLB:            64 entries,           full, SMask:0000000000003000
+CPU#012 L1D 1G TLB:            64 entries,           full, SMask:0000000000003000
+CPU#012 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000003000
+CPU#012 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000003000
+CPU#012 L1I 4K TLB:            64 entries,           full, SMask:0000000000003000
+CPU#012 L1I 2M TLB:            64 entries,           full, SMask:0000000000003000
+CPU#012 L1I 1G TLB:            64 entries,           full, SMask:0000000000003000
+CPU#012 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000003000
+CPU#012 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000003000
+CPU#013 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#013 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#013 AffMask: 0x0000000000002000 
+CPU#013 PhysMask:0x000000000000ffff 
+CPU#013 APIC_ID:0x0000000d Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:02 SMT_ID:01 
+CPU#013 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:0000000000003000 
+CPU#013 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#013 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:0000000000003000, Zen L2
+CPU#013 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#013 L1D 4K TLB:            64 entries,           full, SMask:0000000000003000
+CPU#013 L1D 2M TLB:            64 entries,           full, SMask:0000000000003000
+CPU#013 L1D 1G TLB:            64 entries,           full, SMask:0000000000003000
+CPU#013 L2D 4K TLB:          1536 entries,          8 way, SMask:0000000000003000
+CPU#013 L2D 2M TLB:          1536 entries,          2 way, SMask:0000000000003000
+CPU#013 L1I 4K TLB:            64 entries,           full, SMask:0000000000003000
+CPU#013 L1I 2M TLB:            64 entries,           full, SMask:0000000000003000
+CPU#013 L1I 1G TLB:            64 entries,           full, SMask:0000000000003000
+CPU#013 L2I 4K TLB:          1024 entries,          8 way, SMask:0000000000003000
+CPU#013 L2I 2M TLB:          1024 entries,          8 way, SMask:0000000000003000
+CPU#014 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#014 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#014 AffMask: 0x0000000000004000 
+CPU#014 PhysMask:0x000000000000ffff 
+CPU#014 APIC_ID:0x0000000e Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:03 SMT_ID:00 
+CPU#014 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:000000000000c000 
+CPU#014 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#014 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:000000000000c000, Zen L2
+CPU#014 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#014 L1D 4K TLB:            64 entries,           full, SMask:000000000000c000
+CPU#014 L1D 2M TLB:            64 entries,           full, SMask:000000000000c000
+CPU#014 L1D 1G TLB:            64 entries,           full, SMask:000000000000c000
+CPU#014 L2D 4K TLB:          1536 entries,          8 way, SMask:000000000000c000
+CPU#014 L2D 2M TLB:          1536 entries,          2 way, SMask:000000000000c000
+CPU#014 L1I 4K TLB:            64 entries,           full, SMask:000000000000c000
+CPU#014 L1I 2M TLB:            64 entries,           full, SMask:000000000000c000
+CPU#014 L1I 1G TLB:            64 entries,           full, SMask:000000000000c000
+CPU#014 L2I 4K TLB:          1024 entries,          8 way, SMask:000000000000c000
+CPU#014 L2I 2M TLB:          1024 entries,          8 way, SMask:000000000000c000
+CPU#015 Vendor: AuthenticAMD Family: 8f Modell: 01 Stepping: 1 CoreType:0x10800f11
+CPU#015 Type: "AMD Ryzen 7 1700X Eight-Core Processor         "
+CPU#015 AffMask: 0x0000000000008000 
+CPU#015 PhysMask:0x000000000000ffff 
+CPU#015 APIC_ID:0x0000000f Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:03 SMT_ID:01 
+CPU#015 L1I cache:     64KB,   64 byte cache line,  4 way, SMask:000000000000c000 
+CPU#015 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#015 L2  cache:    512KB,   64 byte cache line,  8 way, SMask:000000000000c000, Zen L2
+CPU#015 L3  cache:   8192KB,   64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#015 L1D 4K TLB:            64 entries,           full, SMask:000000000000c000
+CPU#015 L1D 2M TLB:            64 entries,           full, SMask:000000000000c000
+CPU#015 L1D 1G TLB:            64 entries,           full, SMask:000000000000c000
+CPU#015 L2D 4K TLB:          1536 entries,          8 way, SMask:000000000000c000
+CPU#015 L2D 2M TLB:          1536 entries,          2 way, SMask:000000000000c000
+CPU#015 L1I 4K TLB:            64 entries,           full, SMask:000000000000c000
+CPU#015 L1I 2M TLB:            64 entries,           full, SMask:000000000000c000
+CPU#015 L1I 1G TLB:            64 entries,           full, SMask:000000000000c000
+CPU#015 L2I 4K TLB:          1024 entries,          8 way, SMask:000000000000c000
+CPU#015 L2I 2M TLB:          1024 entries,          8 way, SMask:000000000000c000
+NGMemLat #  0 Pmask:0x0000000000008000 Thread(s):  1
+Page_Random Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    5    5    5    5    5    5    5    7    4 
+      32 KB   5    5    5    5    5    5    7    7    6    7    4    4 
+      48 KB  10   10   12   17   16   13   16   17   17   19    6    4 
+      64 KB  12   13   14   17   17   15   17   17   17   18    7    4 
+      96 KB  15   15   15   17   17   17   17   17   17   17   18    6 
+     128 KB  15   15   16   17   17   17   17   17   17   18   19    5 
+     192 KB  16   16   17   17   17   17   17   17   17   17   18   17 
+     256 KB  17   16   17   17   17   17   17   17   18   20   17   17 
+     384 KB  19   20   20   20   20   20   20   21   22   25   17   17 
+     512 KB  22   22   23   25   25   24   24   24   25   27   21   17 
+     768 KB  31   32   35   39   46   48   48   48   49   50   50   19 
+    1024 KB  36   37   38   41   47   50   50   50   50   52   50   19 
+    1536 KB  40   41   42   44   48   50   50   50   51   52   45   43 
+    2048 KB  42   43   43   45   48   50   51   51   51   52   50   33 
+    3072 KB  44   45   45   46   49   54   51   51   51   52   52   43 
+    4096 KB  42   43   47   45   49   51   51   51   51   52   52   52 
+    6144 KB  45   45   46   47   50   51   51   52   53   54   52   50 
+    8192 KB  56   65   78   86   93   91   85   85   85   88   65   60 
+   12288 KB  65   85  127  211  340  334  332  335  341  353   76   76 
+   16384 KB  65   86  129  208  341  339  337  338  347  356  352   79 
+   24576 KB  65   87  129  208  340  334  334  340  346  355  345  123 
+   32768 KB  66   86  128  208  341  335  338  338  345  357  330  296 
+   49152 KB  69   90  129  210  343  338  338  342  347  359  349  330 
+   65536 KB  68   90  132  211  341  335  337  344  351  366  362  330 
+   98304 KB  68   90  134  210  341  338  336  340  348  358  358  358 
+  131072 KB 104   99  137  213  342  337  338  340  347  361  360  366 
+Linear_Forward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    5    4    4    6    5    6    4 
+      32 KB   4    4    4    4    5    5    6    5    7    6    4    4 
+      48 KB   4    4    4    7   10   17   17   17   17   17    8    4 
+      64 KB   4    4    4    7    9   18   17   17   17   17    8    4 
+      96 KB   4    4    4    7    8   17   17   17   17   17   17    6 
+     128 KB   4    4    4    7    7   18   17   17   17   17   17    6 
+     192 KB   4    4    4    7    7   18   17   17   17   17   18   17 
+     256 KB   4    4    4    7    6   18   17   18   19   19   17   19 
+     384 KB   4    4    4    7    6   18   18   19   21   25   17   17 
+     512 KB   4    4    4    7    5   20   20   21   23   27   21   17 
+     768 KB   4    4    4    7    6   31   43   44   46   50   50   19 
+    1024 KB   4    4    4    7    7   31   44   45   47   52   41   34 
+    1536 KB   4    4    4    7    6   31   44   45   48   52   47   48 
+    2048 KB   4    4    4    7    7   31   44   45   48   52   52   37 
+    3072 KB   4    4    4    7    6   31   44   45   48   52   51   42 
+    4096 KB   4    4    4    7    5   31   44   45   48   52   52   47 
+    6144 KB   4    4    4    7    7   31   45   46   49   53   53   51 
+    8192 KB   4    4    6   12   13   74   90   88   89   96   68   57 
+   12288 KB   4    5    8   16   40  175  313  319  334  358  321   74 
+   16384 KB   4    5    8   16   41  170  317  322  335  355  173   75 
+   24576 KB   5    5    8   16   43  174  316  322  335  356  345  107 
+   32768 KB   4    5    8   16   40  171  318  322  336  356  326  325 
+   49152 KB   4    5    8   16   41  174  316  321  340  357  350  328 
+   65536 KB   4    5    8   16   39  174  315  319  336  356  361  316 
+   98304 KB   4    5    8   16   41  170  317  319  339  366  366  356 
+  131072 KB   4    5    8   16   39  170  317  321  339  359  360  356 
+Linear_Backward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    5    5    5    6    5    5    4 
+      32 KB   4    4    4    4    5    6    5    5    6    6    4    4 
+      48 KB   4    4    4    7   10   17   16   17   17   17    6    4 
+      64 KB   4    4    4    7   11   17   17   17   17   17    6    4 
+      96 KB   4    4    4    7   12   18   17   17   17   17   17   10 
+     128 KB   4    4    4    7   12   18   17   17   17   17   18    6 
+     192 KB   4    4    4    7   13   18   17   17   17   17   17   17 
+     256 KB   4    4    4    7   14   18   17   18   18   18   17   17 
+     384 KB   4    4    4    7   14   18   18   19   21   25   17   17 
+     512 KB   4    4    4    7   14   20   20   21   23   27   20   17 
+     768 KB   4    4    4    7   15   30   43   44   46   50   50   19 
+    1024 KB   4    4    4    7   14   31   44   45   48   52   40   21 
+    1536 KB   4    4    4    7   14   31   44   45   47   52   48   47 
+    2048 KB   4    4    4    7   15   31   44   45   48   52   46   48 
+    3072 KB   4    4    4    7   14   31   44   45   48   52   52   43 
+    4096 KB   4    4    4    7   14   31   44   45   48   52   49   48 
+    6144 KB   4    4    4    7   14   31   45   46   49   53   54   53 
+    8192 KB   4    5    7   12   15   72   93   87   88   96   60   61 
+   12288 KB   4    5    8   16   37  169  314  320  332  354  333   76 
+   16384 KB   4    5    8   16   43  170  318  323  339  355  345  108 
+   24576 KB   4    5    8   16   47  169  317  322  336  356  346  178 
+   32768 KB   4    5    8   16   40  173  309  317  336  356  345  131 
+   49152 KB   4    5    8   16   44  169  317  323  335  356  360  305 
+   65536 KB   4    5    8   16   44  169  317  323  340  364  372  373 
+   98304 KB   4    5    8   16   39  169  316  321  337  365  365  369 
+  131072 KB   4    5    8   16   39  169  317  324  337  360  365  370 
+Random_Full Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    5    5    4    5    6    6    5    6    4 
+      32 KB   5    5    5    5    5    5    5    7    7    6    4    4 
+      48 KB  10   10   12   17   15   13   17   17   17   19    6    4 
+      64 KB  12   13   14   17   17   16   17   17   17   17    8    4 
+      96 KB  14   15   15   17   17   17   17   17   17   17   16    8 
+     128 KB  15   15   16   17   17   17   17   17   17   17   17    7 
+     192 KB  16   16   16   17   17   17   17   17   17   17   17   18 
+     256 KB  16   16   17   18   18   18   18   17   18   19   18   17 
+     384 KB  19   20   20   20   20   20   20   21   21   25   17   17 
+     512 KB  23   23   23   25   25   25   23   24   25   27   21   18 
+     768 KB  32   33   35   39   46   48   48   48   49   50   50   43 
+    1024 KB  36   37   38   41   47   49   50   50   50   52   43   19 
+    1536 KB  40   41   42   44   48   50   50   50   51   52   45   41 
+    2048 KB  42   43   43   45   48   50   51   51   51   52   50   45 
+    3072 KB  44   45   45   46   49   51   51   51   51   52   52   48 
+    4096 KB  46   46   46   47   49   51   51   51   51   52   52   50 
+    6144 KB  48   48   48   49   50   52   52   53   53   54   53   50 
+    8192 KB  82   87   91   98  107   99   92   89   88   88   79   61 
+   12288 KB 180  188  211  263  360  361  358  356  353  359  141   76 
+   16384 KB 232  237  254  293  366  359  354  357  359  362  358   79 
+   24576 KB 279  284  297  324  371  363  363  362  365  368  307   83 
+   32768 KB 306  312  319  336  374  368  366  366  368  370  323  290 
+   49152 KB 333  336  342  352  379  375  369  370  372  373  366  327 
+   65536 KB 349  350  355  364  383  384  375  372  375  374  372  355 
+   98304 KB 366  368  370  377  389  389  382  376  376  381  384  379 
+  131072 KB 373  377  379  383  395  392  391  388  391  391  381  370 
+CacheLine_Forward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   5    5    5    5    5    7    7    6    7    5    8    5 
+      32 KB   5    5    5    5    5    7    6    7    7    6    6    8 
+      48 KB  10   11   11   11   11   17   17   17   17   17   17   17 
+      64 KB  11   11   11   11   11   17   17   18   17   17   17   17 
+      96 KB  11   11   11   11   11   17   17   18   18   18   18   18 
+     128 KB  11   11   11   11   11   18   18   18   18   18   18   18 
+     192 KB  11   11   11   11   11   18   18   18   18   18   18   18 
+     256 KB  11   11   11   11   11   18   18   18   18   18   18   18 
+     384 KB  11   11   11   11   11   18   18   18   18   18   18   18 
+     512 KB  12   12   12   12   12   20   20   19   19   19   19   20 
+     768 KB  24   24   24   24   24   28   31   28   28   28   28   30 
+    1024 KB  25   25   25   25   25   28   31   28   28   28   28   31 
+    1536 KB  25   25   25   25   25   28   31   28   28   28   28   31 
+    2048 KB  25   25   25   25   25   28   31   28   28   28   28   31 
+    3072 KB  25   25   25   25   25   28   31   28   28   28   28   31 
+    4096 KB  25   25   25   25   25   28   31   28   28   28   28   31 
+    6144 KB  25   25   25   25   25   28   32   28   28   29   29   31 
+    8192 KB  48   48   48   49   49   69   72   69   68   70   70   70 
+   12288 KB 161  161  161  161  161  174  174  173  173  172  169  168 
+   16384 KB 163  163  163  164  163  175  176  174  174  172  171  169 
+   24576 KB 163  163  163  163  163  175  175  174  174  173  172  169 
+   32768 KB 163  163  163  163  163  175  175  173  174  171  172  170 
+   49152 KB 164  163  163  163  163  176  176  175  175  171  173  170 
+   65536 KB 164  164  164  163  164  176  176  175  175  171  170  170 
+   98304 KB 162  164  162  162  163  175  176  174  174  171  170  169 
+  131072 KB 164  162  163  163  163  176  177  175  175  173  171  170 
+CacheLine_Backward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    5    5    4    5    5    6    5    5    5    5    5 
+      32 KB   5    5    5    5    4    6    7    5    5    6    7    6 
+      48 KB  11   11   10   11   11   17   17   17   17   17   17   17 
+      64 KB  11   11   11   11   11   17   17   17   17   17   17   17 
+      96 KB  11   11   11   11   11   18   17   17   18   18   17   17 
+     128 KB  11   11   11   11   11   18   18   18   17   18   18   18 
+     192 KB  11   11   11   11   11   18   18   18   18   18   18   18 
+     256 KB  11   11   11   11   11   18   18   18   18   18   18   18 
+     384 KB  11   11   11   11   11   18   18   18   18   18   18   18 
+     512 KB  12   12   12   12   12   20   20   19   19   19   19   20 
+     768 KB  24   24   24   24   24   30   30   29   29   28   28   31 
+    1024 KB  25   25   25   25   25   30   30   29   29   29   29   31 
+    1536 KB  25   25   25   25   25   30   30   29   29   29   29   31 
+    2048 KB  25   25   25   25   25   30   30   29   29   29   29   31 
+    3072 KB  25   25   25   25   25   30   30   29   29   29   29   31 
+    4096 KB  25   25   25   25   25   30   30   29   29   29   29   31 
+    6144 KB  25   25   25   25   25   31   31   29   29   29   29   32 
+    8192 KB  49   49   49   48   48   70   72   71   70   70   70   73 
+   12288 KB 162  161  162  161  161  173  174  172  172  168  168  167 
+   16384 KB 163  163  163  164  163  175  175  174  173  170  170  169 
+   24576 KB 163  163  163  164  164  175  175  173  173  169  170  169 
+   32768 KB 164  163  163  163  163  175  175  174  173  173  170  169 
+   49152 KB 163  163  163  163  163  175  175  173  173  170  170  169 
+   65536 KB 163  163  163  163  163  175  176  173  174  170  170  169 
+   98304 KB 164  164  163  162  163  175  176  173  173  169  169  169 
+  131072 KB 164  164  164  164  163  176  176  174  174  170  171  170 
+Page_Random 2CL Tests
+Block:       4K   8K  16K  32K  64K 128K 256K 512K   1M   2M 
+       4 KB   4 
+       6 KB   4 
+       8 KB   4    4 
+      12 KB   4    4 
+      16 KB   4    4    4 
+      24 KB   4    5    5 
+      32 KB   5    5    4    5 
+      48 KB   9    9    9   12 
+      64 KB   9    9    9   14   17 
+      96 KB   9    9    9   15   17 
+     128 KB   9    9    9   16   17   17 
+     192 KB   9    9    9   16   17   17 
+     256 KB   9    9    9   17   17   17   17 
+     384 KB   9    9    9   17   18   18   18 
+     512 KB  10    9    9   20   20   21   21   25 
+     768 KB  15   14   14   38   40   40   41   43 
+    1024 KB  15   14   14   39   41   42   42   46   47 
+    1536 KB  15   15   15   39   41   42   42   46   47 
+    2048 KB  15   14   14   39   41   42   42   46   48   48 
+    3072 KB  15   15   14   39   42   42   42   46   48   48 
+    4096 KB  15   15   14   39   42   42   42   46   48   49 
+    6144 KB  15   15   15   40   42   42   43   46   48   49 
+    8192 KB  31   29   27   89   97   98   98   97   98   98 
+   12288 KB  85   84   84  297  333  334  333  337  341  342 
+   16384 KB  86   85   84  295  334  333  335  339  341  343 
+   24576 KB  85   84   84  294  318  332  334  338  341  345 
+   32768 KB  84   84   84  295  317  332  334  338  341  344 
+   49152 KB  85   84   84  296  317  332  334  338  343  344 
+   65536 KB  85   84   84  296  318  332  334  339  342  342 
+   98304 KB  85   84   84  295  318  333  335  338  341  342 
+  131072 KB  85   84   84  297  318  332  333  338  341  344 
+Page_Random 1CL Tests
+Block:       4K   8K  16K  32K  64K 128K 256K 512K   1M   2M 
+       4 KB   4 
+       6 KB   4 
+       8 KB   4    4 
+      12 KB   4    4 
+      16 KB   4    4    4 
+      24 KB   4    4    5 
+      32 KB   4    6    5    5 
+      48 KB  11   12   12   15 
+      64 KB  11   12   12   17   17 
+      96 KB  11   12   12   17   17 
+     128 KB  11   12   12   17   17   17 
+     192 KB  11   11   12   17   17   17 
+     256 KB  11   11   12   17   17   17   17 
+     384 KB  11   11   12   17   18   18   18 
+     512 KB  12   12   14   19   20   20   20   25 
+     768 KB  18   17   20   36   36   34   34   37 
+    1024 KB  18   17   21   37   36   34   34   38   41 
+    1536 KB  18   17   20   37   36   34   34   37   40 
+    2048 KB  17   17   20   37   36   34   34   37   42   45 
+    3072 KB  17   17   20   37   37   34   34   37   42   44 
+    4096 KB  17   17   20   37   36   34   34   38   42   45 
+    6144 KB  17   17   20   37   37   35   34   38   42   46 
+    8192 KB  35   34   42  105  101   89   81   80   92   91 
+   12288 KB  98   96  133  267  264  238  224  224  218  211 
+   16384 KB  99   96  132  265  264  237  224  227  221  212 
+   24576 KB 100   97  127  266  264  237  225  227  221  211 
+   32768 KB 100   97  131  266  266  238  225  227  221  212 
+   49152 KB 100   95  129  266  267  238  224  228  221  212 
+   65536 KB  99   96  132  267  264  238  225  228  221  213 
+   98304 KB  99   97  131  268  265  239  225  228  222  213 
+  131072 KB  98   98  131  267  266  239  225  229  222  213 
+BenchNGMemLat exit code: 0x1300
+NGMemLat #  0 Pmask:0x0000000000008000 Thread(s):  1
+Best Page_Random Tests
+M32768 Mem  100.994 nsec  342.705 clks (MemSize:  32768 KiB Stride:  128 Movs:   64 Reps: 262144 B:3145728 RT: 10.166 s) ------
+M32768 L1D    1.624 nsec    5.512 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.002 s) ------
+M32768 L2     5.160 nsec   17.509 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.009 s) ------
+M32768 L3    13.319 nsec   45.196 clks (MemSize:   4096 KiB Stride:   64 Movs:   64 Reps:  65536 B:3145728 RT: 10.056 s) ------
+Best Linear_Forward Tests
+M32769 Mem   13.096 nsec   44.440 clks (MemSize:  32768 KiB Stride:  128 Movs:   64 Reps: 262144 B:3145728 RT: 10.107 s) ------
+M32769 L1D    1.257 nsec    4.267 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.002 s) ------
+M32769 L2     2.031 nsec    6.891 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.004 s) ------
+M32769 L3     2.035 nsec    6.904 clks (MemSize:   4096 KiB Stride:   64 Movs:   64 Reps:  65536 B:3145728 RT: 10.001 s) ------
+Best Linear_Backward Tests
+M32770 Mem   12.383 nsec   42.020 clks (MemSize:  32768 KiB Stride:  128 Movs:   64 Reps: 262144 B:3145728 RT: 10.180 s) ------
+M32770 L1D    1.269 nsec    4.306 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.000 s) ------
+M32770 L2     2.027 nsec    6.877 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.001 s) ------
+M32770 L3     2.036 nsec    6.908 clks (MemSize:   4096 KiB Stride:   64 Movs:   64 Reps:  65536 B:3145728 RT: 10.007 s) ------
+Best Random_Full Tests
+M32771 Mem  109.646 nsec  372.063 clks (MemSize:  32768 KiB Stride:  128 Movs:   64 Reps: 262144 B:3145728 RT: 11.037 s) ------
+M32771 L1D    1.538 nsec    5.219 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.002 s) ------
+M32771 L2     5.165 nsec   17.528 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:3145728 RT: 10.009 s) ------
+M32771 L3    13.775 nsec   46.743 clks (MemSize:   4096 KiB Stride:   64 Movs:   64 Reps:  65536 B:3145728 RT: 10.053 s) ------
