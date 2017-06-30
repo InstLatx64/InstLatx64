@@ -4091,17 +4091,17 @@
 4090 AVX512VL        :{EVEX} VPUNPCKHQDQ xmm, xmm, xmm      L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4091 AVX512VL        :{EVEX} VPUNPCKHQDQ ymm, ymm, ymm      L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4092 AVX512F         :VPUNPCKHQDQ zmm, zmm, zmm             L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4093 AVX512VLBW      :VPSHUFB xmm, xmm, xmm                 L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4094 AVX512VLBW      :VPSHUFB ymm, ymm, ymm                 L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4093 AVX512VLBW      :{EVEX} VPSHUFB xmm, xmm, xmm          L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4094 AVX512VLBW      :{EVEX} VPSHUFB ymm, ymm, ymm          L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4095 AVX512BW        :VPSHUFB zmm, zmm, zmm                 L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4096 AVX512VLBW      :VPSHUFLW xmm, xmm, imm8               L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4097 AVX512VLBW      :VPSHUFLW ymm, ymm, imm8               L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4096 AVX512VLBW      :{EVEX} VPSHUFLW xmm, xmm, imm8        L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4097 AVX512VLBW      :{EVEX} VPSHUFLW ymm, ymm, imm8        L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4098 AVX512BW        :VPSHUFLW zmm, zmm, imm8               L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4099 AVX512VLBW      :VPSHUFHW xmm, xmm, imm8               L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4100 AVX512VLBW      :VPSHUFHW ymm, ymm, imm8               L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4099 AVX512VLBW      :{EVEX} VPSHUFHW xmm, xmm, imm8        L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4100 AVX512VLBW      :{EVEX} VPSHUFHW ymm, ymm, imm8        L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4101 AVX512BW        :VPSHUFHW zmm, zmm, imm8               L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4102 AVX512VL        :VPSHUFD xmm, xmm, imm8                L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-4103 AVX512VL        :VPSHUFD ymm, ymm, imm8                L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4102 AVX512VL        :{EVEX} VPSHUFD xmm, xmm, imm8         L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
+4103 AVX512VL        :{EVEX} VPSHUFD ymm, ymm, imm8         L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4104 AVX512F         :VPSHUFD zmm, zmm, imm8                L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4105 AVX512VL        :VSHUFI32X4 ymm, ymm, imm8             L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 4106 AVX512F         :VSHUFI32X4 zmm, zmm, imm8             L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
