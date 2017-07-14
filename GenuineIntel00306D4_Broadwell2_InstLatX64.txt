@@ -1,11 +1,11 @@
 Copyright (C) 1995-2017 FinalWire Ltd. All rights reserved.
-aida_bench64.dll build: 4.3.758.0 Jun  7 2017 19:06:58
-Arch:X64 CPUCount:4 NUMA:0 Freq: 1596.28MHz Priority:080
+aida_bench64.dll build: 4.3.764.0 Jul  4 2017 20:04:52
+Arch:X64 CPUCount:4 NUMA:0 Freq: 1596.25MHz Priority:080
 OS:6.3.15063 
 Memory: 16660060KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
 Memory To Test:16384KB 4K DTLB:768 2M DTLB:768 1G DTLB:  8 CLFlush:64
 ProcMask: 0x000000000000000f 
-Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,ABM,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,AVX,FMA3,MOVBE,F16C,HTT,RDRAND,FSGSBASE,BMI,CLFLUSH,X2APIC,TSCINV,RDTSCP,3DNOWPREF,LNOP,AVX2,BMI2,ERMS,PSE,RDSEED,ADX,SMAP,PAGE1GB,PT,UNSUPP,
+Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,ABM,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,AVX,FMA3,MOVBE,F16C,HTT,RDRAND,FSGSBASE,BMI,CLFLUSH,X2APIC,TSCINV,RDTSCP,3DNOWPREF,LNOP,AVX2,BMI2,ERMS,PSE,RDSEED,ADX,SMAP,PAGE1GB,PT,
 CPU#000 Vendor: GenuineIntel Family: 6 Modell: 3d Stepping: 4 CoreType:0x200306d4
 CPU#000 Type: "Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz"
 CPU#000 AffMask: 0x0000000000000001 
@@ -75,16 +75,16 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
    1 X86             :0x66 NOP                              L: [no true dep.]   T:   0.16ns=  0.25c
    2 X86             : 2x 0x66 NOP                          L: [no true dep.]   T:   0.16ns=  0.25c
    3 X86             : 3x 0x66 NOP                          L: [no true dep.]   T:   0.16ns=  0.25c
-   4 X86             : 4x 0x66 NOP                          L: [no true dep.]   T:   0.18ns=  0.29c
-   5 X86             : 5x 0x66 NOP                          L: [no true dep.]   T:   0.19ns=  0.31c
-   6 X86             : 6x 0x66 NOP                          L: [no true dep.]   T:   0.27ns=  0.43c
-   7 X86             : 7x 0x66 NOP                          L: [no true dep.]   T:   0.31ns=  0.49c
-   8 X86             : 8x 0x66 NOP                          L: [no true dep.]   T:   0.35ns=  0.57c
+   4 X86             : 4x 0x66 NOP                          L: [no true dep.]   T:   0.19ns=  0.31c
+   5 X86             : 5x 0x66 NOP                          L: [no true dep.]   T:   0.19ns=  0.30c
+   6 X86             : 6x 0x66 NOP                          L: [no true dep.]   T:   0.26ns=  0.42c
+   7 X86             : 7x 0x66 NOP                          L: [no true dep.]   T:   0.31ns=  0.50c
+   8 X86             : 8x 0x66 NOP                          L: [no true dep.]   T:   0.36ns=  0.57c
    9 X86             : 9x 0x66 NOP                          L: [no true dep.]   T:   0.37ns=  0.60c
   10 X86             :10x 0x66 NOP                          L: [no true dep.]   T:   0.43ns=  0.69c
   11 X86             :11x 0x66 NOP                          L: [no true dep.]   T:   0.48ns=  0.76c
-  12 X86             :12x 0x66 NOP                          L: [no true dep.]   T:   0.50ns=  0.80c
-  13 X86             :13x 0x66 NOP                          L: [no true dep.]   T:   0.55ns=  0.88c
+  12 X86             :12x 0x66 NOP                          L: [no true dep.]   T:   0.52ns=  0.82c
+  13 X86             :13x 0x66 NOP                          L: [no true dep.]   T:   0.57ns=  0.92c
   14 X86             :14x 0x66 NOP                          L: [no true dep.]   T:   0.57ns=  0.92c
   15 SSE2            :PAUSE                                 L: [no true dep.]   T:   5.95ns=  9.50c
   16 X86             :MOV r8, imm8                          L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
@@ -92,9 +92,9 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
   18 X86             :MOV r32, imm32                        L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
   19 AMD64           :MOV r64, imm64                        L:   0.63ns=  1.0c  T:   0.41ns=  0.65c
   20 X86             :MOV r8, r8                            L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
-  21 X86             :MOV r16, r16                          L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
+  21 X86             :MOV r16, r16                          L:   0.63ns=  1.0c  T:   0.20ns=  0.33c
   22 X86             :MOV r32, r32                          L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
-  23 AMD64           :MOV r64, r64                          L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
+  23 AMD64           :MOV r64, r64                          L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
   24 X86             :MOV r8, [m8]                          L:   3.76ns=  6.0c  T:   0.31ns=  0.50c
   25 X86             :MOV r16, [m16]                        L:   3.76ns=  6.0c  T:   0.31ns=  0.50c
   26 X86             :MOV r32, [m32]                        L:   2.51ns=  4.0c  T:   0.31ns=  0.50c
@@ -105,25 +105,25 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
   31 X86             :MOV [m32 + 8], r32                    L: [memory dep.]    T:   0.63ns=  1.00c
   32 AMD64           :MOV [m64], r64                        L: [memory dep.]    T:   0.63ns=  1.00c
   33 AMD64           :MOV [m64 + 16], r64                   L: [memory dep.]    T:   0.63ns=  1.00c
-  34 X86             :MOV r8,[m8]+MOV [m8],r8               L:   4.02ns=  6.4c  T:   0.41ns=  0.66c
-  35 X86             :MOV r16,[m16]+MOV [m16],r16           L:  14.46ns= 23.1c  T:   1.25ns=  2.00c
-  36 X86             :MOV r32,[m32]+MOV [m32],r32           L:  13.83ns= 22.1c  T:   1.31ns=  2.08c
-  37 AMD64           :MOV r64,[m64]+MOV [m64],r64           L:  13.83ns= 22.1c  T:   0.51ns=  0.81c
+  34 X86             :MOV r8,[m8]+MOV [m8],r8               L:   4.02ns=  6.4c  T:   0.43ns=  0.68c
+  35 X86             :MOV r16,[m16]+MOV [m16],r16           L:  14.46ns= 23.1c  T:   1.98ns=  3.17c
+  36 X86             :MOV r32,[m32]+MOV [m32],r32           L:  13.83ns= 22.1c  T:   1.25ns=  2.00c
+  37 AMD64           :MOV r64,[m64]+MOV [m64],r64           L:  13.83ns= 22.1c  T:   0.50ns=  0.80c
   38 SSE2            :MOVNTI [m32], r32                     L: [memory dep.]    T:   1.00ns=  1.00c
   39 AMD64           :MOVNTI [m64], r64                     L: [memory dep.]    T:   1.00ns=  1.00c
   40 CMOV            :CMOVNZ r16, r16                       L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
-  41 CMOV            :CMOVNZ r32, r32                       L:   0.63ns=  1.0c  T:   0.53ns=  0.84c
+  41 CMOV            :CMOVNZ r32, r32                       L:   0.63ns=  1.0c  T:   0.54ns=  0.86c
   42 AMD64           :CMOVNZ r64, r64                       L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
   43 X86             :MOVSX r16, r8                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
-  44 X86             :MOVSX r32, r8                         L:   0.63ns=  1.0c  T:   0.19ns=  0.30c
+  44 X86             :MOVSX r32, r8                         L:   0.63ns=  1.0c  T:   0.19ns=  0.31c
   45 AMD64           :MOVSX r64, r8                         L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
   46 X86             :MOVSX r32, r16                        L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
   47 AMD64           :MOVSX r64, r16                        L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
-  48 AMD64           :MOVSXD r64, r32                       L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
+  48 AMD64           :MOVSXD r64, r32                       L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
   49 X86             :MOVZX r16, r8                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
   50 X86             :MOVZX r32, r8                         L:   0.63ns=  1.0c  T:   0.19ns=  0.30c
   51 AMD64           :MOVZX r64, r8                         L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
-  52 X86             :MOVZX r32, r16                        L:   0.63ns=  1.0c  T:   0.20ns=  0.33c
+  52 X86             :MOVZX r32, r16                        L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
   53 AMD64           :MOVZX r64, r16                        L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
   54 X86             :XCHG r8, r8                           L:   1.31ns=  2.1c  T:   0.63ns=  1.00c
   55 X86             :XCHG r16, r16                         L:   1.31ns=  2.1c  T:   0.63ns=  1.00c
@@ -133,14 +133,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
   59 X86             :XCHG r1_16, r2_16                     L:   0.94ns=  1.5c  T:   0.63ns=  1.00c
   60 X86             :XCHG r1_32, r2_32                     L:   0.94ns=  1.5c  T:   0.63ns=  1.00c
   61 AMD64           :XCHG r1_64, r2_64                     L:   0.94ns=  1.5c  T:   0.63ns=  1.00c
-  62 X86             :XCHG r8, [m8]                         L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  63 X86             :XCHG r16, [m16]                       L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  64 X86             :XCHG r32, [m32]                       L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  65 AMD64           :XCHG r64, [m64]                       L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  66 X86             :ADD r32, 0x04000                      L:   0.63ns=  1.0c  T:   0.25ns=  0.40c
-  67 X86             :ADD r32, 0x08000                      L:   0.63ns=  1.0c  T:   0.24ns=  0.39c
-  68 X86             :ADD r32, 0x10000                      L:   0.63ns=  1.0c  T:   0.24ns=  0.38c
-  69 X86             :ADD r32, 0x20000                      L:   0.63ns=  1.0c  T:   0.23ns=  0.37c
+  62 X86             :XCHG r8, [m8]                         L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  63 X86             :XCHG r16, [m16]                       L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  64 X86             :XCHG r32, [m32]                       L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  65 AMD64           :XCHG r64, [m64]                       L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  66 X86             :ADD r32, 0x04000                      L:   0.63ns=  1.0c  T:   0.23ns=  0.37c
+  67 X86             :ADD r32, 0x08000                      L:   0.63ns=  1.0c  T:   0.23ns=  0.37c
+  68 X86             :ADD r32, 0x10000                      L:   0.63ns=  1.0c  T:   0.23ns=  0.37c
+  69 X86             :ADD r32, 0x20000                      L:   0.63ns=  1.0c  T:   0.24ns=  0.38c
   70 X86             :ADD r8, r8                            L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
   71 X86             :ADD r16, r16                          L:   0.63ns=  1.0c  T:   0.23ns=  0.37c
   72 X86             :ADD r32, r32                          L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
@@ -149,44 +149,44 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
   75 X86             :ADD r16, [m16]                        L:   3.76ns=  6.0c  T:   0.31ns=  0.50c
   76 X86             :ADD r32, [m32]                        L:   3.76ns=  6.0c  T:   0.31ns=  0.50c
   77 AMD64           :ADD r64, [m64]                        L:   3.76ns=  6.0c  T:   0.31ns=  0.50c
-  78 X86             :ADD [m8], r8                          L:   3.76ns=  6.0c  T:   0.40ns=  0.64c
+  78 X86             :ADD [m8], r8                          L:   3.76ns=  6.0c  T:   0.44ns=  0.70c
   79 X86             :ADD [m16], r16                        L:   3.76ns=  6.0c  T:   0.44ns=  0.70c
-  80 X86             :ADD [m32], r32                        L:   3.76ns=  6.0c  T:   0.43ns=  0.69c
-  81 X86             :ADD [m32 + 8], r32                    L:   3.76ns=  6.0c  T:   0.43ns=  0.69c
-  82 AMD64           :ADD [m64], r64                        L:   3.76ns=  6.0c  T:   0.51ns=  0.81c
-  83 AMD64           :ADD [m64 + 16], r64                   L:   3.76ns=  6.0c  T:   0.35ns=  0.55c
-  84 X86             :LOCK ADD [m8], r8                     L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  85 X86             :LOCK ADD [m16], r16                   L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  86 X86             :LOCK ADD [m32], r32                   L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  87 X86             :LOCK ADD [m32 + 8], r32               L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  88 AMD64           :LOCK ADD [m64], r64                   L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  89 AMD64           :LOCK ADD [m64 + 16], r64              L:  13.16ns= 21.0c  T:  14.46ns= 23.08c
-  90 X86             :ADD r8, imm8                          L:   0.63ns=  1.0c  T:   0.25ns=  0.40c
+  80 X86             :ADD [m32], r32                        L:   3.76ns=  6.0c  T:   0.40ns=  0.64c
+  81 X86             :ADD [m32 + 8], r32                    L:   3.76ns=  6.0c  T:   0.40ns=  0.64c
+  82 AMD64           :ADD [m64], r64                        L:   3.76ns=  6.0c  T:   0.47ns=  0.75c
+  83 AMD64           :ADD [m64 + 16], r64                   L:   3.76ns=  6.0c  T:   0.35ns=  0.56c
+  84 X86             :LOCK ADD [m8], r8                     L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  85 X86             :LOCK ADD [m16], r16                   L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  86 X86             :LOCK ADD [m32], r32                   L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  87 X86             :LOCK ADD [m32 + 8], r32               L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  88 AMD64           :LOCK ADD [m64], r64                   L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  89 AMD64           :LOCK ADD [m64 + 16], r64              L:  13.16ns= 21.0c  T:  14.41ns= 23.00c
+  90 X86             :ADD r8, imm8                          L:   0.63ns=  1.0c  T:   0.25ns=  0.41c
   91 X86             :ADD r16, imm8                         L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
   92 X86             :ADD r32, imm8                         L:   0.63ns=  1.0c  T:   0.26ns=  0.41c
   93 AMD64           :ADD r64, imm8                         L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
   94 X86             :ADD r16, imm16                        L:   2.09ns=  3.3c  T:   2.09ns=  3.33c
-  95 X86             :ADD r32, imm32                        L:   0.63ns=  1.0c  T:   0.24ns=  0.39c
-  96 AMD64           :ADD r64, imm32                        L:   0.63ns=  1.0c  T:   0.28ns=  0.45c
-  97 X86             :ADD [m8],  imm8                       L:   3.76ns=  6.0c  T:   0.38ns=  0.61c
-  98 X86             :ADD [m16], imm8                       L:   3.76ns=  6.0c  T:   0.42ns=  0.68c
-  99 X86             :ADD [m32], imm8                       L:   3.76ns=  6.0c  T:   0.40ns=  0.64c
- 100 AMD64           :ADD [m64], imm8                       L:   3.76ns=  6.0c  T:   0.44ns=  0.70c
- 101 X86             :ADD [m16], imm16                      L:   3.76ns=  6.0c  T:   1.93ns=  3.08c
- 102 X86             :ADD [m32], imm32                      L:   3.76ns=  6.0c  T:   0.36ns=  0.58c
+  95 X86             :ADD r32, imm32                        L:   0.63ns=  1.0c  T:   0.24ns=  0.38c
+  96 AMD64           :ADD r64, imm32                        L:   0.63ns=  1.0c  T:   0.28ns=  0.44c
+  97 X86             :ADD [m8],  imm8                       L:   3.76ns=  6.0c  T:   0.38ns=  0.60c
+  98 X86             :ADD [m16], imm8                       L:   3.76ns=  6.0c  T:   0.36ns=  0.57c
+  99 X86             :ADD [m32], imm8                       L:   3.76ns=  6.0c  T:   0.36ns=  0.57c
+ 100 AMD64           :ADD [m64], imm8                       L:   3.76ns=  6.0c  T:   0.40ns=  0.65c
+ 101 X86             :ADD [m16], imm16                      L:   3.76ns=  6.0c  T:   2.04ns=  3.25c
+ 102 X86             :ADD [m32], imm32                      L:   3.76ns=  6.0c  T:   0.36ns=  0.57c
  103 AMD64           :ADD [m64], imm32                      L:   3.76ns=  6.0c  T:   0.41ns=  0.65c
  104 X86             :ADD al, imm8                          L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  105 X86             :ADD ax, imm16                         L:   2.04ns=  3.3c  T:   2.04ns=  3.25c
  106 X86             :ADD eax, imm32                        L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  107 AMD64           :ADD rax, imm32                        L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
- 108 X86             :SUB r8, r8                            L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
- 109 X86             :SUB r16, r16                          L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
+ 108 X86             :SUB r8, r8                            L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
+ 109 X86             :SUB r16, r16                          L:   0.63ns=  1.0c  T:   0.23ns=  0.36c
  110 X86             :SUB r32, r32                          L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
  111 AMD64           :SUB r64, r64                          L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
  112 X86             :SUB r1_8, r2_8                        L:   0.63ns=  1.0c  T:   0.19ns=  0.30c
- 113 X86             :SUB r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.19ns=  0.30c
+ 113 X86             :SUB r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.19ns=  0.31c
  114 X86             :SUB r1_32, r2_32                      L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
- 115 AMD64           :SUB r1_64, r2_64                      L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
+ 115 AMD64           :SUB r1_64, r2_64                      L:   0.63ns=  1.0c  T:   0.20ns=  0.33c
  116 X86             :ADC r8, r8                            L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  117 X86             :ADC r16, r16                          L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  118 X86             :ADC r32, r32                          L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
@@ -199,84 +199,84 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  125 X86             :SBB r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  126 X86             :SBB r1_32, r2_32                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  127 AMD64           :SBB r1_64, r2_64                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
- 128 X86             :CMP r8, r8                            L: [no true dep.]   T:   0.19ns=  0.31c
- 129 X86             :CMP r16, r16                          L: [no true dep.]   T:   0.18ns=  0.29c
- 130 X86             :CMP r32, r32                          L: [no true dep.]   T:   0.19ns=  0.31c
- 131 AMD64           :CMP r64, r64                          L: [no true dep.]   T:   0.21ns=  0.33c
- 132 X86             :CMP r1_8, r2_8                        L: [no true dep.]   T:   0.21ns=  0.33c
- 133 X86             :CMP r1_16, r2_16                      L: [no true dep.]   T:   0.18ns=  0.29c
+ 128 X86             :CMP r8, r8                            L: [no true dep.]   T:   0.20ns=  0.32c
+ 129 X86             :CMP r16, r16                          L: [no true dep.]   T:   0.19ns=  0.31c
+ 130 X86             :CMP r32, r32                          L: [no true dep.]   T:   0.20ns=  0.33c
+ 131 AMD64           :CMP r64, r64                          L: [no true dep.]   T:   0.20ns=  0.33c
+ 132 X86             :CMP r1_8, r2_8                        L: [no true dep.]   T:   0.20ns=  0.33c
+ 133 X86             :CMP r1_16, r2_16                      L: [no true dep.]   T:   0.19ns=  0.30c
  134 X86             :CMP r1_32, r2_32                      L: [no true dep.]   T:   0.20ns=  0.33c
- 135 AMD64           :CMP r1_64, r2_64                      L: [no true dep.]   T:   0.21ns=  0.34c
+ 135 AMD64           :CMP r1_64, r2_64                      L: [no true dep.]   T:   0.21ns=  0.33c
  136 X86             :AND r8, r8                            L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
- 137 X86             :AND r16, r16                          L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
+ 137 X86             :AND r16, r16                          L:   0.63ns=  1.0c  T:   0.23ns=  0.36c
  138 X86             :AND r32, r32                          L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
- 139 AMD64           :AND r64, r64                          L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
+ 139 AMD64           :AND r64, r64                          L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
  140 X86             :AND r1_8, r2_8                        L:   0.63ns=  1.0c  T:   0.19ns=  0.31c
- 141 X86             :AND r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.19ns=  0.30c
- 142 X86             :AND r1_32, r2_32                      L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
- 143 AMD64           :AND r1_64, r2_64                      L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
- 144 X86             :OR r8, r8                             L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
- 145 X86             :OR r16, r16                           L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
+ 141 X86             :AND r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.20ns=  0.33c
+ 142 X86             :AND r1_32, r2_32                      L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
+ 143 AMD64           :AND r1_64, r2_64                      L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
+ 144 X86             :OR r8, r8                             L:   0.63ns=  1.0c  T:   0.15ns=  0.25c
+ 145 X86             :OR r16, r16                           L:   0.63ns=  1.0c  T:   0.19ns=  0.31c
  146 X86             :OR r32, r32                           L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
- 147 AMD64           :OR r64, r64                           L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
- 148 X86             :OR r1_8, r2_8                         L:   0.63ns=  1.0c  T:   0.51ns=  0.81c
- 149 X86             :OR r1_16, r2_16                       L:   0.63ns=  1.0c  T:   0.17ns=  0.28c
+ 147 AMD64           :OR r64, r64                           L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
+ 148 X86             :OR r1_8, r2_8                         L:   0.63ns=  1.0c  T:   0.36ns=  0.58c
+ 149 X86             :OR r1_16, r2_16                       L:   0.63ns=  1.0c  T:   0.17ns=  0.27c
  150 X86             :OR r1_32, r2_32                       L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
  151 AMD64           :OR r1_64, r2_64                       L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
  152 X86             :XOR r8, r8                            L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
  153 X86             :XOR r16, r16                          L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
  154 X86             :XOR r32, r32                          L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
  155 AMD64           :XOR r64, r64                          L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
- 156 X86             :XOR r1_8, r2_8                        L:   0.63ns=  1.0c  T:   0.51ns=  0.81c
- 157 X86             :XOR r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.17ns=  0.28c
+ 156 X86             :XOR r1_8, r2_8                        L:   0.63ns=  1.0c  T:   0.36ns=  0.57c
+ 157 X86             :XOR r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.17ns=  0.27c
  158 X86             :XOR r1_32, r2_32                      L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
  159 AMD64           :XOR r1_64, r2_64                      L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
  160 X86             :NEG r8                                L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
- 161 X86             :NEG r16                               L:   0.63ns=  1.0c  T:   0.29ns=  0.46c
+ 161 X86             :NEG r16                               L:   0.63ns=  1.0c  T:   0.29ns=  0.47c
  162 X86             :NEG r32                               L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
- 163 AMD64           :NEG r64                               L:   0.63ns=  1.0c  T:   0.19ns=  0.31c
+ 163 AMD64           :NEG r64                               L:   0.63ns=  1.0c  T:   0.19ns=  0.30c
  164 X86             :NOT r8                                L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
- 165 X86             :NOT r16                               L:   0.63ns=  1.0c  T:   0.28ns=  0.45c
+ 165 X86             :NOT r16                               L:   0.63ns=  1.0c  T:   0.29ns=  0.47c
  166 X86             :NOT r32                               L:   0.63ns=  1.0c  T:   0.16ns=  0.25c
- 167 AMD64           :NOT r64                               L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
- 168 X86             :TEST r8, r8                           L: [no true dep.]   T:   0.20ns=  0.31c
- 169 X86             :TEST r16, r16                         L: [no true dep.]   T:   0.19ns=  0.31c
- 170 X86             :TEST r32, r32                         L: [no true dep.]   T:   0.20ns=  0.33c
+ 167 AMD64           :NOT r64                               L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
+ 168 X86             :TEST r8, r8                           L: [no true dep.]   T:   0.20ns=  0.33c
+ 169 X86             :TEST r16, r16                         L: [no true dep.]   T:   0.19ns=  0.30c
+ 170 X86             :TEST r32, r32                         L: [no true dep.]   T:   0.20ns=  0.32c
  171 AMD64           :TEST r64, r64                         L: [no true dep.]   T:   0.21ns=  0.33c
- 172 X86             :TEST r1_8, r2_8                       L: [no true dep.]   T:   0.20ns=  0.33c
- 173 X86             :TEST r1_16, r2_16                     L: [no true dep.]   T:   0.19ns=  0.30c
+ 172 X86             :TEST r1_8, r2_8                       L: [no true dep.]   T:   0.20ns=  0.32c
+ 173 X86             :TEST r1_16, r2_16                     L: [no true dep.]   T:   0.19ns=  0.31c
  174 X86             :TEST r1_32, r2_32                     L: [no true dep.]   T:   0.20ns=  0.33c
  175 AMD64           :TEST r1_64, r2_64                     L: [no true dep.]   T:   0.21ns=  0.33c
  176 X86             :BT r16, r16                           L: [no true dep.]   T:   0.57ns=  0.92c
- 177 X86             :BT r32, r32                           L: [no true dep.]   T:   0.49ns=  0.79c
+ 177 X86             :BT r32, r32                           L: [no true dep.]   T:   0.50ns=  0.81c
  178 AMD64           :BT r64, r64                           L: [no true dep.]   T:   0.63ns=  1.00c
  179 X86             :BT r16, imm8                          L: [no true dep.]   T:   0.57ns=  0.92c
- 180 X86             :BT r32, imm8                          L: [no true dep.]   T:   0.53ns=  0.85c
+ 180 X86             :BT r32, imm8                          L: [no true dep.]   T:   0.57ns=  0.92c
  181 AMD64           :BT r64, imm8                          L: [no true dep.]   T:   0.63ns=  1.00c
  182 X86             :BTC r16, r16                          L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
- 183 X86             :BTC r32, r32                          L:   0.63ns=  1.0c  T:   0.48ns=  0.76c
+ 183 X86             :BTC r32, r32                          L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
  184 AMD64           :BTC r64, r64                          L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  185 X86             :BTC r16, imm8                         L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
  186 X86             :BTC r32, imm8                         L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
  187 AMD64           :BTC r64, imm8                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  188 X86             :BTR r16, r16                          L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
- 189 X86             :BTR r32, r32                          L:   0.63ns=  1.0c  T:   0.47ns=  0.75c
+ 189 X86             :BTR r32, r32                          L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
  190 AMD64           :BTR r64, r64                          L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
- 191 X86             :BTR r16, imm8                         L:   0.63ns=  1.0c  T:   0.56ns=  0.90c
- 192 X86             :BTR r32, imm8                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
+ 191 X86             :BTR r16, imm8                         L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
+ 192 X86             :BTR r32, imm8                         L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
  193 AMD64           :BTR r64, imm8                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  194 X86             :BTS r16, r16                          L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
- 195 X86             :BTS r32, r32                          L:   0.63ns=  1.0c  T:   0.48ns=  0.77c
+ 195 X86             :BTS r32, r32                          L:   0.63ns=  1.0c  T:   0.47ns=  0.75c
  196 AMD64           :BTS r64, r64                          L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  197 X86             :BTS r16, imm8                         L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
  198 X86             :BTS r32, imm8                         L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
  199 AMD64           :BTS r64, imm8                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
- 200 X86             :SETC r8                               L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
- 201 X86             :INC r8                                L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
+ 200 X86             :SETC r8                               L:   0.63ns=  1.0c  T:   0.57ns=  0.92c
+ 201 X86             :INC r8                                L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
  202 X86             :INC r16                               L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
- 203 X86             :INC r32                               L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
- 204 AMD64           :INC r64                               L:   0.63ns=  1.0c  T:   0.20ns=  0.33c
- 205 X86             :LEA r16, [r16+r16]                    L:   1.25ns=  2.0c  T:   0.57ns=  0.92c
+ 203 X86             :INC r32                               L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
+ 204 AMD64           :INC r64                               L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
+ 205 X86             :LEA r16, [r16+r16]                    L:   1.25ns=  2.0c  T:   0.63ns=  1.00c
  206 X86             :LEA r32, [r32+r32]                    L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
  207 AMD64           :LEA r64, [r64+r64]                    L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
  208 X86             :LEA r16, [r+r+disp8]                  L:   2.51ns=  4.0c  T:   0.63ns=  1.00c
@@ -328,13 +328,13 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  254 X86             :SHLD r32, r32, imm8                   L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
  255 AMD64           :SHLD r64, r64, imm8                   L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
  256 X86             :SHLD r16, r16, cl                     L:   2.56ns=  4.1c  T:   1.25ns=  2.00c
- 257 X86             :SHLD r32, r32, cl                     L:   2.56ns=  4.1c  T:   1.25ns=  2.00c
+ 257 X86             :SHLD r32, r32, cl                     L:   2.51ns=  4.0c  T:   1.25ns=  2.00c
  258 AMD64           :SHLD r64, r64, cl                     L:   2.56ns=  4.1c  T:   1.25ns=  2.00c
  259 X86             :SHRD r16, r16, imm8                   L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
  260 X86             :SHRD r32, r32, imm8                   L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
  261 AMD64           :SHRD r64, r64, imm8                   L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
  262 X86             :SHRD r16, r16, cl                     L:   2.56ns=  4.1c  T:   1.25ns=  2.00c
- 263 X86             :SHRD r32, r32, cl                     L:   2.51ns=  4.0c  T:   1.25ns=  2.00c
+ 263 X86             :SHRD r32, r32, cl                     L:   2.56ns=  4.1c  T:   1.25ns=  2.00c
  264 AMD64           :SHRD r64, r64, cl                     L:   2.56ns=  4.1c  T:   1.25ns=  2.00c
  265 X86             :ROL r8, 1                             L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  266 X86             :ROL r16, 1                            L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
@@ -364,13 +364,13 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  290 X86             :RCL r16, 1                            L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
  291 X86             :RCL r32, 1                            L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
  292 AMD64           :RCL r64, 1                            L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
- 293 X86             :RCL r8, imm8                          L:   3.97ns=  6.3c  T:   3.34ns=  5.33c
- 294 X86             :RCL r16, imm8                         L:   4.39ns=  7.0c  T:   4.39ns=  7.00c
- 295 X86             :RCL r32, imm8                         L:   4.39ns=  7.0c  T:   4.39ns=  7.00c
- 296 AMD64           :RCL r64, imm8                         L:   4.39ns=  7.0c  T:   4.39ns=  7.00c
+ 293 X86             :RCL r8, imm8                          L:   3.97ns=  6.3c  T:   3.39ns=  5.42c
+ 294 X86             :RCL r16, imm8                         L:   4.44ns=  7.1c  T:   4.44ns=  7.08c
+ 295 X86             :RCL r32, imm8                         L:   4.44ns=  7.1c  T:   4.44ns=  7.08c
+ 296 AMD64           :RCL r64, imm8                         L:   4.44ns=  7.1c  T:   4.44ns=  7.08c
  297 X86             :RCL r8, cl                            L:   3.97ns=  6.3c  T:   3.29ns=  5.25c
- 298 X86             :RCL r16, cl                           L:   4.44ns=  7.1c  T:   4.44ns=  7.08c
- 299 X86             :RCL r32, cl                           L:   4.44ns=  7.1c  T:   4.44ns=  7.08c
+ 298 X86             :RCL r16, cl                           L:   4.39ns=  7.0c  T:   4.39ns=  7.00c
+ 299 X86             :RCL r32, cl                           L:   4.39ns=  7.0c  T:   4.39ns=  7.00c
  300 AMD64           :RCL r64, cl                           L:   4.44ns=  7.1c  T:   4.44ns=  7.08c
  301 X86             :RCR r8, 1                             L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
  302 X86             :RCR r16, 1                            L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
@@ -393,7 +393,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  319 X86             :BSWAP r32                             L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  320 AMD64           :BSWAP r64                             L:   1.25ns=  2.0c  T:   0.63ns=  1.00c
  321 MOVBE           :MOVBE r16, [m16]                      L:   4.39ns=  7.0c  T:   0.63ns=  1.00c
- 322 MOVBE           :MOVBE r32, [m32]                      L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
+ 322 MOVBE           :MOVBE r32, [m32]                      L:   3.76ns=  6.0c  T:   0.68ns=  1.08c
  323 MOVBE           :MOVBE r64, [m64]                      L:   4.39ns=  7.0c  T:   0.63ns=  1.00c
  324 MOVBE           :MOVBE [m16], r16                      L: [memory dep.]    T:   0.63ns=  1.00c
  325 MOVBE           :MOVBE [m32], r32                      L: [memory dep.]    T:   0.63ns=  1.00c
@@ -404,7 +404,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  330 X86             :IMUL r16, r16, imm8                   L:   2.51ns=  4.0c  T:   0.63ns=  1.00c
  331 X86             :IMUL r32, r32, imm8                   L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
  332 AMD64           :IMUL r64, r64, imm8                   L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
- 333 X86             :IMUL r16, r16, imm16                  L:   2.51ns=  4.0c  T:   1.98ns=  3.17c
+ 333 X86             :IMUL r16, r16, imm16                  L:   2.51ns=  4.0c  T:   2.04ns=  3.25c
  334 X86             :IMUL r32, r32, imm32                  L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
  335 AMD64           :IMUL r64, r64, imm32                  L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
  336 X86             :IMUL r8  (ah)                         L:   2.51ns=  4.0c  T:   1.88ns=  3.00c
@@ -424,31 +424,31 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  350 X86             :MUL r32  (eax)                        L:   2.61ns=  4.2c  T:   2.61ns=  4.17c
  351 AMD64           :MUL r64  (rax)                        L:   1.88ns=  3.0c  T:   1.88ns=  3.00c
  352 X86             :IDIV r8 14/ 7b (full)                 L:  15.71ns= 25.1c  T:  15.09ns= 24.08c
- 353 X86             :IDIV r8 12/ 7b ax upd                 L:  14.46ns= 23.1c  T:  13.83ns= 22.08c
+ 353 X86             :IDIV r8 12/ 7b ax upd                 L:  14.46ns= 23.1c  T:  13.78ns= 22.00c
  354 X86             :IDIV r8  7/ 7b ax upd                 L:  16.34ns= 26.1c  T:  15.66ns= 25.00c
  355 X86             :IDIV r8  4/ 7b ax upd                 L: [no true dep.]   T:  13.78ns= 22.00c
- 356 X86             :IDIV r8  0/ 7b                        L: [no true dep.]   T:  13.21ns= 21.08c
+ 356 X86             :IDIV r8  0/ 7b                        L: [no true dep.]   T:  13.16ns= 21.00c
  357 X86             :IDIV r8 11/ 4b ax upd                 L:  14.46ns= 23.1c  T:  13.78ns= 22.00c
  358 X86             :IDIV r8  8/ 4b ax upd                 L: [no true dep.]   T:  13.78ns= 22.00c
- 359 X86             :IDIV r8  4/ 4b ax upd                 L:  16.34ns= 26.1c  T:  15.71ns= 25.08c
- 360 X86             :IDIV r8  0/ 4b                        L: [no true dep.]   T:  13.21ns= 21.08c
- 361 X86             :IDIV r8 2^12/2^6 ax upd               L: [no true dep.]   T:  13.83ns= 22.08c
- 362 X86             :IDIV r8 1/1                           L:  13.83ns= 22.1c  T:  13.21ns= 21.08c
+ 359 X86             :IDIV r8  4/ 4b ax upd                 L:  16.34ns= 26.1c  T:  15.66ns= 25.00c
+ 360 X86             :IDIV r8  0/ 4b                        L: [no true dep.]   T:  13.16ns= 21.00c
+ 361 X86             :IDIV r8 2^12/2^6 ax upd               L: [no true dep.]   T:  13.78ns= 22.00c
+ 362 X86             :IDIV r8 1/1                           L:  13.83ns= 22.1c  T:  13.16ns= 21.00c
  363 X86             :IDIV r8 1/1 ax upd                    L:  14.46ns= 23.1c  T:  13.78ns= 22.00c
  364 X86             :IDIV r16 30/15b (full)                L:  16.18ns= 25.8c  T:  16.08ns= 25.67c
  365 X86             :IDIV r16 24/15b ax upd                L:  16.29ns= 26.0c  T:  16.03ns= 25.58c
- 366 X86             :IDIV r16 15/15b ax upd                L:  16.29ns= 26.0c  T:  16.03ns= 25.58c
- 367 X86             :IDIV r16  8/15b ax/dx upd             L: [no true dep.]   T:  14.72ns= 23.50c
- 368 X86             :IDIV r16  0/15b                       L: [no true dep.]   T:  14.20ns= 22.67c
+ 366 X86             :IDIV r16 15/15b ax upd                L:  16.34ns= 26.1c  T:  16.03ns= 25.58c
+ 367 X86             :IDIV r16  8/15b ax/dx upd             L: [no true dep.]   T:  14.67ns= 23.42c
+ 368 X86             :IDIV r16  0/15b                       L: [no true dep.]   T:  14.15ns= 22.58c
  369 X86             :IDIV r16 23/ 8b ax upd                L:  16.29ns= 26.0c  T:  16.03ns= 25.58c
  370 X86             :IDIV r16 16/ 8b ax upd                L: [no true dep.]   T:  16.03ns= 25.58c
- 371 X86             :IDIV r16  8/ 8b ax upd                L:  16.24ns= 25.9c  T:  16.03ns= 25.58c
+ 371 X86             :IDIV r16  8/ 8b ax upd                L:  16.29ns= 26.0c  T:  16.03ns= 25.58c
  372 X86             :IDIV r16  0/ 8b                       L: [no true dep.]   T:  14.15ns= 22.58c
- 373 X86             :IDIV r16 2^28/2^14 ax/dx              L: [no true dep.]   T:  16.60ns= 26.50c
- 374 X86             :IDIV r16 1/1                          L:  14.30ns= 22.8c  T:  14.20ns= 22.67c
+ 373 X86             :IDIV r16 2^28/2^14 ax/dx              L: [no true dep.]   T:  16.55ns= 26.42c
+ 374 X86             :IDIV r16 1/1                          L:  14.30ns= 22.8c  T:  14.15ns= 22.58c
  375 X86             :IDIV r16 1/1 ax upd                   L:  14.41ns= 23.0c  T:  14.15ns= 22.58c
- 376 X86             :IDIV r16 1/1 ax/dx upd                L:  14.93ns= 23.8c  T:  14.72ns= 23.50c
- 377 X86             :IDIV r32 62/31b (full)                L:  18.01ns= 28.8c  T:  17.91ns= 28.58c
+ 376 X86             :IDIV r16 1/1 ax/dx upd                L:  14.93ns= 23.8c  T:  14.67ns= 23.42c
+ 377 X86             :IDIV r32 62/31b (full)                L:  18.17ns= 29.0c  T:  17.85ns= 28.50c
  378 X86             :IDIV r32 62/31b 0 rem.                L:  18.17ns= 29.0c  T:  17.91ns= 28.58c
  379 X86             :IDIV r32 48/31b eax upd               L:  15.30ns= 24.4c  T:  15.30ns= 24.42c
  380 X86             :IDIV r32 31/31b eax upd               L:  15.30ns= 24.4c  T:  15.30ns= 24.42c
@@ -462,20 +462,20 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  388 X86             :IDIV r32 1/1                          L:  13.78ns= 22.0c  T:  13.47ns= 21.50c
  389 X86             :IDIV r32 1/1 eax upd                  L:  13.42ns= 21.4c  T:  13.42ns= 21.42c
  390 X86             :IDIV r32 1/1 eax/edx upd              L:   3.76ns=  6.0c  T:   3.76ns=  6.00c
- 391 AMD64           :IDIV r64 126/63b (full)               L:  64.63ns=103.2c  T:  64.63ns=103.17c
- 392 AMD64           :IDIV r64 126/63b 0 rem.               L:  64.63ns=103.2c  T:  64.63ns=103.17c
+ 391 AMD64           :IDIV r64 126/63b (full)               L:  64.63ns=103.2c  T:  64.47ns=102.92c
+ 392 AMD64           :IDIV r64 126/63b 0 rem.               L:  64.63ns=103.2c  T:  64.47ns=102.92c
  393 AMD64           :IDIV r64 96/63b rax upd               L:  59.41ns= 94.8c  T:  59.41ns= 94.83c
  394 AMD64           :IDIV r64 63/63b rax upd               L:  25.42ns= 40.6c  T:  25.42ns= 40.58c
- 395 AMD64           :IDIV r64 32/63b rax/rdx               L: [no true dep.]   T:  15.30ns= 24.42c
- 396 AMD64           :IDIV r64  0/63b                       L: [no true dep.]   T:  24.48ns= 39.08c
- 397 AMD64           :IDIV r64 95/32b rax upd               L:  64.42ns=102.8c  T:  64.42ns=102.83c
- 398 AMD64           :IDIV r64 64/32b rax upd               L: [no true dep.]   T:  28.03ns= 44.75c
+ 395 AMD64           :IDIV r64 32/63b rax/rdx               L: [no true dep.]   T:  15.24ns= 24.33c
+ 396 AMD64           :IDIV r64  0/63b                       L: [no true dep.]   T:  24.43ns= 39.00c
+ 397 AMD64           :IDIV r64 95/32b rax upd               L:  64.37ns=102.8c  T:  64.37ns=102.75c
+ 398 AMD64           :IDIV r64 64/32b rax upd               L: [no true dep.]   T:  27.98ns= 44.67c
  399 AMD64           :IDIV r64 32/32b rax upd               L:  25.42ns= 40.6c  T:  25.42ns= 40.58c
- 400 AMD64           :IDIV r64  0/32b                       L: [no true dep.]   T:  24.48ns= 39.08c
- 401 AMD64           :IDIV r64 2^124/2^62 rax/rdx           L: [no true dep.]   T:  51.37ns= 82.00c
- 402 AMD64           :IDIV r64 1/1                          L:  25.48ns= 40.7c  T:  24.48ns= 39.08c
+ 400 AMD64           :IDIV r64  0/32b                       L: [no true dep.]   T:  24.43ns= 39.00c
+ 401 AMD64           :IDIV r64 2^124/2^62 rax/rdx           L: [no true dep.]   T:  50.95ns= 81.33c
+ 402 AMD64           :IDIV r64 1/1                          L:  25.48ns= 40.7c  T:  24.43ns= 39.00c
  403 AMD64           :IDIV r64 1/1 rax upd                  L:  23.60ns= 37.7c  T:  23.60ns= 37.67c
- 404 AMD64           :IDIV r64 1/1 rax/rdx upd              L:  15.30ns= 24.4c  T:  15.30ns= 24.42c
+ 404 AMD64           :IDIV r64 1/1 rax/rdx upd              L:  15.30ns= 24.4c  T:  15.24ns= 24.33c
  405 X86             :DIV r8 16/ 8b (full)                  L:  15.24ns= 24.3c  T:  14.46ns= 23.08c
  406 X86             :DIV r8 12/ 8b ax upd                  L:  13.89ns= 22.2c  T:  13.21ns= 21.08c
  407 X86             :DIV r8  8/ 8b ax upd                  L:  15.77ns= 25.2c  T:  15.09ns= 24.08c
@@ -488,45 +488,45 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  414 X86             :DIV r8 2^14/2^7 ax upd                L: [no true dep.]   T:  13.21ns= 21.08c
  415 X86             :DIV r8 1/1                            L:  13.36ns= 21.3c  T:  12.58ns= 20.08c
  416 X86             :DIV r8 1/1 ax upd                     L:  13.89ns= 22.2c  T:  13.21ns= 21.08c
- 417 X86             :DIV r16 32/16b (full)                 L:  16.24ns= 25.9c  T:  16.13ns= 25.75c
- 418 X86             :DIV r16 30/15b 0 rem.                 L:  16.24ns= 25.9c  T:  16.13ns= 25.75c
- 419 X86             :DIV r16 24/16b ax upd                 L:  16.18ns= 25.8c  T:  15.97ns= 25.50c
- 420 X86             :DIV r16 16/16b ax upd                 L:  16.18ns= 25.8c  T:  15.97ns= 25.50c
- 421 X86             :DIV r16  8/16b ax/dx upd              L: [no true dep.]   T:  14.72ns= 23.50c
+ 417 X86             :DIV r16 32/16b (full)                 L:  16.24ns= 25.9c  T:  16.08ns= 25.67c
+ 418 X86             :DIV r16 30/15b 0 rem.                 L:  16.24ns= 25.9c  T:  16.08ns= 25.67c
+ 419 X86             :DIV r16 24/16b ax upd                 L:  16.18ns= 25.8c  T:  15.92ns= 25.42c
+ 420 X86             :DIV r16 16/16b ax upd                 L:  16.18ns= 25.8c  T:  15.92ns= 25.42c
+ 421 X86             :DIV r16  8/16b ax/dx upd              L: [no true dep.]   T:  14.67ns= 23.42c
  422 X86             :DIV r16  0/16b                        L: [no true dep.]   T:  14.20ns= 22.67c
- 423 X86             :DIV r16 24/ 8b ax upd                 L:  16.18ns= 25.8c  T:  15.97ns= 25.50c
+ 423 X86             :DIV r16 24/ 8b ax upd                 L:  16.18ns= 25.8c  T:  15.92ns= 25.42c
  424 X86             :DIV r16 16/ 8b ax upd                 L: [no true dep.]   T:  15.92ns= 25.42c
- 425 X86             :DIV r16  8/ 8b ax upd                 L:  16.18ns= 25.8c  T:  15.97ns= 25.50c
+ 425 X86             :DIV r16  8/ 8b ax upd                 L:  16.18ns= 25.8c  T:  15.92ns= 25.42c
  426 X86             :DIV r16  0/ 8b                        L: [no true dep.]   T:  14.20ns= 22.67c
- 427 X86             :DIV r16 1/1                           L:  14.36ns= 22.9c  T:  14.25ns= 22.75c
+ 427 X86             :DIV r16 1/1                           L:  14.36ns= 22.9c  T:  14.20ns= 22.67c
  428 X86             :DIV r16 1/1 ax upd                    L:  14.30ns= 22.8c  T:  14.10ns= 22.50c
- 429 X86             :DIV r16 1/1 ax/dx upd                 L:  15.03ns= 24.0c  T:  14.72ns= 23.50c
- 430 X86             :DIV r32 64/32b (full)                 L:  18.12ns= 28.9c  T:  18.01ns= 28.75c
+ 429 X86             :DIV r16 1/1 ax/dx upd                 L:  15.04ns= 24.0c  T:  14.67ns= 23.42c
+ 430 X86             :DIV r32 64/32b (full)                 L:  18.12ns= 28.9c  T:  17.96ns= 28.67c
  431 X86             :DIV r32 62/31b 0 rem.                 L:  18.12ns= 28.9c  T:  17.96ns= 28.67c
  432 X86             :DIV r32 48/32b eax upd                L:  15.24ns= 24.3c  T:  15.24ns= 24.33c
  433 X86             :DIV r32 32/32b eax upd                L:  15.24ns= 24.3c  T:  15.24ns= 24.33c
  434 X86             :DIV r32 16/32b eax/edx                L: [no true dep.]   T:   5.64ns=  9.00c
  435 X86             :DIV r32  0/32b                        L: [no true dep.]   T:  13.57ns= 21.67c
  436 X86             :DIV r32 48/16b eax upd                L:  17.75ns= 28.3c  T:  17.75ns= 28.33c
- 437 X86             :DIV r32 32/16b eax upd                L: [no true dep.]   T:  15.30ns= 24.42c
- 438 X86             :DIV r32 16/16b eax upd                L:  15.14ns= 24.2c  T:  15.14ns= 24.17c
+ 437 X86             :DIV r32 32/16b eax upd                L: [no true dep.]   T:  15.24ns= 24.33c
+ 438 X86             :DIV r32 16/16b eax upd                L:  15.24ns= 24.3c  T:  15.24ns= 24.33c
  439 X86             :DIV r32  0/16b                        L: [no true dep.]   T:  13.57ns= 21.67c
  440 X86             :DIV r32 2^62/2^31 eax/edx             L: [no true dep.]   T:   5.64ns=  9.00c
  441 X86             :DIV r32 1/1                           L:  13.73ns= 21.9c  T:  13.57ns= 21.67c
  442 X86             :DIV r32 1/1 eax upd                   L:  13.36ns= 21.3c  T:  13.36ns= 21.33c
  443 X86             :DIV r32 1/1 eax/edx upd               L:   5.64ns=  9.0c  T:   5.64ns=  9.00c
- 444 AMD64           :DIV r64 128/64b (full)                L:  59.57ns= 95.1c  T:  58.99ns= 94.17c
- 445 AMD64           :DIV r64 126/63b 0 rem.                L:  59.57ns= 95.1c  T:  58.94ns= 94.08c
+ 444 AMD64           :DIV r64 128/64b (full)                L:  59.57ns= 95.1c  T:  58.84ns= 93.92c
+ 445 AMD64           :DIV r64 126/63b 0 rem.                L:  59.57ns= 95.1c  T:  58.84ns= 93.92c
  446 AMD64           :DIV r64 96/64b rax upd                L:  49.23ns= 78.6c  T:  49.23ns= 78.58c
  447 AMD64           :DIV r64 64/64b rax upd                L:  13.16ns= 21.0c  T:  13.16ns= 21.00c
  448 AMD64           :DIV r64 32/64b rax/rdx                L: [no true dep.]   T:  13.16ns= 21.00c
- 449 AMD64           :DIV r64  0/64b                        L: [no true dep.]   T:  19.47ns= 31.08c
+ 449 AMD64           :DIV r64  0/64b                        L: [no true dep.]   T:  19.42ns= 31.00c
  450 AMD64           :DIV r64 96/32b rax upd                L:  49.07ns= 78.3c  T:  49.07ns= 78.33c
  451 AMD64           :DIV r64 64/32b rax upd                L: [no true dep.]   T:  13.16ns= 21.00c
  452 AMD64           :DIV r64 32/32b rax upd                L:  13.16ns= 21.0c  T:  13.16ns= 21.00c
- 453 AMD64           :DIV r64  0/32b                        L: [no true dep.]   T:  19.47ns= 31.08c
- 454 AMD64           :DIV r64 2^126/2^63 rax/rdx            L: [no true dep.]   T:  46.98ns= 75.00c
- 455 AMD64           :DIV r64 1/1                           L:  20.31ns= 32.4c  T:  19.47ns= 31.08c
+ 453 AMD64           :DIV r64  0/32b                        L: [no true dep.]   T:  19.42ns= 31.00c
+ 454 AMD64           :DIV r64 2^126/2^63 rax/rdx            L: [no true dep.]   T:  46.83ns= 74.75c
+ 455 AMD64           :DIV r64 1/1                           L:  20.31ns= 32.4c  T:  19.42ns= 31.00c
  456 AMD64           :DIV r64 1/1 rax upd                   L:  13.31ns= 21.3c  T:  13.16ns= 21.00c
  457 AMD64           :DIV r64 1/1 rax/rdx upd               L:  13.78ns= 22.0c  T:  13.16ns= 21.00c
  458 X86             :CBW                                   L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
@@ -544,7 +544,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  476 LAHF            :SAHF                                  L:   1.04ns=  1.7c  T:   1.04ns=  1.67c
  483 X86             :PUSH r16                              L: [no true dep.]   T:   0.63ns=  1.00c
  484 X86             :POP r16                               L: [no true dep.]   T:   0.31ns=  0.50c
- 485 X86             :PUSH r16 + POP r16                    L:   4.49ns=  7.2c  T:   0.36ns=  0.58c
+ 485 X86             :PUSH r16 + POP r16                    L:   4.44ns=  7.1c  T:   0.38ns=  0.60c
  486 AMD64           :PUSH r64                              L: [no true dep.]   T:   0.63ns=  1.00c
  487 AMD64           :POP r64                               L: [no true dep.]   T:   0.31ns=  0.50c
  488 AMD64           :PUSH r64 + POP r64                    L:   3.13ns=  5.0c  T:   0.41ns=  0.65c
@@ -561,49 +561,49 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  499 X86             :PUSHF                                 L: [no true dep.]   T:   0.63ns=  1.00c
  501 X86             :PUSHF + POPF                          L:  16.29ns= 26.0c  T:  16.29ns= 26.00c
  502 AMD64           :PUSHFQ                                L: [no true dep.]   T:   0.63ns=  1.00c
- 504 AMD64           :PUSHFQ + POPFQ                        L:  16.29ns= 26.0c  T:  16.34ns= 26.08c
+ 504 AMD64           :PUSHFQ + POPFQ                        L:  16.29ns= 26.0c  T:  16.29ns= 26.00c
  505 X86             :CMPSB                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
  506 X86             :CMPSW                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
  507 X86             :CMPSD                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
  508 AMD64           :CMPSQ                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
  509 X86             :REPE CMPSB                            BW in L1D: 1.00 B/c   1593MiB/s
- 510 X86             :REPE CMPSW                            BW in L1D: 1.99 B/c   3180MiB/s
- 511 X86             :REPE CMPSD                            BW in L1D: 3.97 B/c   6335MiB/s
- 512 AMD64           :REPE CMPSQ                            BW in L1D: 7.87 B/c  12565MiB/s
+ 510 X86             :REPE CMPSW                            BW in L1D: 1.99 B/c   3179MiB/s
+ 511 X86             :REPE CMPSD                            BW in L1D: 3.97 B/c   6332MiB/s
+ 512 AMD64           :REPE CMPSQ                            BW in L1D: 7.88 B/c  12571MiB/s
  513 X86             :LODSB                                 L:   0.73ns=  1.2c  T:   0.78ns=  1.25c
  514 X86             :LODSW                                 L:   0.78ns=  1.3c  T:   0.78ns=  1.25c
- 515 X86             :LODSD                                 L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
+ 515 X86             :LODSD                                 L:   0.63ns=  1.0c  T:   0.68ns=  1.08c
  516 AMD64           :LODSQ                                 L:   0.63ns=  1.0c  T:   0.68ns=  1.08c
- 517 X86             :REP LODSB                             BW in L1D: 0.50 B/c    797MiB/s
+ 517 X86             :REP LODSB                             BW in L1D: 0.50 B/c    798MiB/s
  518 X86             :REP LODSW                             BW in L1D: 1.00 B/c   1594MiB/s
  519 X86             :REP LODSD                             BW in L1D: 1.99 B/c   3184MiB/s
- 520 AMD64           :REP LODSQ                             BW in L1D: 3.98 B/c   6351MiB/s
+ 520 AMD64           :REP LODSQ                             BW in L1D: 3.98 B/c   6349MiB/s
  521 X86             :STOSB                                 L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  522 X86             :STOSW                                 L:   0.63ns=  1.0c  T:   0.73ns=  1.17c
- 523 X86             :STOSD                                 L:   0.63ns=  1.0c  T:   0.73ns=  1.17c
- 524 AMD64           :STOSQ                                 L:   0.73ns=  1.2c  T:   0.78ns=  1.25c
- 525 X86             :REP STOSB                             BW in L1D:29.44 B/c  46996MiB/s
- 526 X86             :REP STOSW                             BW in L1D:30.43 B/c  48567MiB/s
- 527 X86             :REP STOSD                             BW in L1D:30.45 B/c  48612MiB/s
- 528 AMD64           :REP STOSQ                             BW in L1D:29.36 B/c  46870MiB/s
+ 523 X86             :STOSD                                 L:   0.63ns=  1.0c  T:   0.68ns=  1.08c
+ 524 AMD64           :STOSQ                                 L:   0.73ns=  1.2c  T:   0.84ns=  1.33c
+ 525 X86             :REP STOSB                             BW in L1D:30.54 B/c  48747MiB/s
+ 526 X86             :REP STOSW                             BW in L1D:29.90 B/c  47724MiB/s
+ 527 X86             :REP STOSD                             BW in L1D:30.26 B/c  48297MiB/s
+ 528 AMD64           :REP STOSQ                             BW in L1D:30.31 B/c  48387MiB/s
  529 X86             :MOVSB                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
  530 X86             :MOVSW                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
  531 X86             :MOVSD                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
  532 AMD64           :MOVSQ                                 L:   2.51ns=  4.0c  T:   2.51ns=  4.00c
- 533 X86             :REP MOVSB                             BW in L1D:53.81 B/c  85890MiB/s
- 534 X86             :REP MOVSW                             BW in L1D:54.25 B/c  86601MiB/s
- 535 X86             :REP MOVSD                             BW in L1D:54.80 B/c  87470MiB/s
- 536 AMD64           :REP MOVSQ                             BW in L1D:54.70 B/c  87324MiB/s
+ 533 X86             :REP MOVSB                             BW in L1D:55.82 B/c  89107MiB/s
+ 534 X86             :REP MOVSW                             BW in L1D:52.10 B/c  83157MiB/s
+ 535 X86             :REP MOVSD                             BW in L1D:51.20 B/c  81728MiB/s
+ 536 AMD64           :REP MOVSQ                             BW in L1D:54.80 B/c  87468MiB/s
  537 X86             :SCASB                                 L:   0.73ns=  1.2c  T:   0.78ns=  1.25c
  538 X86             :SCASW                                 L:   0.73ns=  1.2c  T:   0.78ns=  1.25c
- 539 X86             :SCASD                                 L:   0.73ns=  1.2c  T:   0.84ns=  1.33c
+ 539 X86             :SCASD                                 L:   0.73ns=  1.2c  T:   0.78ns=  1.25c
  540 AMD64           :SCASQ                                 L:   0.89ns=  1.4c  T:   0.84ns=  1.33c
  541 X86             :REPNE SCASB                           BW in L1D: 0.50 B/c    797MiB/s
- 542 X86             :REPNE SCASW                           BW in L1D: 1.00 B/c   1593MiB/s
- 543 X86             :REPNE SCASD                           BW in L1D: 1.99 B/c   3181MiB/s
+ 542 X86             :REPNE SCASW                           BW in L1D: 1.00 B/c   1594MiB/s
+ 543 X86             :REPNE SCASD                           BW in L1D: 1.99 B/c   3182MiB/s
  544 AMD64           :REPNE SCASQ                           BW in L1D: 3.97 B/c   6339MiB/s
  545 X86             :XADD r8, r8                           L:   1.31ns=  2.1c  T:   0.63ns=  1.00c
- 546 X86             :XADD r16, r16                         L:   1.25ns=  2.0c  T:   0.63ns=  1.00c
+ 546 X86             :XADD r16, r16                         L:   1.31ns=  2.1c  T:   0.63ns=  1.00c
  547 X86             :XADD r32, r32                         L:   1.31ns=  2.1c  T:   0.63ns=  1.00c
  548 AMD64           :XADD r64, r64                         L:   1.31ns=  2.1c  T:   0.63ns=  1.00c
  549 X86             :CMPXCHG r8, r8                        L:   3.13ns=  5.0c  T:   3.13ns=  5.00c
@@ -612,9 +612,9 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  552 AMD64           :CMPXCHG r64, r64                      L:   3.13ns=  5.0c  T:   3.13ns=  5.00c
  553 CMPX8           :CMPXCHG8B                             L:   4.80ns=  7.7c  T:   4.39ns=  7.00c
  554 CMPX16          :CMPXCHG16B                            L:   9.50ns= 15.2c  T:   5.64ns=  9.00c
- 555 X86             :RDTSC                                 L: [no true dep.]   T:  15.03ns= 24.00c
+ 555 X86             :RDTSC                                 L: [no true dep.]   T:  15.04ns= 24.00c
  556 X86             :CPUID (EAX = 0)                       L:  61.76ns= 98.6c  T:  61.76ns= 98.58c
- 557 X86             :CPUID (EAX = 1)                       L: 130.88ns=208.9c  T: 130.88ns=208.92c
+ 557 X86             :CPUID (EAX = 1)                       L: 130.78ns=208.8c  T: 130.78ns=208.75c
  558 POPCNT          :POPCNT r16, r16                       L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
  559 POPCNT          :POPCNT r32, r32                       L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
  560 POPCNT          :POPCNT r64, r64                       L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
@@ -653,33 +653,33 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  593 X87             :FSQRT80 st                            L:  14.41ns= 23.0c  T:   5.64ns=  9.00c
  594 X87             :FSQRT80 (0.0l)                        L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
  595 X87             :FSQRT80 (1.0l)                        L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
- 596 X87             :FDECSTP                               L: [no true dep.]   T:   0.56ns=  0.89c
- 597 X87             :FINCSTP                               L: [no true dep.]   T:   0.55ns=  0.88c
+ 596 X87             :FDECSTP                               L: [no true dep.]   T:   0.63ns=  1.00c
+ 597 X87             :FINCSTP                               L: [no true dep.]   T:   0.63ns=  1.00c
  598 X87             :FCOM st(i)                            L: [no true dep.]   T:   0.63ns=  1.00c
  599 CMOV            :FCOMI st, st(i)                       L: [no true dep.]   T:   0.94ns=  1.50c
- 600 X87             :FSIN80 (0.0)                          L:  30.85ns= 49.3c  T:  31.84ns= 50.83c
- 601 X87             :FSIN80 (0.0) + FADD                   L:  31.79ns= 50.8c  T:  31.90ns= 50.92c
- 602 X87             :FSIN80 (1.0) + FADD                   L:  72.67ns=116.0c  T:  72.98ns=116.50c
- 603 X87             :FSIN80 (4Pi) + FADD                   L:  56.85ns= 90.8c  T:  53.04ns= 84.67c
- 604 X87             :FSIN80 (2Pi) + FADD                   L:  56.85ns= 90.8c  T:  53.09ns= 84.75c
- 605 X87             :FSIN80 (Pi) + FADD                    L:  56.85ns= 90.8c  T:  53.04ns= 84.67c
- 606 X87             :FSIN80 (Pi/2) + FADD                  L:  65.46ns=104.5c  T:  63.27ns=101.00c
- 607 X87             :FSIN80 (Pi/4) + FADD                  L:  71.42ns=114.0c  T:  71.57ns=114.25c
- 608 X87             :FSIN80 (Pi/8) + FADD                  L:  62.65ns=100.0c  T:  62.80ns=100.25c
- 609 X87             :FSIN80 (Pi/16) + FADD                 L:  56.38ns= 90.0c  T:  50.85ns= 81.17c
- 610 X87             :FSIN80 (Pi/32) + FADD                 L:  56.38ns= 90.0c  T:  50.85ns= 81.17c
- 611 X87             :FCOS80 (0.73908513...)                L:  70.16ns=112.0c  T:  72.98ns=116.50c
- 612 X87             :FCOS80 (0.73908513...)+FADD           L:  71.42ns=114.0c  T:  71.73ns=114.50c
- 613 X87             :FCOS80 (0.0) + FADD                   L:  31.79ns= 50.8c  T:  31.90ns= 50.92c
- 614 X87             :FCOS80 (1.0) + FADD                   L:  63.90ns=102.0c  T:  64.21ns=102.50c
- 615 X87             :FCOS80 (4Pi) + FADD                   L:  64.58ns=103.1c  T:  62.96ns=100.50c
- 616 X87             :FCOS80 (2Pi) + FADD                   L:  64.58ns=103.1c  T:  62.96ns=100.50c
- 617 X87             :FCOS80 (Pi) + FADD                    L:  64.58ns=103.1c  T:  62.96ns=100.50c
- 618 X87             :FCOS80 (Pi/2) + FADD                  L:  56.17ns= 89.7c  T:  52.05ns= 83.08c
- 619 X87             :FCOS80 (Pi/4) + FADD                  L:  62.65ns=100.0c  T:  62.80ns=100.25c
- 620 X87             :FCOS80 (Pi/8) + FADD                  L:  71.42ns=114.0c  T:  71.99ns=114.92c
- 621 X87             :FCOS80 (Pi/16) + FADD                 L:  62.65ns=100.0c  T:  61.24ns= 97.75c
- 622 X87             :FCOS80 (Pi/32) + FADD                 L:  62.65ns=100.0c  T:  61.13ns= 97.58c
+ 600 X87             :FSIN80 (0.0)                          L:  30.85ns= 49.3c  T:  31.79ns= 50.75c
+ 601 X87             :FSIN80 (0.0) + FADD                   L:  31.79ns= 50.8c  T:  31.79ns= 50.75c
+ 602 X87             :FSIN80 (1.0) + FADD                   L:  72.67ns=116.0c  T:  72.77ns=116.17c
+ 603 X87             :FSIN80 (4Pi) + FADD                   L:  56.85ns= 90.8c  T:  52.99ns= 84.58c
+ 604 X87             :FSIN80 (2Pi) + FADD                   L:  56.85ns= 90.8c  T:  52.94ns= 84.50c
+ 605 X87             :FSIN80 (Pi) + FADD                    L:  56.85ns= 90.8c  T:  52.94ns= 84.50c
+ 606 X87             :FSIN80 (Pi/2) + FADD                  L:  65.47ns=104.5c  T:  63.12ns=100.75c
+ 607 X87             :FSIN80 (Pi/4) + FADD                  L:  71.42ns=114.0c  T:  71.42ns=114.00c
+ 608 X87             :FSIN80 (Pi/8) + FADD                  L:  62.65ns=100.0c  T:  62.65ns=100.00c
+ 609 X87             :FSIN80 (Pi/16) + FADD                 L:  56.38ns= 90.0c  T:  50.69ns= 80.92c
+ 610 X87             :FSIN80 (Pi/32) + FADD                 L:  56.38ns= 90.0c  T:  50.69ns= 80.92c
+ 611 X87             :FCOS80 (0.73908513...)                L:  70.11ns=111.9c  T:  72.72ns=116.08c
+ 612 X87             :FCOS80 (0.73908513...)+FADD           L:  71.42ns=114.0c  T:  71.52ns=114.17c
+ 613 X87             :FCOS80 (0.0) + FADD                   L:  31.79ns= 50.8c  T:  31.85ns= 50.83c
+ 614 X87             :FCOS80 (1.0) + FADD                   L:  63.90ns=102.0c  T:  63.90ns=102.00c
+ 615 X87             :FCOS80 (4Pi) + FADD                   L:  64.58ns=103.1c  T:  62.80ns=100.25c
+ 616 X87             :FCOS80 (2Pi) + FADD                   L:  64.58ns=103.1c  T:  62.80ns=100.25c
+ 617 X87             :FCOS80 (Pi) + FADD                    L:  64.58ns=103.1c  T:  62.86ns=100.33c
+ 618 X87             :FCOS80 (Pi/2) + FADD                  L:  56.17ns= 89.7c  T:  51.94ns= 82.92c
+ 619 X87             :FCOS80 (Pi/4) + FADD                  L:  62.65ns=100.0c  T:  62.65ns=100.00c
+ 620 X87             :FCOS80 (Pi/8) + FADD                  L:  71.42ns=114.0c  T:  71.52ns=114.17c
+ 621 X87             :FCOS80 (Pi/16) + FADD                 L:  62.65ns=100.0c  T:  60.98ns= 97.33c
+ 622 X87             :FCOS80 (Pi/32) + FADD                 L:  62.65ns=100.0c  T:  60.87ns= 97.17c
  623 MMX             :EMMS                                  L:   7.52ns= 12.0c  T:   7.52ns= 12.00c
  624 MMX             :MOVD r32, mm                          L: [diff. reg. set] T:   0.63ns=  1.00c
  625 MMX             :MOVD mm, r32                          L: [diff. reg. set] T:   0.63ns=  1.00c
@@ -737,7 +737,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  677 MMX             :PAND mm, mm                           L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
  678 MMX             :PAND mm1, mm2                         L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
  679 MMX             :PANDN mm, mm                          L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
- 680 MMX             :PANDN mm1, mm2                        L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
+ 680 MMX             :PANDN mm1, mm2                        L:   0.63ns=  1.0c  T:   0.20ns=  0.33c
  681 MMX             :POR mm, mm                            L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
  682 MMX             :POR mm1, mm2                          L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
  683 MMX             :PXOR mm, mm                           L:   0.21ns=  0.3c  T:   0.21ns=  0.33c
@@ -791,9 +791,9 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  766 SSE             :PSHUFW mm, mm, im8                    L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  767 SSE             :PREFETCHNTA [mem]                     L: [memory dep.]    T:   0.57ns=  0.92c
  768 SSE             :PREFETCHT0 [mem]                      L: [memory dep.]    T:   0.57ns=  0.92c
- 769 SSE             :PREFETCHT1 [mem]                      L: [memory dep.]    T:   0.54ns=  0.86c
- 770 SSE             :PREFETCHT2 [mem]                      L: [memory dep.]    T:   0.57ns=  0.92c
- 771 SSE             :SFENCE                                L:   3.76ns=  6.0c  T:   3.76ns=  6.00c
+ 769 SSE             :PREFETCHT1 [mem]                      L: [memory dep.]    T:   0.57ns=  0.92c
+ 770 SSE             :PREFETCHT2 [mem]                      L: [memory dep.]    T:   0.63ns=  1.00c
+ 771 SSE             :SFENCE                                L:   3.71ns=  5.9c  T:   3.71ns=  5.92c
  772 SSE2            :LFENCE                                L:   2.66ns=  4.3c  T:   2.66ns=  4.25c
  773 SSE2            :MFENCE                                L:  20.83ns= 33.3c  T:  20.83ns= 33.25c
  774 SSSE3           :PABSB mm, mm                          L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
@@ -824,16 +824,16 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  799 AVX             :VMOVSS LS pair                        L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
  800 SSE             :MOVLPS xmm, [m32]                     L: [memory dep.]    T:   0.63ns=  1.00c
  801 SSE             :MOVLPS [m32], xmm                     L: [memory dep.]    T:   0.63ns=  1.00c
- 802 SSE             :MOVLPS LS pair                        L:   4.70ns=  7.5c  T:   0.31ns=  0.50c
+ 802 SSE             :MOVLPS LS pair                        L:   4.70ns=  7.5c  T:   0.33ns=  0.53c
  803 AVX             :VMOVLPS xmm, xmm, [m32]               L: [memory dep.]    T:   0.63ns=  1.00c
  804 AVX             :VMOVLPS [m32], xmm                    L: [memory dep.]    T:   0.63ns=  1.00c
- 805 AVX             :VMOVLPS LS pair                       L:   4.65ns=  7.4c  T:   0.37ns=  0.59c
+ 805 AVX             :VMOVLPS LS pair                       L:   4.59ns=  7.3c  T:   0.38ns=  0.61c
  806 SSE             :MOVHPS xmm, [m32]                     L: [memory dep.]    T:   0.63ns=  1.00c
  807 SSE             :MOVHPS [m32], xmm                     L: [memory dep.]    T:   0.63ns=  1.00c
- 808 SSE             :MOVHPS LS pair                        L:   4.70ns=  7.5c  T:   0.38ns=  0.61c
+ 808 SSE             :MOVHPS LS pair                        L:   4.65ns=  7.4c  T:   0.38ns=  0.61c
  809 AVX             :VMOVHPS xmm, xmm, [m32]               L: [memory dep.]    T:   0.63ns=  1.00c
  810 AVX             :VMOVHPS [m32], xmm                    L: [memory dep.]    T:   0.63ns=  1.00c
- 811 AVX             :VMOVHPS LS pair                       L:   4.65ns=  7.4c  T:   0.37ns=  0.59c
+ 811 AVX             :VMOVHPS LS pair                       L:   4.65ns=  7.4c  T:   0.38ns=  0.61c
  812 SSE             :MOVAPS xmm, xmm                       L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  813 SSE             :MOVAPS xmm, [m128]                    L: [memory dep.]    T:   0.31ns=  0.50c
  814 SSE             :MOVAPS [m128], xmm                    L: [memory dep.]    T:   0.63ns=  1.00c
@@ -848,14 +848,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  823 SSE             :MOVUPS aligned LS pair                L:   3.76ns=  6.0c  T:   0.47ns=  0.75c
  824 SSE             :MOVUPS xmm, [m128 + 4]                L: [memory dep.]    T:   0.42ns=  0.67c
  825 SSE             :MOVUPS [m128 + 4], xmm                L: [memory dep.]    T:   0.63ns=  1.00c
- 826 SSE             :MOVUPS unaligned LS pair              L:   3.76ns=  6.0c  T:   0.99ns=  1.58c
+ 826 SSE             :MOVUPS unaligned LS pair              L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
  827 AVX             :VMOVUPS xmm, xmm                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  828 AVX             :VMOVUPS xmm, [m128]                   L: [memory dep.]    T:   0.31ns=  0.50c
  829 AVX             :VMOVUPS [m128], xmm                   L: [memory dep.]    T:   0.63ns=  1.00c
  830 AVX             :VMOVUPS aligned LS pair               L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
  831 AVX             :VMOVUPS xmm, [m128 + 4]               L: [memory dep.]    T:   0.78ns=  1.25c
  832 AVX             :VMOVUPS [m128 + 4], xmm               L: [memory dep.]    T:   0.63ns=  1.00c
- 833 AVX             :VMOVUPS unaligned LS pair             L:   3.76ns=  6.0c  T:   2.04ns=  3.25c
+ 833 AVX             :VMOVUPS unaligned LS pair             L:   3.76ns=  6.0c  T:   1.88ns=  3.00c
  835 SSE             :MOVNTPS [m128], xmm                   L: [memory dep.]    T:   1.00ns=  1.00c
  836 AVX             :VMOVNTPS [m128], xmm                  L: [memory dep.]    T:   1.00ns=  1.00c
  837 SSE             :MOVMSKPS r32, xmm                     L: [diff. reg. set] T:   0.63ns=  1.00c
@@ -926,7 +926,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  902 SSE             :DIVSS xmm, xmm                        L:   6.89ns= 11.0c  T:   1.62ns=  2.58c
  903 SSE             :DIVSS (0.0f/x)                        L:   6.89ns= 11.0c  T:   1.62ns=  2.58c
  904 SSE             :DIVSS (x/1.0f)                        L:   6.89ns= 11.0c  T:   1.62ns=  2.58c
- 905 SSE             :DIVSS (x/2.0f)                        L:   6.89ns= 11.0c  T:   1.51ns=  2.42c
+ 905 SSE             :DIVSS (x/2.0f)                        L:   6.89ns= 11.0c  T:   1.41ns=  2.25c
  906 SSE             :DIVSS (x/0.5f)                        L:   6.89ns= 11.0c  T:   1.67ns=  2.67c
  907 AVX             :VDIVSS xmm, xmm, xmm                  L:   6.89ns= 11.0c  T:   1.62ns=  2.58c
  908 AVX             :VDIVSS (0.0f/x)                       L:   6.89ns= 11.0c  T:   1.62ns=  2.58c
@@ -937,7 +937,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  913 SSE             :DIVPS (0.0f/x)                        L:   6.89ns= 11.0c  T:   3.13ns=  5.00c
  914 SSE             :DIVPS (x/1.0f)                        L:   6.89ns= 11.0c  T:   3.13ns=  5.00c
  915 SSE             :DIVPS (x/2.0f)                        L:   5.74ns=  9.2c  T:   3.03ns=  4.83c
- 916 SSE             :DIVPS (x/0.5f)                        L:   5.74ns=  9.2c  T:   2.98ns=  4.75c
+ 916 SSE             :DIVPS (x/0.5f)                        L:   5.74ns=  9.2c  T:   3.03ns=  4.83c
  917 AVX             :VDIVPS xmm, xmm, xmm                  L:   6.89ns= 11.0c  T:   3.13ns=  5.00c
  918 AVX             :VDIVPS (0.0f/x)                       L:   6.89ns= 11.0c  T:   3.13ns=  5.00c
  919 AVX             :VDIVPS (x/1.0f)                       L:   6.89ns= 11.0c  T:   3.13ns=  5.00c
@@ -946,13 +946,13 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  922 SSE             :SQRTSS xmm, xmm                       L:   8.14ns= 13.0c  T:   2.40ns=  3.83c
  923 SSE             :SQRTSS (0.0f)                         L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
  924 SSE             :SQRTSS (1.0f)                         L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
- 925 AVX             :VSQRTSS xmm, xmm                      L:   8.14ns= 13.0c  T:   3.13ns=  5.00c
- 926 AVX             :VSQRTSS (0.0f)                        L:   6.26ns= 10.0c  T:   2.61ns=  4.17c
- 927 AVX             :VSQRTSS (1.0f)                        L:   6.26ns= 10.0c  T:   2.61ns=  4.17c
- 928 SSE             :SQRTPS xmm, xmm                       L:   8.14ns= 13.0c  T:   4.44ns=  7.08c
+ 925 AVX             :VSQRTSS xmm, xmm, xmm                 L:   8.14ns= 13.0c  T:   2.40ns=  3.83c
+ 926 AVX             :VSQRTSS (0.0f)                        L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
+ 927 AVX             :VSQRTSS (1.0f)                        L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
+ 928 SSE             :SQRTPS xmm, xmm                       L:   8.14ns= 13.0c  T:   4.39ns=  7.00c
  929 SSE             :SQRTPS (0.0f)                         L:   6.26ns= 10.0c  T:   4.39ns=  7.00c
  930 SSE             :SQRTPS (1.0f)                         L:   6.26ns= 10.0c  T:   4.39ns=  7.00c
- 931 AVX             :VSQRTPS xmm, xmm                      L:   8.14ns= 13.0c  T:   4.44ns=  7.08c
+ 931 AVX             :VSQRTPS xmm, xmm                      L:   8.14ns= 13.0c  T:   4.39ns=  7.00c
  932 AVX             :VSQRTPS (0.0f)                        L:   6.26ns= 10.0c  T:   4.39ns=  7.00c
  933 AVX             :VSQRTPS (1.0f)                        L:   6.26ns= 10.0c  T:   4.39ns=  7.00c
  934 SSE             :RCPSS xmm, xmm                        L:   3.13ns=  5.0c  T:   0.63ns=  1.00c
@@ -1001,16 +1001,16 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
  977 AVX             :VMOVSD LS pair                        L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
  978 SSE2            :MOVLPD xmm, [m64]                     L: [memory dep.]    T:   0.63ns=  1.00c
  979 SSE2            :MOVLPD [m64], xmm                     L: [memory dep.]    T:   0.63ns=  1.00c
- 980 SSE2            :MOVLPD LS pair                        L:   4.70ns=  7.5c  T:   0.19ns=  0.30c
+ 980 SSE2            :MOVLPD LS pair                        L:   4.59ns=  7.3c  T:   0.33ns=  0.53c
  981 AVX             :VMOVLPD xmm, [m64]                    L: [memory dep.]    T:   0.63ns=  1.00c
  982 AVX             :VMOVLPD [m64], xmm                    L: [memory dep.]    T:   0.63ns=  1.00c
- 983 AVX             :VMOVLPD LS pair                       L:   4.70ns=  7.5c  T:   0.38ns=  0.61c
+ 983 AVX             :VMOVLPD LS pair                       L:   4.65ns=  7.4c  T:   0.38ns=  0.61c
  984 SSE2            :MOVHPD xmm, [m64]                     L: [memory dep.]    T:   0.63ns=  1.00c
  985 SSE2            :MOVHPD [m64], xmm                     L: [memory dep.]    T:   0.63ns=  1.00c
- 986 SSE2            :MOVHPD LS pair                        L:   4.80ns=  7.7c  T:   0.38ns=  0.61c
+ 986 SSE2            :MOVHPD LS pair                        L:   4.70ns=  7.5c  T:   0.38ns=  0.61c
  987 AVX             :VMOVHPD xmm, [m64]                    L: [memory dep.]    T:   0.63ns=  1.00c
  988 AVX             :VMOVHPD [m64], xmm                    L: [memory dep.]    T:   0.63ns=  1.00c
- 989 AVX             :VMOVHPD LS pair                       L:   4.75ns=  7.6c  T:   0.38ns=  0.61c
+ 989 AVX             :VMOVHPD LS pair                       L:   4.70ns=  7.5c  T:   0.38ns=  0.61c
  990 SSE2            :MOVAPD xmm, xmm                       L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
  991 SSE2            :MOVAPD xmm, [m128]                    L: [memory dep.]    T:   0.31ns=  0.50c
  992 SSE2            :MOVAPD [m128], xmm                    L: [memory dep.]    T:   0.63ns=  1.00c
@@ -1025,14 +1025,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1001 SSE2            :MOVUPD aligned LS pair                L:   3.76ns=  6.0c  T:   0.47ns=  0.75c
 1002 SSE2            :MOVUPD xmm, [m128 + 4]                L: [memory dep.]    T:   0.42ns=  0.67c
 1003 SSE2            :MOVUPD [m128 + 4], xmm                L: [memory dep.]    T:   0.63ns=  1.00c
-1004 SSE2            :MOVUPD unaligned LS pair              L:   3.76ns=  6.0c  T:   1.10ns=  1.75c
+1004 SSE2            :MOVUPD unaligned LS pair              L:   3.76ns=  6.0c  T:   0.89ns=  1.42c
 1005 AVX             :VMOVUPD xmm, xmm                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 1006 AVX             :VMOVUPD xmm, [m128]                   L: [memory dep.]    T:   0.31ns=  0.50c
 1007 AVX             :VMOVUPD [m128], xmm                   L: [memory dep.]    T:   0.63ns=  1.00c
-1008 AVX             :VMOVUPD aligned LS pair               L:   3.81ns=  6.1c  T:   0.63ns=  1.00c
+1008 AVX             :VMOVUPD aligned LS pair               L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
 1009 AVX             :VMOVUPD xmm, [m128 + 4]               L: [memory dep.]    T:   0.78ns=  1.25c
 1010 AVX             :VMOVUPD [m128 + 4], xmm               L: [memory dep.]    T:   0.63ns=  1.00c
-1011 AVX             :VMOVUPD unaligned LS pair             L:   3.76ns=  6.0c  T:   2.14ns=  3.42c
+1011 AVX             :VMOVUPD unaligned LS pair             L:   3.76ns=  6.0c  T:   1.88ns=  3.00c
 1013 SSE2            :MOVNTPD [m128], xmm                   L: [memory dep.]    T:   1.00ns=  1.00c
 1014 AVX             :VMOVNTPD [m128], xmm                  L: [memory dep.]    T:   1.00ns=  1.00c
 1015 SSE2            :MOVMSKPD r32, xmm                     L: [diff. reg. set] T:   0.63ns=  1.00c
@@ -1123,9 +1123,9 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1100 SSE2            :SQRTSD xmm, xmm                       L:  12.53ns= 20.0c  T:   4.70ns=  7.50c
 1101 SSE2            :SQRTSD (0.0)                          L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
 1102 SSE2            :SQRTSD (1.0)                          L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
-1103 AVX             :VSQRTSD xmm, xmm                      L:  12.53ns= 20.0c  T:   4.80ns=  7.67c
-1104 AVX             :VSQRTSD (0.0)                         L:   6.26ns= 10.0c  T:   2.61ns=  4.17c
-1105 AVX             :VSQRTSD (1.0)                         L:   6.26ns= 10.0c  T:   2.61ns=  4.17c
+1103 AVX             :VSQRTSD xmm, xmm, xmm                 L:  12.53ns= 20.0c  T:   4.70ns=  7.50c
+1104 AVX             :VSQRTSD (0.0)                         L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
+1105 AVX             :VSQRTSD (1.0)                         L:   6.26ns= 10.0c  T:   2.51ns=  4.00c
 1106 SSE2            :SQRTPD xmm, xmm                       L:  12.53ns= 20.0c  T:   8.77ns= 14.00c
 1107 SSE2            :SQRTPD (0.0)                          L:   6.26ns= 10.0c  T:   5.01ns=  8.00c
 1108 SSE2            :SQRTPD (1.0)                          L:   6.26ns= 10.0c  T:   5.01ns=  8.00c
@@ -1201,7 +1201,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1178 AVX             :VMOVD r64, xmm                        L: [diff. reg. set] T:   0.63ns=  1.00c
 1179 AVX             :VMOVD xmm, r64                        L: [diff. reg. set] T:   0.63ns=  1.00c
 1180 AVX             :VMOVD r64,xmm+VMOVD xmm,r64           L:   1.25ns=  2.0c  T:   0.63ns=  1.00c
-1181 SSE2            :MOVD xmm, [m32]                       L: [memory dep.]    T:   0.31ns=  0.49c
+1181 SSE2            :MOVD xmm, [m32]                       L: [memory dep.]    T:   0.31ns=  0.50c
 1182 SSE2            :MOVD [m32], xmm                       L: [memory dep.]    T:   0.63ns=  1.00c
 1183 SSE2            :MOVD LS pair                          L:   3.76ns=  6.0c  T:   0.47ns=  0.75c
 1184 AVX             :VMOVD xmm, [m32]                      L: [memory dep.]    T:   0.31ns=  0.50c
@@ -1230,20 +1230,20 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1207 SSE2            :MOVDQU aligned LS pair                L:   3.76ns=  6.0c  T:   0.47ns=  0.75c
 1208 SSE2            :MOVDQU xmm, [m128 + 4]                L: [memory dep.]    T:   0.42ns=  0.67c
 1209 SSE2            :MOVDQU [m128 + 4], xmm                L: [memory dep.]    T:   0.63ns=  1.00c
-1210 SSE2            :MOVDQU unaligned LS pair              L:   3.76ns=  6.0c  T:   1.10ns=  1.75c
+1210 SSE2            :MOVDQU unaligned LS pair              L:   3.76ns=  6.0c  T:   1.15ns=  1.83c
 1211 AVX             :VMOVDQU xmm, xmm                      L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1212 AVX             :VMOVDQU xmm, [m128]                   L: [memory dep.]    T:   0.31ns=  0.50c
 1213 AVX             :VMOVDQU [m128], xmm                   L: [memory dep.]    T:   0.63ns=  1.00c
 1214 AVX             :VMOVDQU aligned LS pair               L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
 1215 AVX             :VMOVDQU xmm, [m128 + 4]               L: [memory dep.]    T:   0.78ns=  1.25c
 1216 AVX             :VMOVDQU [m128 + 4], xmm               L: [memory dep.]    T:   0.63ns=  1.00c
-1217 AVX             :VMOVDQU unaligned LS pair             L:   3.76ns=  6.0c  T:   1.98ns=  3.17c
+1217 AVX             :VMOVDQU unaligned LS pair             L:   3.76ns=  6.0c  T:   2.04ns=  3.25c
 1218 SSE4.1          :MOVNTDQA xmm, [m128]                  L: [memory dep.]    T:   0.52ns=  0.52c
 1219 SSE2            :MOVNTDQ [m128], xmm                   L: [memory dep.]    T:   1.00ns=  1.00c
-1220 SSE4.1          :MOVNTDQA + MOVNTDQ                    L: 170.34ns=271.9c  T: 271.92ns=271.92c
+1220 SSE4.1          :MOVNTDQA + MOVNTDQ                    L: 186.22ns=297.3c  T: 297.25ns=297.25c
 1221 AVX             :VMOVNTDQA xmm, [m128]                 L: [memory dep.]    T:   0.52ns=  0.52c
 1222 AVX             :VMOVNTDQ [m128], xmm                  L: [memory dep.]    T:   1.00ns=  1.00c
-1223 AVX             :VMOVNTDQA + VMOVNTDQ                  L: 186.42ns=297.6c  T: 297.58ns=297.58c
+1223 AVX             :VMOVNTDQA + VMOVNTDQ                  L: 169.98ns=271.3c  T: 271.33ns=271.33c
 1224 SSE2            :PMOVMSKB r32, xmm                     L: [diff. reg. set] T:   0.63ns=  1.00c
 1225 AMD64           :PMOVMSKB r64, xmm                     L: [diff. reg. set] T:   0.63ns=  1.00c
 1226 AVX             :VPMOVMSKB r32, xmm                    L: [diff. reg. set] T:   0.63ns=  1.00c
@@ -1331,17 +1331,17 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1308 AVX             :VPCMPGTQ xmm, xmm, xmm                L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
 1309 AVX             :VPCMPGTQ xmm1, xmm1, xmm2             L:   3.13ns=  5.0c  T:   0.63ns=  1.00c
 1310 SSE2            :PAND xmm, xmm                         L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
-1311 SSE2            :PAND xmm1, xmm2                       L:   0.63ns=  1.0c  T:   0.19ns=  0.31c
+1311 SSE2            :PAND xmm1, xmm2                       L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1312 AVX             :VPAND xmm, xmm, xmm                   L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1313 AVX             :VPAND xmm1, xmm1, xmm2                L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1314 SSE2            :PANDN xmm, xmm                        L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
-1315 SSE2            :PANDN xmm1, xmm2                      L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
+1315 SSE2            :PANDN xmm1, xmm2                      L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
 1316 AVX             :VPANDN xmm, xmm, xmm                  L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1317 AVX             :VPANDN xmm1, xmm1, xmm2               L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1318 SSE2            :POR xmm, xmm                          L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
-1319 SSE2            :POR xmm1, xmm2                        L:   0.63ns=  1.0c  T:   0.20ns=  0.31c
+1319 SSE2            :POR xmm1, xmm2                        L:   0.63ns=  1.0c  T:   0.20ns=  0.32c
 1320 AVX             :VPOR xmm, xmm, xmm                    L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
-1321 AVX             :VPOR xmm1, xmm1, xmm2                 L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
+1321 AVX             :VPOR xmm1, xmm1, xmm2                 L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
 1322 SSE2            :PXOR xmm, xmm                         L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
 1323 SSE2            :PXOR xmm1, xmm2                       L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1324 AVX             :VPXOR xmm, xmm, xmm                   L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
@@ -1546,12 +1546,12 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1527 AVX             :VPSIGNW xmm, xmm, xmm                 L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
 1528 SSSE3           :PSIGND xmm, xmm                       L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
 1529 AVX             :VPSIGND xmm, xmm, xmm                 L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
-1530 SSE4.1          :BLENDPS xmm, xmm, imm8                L:   0.63ns=  1.0c  T:   0.23ns=  0.36c
-1531 AVX             :VBLENDPS xmm, xmm, xmm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
+1530 SSE4.1          :BLENDPS xmm, xmm, imm8                L:   0.63ns=  1.0c  T:   0.22ns=  0.36c
+1531 AVX             :VBLENDPS xmm, xmm, xmm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.34c
 1532 SSE4.1          :BLENDVPS xmm, xmm, <xmm0>             L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
 1533 AVX             :VBLENDVPS xmm, xmm, xmm, xm           L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
-1534 SSE4.1          :BLENDPD xmm, xmm, imm8                L:   0.63ns=  1.0c  T:   0.22ns=  0.34c
-1535 AVX             :VBLENDPD xmm, xmm, xmm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.34c
+1534 SSE4.1          :BLENDPD xmm, xmm, imm8                L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
+1535 AVX             :VBLENDPD xmm, xmm, xmm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
 1536 SSE4.1          :BLENDVPD xmm, xmm, <xmm0>             L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
 1537 AVX             :VBLENDVPD xmm, xmm, xmm, xm           L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
 1538 SSE4.1          :PBLENDW xmm, xmm, imm8                L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
@@ -1704,7 +1704,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1784 AVX             :VMOVMSKPS r32, ymm                    L: [diff. reg. set] T:   0.63ns=  1.00c
 1785 AVX             :VMASKMOVPS ymm,ymm,[m256+4]           L: [memory dep.]    T:   1.25ns=  2.00c
 1786 AVX             :VMASKMOVPS [m256+4],ymm,ymm           L: [memory dep.]    T:   0.63ns=  1.00c
-1787 AVX             :VMASKMOVPS unaligned LSpair           L:  10.65ns= 17.0c  T:   7.83ns= 12.50c
+1787 AVX             :VMASKMOVPS unaligned LSpair           L:  10.49ns= 16.8c  T:   7.83ns= 12.50c
 1788 AVX             :VUNPCKLPS ymm, ymm, ymm               L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 1789 AVX             :VUNPCKHPS ymm, ymm, ymm               L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 1790 AVX             :VSHUFPS ymm, ymm, ymm, imm8           L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
@@ -1739,19 +1739,19 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1819 AVX             :VSQRTPS (1.0f)                        L:  11.28ns= 18.0c  T:   8.82ns= 14.08c
 1820 AVX             :VRCPPS ymm, ymm, ymm                  L:   4.39ns=  7.0c  T:   1.25ns=  2.00c
 1821 AVX             :VRSQRTPS ymm, ymm, ymm                L:   4.39ns=  7.0c  T:   1.25ns=  2.00c
-1822 AVX             :VBLENDPS ymm, ymm, ymm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.34c
+1822 AVX             :VBLENDPS ymm, ymm, ymm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
 1823 AVX             :VBLENDVPS ymm, ymm, ymm, ym           L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
-1824 AVX             :VDPPS ymm, ymm, ymm, imm8             L:   7.52ns= 12.0c  T:   0.89ns=  1.42c
+1824 AVX             :VDPPS ymm, ymm, ymm, imm8             L:   7.52ns= 12.0c  T:   0.94ns=  1.50c
 1825 AVX             :VPTESTPS ymm, ymm                     L: [no true dep.]   T:   0.63ns=  1.00c
 1826 AVX             :VROUNDPS ymm, ymm, imm8               L:   3.76ns=  6.0c  T:   1.25ns=  2.00c
 1827 AVX             :VMOVAPD ymm, ymm                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 1828 AVX             :VMOVAPD ymm, [m256]                   L: [memory dep.]    T:   0.31ns=  0.50c
 1829 AVX             :VMOVAPD [m256], ymm                   L: [memory dep.]    T:   0.63ns=  1.00c
-1830 AVX             :VMOVAPD LS pair                       L:   4.44ns=  7.1c  T:   0.63ns=  1.00c
+1830 AVX             :VMOVAPD LS pair                       L:   4.39ns=  7.0c  T:   0.63ns=  1.00c
 1831 AVX             :VMOVUPD ymm, ymm                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
-1832 AVX             :VMOVUPD ymm, [m256]                   L: [memory dep.]    T:   0.31ns=  0.50c
+1832 AVX             :VMOVUPD ymm, [m256]                   L: [memory dep.]    T:   0.33ns=  0.52c
 1833 AVX             :VMOVUPD [m256], ymm                   L: [memory dep.]    T:   0.63ns=  1.00c
-1834 AVX             :VMOVUPD aligned LS pair               L:   4.39ns=  7.0c  T:   0.63ns=  1.00c
+1834 AVX             :VMOVUPD aligned LS pair               L:   4.39ns=  7.0c  T:   0.57ns=  0.92c
 1835 AVX             :VMOVUPD ymm, [m256 + 4]               L: [memory dep.]    T:   1.41ns=  2.25c
 1836 AVX             :VMOVUPD [m256 + 4], ymm               L: [memory dep.]    T:   1.88ns=  3.00c
 1837 AVX             :VMOVUPD unaligned LS pair             L:   4.39ns=  7.0c  T:   1.88ns=  3.00c
@@ -1760,7 +1760,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1840 AVX             :VMOVMSKPD r32, ymm                    L: [diff. reg. set] T:   0.63ns=  1.00c
 1841 AVX             :VMASKMOVPD ymm,ymm,[m256+4]           L: [memory dep.]    T:   1.25ns=  2.00c
 1842 AVX             :VMASKMOVPD [m256+4],ymm,ymm           L: [memory dep.]    T:   0.63ns=  1.00c
-1843 AVX             :VMASKMOVPD unaligned LSpair           L:  10.65ns= 17.0c  T:   7.83ns= 12.50c
+1843 AVX             :VMASKMOVPD unaligned LSpair           L:  10.60ns= 16.9c  T:   7.83ns= 12.50c
 1844 AVX             :VUNPCKLPD ymm, ymm, ymm               L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 1845 AVX             :VUNPCKHPD ymm, ymm, ymm               L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 1846 AVX             :VSHUFPD ymm, ymm, ymm, imm8           L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
@@ -1785,14 +1785,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1865 AVX             :VORPD ymm1, ymm1, ymm2                L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 1866 AVX             :VXORPD ymm, ymm, ymm                  L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
 1867 AVX             :VXORPD ymm1, ymm1, ymm2               L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
-1868 AVX             :VDIVPD ymm, ymm, ymm                  L:  14.41ns= 23.0c  T:  10.23ns= 16.33c
+1868 AVX             :VDIVPD ymm, ymm, ymm                  L:  14.41ns= 23.0c  T:  10.18ns= 16.25c
 1869 AVX             :VDIVPD (0.0/x)                        L:  11.90ns= 19.0c  T:  10.13ns= 16.17c
-1870 AVX             :VDIVPD (x/1.0)                        L:  11.90ns= 19.0c  T:  10.13ns= 16.17c
+1870 AVX             :VDIVPD (x/1.0)                        L:  11.90ns= 19.0c  T:  10.08ns= 16.08c
 1871 AVX             :VDIVPD (x/2.0)                        L:  11.85ns= 18.9c  T:  10.13ns= 16.17c
 1872 AVX             :VDIVPD (x/0.5)                        L:  11.85ns= 18.9c  T:  10.13ns= 16.17c
-1873 AVX             :VSQRTPD ymm, ymm                      L:  21.98ns= 35.1c  T:  17.59ns= 28.08c
-1874 AVX             :VSQRTPD (0.0)                         L:  11.90ns= 19.0c  T:  10.13ns= 16.17c
-1875 AVX             :VSQRTPD (1.0)                         L:  11.90ns= 19.0c  T:  10.13ns= 16.17c
+1873 AVX             :VSQRTPD ymm, ymm                      L:  21.98ns= 35.1c  T:  17.54ns= 28.00c
+1874 AVX             :VSQRTPD (0.0)                         L:  11.90ns= 19.0c  T:  10.08ns= 16.08c
+1875 AVX             :VSQRTPD (1.0)                         L:  11.90ns= 19.0c  T:  10.08ns= 16.08c
 1876 AVX             :VBLENDPD ymm, ymm, ymm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
 1877 AVX             :VBLENDVPD ymm, ymm, ymm, ym           L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
 1878 AVX             :VCVTDQ2PD ymm, xmm                    L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
@@ -1823,14 +1823,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1903 AVX             :VMOVDQU ymm, ymm                      L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 1904 AVX             :VMOVDQU ymm, [m256]                   L: [memory dep.]    T:   0.31ns=  0.50c
 1905 AVX             :VMOVDQU [m256], ymm                   L: [memory dep.]    T:   0.63ns=  1.00c
-1906 AVX             :VMOVDQU aligned LS pair               L:   4.44ns=  7.1c  T:   0.63ns=  1.00c
+1906 AVX             :VMOVDQU aligned LS pair               L:   4.39ns=  7.0c  T:   0.63ns=  1.00c
 1907 AVX             :VMOVDQU ymm, [m256 + 4]               L: [memory dep.]    T:   1.41ns=  2.25c
 1908 AVX             :VMOVDQU [m256 + 4], ymm               L: [memory dep.]    T:   1.88ns=  3.00c
 1909 AVX             :VMOVDQU unaligned LS pair             L:   4.39ns=  7.0c  T:   1.88ns=  3.00c
 1910 AVX             :VMOVNTDQ [m256], ymm                  L: [memory dep.]    T:   1.00ns=  1.00c
 1911 AVX             :VLDDQU ymm, [m256 + 4]                L: [memory dep.]    T:   1.41ns=  2.25c
 1912 AVX             :VZEROUPPER                            L: [no true dep.]   T:   0.63ns=  1.00c
-1913 AVX             :VZEROALL                              L: [no true dep.]   T:   0.00ns=  0.00c
+1913 AVX             :VZEROALL                              L: [no true dep.]   T:   5.01ns=  8.00c
 1915 FMA3            :VFMADD132PS ymm,ymm,ymm               L:   3.13ns=  5.0c  T:   0.31ns=  0.50c
 1916 FMA3            :VFMADD213PS ymm,ymm,ymm               L:   3.13ns=  5.0c  T:   0.31ns=  0.50c
 1917 FMA3            :VFMADD231PS ymm,ymm,ymm               L:   3.13ns=  5.0c  T:   0.31ns=  0.50c
@@ -1867,17 +1867,17 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1959 FMA3            :VFMSUBADD132PD ymm,ymm,ymm            L:   3.13ns=  5.0c  T:   0.31ns=  0.50c
 1960 FMA3            :VFMSUBADD213PD ymm,ymm,ymm            L:   3.13ns=  5.0c  T:   0.31ns=  0.50c
 1961 FMA3            :VFMSUBADD231PD ymm,ymm,ymm            L:   3.13ns=  5.0c  T:   0.31ns=  0.50c
-1967 F16C            :VCVTPS2PH + VCVTPH2PS                 L:   2.51ns=  4.0c  T:   1.25ns=  2.00c
+1967 F16C            :VCVTPS2PH + VCVTPH2PS                 L:   5.01ns=  8.0c  T:   1.25ns=  2.00c
 1968 F16C            :VCVTPS2PH xmm, ymm, imm8              L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
 1969 F16C            :VCVTPH2PS ymm, xmm                    L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
-1970 F16C            :VCVTPS2PH + VCVTPH2PS                 L:   3.76ns=  6.0c  T:   1.25ns=  2.00c
-1971 RDRAND          :RDRAND r16                            L: [no true dep.]   T: 152.18ns=242.92c
-1972 RDRAND          :RDRAND r32                            L: [no true dep.]   T: 152.12ns=242.83c
-1973 RDRAND          :RDRAND r64                            L: [no true dep.]   T: 152.33ns=243.17c
-1974 X86             :MOV+ADD r8, r8                        L:   1.25ns=  2.0c  T:   0.30ns=  0.48c
-1975 X86             :MOV+ADD r16, r16                      L:   1.25ns=  2.0c  T:   0.32ns=  0.51c
+1970 F16C            :VCVTPS2PH + VCVTPH2PS                 L:   7.52ns= 12.0c  T:   1.25ns=  2.00c
+1971 RDRAND          :RDRAND r16                            L: [no true dep.]   T: 151.92ns=242.50c
+1972 RDRAND          :RDRAND r32                            L: [no true dep.]   T: 151.97ns=242.58c
+1973 RDRAND          :RDRAND r64                            L: [no true dep.]   T: 151.92ns=242.50c
+1974 X86             :MOV+ADD r8, r8                        L:   1.25ns=  2.0c  T:   0.31ns=  0.49c
+1975 X86             :MOV+ADD r16, r16                      L:   1.25ns=  2.0c  T:   0.30ns=  0.48c
 1976 X86             :MOV+ADD r32, r32                      L:   1.25ns=  2.0c  T:   0.31ns=  0.49c
-1977 AMD64           :MOV+ADD r64, r64                      L:   1.25ns=  2.0c  T:   0.32ns=  0.51c
+1977 AMD64           :MOV+ADD r64, r64                      L:   1.25ns=  2.0c  T:   0.30ns=  0.47c
 1978 MMX             :MOVQ+PADDB mm, mm                     L:   1.25ns=  2.0c  T:   0.30ns=  0.48c
 1979 MMX             :MOVQ+PADDW mm, mm                     L:   1.25ns=  2.0c  T:   0.30ns=  0.48c
 1980 MMX             :MOVQ+PADDD mm, mm                     L:   1.25ns=  2.0c  T:   0.30ns=  0.48c
@@ -1891,18 +1891,18 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 1989 SSE2            :MOVAPD+ADDPD xmm, xmm                 L:   2.51ns=  4.0c  T:   0.63ns=  1.00c
 1990 AVX             :VMOVAPD+VADDPD xm, xm, xm             L:   2.51ns=  4.0c  T:   0.63ns=  1.00c
 1991 SSE2            :MOVDQA+PADDB xmm, xmm                 L:   1.25ns=  2.0c  T:   0.27ns=  0.44c
-1992 SSE2            :MOVDQA+PADDW xmm, xmm                 L:   1.25ns=  2.0c  T:   0.29ns=  0.47c
-1993 SSE2            :MOVDQA+PADDD xmm, xmm                 L:   1.25ns=  2.0c  T:   0.28ns=  0.44c
+1992 SSE2            :MOVDQA+PADDW xmm, xmm                 L:   1.25ns=  2.0c  T:   0.27ns=  0.44c
+1993 SSE2            :MOVDQA+PADDD xmm, xmm                 L:   1.25ns=  2.0c  T:   0.27ns=  0.44c
 1994 SSE2            :MOVDQA+PADDQ xmm, xmm                 L:   1.25ns=  2.0c  T:   0.27ns=  0.44c
 1995 AVX             :VMOVDQA+VPADDB xm, xm, xm             L:   1.25ns=  2.0c  T:   0.30ns=  0.47c
 1996 AVX             :VMOVDQA+VPADDW xm, xm, xm             L:   1.25ns=  2.0c  T:   0.30ns=  0.47c
 1997 AVX             :VMOVDQA+VPADDD xm, xm, xm             L:   1.25ns=  2.0c  T:   0.30ns=  0.47c
-1998 AVX             :VMOVDQA+VPADDQ xm, xm, xm             L:   1.25ns=  2.0c  T:   0.30ns=  0.47c
+1998 AVX             :VMOVDQA+VPADDQ xm, xm, xm             L:   1.25ns=  2.0c  T:   0.32ns=  0.52c
 1999 AVX             :VMOVAPS+VADDPS ym, ym, ym             L:   2.51ns=  4.0c  T:   0.63ns=  1.00c
 2000 AVX             :VMOVAPD+VADDPD ym, ym, ym             L:   2.51ns=  4.0c  T:   0.63ns=  1.00c
-2001 RDSEED          :RDSEED r16                            L: [no true dep.]   T: 152.18ns=242.92c
-2002 RDSEED          :RDSEED r32                            L: [no true dep.]   T: 152.23ns=243.00c
-2003 RDSEED          :RDSEED r64                            L: [no true dep.]   T: 152.18ns=242.92c
+2001 RDSEED          :RDSEED r16                            L: [no true dep.]   T: 151.97ns=242.58c
+2002 RDSEED          :RDSEED r32                            L: [no true dep.]   T: 151.92ns=242.50c
+2003 RDSEED          :RDSEED r64                            L: [no true dep.]   T: 151.92ns=242.50c
 2004 BMI             :ANDN r32, r32, r32                    L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
 2005 BMI             :ANDN r64, r64, r64                    L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
 2006 BMI             :BEXTR r32, r32, r32                   L:   1.25ns=  2.0c  T:   0.63ns=  1.00c
@@ -1933,7 +1933,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 2031 BMI2            :SHRX r32, r32, r32                    L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
 2032 BMI2            :SHRX r64, r64, r64                    L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
 2053 AVX2            :VMOVNTDQA ymm, [m256]                 L: [memory dep.]    T:   0.52ns=  0.52c
-2054 AVX2            :VMOVNTDQA + VMOVNTDQ ymm              L: 177.81ns=283.8c  T: 283.83ns=283.83c
+2054 AVX2            :VMOVNTDQA + VMOVNTDQ ymm              L: 176.51ns=281.8c  T: 281.75ns=281.75c
 2055 AVX2            :VPMOVMSKB r32, ymm                    L: [diff. reg. set] T:   0.63ns=  1.00c
 2056 AVX2            :VPMOVMSKB r64, ymm                    L: [diff. reg. set] T:   0.63ns=  1.00c
 2057 AVX2            :VPADDB ymm, ymm, ymm                  L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
@@ -2057,7 +2057,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 2175 AVX2            :VPSIGND ymm, ymm, ymm                 L:   0.63ns=  1.0c  T:   0.31ns=  0.50c
 2176 AVX2            :VPBLENDW ymm, ymm, ymm, im8           L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 2177 AVX2            :VPBLENDVB ymm, ymm, ymm, ym           L:   1.25ns=  2.0c  T:   1.25ns=  2.00c
-2178 AVX2            :VPBLENDD xmm, xmm, xmm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.34c
+2178 AVX2            :VPBLENDD xmm, xmm, xmm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
 2179 AVX2            :VPBLENDD ymm, ymm, ymm, im8           L:   0.63ns=  1.0c  T:   0.22ns=  0.35c
 2180 AVX2            :VMPSADBW ymm, ymm, imm8               L:   4.39ns=  7.0c  T:   1.25ns=  2.00c
 2181 AVX2            :VPMOVSXBW ymm, xmm                    L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
@@ -2080,10 +2080,10 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 2198 AVX2            :VPMASKMOVQ unaligned LSpair           L:   1.88ns=  3.0c  T:   8.20ns= 13.08c
 2199 AVX2            :VPMASKMOVD ymm,ymm,[m256+4]           L: [memory dep.]    T:   1.25ns=  2.00c
 2200 AVX2            :VPMASKMOVD [m256+4],ymm,ymm           L: [memory dep.]    T:   0.63ns=  1.00c
-2201 AVX2            :VPMASKMOVD unaligned LSpair           L:  10.65ns= 17.0c  T:  11.90ns= 19.00c
+2201 AVX2            :VPMASKMOVD unaligned LSpair           L:  10.65ns= 17.0c  T:  10.65ns= 17.00c
 2202 AVX2            :VPMASKMOVQ ymm,ymm,[m256+4]           L: [memory dep.]    T:   1.25ns=  2.00c
 2203 AVX2            :VPMASKMOVQ [m256+4],ymm,ymm           L: [memory dep.]    T:   0.63ns=  1.00c
-2204 AVX2            :VPMASKMOVQ unaligned LSpair           L:  10.65ns= 17.0c  T:  11.22ns= 17.92c
+2204 AVX2            :VPMASKMOVQ unaligned LSpair           L:  10.65ns= 17.0c  T:  11.07ns= 17.67c
 2205 AVX2            :VBROADCASTSS xmm, xmm                 L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 2206 AVX2            :VBROADCASTSS ymm, xmm                 L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
 2207 AVX2            :VBROADCASTSD ymm, xmm                 L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
@@ -2094,7 +2094,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 2212 AVX2            :VPBROADCASTD xmm, xmm                 L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 2213 AVX2            :VPBROADCASTD ymm, xmm                 L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
 2214 AVX2            :VPBROADCASTQ xmm, xmm                 L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
-2215 AVX2            :VPBROADCASTQ ymm, xmm                 L:   1.88ns=  3.0c  T:   0.57ns=  0.92c
+2215 AVX2            :VPBROADCASTQ ymm, xmm                 L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
 2216 AVX2            :VBROADCASTI128 ymm, m128              L: [memory dep.]    T:   0.31ns=  0.50c
 2217 AVX2            :VEXTRACTI128 xmm, ymm, imm8           L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
 2218 AVX2            :VINSERTI128 ym, ym, xm, im8           L:   1.88ns=  3.0c  T:   0.63ns=  1.00c
@@ -2117,8 +2117,8 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 2235 ADX             :ADCX r64, r16                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 2236 ADX             :ADOX r32, r32                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 2237 ADX             :ADOX r64, r16                         L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
-2238 CLFLUSH         :CLFLUSH [mem]                         L: [memory dep.]    T:  38.32ns= 61.17c
-2248 X86             :MOV r1_8, r2_8                        L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
+2238 CLFLUSH         :CLFLUSH [mem]                         L: [memory dep.]    T:  35.08ns= 56.00c
+2248 X86             :MOV r1_8, r2_8                        L:   0.63ns=  1.0c  T:   0.21ns=  0.34c
 2249 X86             :MOV r1_16, r2_16                      L:   0.63ns=  1.0c  T:   0.21ns=  0.33c
 2250 X86             :MOV r1_32, r2_32                      L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
 2251 AMD64           :MOV r1_64, r2_64                      L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
@@ -2143,9 +2143,9 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 2270 SSE2            :MOVSD xmm1, xmm2                      L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 2271 AVX             :VMOVSD xmm1, xmm1, xmm2               L:   0.63ns=  1.0c  T:   0.63ns=  1.00c
 2272 SSE2            :MOVAPD xmm1, xmm2                     L:   0.39ns=  0.6c  T:   0.39ns=  0.63c
-2273 AVX             :VMOVAPD xmm1, xmm2                    L:   0.38ns=  0.6c  T:   0.38ns=  0.60c
-2274 SSE2            :MOVUPD xmm1, xmm2                     L:   0.39ns=  0.6c  T:   0.39ns=  0.63c
-2275 AVX             :VMOVUPD xmm1, xmm2                    L:   0.38ns=  0.6c  T:   0.38ns=  0.60c
+2273 AVX             :VMOVAPD xmm1, xmm2                    L:   0.39ns=  0.6c  T:   0.39ns=  0.63c
+2274 SSE2            :MOVUPD xmm1, xmm2                     L:   0.37ns=  0.6c  T:   0.37ns=  0.59c
+2275 AVX             :VMOVUPD xmm1, xmm2                    L:   0.36ns=  0.6c  T:   0.36ns=  0.58c
 2276 SSE2            :MOVDQA xmm1, xmm2                     L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
 2277 AVX             :VMOVDQA xmm1, xmm2                    L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
 2278 SSE2            :MOVDQU xmm1, xmm2                     L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
@@ -2156,40 +2156,44 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008
 2283 AVX             :VMOVUPD ymm1, ymm2                    L:   0.39ns=  0.6c  T:   0.39ns=  0.63c
 2284 AVX             :VMOVDQA ymm1, ymm2                    L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
 2285 AVX             :VMOVDQU ymm1, ymm2                    L:   0.16ns=  0.3c  T:   0.16ns=  0.25c
-2286 AVX2            :VPADDD+VADDPS ym, ym, ym              L:   3.76ns=  6.0c  T:   0.63ns=  1.00c
-2287 AVX2            :VPADDQ+VADDPD ym, ym, ym              L:   3.76ns=  6.0c  T:   0.50ns=  0.81c
+2286 AVX2            :VPADDD+VADDPS ym, ym, ym              L:   3.76ns=  6.0c  T:   0.50ns=  0.80c
+2287 AVX2            :VPADDQ+VADDPD ym, ym, ym              L:   3.76ns=  6.0c  T:   0.50ns=  0.80c
 2288 AVX2            :VCMPPS+VPADDD ym, ym, ym              L:   3.76ns=  6.0c  T:   0.47ns=  0.75c
 2289 AVX2            :VCMPPD+VPADDQ ym, ym, ym              L:   3.76ns=  6.0c  T:   0.47ns=  0.75c
 2290 SSE             :4xADDPS xm1,xm1 4x xm2,xm2            L:   7.52ns= 12.0c  T:   7.52ns= 12.00c
 2291 SSE             :4xMULPS xm1,xm1 4x xm2,xm2            L:   7.52ns= 12.0c  T:   7.52ns= 12.00c
 2292 SSE2            :4xADDPD xm1,xm1 4x xm2,xm2            L:   7.52ns= 12.0c  T:   7.52ns= 12.00c
 2293 SSE2            :4xMULPD xm1,xm1 4x xm2,xm2            L:   7.52ns= 12.0c  T:   7.52ns= 12.00c
-2294 LNOP            :LNOP3 [eax], eax                      L: [no true dep.]   T:   0.19ns=  0.30c
+2294 LNOP            :LNOP3 [eax], eax                      L: [no true dep.]   T:   0.18ns=  0.28c
 2295 LNOP            :LNOP4 [eax+disp8], eax                L: [no true dep.]   T:   0.16ns=  0.25c
 2296 LNOP            :LNOP5 [SIB+disp8], eax                L: [no true dep.]   T:   0.19ns=  0.30c
-2297 LNOP            :LNOP6 [SIB+disp8], ax                 L: [no true dep.]   T:   0.23ns=  0.37c
-2298 LNOP            :LNOP7 [eax+disp32], eax               L: [no true dep.]   T:   0.27ns=  0.43c
+2297 LNOP            :LNOP6 [SIB+disp8], ax                 L: [no true dep.]   T:   0.18ns=  0.29c
+2298 LNOP            :LNOP7 [eax+disp32], eax               L: [no true dep.]   T:   0.25ns=  0.40c
 2299 LNOP            :LNOP8 [SIB+disp32], eax               L: [no true dep.]   T:   0.31ns=  0.49c
-2300 LNOP            :LNOP9 [SIB+disp32], ax                L: [no true dep.]   T:   0.36ns=  0.58c
-2301 LNOP            :2x66 LNOPA [SIB+disp32], ax           L: [no true dep.]   T:   0.37ns=  0.58c
+2300 LNOP            :LNOP9 [SIB+disp32], ax                L: [no true dep.]   T:   0.32ns=  0.52c
+2301 LNOP            :2x66 LNOPA [SIB+disp32], ax           L: [no true dep.]   T:   0.35ns=  0.55c
 2302 LNOP            :3x66 LNOPB [SIB+disp32], ax           L: [no true dep.]   T:   0.43ns=  0.69c
-2303 LNOP            :4x66 LNOPC [SIB+disp32], ax           L: [no true dep.]   T:   0.48ns=  0.76c
-2304 LNOP            :5x66 LNOPD [SIB+disp32], ax           L: [no true dep.]   T:   0.51ns=  0.82c
-2305 LNOP            :6x66 LNOPE [SIB+disp32], ax           L: [no true dep.]   T:   0.55ns=  0.88c
+2303 LNOP            :4x66 LNOPC [SIB+disp32], ax           L: [no true dep.]   T:   0.48ns=  0.77c
+2304 LNOP            :5x66 LNOPD [SIB+disp32], ax           L: [no true dep.]   T:   0.52ns=  0.82c
+2305 LNOP            :6x66 LNOPE [SIB+disp32], ax           L: [no true dep.]   T:   0.57ns=  0.92c
 2306 LNOP            :7x66 LNOPF [SIB+disp32], ax           L: [no true dep.]   T:   0.57ns=  0.92c
 2309 AVX2            :VGATHERDPS xmm, [xm32], xmm           L:  12.01ns= 19.2c  T:   3.13ns=  5.00c
-2310 AVX2            :VGATHERDPS ymm, [ym32], ymm           L:  13.26ns= 21.2c  T:   3.71ns=  5.92c
+2310 AVX2            :VGATHERDPS ymm, [ym32], ymm           L:  13.21ns= 21.1c  T:   3.71ns=  5.92c
 2311 AVX2            :VGATHERQPS xmm, [xm64], xmm           L:  12.01ns= 19.2c  T:   3.13ns=  5.00c
 2312 AVX2            :VGATHERQPS xmm, [ym64], xmm           L:  12.01ns= 19.2c  T:   3.13ns=  5.00c
 2313 AVX2            :VGATHERDPD xmm, [xm32], xmm           L:  10.70ns= 17.1c  T:   2.51ns=  4.00c
-2314 AVX2            :VGATHERDPD ymm, [xm32], ymm           L:  11.43ns= 18.3c  T:   3.13ns=  5.00c
+2314 AVX2            :VGATHERDPD ymm, [xm32], ymm           L:  11.38ns= 18.2c  T:   3.13ns=  5.00c
 2315 AVX2            :VGATHERQPD xmm, [xm64], xmm           L:  10.70ns= 17.1c  T:   2.51ns=  4.00c
-2316 AVX2            :VGATHERQPD ymm, [ym64], ymm           L:  11.43ns= 18.3c  T:   3.13ns=  5.00c
+2316 AVX2            :VGATHERQPD ymm, [ym64], ymm           L:  11.38ns= 18.2c  T:   3.13ns=  5.00c
 2317 AVX2            :VPGATHERDD xmm, [xm32], xmm           L:  12.01ns= 19.2c  T:   3.13ns=  5.00c
-2318 AVX2            :VPGATHERDD ymm, [ym32], ymm           L:  13.26ns= 21.2c  T:   3.71ns=  5.92c
+2318 AVX2            :VPGATHERDD ymm, [ym32], ymm           L:  13.21ns= 21.1c  T:   3.71ns=  5.92c
 2319 AVX2            :VPGATHERQD xmm, [xm64], xmm           L:  12.01ns= 19.2c  T:   3.13ns=  5.00c
 2320 AVX2            :VPGATHERQD xmm, [ym64], xmm           L:  12.01ns= 19.2c  T:   3.13ns=  5.00c
 2321 AVX2            :VPGATHERDQ xmm, [xm32], xmm           L:  10.70ns= 17.1c  T:   2.51ns=  4.00c
 2322 AVX2            :VPGATHERDQ ymm, [xm32], ymm           L:  11.38ns= 18.2c  T:   3.13ns=  5.00c
 2323 AVX2            :VPGATHERQQ xmm, [xm64], xmm           L:  10.70ns= 17.1c  T:   2.51ns=  4.00c
-2324 AVX2            :VPGATHERQQ ymm, [ym64], ymm           L:  11.43ns= 18.3c  T:   3.13ns=  5.00c
+2324 AVX2            :VPGATHERQQ ymm, [ym64], ymm           L:  11.38ns= 18.2c  T:   3.13ns=  5.00c
+4203 AVX             :VMOVAPS+VEXTRACTF128 [m128], ym, im8  L: [memory dep.]    T:   1.25ns=  2.00c
+4204 AVX2            :VMOVDQA+VEXTRACTI128 [m128], ym, im8  L: [memory dep.]    T:   1.25ns=  2.00c
+4217 AVX             :VMOVAPS+VINSERTF128 ym, [m128], im8   L: [memory dep.]    T:   0.63ns=  1.00c
+4218 AVX2            :VMOVDQA+VINSERTI128 ym, [m128], im8   L: [memory dep.]    T:   0.63ns=  1.00c
