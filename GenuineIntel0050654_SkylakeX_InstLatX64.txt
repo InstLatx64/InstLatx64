@@ -2849,12 +2849,12 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000080000
 2736 AVX512F         :VCVTPS2PH + VCVTPH2PS zmm             L:   4.28ns= 14.2c  T:   0.63ns=  2.08c
 2737 AVX512F         :{EVEX} VCVTSS2SD xmm, xmm, xmm        L:   1.51ns=  5.0c  T:   0.30ns=  1.00c
 2738 AVX512VL        :{EVEX} VCVTPS2PD xmm, xmm             L:   1.51ns=  5.0c  T:   0.30ns=  1.00c
-2739 AVX512VL        :{EVEX} VCVTPS2PD ymm, ymm             L:   2.11ns=  7.0c  T:   0.33ns=  1.08c
-2740 AVX512F         :VCVTPS2PD zmm, zmm                    L:   2.11ns=  7.0c  T:   0.35ns=  1.17c
+2739 AVX512VL        :{EVEX} VCVTPS2PD ymm, xmm             L:   2.11ns=  7.0c  T:   0.33ns=  1.08c
+2740 AVX512F         :VCVTPS2PD zmm, ymm                    L:   2.11ns=  7.0c  T:   0.35ns=  1.17c
 2741 AVX512F         :{EVEX} VCVTSD2SS xmm, xmm, xmm        L:   1.51ns=  5.0c  T:   0.30ns=  1.00c
 2742 AVX512VL        :{EVEX} VCVTPD2PS xmm, xmm             L:   1.51ns=  5.0c  T:   0.30ns=  1.00c
-2743 AVX512VL        :{EVEX} VCVTPD2PS ymm, ymm             L:   2.11ns=  7.0c  T:   0.33ns=  1.08c
-2744 AVX512F         :VCVTPD2PS zmm, zmm                    L:   2.11ns=  7.0c  T:   0.33ns=  1.08c
+2743 AVX512VL        :{EVEX} VCVTPD2PS xmm, ymm             L:   2.11ns=  7.0c  T:   0.33ns=  1.08c
+2744 AVX512F         :VCVTPD2PS ymm, zmm                    L:   2.11ns=  7.0c  T:   0.33ns=  1.08c
 2745 AVX512F         :{EVEX} VCVTSD2SS + VCVTSD2SS xmm      L:   3.04ns= 10.1c  T:   0.60ns=  2.00c
 2746 AVX512VL        :{EVEX} VCVTPD2PS + VCVTPD2PS xmm      L:   3.04ns= 10.1c  T:   0.60ns=  2.00c
 2747 AVX512VL        :{EVEX} VCVTPD2PS + VCVTPD2PS ymm      L:   4.25ns= 14.1c  T:   0.65ns=  2.17c
@@ -3245,9 +3245,9 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000080000
 3132 AVX512F         :VBROADCASTSD zmm, xmm                 L:   0.91ns=  3.0c  T:   0.30ns=  1.00c
 3133 AVX512VL        :{EVEX} VBROADCASTSD ymm, [m64]        L: [memory dep.]    T:   0.15ns=  0.50c
 3134 AVX512F         :VBROADCASTSD zmm, [m64]               L: [memory dep.]    T:   0.15ns=  0.50c
-3135 AVX512VLDQ      :VBROADCASTF64X4 ymm, [m128]           L: [memory dep.]    T:   0.15ns=  0.50c
-3136 AVX512DQ        :VBROADCASTF64X4 zmm, [m128]           L: [memory dep.]    T:   0.15ns=  0.50c
-3137 AVX512F         :VBROADCASTF64X8 zmm, [m256]           L: [memory dep.]    T:   0.15ns=  0.50c
+3135 AVX512VLDQ      :VBROADCASTF64X2 ymm, [m128]           L: [memory dep.]    T:   0.15ns=  0.50c
+3136 AVX512DQ        :VBROADCASTF64X2 zmm, [m128]           L: [memory dep.]    T:   0.15ns=  0.50c
+3137 AVX512F         :VBROADCASTF64X4 zmm, [m256]           L: [memory dep.]    T:   0.15ns=  0.50c
 3138 AVX512F         :{EVEX} VEXTRACTPS r32, xmm, imm8      L: [diff. reg. set] T:   0.30ns=  1.00c
 3139 AVX512F         :{EVEX} VEXTRACTPS [m32], xmm, imm8    L: [memory dep.]    T:   0.30ns=  1.00c
 3140 AVX512VL        :VEXTRACTF32X4 xmm, ymm, imm8          L:   0.91ns=  3.0c  T:   0.30ns=  1.00c
@@ -3815,14 +3815,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000080000
 3727 AVX512VLBW      :{EVEX} VPSLLDQ ymm, ymm, imm8         L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3728 AVX512BW        :VPSLLDQ zmm, zmm, imm8                L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3729 AVX512VLBW      :{EVEX} VPSLLVW xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3730 AVX512VLBW      :{EVEX} VPSLLVW ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3731 AVX512BW        :VPSLLVW zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3730 AVX512VLBW      :{EVEX} VPSLLVW ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3731 AVX512BW        :VPSLLVW zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3732 AVX512VL        :{EVEX} VPSLLVD xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3733 AVX512VL        :{EVEX} VPSLLVD ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3734 AVX512F         :VPSLLVD zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3733 AVX512VL        :{EVEX} VPSLLVD ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3734 AVX512F         :VPSLLVD zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3735 AVX512VL        :{EVEX} VPSLLVQ xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3736 AVX512VL        :{EVEX} VPSLLVQ ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3737 AVX512F         :VPSLLVQ zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3736 AVX512VL        :{EVEX} VPSLLVQ ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3737 AVX512F         :VPSLLVQ zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3738 AVX512VLBW      :{EVEX} VPSRLW xmm, xmm, xmm           L:   0.60ns=  2.0c  T:   0.30ns=  1.00c
 3739 AVX512VLBW      :{EVEX} VPSRLW ymm, ymm, xmm           L:   1.21ns=  4.0c  T:   0.30ns=  1.00c
 3740 AVX512BW        :VPSRLW zmm, zmm, xmm                  L:   1.21ns=  4.0c  T:   0.30ns=  1.00c
@@ -3845,14 +3845,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000080000
 3757 AVX512VLBW      :{EVEX} VPSRLDQ ymm, ymm, imm8         L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3758 AVX512BW        :VPSRLDQ zmm, zmm, imm8                L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3759 AVX512VLBW      :{EVEX} VPSRLVW xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3760 AVX512VLBW      :{EVEX} VPSRLVW ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3761 AVX512BW        :VPSRLVW zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3760 AVX512VLBW      :{EVEX} VPSRLVW ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3761 AVX512BW        :VPSRLVW zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3762 AVX512VL        :{EVEX} VPSRLVD xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3763 AVX512VL        :{EVEX} VPSRLVD ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3764 AVX512F         :VPSRLVD zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3763 AVX512VL        :{EVEX} VPSRLVD ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3764 AVX512F         :VPSRLVD zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3765 AVX512VL        :{EVEX} VPSRLVQ xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3766 AVX512VL        :{EVEX} VPSRLVQ ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3767 AVX512F         :VPSRLVQ zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3766 AVX512VL        :{EVEX} VPSRLVQ ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3767 AVX512F         :VPSRLVQ zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3768 AVX512VLBW      :{EVEX} VPSRAW xmm, xmm, xmm           L:   0.60ns=  2.0c  T:   0.30ns=  1.00c
 3769 AVX512VLBW      :{EVEX} VPSRAW ymm, ymm, xmm           L:   1.21ns=  4.0c  T:   0.30ns=  1.00c
 3770 AVX512BW        :VPSRAW zmm, zmm, xmm                  L:   1.21ns=  4.0c  T:   0.30ns=  1.00c
@@ -3872,14 +3872,14 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000080000
 3784 AVX512VL        :VPSRAQ ymm, ymm, imm8                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
 3785 AVX512F         :VPSRAQ zmm, zmm, imm8                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3786 AVX512VLBW      :{EVEX} VPSRAVW xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3787 AVX512VLBW      :{EVEX} VPSRAVW ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3788 AVX512BW        :VPSRAVW zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3787 AVX512VLBW      :{EVEX} VPSRAVW ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3788 AVX512BW        :VPSRAVW zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3789 AVX512VL        :{EVEX} VPSRAVD xmm, xmm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3790 AVX512VL        :{EVEX} VPSRAVD ymm, ymm, xmm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3791 AVX512F         :VPSRAVD zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3790 AVX512VL        :{EVEX} VPSRAVD ymm, ymm, ymm          L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3791 AVX512F         :VPSRAVD zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3792 AVX512VL        :VPSRAVQ xmm, xmm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3793 AVX512VL        :VPSRAVQ ymm, ymm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3794 AVX512F         :VPSRAVQ zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3793 AVX512VL        :VPSRAVQ ymm, ymm, ymm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3794 AVX512F         :VPSRAVQ zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3795 AVX512VL        :VPROLD xmm, xmm, imm8                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
 3796 AVX512VL        :VPROLD ymm, ymm, imm8                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
 3797 AVX512F         :VPROLD zmm, zmm, imm8                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
@@ -3887,11 +3887,11 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000080000
 3799 AVX512VL        :VPROLQ ymm, ymm, imm8                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
 3800 AVX512F         :VPROLQ zmm, zmm, imm8                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3801 AVX512VL        :VPROLVD xmm, xmm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3802 AVX512VL        :VPROLVD ymm, ymm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3803 AVX512F         :VPROLVD zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3802 AVX512VL        :VPROLVD ymm, ymm, ymm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3803 AVX512F         :VPROLVD zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3804 AVX512VL        :VPROLVQ xmm, xmm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3805 AVX512VL        :VPROLVQ ymm, ymm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3806 AVX512F         :VPROLVQ zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3805 AVX512VL        :VPROLVQ ymm, ymm, ymm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3806 AVX512F         :VPROLVQ zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3807 AVX512VL        :VPRORD xmm, xmm, imm8                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
 3808 AVX512VL        :VPRORD ymm, ymm, imm8                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
 3809 AVX512F         :VPRORD zmm, zmm, imm8                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
@@ -3899,11 +3899,11 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000080000
 3811 AVX512VL        :VPRORQ ymm, ymm, imm8                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
 3812 AVX512F         :VPRORQ zmm, zmm, imm8                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3813 AVX512VL        :VPRORVD xmm, xmm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3814 AVX512VL        :VPRORVD ymm, ymm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3815 AVX512F         :VPRORVD zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3814 AVX512VL        :VPRORVD ymm, ymm, ymm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3815 AVX512F         :VPRORVD zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3816 AVX512VL        :VPRORVQ xmm, xmm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3817 AVX512VL        :VPRORVQ ymm, ymm, xmm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
-3818 AVX512F         :VPRORVQ zmm, zmm, xmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
+3817 AVX512VL        :VPRORVQ ymm, ymm, ymm                 L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
+3818 AVX512F         :VPRORVQ zmm, zmm, zmm                 L:   0.30ns=  1.0c  T:   0.30ns=  1.00c
 3819 AVX512VL        :VPTERNLOGD xmm, xmm, xmm, imm8        L:   0.30ns=  1.0c  T:   0.15ns=  0.48c
 3820 AVX512VL        :VPTERNLOGD ymm, ymm, ymm, imm8        L:   0.30ns=  1.0c  T:   0.15ns=  0.48c
 3821 AVX512F         :VPTERNLOGD zmm, zmm, zmm, imm8        L:   0.30ns=  1.0c  T:   0.15ns=  0.50c
