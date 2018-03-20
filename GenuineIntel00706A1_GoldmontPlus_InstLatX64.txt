@@ -16,7 +16,7 @@ CPU#000 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:000000000000000
 CPU#000 L2  cache:   4096KB,   64 byte cache line, 16 way, SMask:000000000000000f, non-inclusive
 CPU#000 L1D 4K TLB:            32 entries,           full, SMask:0000000000000001
 CPU#000 L1I 4K TLB:            48 entries,           full, SMask:0000000000000001
-CPU#000 L1I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000001
+CPU#000 L2I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000001
 CPU#000 L2I+D 2M TLB:          32 entries,          4 way, SMask:0000000000000001
 CPU#001 Vendor: GenuineIntel Family: 6 Modell: 7a Stepping: 1 CoreType:0x200706a1
 CPU#001 Type: "Intel(R) Celeron(R) J4105 CPU @ 1.50GHz"
@@ -28,7 +28,7 @@ CPU#001 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:000000000000000
 CPU#001 L2  cache:   4096KB,   64 byte cache line, 16 way, SMask:000000000000000f, non-inclusive
 CPU#001 L1D 4K TLB:            32 entries,           full, SMask:0000000000000002
 CPU#001 L1I 4K TLB:            48 entries,           full, SMask:0000000000000002
-CPU#001 L1I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000002
+CPU#001 L2I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000002
 CPU#001 L2I+D 2M TLB:          32 entries,          4 way, SMask:0000000000000002
 CPU#002 Vendor: GenuineIntel Family: 6 Modell: 7a Stepping: 1 CoreType:0x200706a1
 CPU#002 Type: "Intel(R) Celeron(R) J4105 CPU @ 1.50GHz"
@@ -40,7 +40,7 @@ CPU#002 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:000000000000000
 CPU#002 L2  cache:   4096KB,   64 byte cache line, 16 way, SMask:000000000000000f, non-inclusive
 CPU#002 L1D 4K TLB:            32 entries,           full, SMask:0000000000000004
 CPU#002 L1I 4K TLB:            48 entries,           full, SMask:0000000000000004
-CPU#002 L1I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000004
+CPU#002 L2I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000004
 CPU#002 L2I+D 2M TLB:          32 entries,          4 way, SMask:0000000000000004
 CPU#003 Vendor: GenuineIntel Family: 6 Modell: 7a Stepping: 1 CoreType:0x200706a1
 CPU#003 Type: "Intel(R) Celeron(R) J4105 CPU @ 1.50GHz"
@@ -52,7 +52,7 @@ CPU#003 L1D cache:     24KB,   64 byte cache line,  6 way, SMask:000000000000000
 CPU#003 L2  cache:   4096KB,   64 byte cache line, 16 way, SMask:000000000000000f, non-inclusive
 CPU#003 L1D 4K TLB:            32 entries,           full, SMask:0000000000000008
 CPU#003 L1I 4K TLB:            48 entries,           full, SMask:0000000000000008
-CPU#003 L1I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000008
+CPU#003 L2I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000008
 CPU#003 L2I+D 2M TLB:          32 entries,          4 way, SMask:0000000000000008
 Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000008 
    0 X86             :NOP                                   L: [no true dep.]   T:   0.22ns=  0.33c
