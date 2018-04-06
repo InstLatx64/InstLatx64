@@ -5,12 +5,12 @@
 </div>
 <br>
 <div align=center>
-Last update: 2018.03.24.<br>
+Last update: 2018.04.06.<br>
 <br>
 <a href=https://twitter.com/InstLatX64>Twitter</a><br>
 <a href=https://github.com/InstLatx64>GitHub Mirror</a><br>
 <a href=CPU_chart_v181.png>CPU comparison chart v1.81</a><br>
-<a href=LPCPU_chart_v15.png>Low power CPU comparison chart v1.5</a><br>
+<a href=LPCPU_chart_v16.png>Low power CPU comparison chart <b>v1.6</b></a><br>
 <a href=MIC_chart_v11.png>Intel ManyCore CPU comparison chart v1.1</a><br>
 <a href=ZeroDump_20180224.txt>ZeroDump with all the 18 levels of AVX512 (2331-4353)</a><br>
 <a href=AVX512_SKX_PortAssign_v102_PUB.ods>Intel Skylake-X AVX512 port assignment v1.02 (ODS format)</a><br>
@@ -149,7 +149,7 @@ Last update: 2018.03.24.<br>
 
 <i>00XXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Matisse (Zen2 CPU)</i>
 <i>00XXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Picasso (Zen2 APU)</i>
-<i>00XXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Castle Park (Zen2 Threadripper)</i>
+<i>00XXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   <b>Castle Peak</b> (Zen2 Threadripper)</i>
 
 <i>00XXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Vermeer (Zen3 CPU)</i>
 <i>00XXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Renoir (Zen3 APU)</i>
@@ -445,29 +445,21 @@ Future Server variants:
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Sapphire Rapids (10++? nm)</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Granite Rapids (7? nm, <a href=https://twitter.com/TMFChipFool/status/966747252671877120>source</a>)</i>
 
-Future Consumption optimized cores:
+Future Low-power core:
+
+Low-power platforms:
+<i>000406Ax   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Merrifield (22 nm dual Silvermont core + PowerVR G6400, Atom Z34xx)</i>
+<i>000506Ax   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Moorefield (22 nm quad Silvermont core + PowerVR G6430, Atom Z35xx)</i>
+<i>0006065x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   <a href=http://browser.primatelabs.com/geekbench3/4062045>SoFIA LTE_AOSP</a></i>
+<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Morganfield (14 nm Airmont core + Gen8 GPU)</i>
+<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Liffy Island (?? nm Goldmont(???) core, 64KB L1D(?))</i>
+<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Seal Beach (?? nm Goldmont(???) core, 64KB L1D(?), SSE2, FXSAVE, CMOV)</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Gemini Lake+</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Jasper Lake</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Mercury Lake</i>
-<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Skymont (10 nm, Goldmont shrink)</i>
-
-Future Tablet/MID platforms:
-<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Willow Trail (14 nm Goldmont core + Gen9 GPU)</i>
-
-Future Mobile platforms:
-<i>000406Ax   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Merrifield (22 nm dual Silvermont core + PowerVR G6400, Atom Z34xx)</i>
-<i>000506Ax   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Moorefield (22 nm quad Silvermont core + PowerVR G6430, Atom Z35xx)</i>
-<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Morganfield (14 nm Airmont core + Gen8 GPU)</i>
-<i>0006065x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   <a href=http://browser.primatelabs.com/geekbench3/4062045>SoFIA LTE_AOSP</a></i>
-
-Future Low power desktop platform:
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Glenview (?)</i>
-
-Future Low power server platform:
-
-Future Quark platforms:
-<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Liffy Island (?? nm Goldmont(???) core, 64KB L1D(?))</i>
-<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Seal Beach (?? nm Goldmont(???) core, 64KB L1D(?), SSE2, FXSAVE, CMOV)</i>
+<s><i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Skymont (10 nm, Goldmont shrink)</i></s>
+<s><i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Willow Trail (14 nm Goldmont core + Gen9 GPU)</i></s>
 
 MIC products:
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Knights Ferry (<a href=http://www.itproportal.com/2011/6/20/intel-pushes-hpc-space-knights-corner/>45 nm</a>)</i>
