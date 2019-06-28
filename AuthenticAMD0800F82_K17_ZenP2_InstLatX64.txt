@@ -3391,7 +3391,7 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x8000000000000000
 2322 AVX2                :VPGATHERDQ ymm, [xm32], ymm           L:   5.33ns= 16.0c  T:   4.00ns= 12.00c
 2323 AVX2                :VPGATHERQQ xmm, [xm64], xmm           L:   4.81ns= 14.4c  T:   3.00ns=  9.00c
 2324 AVX2                :VPGATHERQQ ymm, [ym64], ymm           L:   5.47ns= 16.4c  T:   4.00ns= 12.00c
-2325 CLZERO              :CLZERO [mem]                          L: [memory dep.]    T:  62.75ns=188.25c
+2325 CLZERO              :CLZERO [rax]                          L: [memory dep.]    T:  62.75ns=188.25c
 4195 AVX                 :VMOVAPS+VEXTRACTF128 [m128], ym, im8  L: [memory dep.]    T:   0.67ns=  2.00c
 4196 AVX2                :VMOVDQA+VEXTRACTI128 [m128], ym, im8  L: [memory dep.]    T:   0.67ns=  2.00c
 4209 AVX                 :VMOVAPS+VINSERTF128 ym, [m128], im8   L: [memory dep.]    T:   0.50ns=  1.50c

@@ -2323,7 +2323,7 @@
 2322 AVX2                :VPGATHERDQ ymm, [xm32], ymm           L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 2323 AVX2                :VPGATHERQQ xmm, [xm64], xmm           L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
 2324 AVX2                :VPGATHERQQ ymm, [ym64], ymm           L:   0.00ns=  0.0c  T:   0.00ns=  0.00c
-2325 CLZERO              :CLZERO [mem]                          L: [memory dep.]    T:   0.00ns=  0.00c
+2325 CLZERO              :CLZERO [rax]                          L: [memory dep.]    T:   0.00ns=  0.00c
 2326 CLWB                :CLWB [mem]                            L: [memory dep.]    T:   0.00ns=  0.00c
 2327 PCOMMIT             :PCOMMIT                               L: [no true dep.]   T:   0.00ns=  0.00c
 2328 OSPKE               :RDPKRU                                L: [no true dep.]   T:   0.00ns=  0.00c
