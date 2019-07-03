@@ -2,28 +2,28 @@ Copyright (C) 1995-2010 FinalWire Ltd. All rights reserved.
 aida_bench32.dll build: 2.7.333.0 Dec 17 2010 12:17:06
 CPUCount: 4, procMask: 0x0000000f Size of Memory: 2086904KB
 OS:6.1.7600  Priority:080 NUMA:0
-CPU#00 Vendor: GenuineIntel Family: 6 Modell: 1c Stepping: a CoreType:0x200106ca
+CPU#00 Vendor: GenuineIntel Family: 6 Model: 1c Stepping: a CoreType:0x200106ca
 CPU#00 Freq: 1799.95MHz Type: "         Intel(R) Atom(TM) CPU D525   @ 1.80GHz"
 CPU#00 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, MOVBE, HTT
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x0000000f 
 CPU#00 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000005
 CPU#00 L1D cache:    24KB,   64 byte cache line,  6 way, SMask:00000005
 CPU#00 L2  cache:   512KB,   64 byte cache line,  8 way, SMask:00000005
-CPU#01 Vendor: GenuineIntel Family: 6 Modell: 1c Stepping: a CoreType:0x200106ca
+CPU#01 Vendor: GenuineIntel Family: 6 Model: 1c Stepping: a CoreType:0x200106ca
 CPU#01 Freq: 1799.94MHz Type: "         Intel(R) Atom(TM) CPU D525   @ 1.80GHz"
 CPU#01 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, MOVBE, HTT
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000002 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x0000000f 
 CPU#01 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000a
 CPU#01 L1D cache:    24KB,   64 byte cache line,  6 way, SMask:0000000a
 CPU#01 L2  cache:   512KB,   64 byte cache line,  8 way, SMask:0000000a
-CPU#02 Vendor: GenuineIntel Family: 6 Modell: 1c Stepping: a CoreType:0x200106ca
+CPU#02 Vendor: GenuineIntel Family: 6 Model: 1c Stepping: a CoreType:0x200106ca
 CPU#02 Freq: 1799.90MHz Type: "         Intel(R) Atom(TM) CPU D525   @ 1.80GHz"
 CPU#02 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, MOVBE, HTT
 CPU#02 AffMask:0x00000004 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 PhysMask:0x0000000f 
 CPU#02 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000005
 CPU#02 L1D cache:    24KB,   64 byte cache line,  6 way, SMask:00000005
 CPU#02 L2  cache:   512KB,   64 byte cache line,  8 way, SMask:00000005
-CPU#03 Vendor: GenuineIntel Family: 6 Modell: 1c Stepping: a CoreType:0x200106ca
+CPU#03 Vendor: GenuineIntel Family: 6 Model: 1c Stepping: a CoreType:0x200106ca
 CPU#03 Freq: 1799.92MHz Type: "         Intel(R) Atom(TM) CPU D525   @ 1.80GHz"
 CPU#03 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, MOVBE, HTT
 CPU#03 AffMask:0x00000008 APIC_ID:0x00000003 Phys_ID:000 Core_ID:01 SMT_ID:01 PhysMask:0x0000000f 

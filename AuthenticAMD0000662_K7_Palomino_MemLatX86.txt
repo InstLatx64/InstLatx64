@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 253428KB Priority:080
 CPU#00 Vendor: AuthenticAMD CoreType:0x10000662
-CPU#00 Family: 6 Modell: 06 Stepping: 2 Type: "Athlon XP (Palomin?00+"
+CPU#00 Family: 6 Model: 06 Stepping: 2 Type: "Athlon XP (Palomin?00+"
 CPU#00 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, CMPXCHG8B
 CPU#00 Frequency: 1396.32MHz  OS:5.0.2195 Service Pack 4
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 

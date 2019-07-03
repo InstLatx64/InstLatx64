@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 523764KB Priority:080
 CPU#00 Vendor: AuthenticAMD CoreType:0x10000630
-CPU#00 Family: 6 Modell: 03 Stepping: 0 Type: "AMD Duron(tm) processor"
+CPU#00 Family: 6 Model: 03 Stepping: 0 Type: "AMD Duron(tm) processor"
 CPU#00 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, CMPXCHG8B
 CPU#00 Frequency:  601.30MHz  OS:5.1.2600 Service Pack 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 

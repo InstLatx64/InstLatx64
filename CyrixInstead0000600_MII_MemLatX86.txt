@@ -2,7 +2,7 @@ Copyright (C) 2003, 2007 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.3.215.0 Nov  5 2007 11:18:11
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 261684KB
 CPU#0 Vendor: CyrixInstead APIC_ID:0x00000069 CoreID:0x40000600 Priority:080
-CPU#0 Family: 6 Modell: 00 Stepping: 0
+CPU#0 Family: 6 Model: 00 Stepping: 0
 CPU#0 Features: TSC, FPU, CMOV, MMX, CMPXCHG8B
 CPU#0 Frequency:  250.48MHz OS:5.0.2195 Service Pack 4
 CPU#0 L1I+D unified cache:   64KB,  32 byte cache line, 4 way

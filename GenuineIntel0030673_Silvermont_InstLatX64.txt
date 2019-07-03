@@ -6,7 +6,7 @@ Memory: 4084920KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
 Memory To Test:16384KB 4K DTLB:128 2M DTLB: 16 CLFlush:64
 ProcMask: 0x0000000000000003 
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,CLMUL,MOVBE,RDRAND,CLFLUSH,TSCINV,RDTSCP,3DNOWPREF,LNOP,ERMS,PSE,
-CPU#000 Vendor: GenuineIntel Family: 6 Modell: 37 Stepping: 3 CoreType:0x20030673
+CPU#000 Vendor: GenuineIntel Family: 6 Model: 37 Stepping: 3 CoreType:0x20030673
 CPU#000 Type: "      Intel(R) Celeron(R) CPU  N2820  @ 2.13GHz"
 CPU#000 AffMask: 0x0000000000000001 
 CPU#000 PhysMask:0x0000000000000003 
@@ -18,7 +18,7 @@ CPU#000 L0D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#000 L1D 4K TLB:           128 entries,          4 way, SMask:0000000000000001
 CPU#000 L1D 2M TLB:            16 entries,          4 way, SMask:0000000000000001
 CPU#000 L1I 4K TLB:            48 entries,           full, SMask:0000000000000001
-CPU#001 Vendor: GenuineIntel Family: 6 Modell: 37 Stepping: 3 CoreType:0x20030673
+CPU#001 Vendor: GenuineIntel Family: 6 Model: 37 Stepping: 3 CoreType:0x20030673
 CPU#001 Type: "      Intel(R) Celeron(R) CPU  N2820  @ 2.13GHz"
 CPU#001 AffMask: 0x0000000000000002 
 CPU#001 PhysMask:0x0000000000000003 

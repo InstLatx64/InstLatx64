@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 3397244KB Priority:080
 CPU#00 Vendor: GenuineIntel CoreType:0x20010661
-CPU#00 Family: 6 Modell: 16 Stepping: 1 Type: "Intel(R) Celeron(R) CPU          420  @ 1.60GHz"
+CPU#00 Family: 6 Model: 16 Stepping: 1 Type: "Intel(R) Celeron(R) CPU          420  @ 1.60GHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B
 CPU#00 Frequency: 1600.00MHz  OS:5.1.2600 Service Pack 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 

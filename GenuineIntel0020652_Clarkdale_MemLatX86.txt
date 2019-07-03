@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.5.289.0 Feb 14 2010 15:44:30
 CPUCount: 4, procMask: 0x0000000f Size of Memory: 2022444KB Priority:080
 CPU#00 Vendor: GenuineIntel CoreType:0x20020652
-CPU#00 Family: 6 Modell: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
+CPU#00 Family: 6 Model: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, HTT
 CPU#00 Frequency: 3199.86MHz  OS:5.1.2600 Service Pack 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x0000000f 
@@ -11,7 +11,7 @@ CPU#00 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000005
 CPU#00 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000005
 CPU#00 L3  cache:  4096KB,   64 byte cache line, 16 way, SMask:0000000f
 CPU#01 Vendor: GenuineIntel CoreType:0x20020652
-CPU#01 Family: 6 Modell: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
+CPU#01 Family: 6 Model: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
 CPU#01 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, HTT
 CPU#01 Frequency: 3199.89MHz  OS:5.1.2600 Service Pack 2
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000004 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x0000000f 
@@ -20,7 +20,7 @@ CPU#01 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000a
 CPU#01 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000a
 CPU#01 L3  cache:  4096KB,   64 byte cache line, 16 way, SMask:0000000f
 CPU#02 Vendor: GenuineIntel CoreType:0x20020652
-CPU#02 Family: 6 Modell: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
+CPU#02 Family: 6 Model: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
 CPU#02 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, HTT
 CPU#02 Frequency: 3199.92MHz  OS:5.1.2600 Service Pack 2
 CPU#02 AffMask:0x00000004 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 PhysMask:0x0000000f 
@@ -29,7 +29,7 @@ CPU#02 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000005
 CPU#02 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000005
 CPU#02 L3  cache:  4096KB,   64 byte cache line, 16 way, SMask:0000000f
 CPU#03 Vendor: GenuineIntel CoreType:0x20020652
-CPU#03 Family: 6 Modell: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
+CPU#03 Family: 6 Model: 25 Stepping: 2 Type: "Intel(R) Core(TM) i5 CPU         650  @ 3.20GHz"
 CPU#03 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, HTT
 CPU#03 Frequency: 3199.90MHz  OS:5.1.2600 Service Pack 2
 CPU#03 AffMask:0x00000008 APIC_ID:0x00000005 Phys_ID:000 Core_ID:02 SMT_ID:01 PhysMask:0x0000000f 

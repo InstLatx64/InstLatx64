@@ -6,7 +6,7 @@ Memory: 1047928KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
 Memory To Test:16384KB 4K DTLB: 32 2M DTLB: 32 CLFlush:64
 ProcMask: 0x0000000000000003 
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,CMPX8,CMPX16,HTT,CLFLUSH,LNOP,PSE,
-CPU#000 Vendor: GenuineIntel Family: f Modell: 04 Stepping: 3 CoreType:0x20000f43
+CPU#000 Vendor: GenuineIntel Family: f Model: 04 Stepping: 3 CoreType:0x20000f43
 CPU#000 Type: "              Intel(R) Pentium(R) 4 CPU 3.20GHz"
 CPU#000 AffMask: 0x0000000000000001 
 CPU#000 PhysMask:0x0000000000000003 
@@ -16,7 +16,7 @@ CPU#000 L1D cache:     16KB,   64 byte cache line,  8 way, SMask:000000000000000
 CPU#000 L2  cache:   2048KB,   64 byte cache line,  8 way, SMask:0000000000000003, inclusive
 CPU#000 L1D 4K+2M TLB:         64 entries,           full, SMask:0000000000000003
 CPU#000 L1I 4K+2M TLB:         64 entries,           full, SMask:0000000000000003
-CPU#001 Vendor: GenuineIntel Family: f Modell: 04 Stepping: 3 CoreType:0x20000f43
+CPU#001 Vendor: GenuineIntel Family: f Model: 04 Stepping: 3 CoreType:0x20000f43
 CPU#001 Type: "              Intel(R) Pentium(R) 4 CPU 3.20GHz"
 CPU#001 AffMask: 0x0000000000000002 
 CPU#001 PhysMask:0x0000000000000003 

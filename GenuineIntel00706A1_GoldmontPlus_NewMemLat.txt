@@ -6,7 +6,7 @@ Memory: 16413636KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
 Memory To Test:16384KB 4K DTLB:256 2M DTLB:  0 CLFlush:64
 ProcMask: 0x000000000000000f 
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,MOVBE,RDRAND,FSGSBASE,CLFLUSH,X2APIC,TSCINV,RDTSCP,3DNOWPREF,LNOP,ERMS,PSE,RDSEED,SMAP,PAGE1GB,MPE,PT,SHA,SGX,CLFLUSHOPT,RDT_A,UMIP,RDPID,SGX_LC,
-CPU#000 Vendor: GenuineIntel Family: 6 Modell: 7a Stepping: 1 CoreType:0x200706a1
+CPU#000 Vendor: GenuineIntel Family: 6 Model: 7a Stepping: 1 CoreType:0x200706a1
 CPU#000 Type: "Intel(R) Celeron(R) J4105 CPU @ 1.50GHz"
 CPU#000 AffMask: 0x0000000000000001 
 CPU#000 PhysMask:0x000000000000000f 
@@ -18,7 +18,7 @@ CPU#000 L1D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#000 L1I 4K TLB:            48 entries,           full, SMask:0000000000000001
 CPU#000 L2I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000001
 CPU#000 L2I+D 2M TLB:          32 entries,          4 way, SMask:0000000000000001
-CPU#001 Vendor: GenuineIntel Family: 6 Modell: 7a Stepping: 1 CoreType:0x200706a1
+CPU#001 Vendor: GenuineIntel Family: 6 Model: 7a Stepping: 1 CoreType:0x200706a1
 CPU#001 Type: "Intel(R) Celeron(R) J4105 CPU @ 1.50GHz"
 CPU#001 AffMask: 0x0000000000000002 
 CPU#001 PhysMask:0x000000000000000f 
@@ -30,7 +30,7 @@ CPU#001 L1D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#001 L1I 4K TLB:            48 entries,           full, SMask:0000000000000002
 CPU#001 L2I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000002
 CPU#001 L2I+D 2M TLB:          32 entries,          4 way, SMask:0000000000000002
-CPU#002 Vendor: GenuineIntel Family: 6 Modell: 7a Stepping: 1 CoreType:0x200706a1
+CPU#002 Vendor: GenuineIntel Family: 6 Model: 7a Stepping: 1 CoreType:0x200706a1
 CPU#002 Type: "Intel(R) Celeron(R) J4105 CPU @ 1.50GHz"
 CPU#002 AffMask: 0x0000000000000004 
 CPU#002 PhysMask:0x000000000000000f 
@@ -42,7 +42,7 @@ CPU#002 L1D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#002 L1I 4K TLB:            48 entries,           full, SMask:0000000000000004
 CPU#002 L2I+D 4K TLB:         512 entries,          4 way, SMask:0000000000000004
 CPU#002 L2I+D 2M TLB:          32 entries,          4 way, SMask:0000000000000004
-CPU#003 Vendor: GenuineIntel Family: 6 Modell: 7a Stepping: 1 CoreType:0x200706a1
+CPU#003 Vendor: GenuineIntel Family: 6 Model: 7a Stepping: 1 CoreType:0x200706a1
 CPU#003 Type: "Intel(R) Celeron(R) J4105 CPU @ 1.50GHz"
 CPU#003 AffMask: 0x0000000000000008 
 CPU#003 PhysMask:0x000000000000000f 

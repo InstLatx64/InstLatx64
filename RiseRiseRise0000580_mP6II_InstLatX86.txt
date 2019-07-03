@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 InstLat.x86.exe build: 0.6.12.0 Oct 21 2009 22:54:22
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 523764KB
 CPU#00 Vendor: RiseRiseRise CoreType:0x60000580
-CPU#00 Family: 5 Modell: 08 Stepping: 0
+CPU#00 Family: 5 Model: 08 Stepping: 0
 CPU#00 Features: TSC, FPU, MMX
 CPU#00 Frequency:  200.41MHz  OS:5.1.2600 Szervizcsomag 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00PhysMask:0x00000001 

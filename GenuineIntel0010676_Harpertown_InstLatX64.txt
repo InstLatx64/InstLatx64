@@ -2,56 +2,56 @@ Copyright (C) 2003, 2007 Lavalys Consulting Group, Inc. All rights reserved.
 InstLat.x64.exe build: 0.6.8.0 Jun  8 2008 20:34:56
 CPUCount: 8, procMask: 0x00000000000000ff Size of Memory: 4187852KB
 CPU#0 Vendor: GenuineIntel APIC_ID:0x00000000
-CPU#0 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#0 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#0 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#0 Frequency: 2792.98MHz OS:5.2.3790 Service Pack 2
 CPU#0 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#0 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#0 L2  cache: 6144KB,   64 byte cache line, 24 way
 CPU#1 Vendor: GenuineIntel APIC_ID:0x00000001
-CPU#1 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#1 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#1 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#1 Frequency: 2792.97MHz OS:5.2.3790 Service Pack 2
 CPU#1 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#1 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#1 L2  cache: 6144KB,   64 byte cache line, 24 way
 CPU#2 Vendor: GenuineIntel APIC_ID:0x00000002
-CPU#2 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#2 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#2 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#2 Frequency: 2792.98MHz OS:5.2.3790 Service Pack 2
 CPU#2 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#2 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#2 L2  cache: 6144KB,   64 byte cache line, 24 way
 CPU#3 Vendor: GenuineIntel APIC_ID:0x00000003
-CPU#3 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#3 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#3 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#3 Frequency: 2792.97MHz OS:5.2.3790 Service Pack 2
 CPU#3 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#3 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#3 L2  cache: 6144KB,   64 byte cache line, 24 way
 CPU#4 Vendor: GenuineIntel APIC_ID:0x00000004
-CPU#4 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#4 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#4 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#4 Frequency: 2792.98MHz OS:5.2.3790 Service Pack 2
 CPU#4 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#4 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#4 L2  cache: 6144KB,   64 byte cache line, 24 way
 CPU#5 Vendor: GenuineIntel APIC_ID:0x00000005
-CPU#5 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#5 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#5 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#5 Frequency: 2792.97MHz OS:5.2.3790 Service Pack 2
 CPU#5 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#5 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#5 L2  cache: 6144KB,   64 byte cache line, 24 way
 CPU#6 Vendor: GenuineIntel APIC_ID:0x00000006
-CPU#6 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#6 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#6 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#6 Frequency: 2792.98MHz OS:5.2.3790 Service Pack 2
 CPU#6 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#6 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#6 L2  cache: 6144KB,   64 byte cache line, 24 way
 CPU#7 Vendor: GenuineIntel APIC_ID:0x00000007
-CPU#7 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
+CPU#7 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Xeon(R) CPU           E5462  @ 2.80GHz"
 CPU#7 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#7 Frequency: 2792.98MHz OS:5.2.3790 Service Pack 2
 CPU#7 L1I cache:   32KB,   64 byte cache line, 8 way

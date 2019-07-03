@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 Benchmarks64.exe build: 2.5.282.0 Jan 30 2010 16:29:56
 CPUCount: 16, procMask: 0x000000000000ffff Size of Memory: 4185264KB Priority:080
 CPU#00 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#00 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#00 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#00 Frequency: 3062.89MHz  OS:6.1.7600 
 CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000020 Phys_ID:001 Core_ID:00 SMT_ID:00 PhysMask:0x00000000000000ff 
@@ -11,7 +11,7 @@ CPU#00 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000003
 CPU#00 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000003
 CPU#00 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#01 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#01 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#01 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#01 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#01 Frequency: 3062.83MHz  OS:6.1.7600 
 CPU#01 AffMask:0x0000000000000002 APIC_ID:0x00000021 Phys_ID:001 Core_ID:00 SMT_ID:01 PhysMask:0x00000000000000ff 
@@ -20,7 +20,7 @@ CPU#01 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000003
 CPU#01 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000003
 CPU#01 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#02 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#02 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#02 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#02 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#02 Frequency: 3062.85MHz  OS:6.1.7600 
 CPU#02 AffMask:0x0000000000000004 APIC_ID:0x00000022 Phys_ID:001 Core_ID:01 SMT_ID:00 PhysMask:0x00000000000000ff 
@@ -29,7 +29,7 @@ CPU#02 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:000000000000000c
 CPU#02 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:000000000000000c
 CPU#02 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#03 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#03 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#03 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#03 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#03 Frequency: 3062.84MHz  OS:6.1.7600 
 CPU#03 AffMask:0x0000000000000008 APIC_ID:0x00000023 Phys_ID:001 Core_ID:01 SMT_ID:01 PhysMask:0x00000000000000ff 
@@ -38,7 +38,7 @@ CPU#03 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:000000000000000c
 CPU#03 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:000000000000000c
 CPU#03 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#04 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#04 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#04 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#04 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#04 Frequency: 3062.86MHz  OS:6.1.7600 
 CPU#04 AffMask:0x0000000000000010 APIC_ID:0x00000032 Phys_ID:001 Core_ID:09 SMT_ID:00 PhysMask:0x00000000000000ff 
@@ -47,7 +47,7 @@ CPU#04 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000030
 CPU#04 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000030
 CPU#04 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#05 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#05 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#05 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#05 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#05 Frequency: 3062.80MHz  OS:6.1.7600 
 CPU#05 AffMask:0x0000000000000020 APIC_ID:0x00000033 Phys_ID:001 Core_ID:09 SMT_ID:01 PhysMask:0x00000000000000ff 
@@ -56,7 +56,7 @@ CPU#05 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000030
 CPU#05 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000030
 CPU#05 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#06 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#06 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#06 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#06 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#06 Frequency: 3062.83MHz  OS:6.1.7600 
 CPU#06 AffMask:0x0000000000000040 APIC_ID:0x00000034 Phys_ID:001 Core_ID:10 SMT_ID:00 PhysMask:0x00000000000000ff 
@@ -65,7 +65,7 @@ CPU#06 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000000000000c0
 CPU#06 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000000000000c0
 CPU#06 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#07 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#07 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#07 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#07 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#07 Frequency: 3062.79MHz  OS:6.1.7600 
 CPU#07 AffMask:0x0000000000000080 APIC_ID:0x00000035 Phys_ID:001 Core_ID:10 SMT_ID:01 PhysMask:0x00000000000000ff 
@@ -74,7 +74,7 @@ CPU#07 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000000000000c0
 CPU#07 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000000000000c0
 CPU#07 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:00000000000000ff
 CPU#08 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#08 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#08 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#08 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#08 Frequency: 3062.83MHz  OS:6.1.7600 
 CPU#08 AffMask:0x0000000000000100 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x000000000000ff00 
@@ -83,7 +83,7 @@ CPU#08 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000300
 CPU#08 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000300
 CPU#08 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:000000000000ff00
 CPU#09 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#09 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#09 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#09 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#09 Frequency: 3062.85MHz  OS:6.1.7600 
 CPU#09 AffMask:0x0000000000000200 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 PhysMask:0x000000000000ff00 
@@ -92,7 +92,7 @@ CPU#09 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000300
 CPU#09 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000300
 CPU#09 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:000000000000ff00
 CPU#10 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#10 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#10 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#10 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#10 Frequency: 3062.87MHz  OS:6.1.7600 
 CPU#10 AffMask:0x0000000000000400 APIC_ID:0x00000002 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x000000000000ff00 
@@ -101,7 +101,7 @@ CPU#10 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000c00
 CPU#10 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000c00
 CPU#10 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:000000000000ff00
 CPU#11 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#11 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#11 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#11 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#11 Frequency: 3062.89MHz  OS:6.1.7600 
 CPU#11 AffMask:0x0000000000000800 APIC_ID:0x00000003 Phys_ID:000 Core_ID:01 SMT_ID:01 PhysMask:0x000000000000ff00 
@@ -110,7 +110,7 @@ CPU#11 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000c00
 CPU#11 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000000c00
 CPU#11 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:000000000000ff00
 CPU#12 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#12 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#12 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#12 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#12 Frequency: 3062.86MHz  OS:6.1.7600 
 CPU#12 AffMask:0x0000000000001000 APIC_ID:0x00000012 Phys_ID:000 Core_ID:09 SMT_ID:00 PhysMask:0x000000000000ff00 
@@ -119,7 +119,7 @@ CPU#12 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000003000
 CPU#12 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000003000
 CPU#12 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:000000000000ff00
 CPU#13 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#13 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#13 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#13 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#13 Frequency: 3062.83MHz  OS:6.1.7600 
 CPU#13 AffMask:0x0000000000002000 APIC_ID:0x00000013 Phys_ID:000 Core_ID:09 SMT_ID:01 PhysMask:0x000000000000ff00 
@@ -128,7 +128,7 @@ CPU#13 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000003000
 CPU#13 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000000003000
 CPU#13 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:000000000000ff00
 CPU#14 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#14 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#14 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#14 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#14 Frequency: 3062.89MHz  OS:6.1.7600 
 CPU#14 AffMask:0x0000000000004000 APIC_ID:0x00000014 Phys_ID:000 Core_ID:10 SMT_ID:00 PhysMask:0x000000000000ff00 
@@ -137,7 +137,7 @@ CPU#14 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:000000000000c000
 CPU#14 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:000000000000c000
 CPU#14 L3  cache: 12288KB,   64 byte cache line, 16 way, SMask:000000000000ff00
 CPU#15 Vendor: GenuineIntel CoreType:0x200206c1
-CPU#15 Family: 6 Modell: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
+CPU#15 Family: 6 Model: 2c Stepping: 1 Type: "Intel(R) Xeon(R) CPU           X5667  @ 3.07GHz"
 CPU#15 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, SSE4.2, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, HTT
 CPU#15 Frequency: 3062.81MHz  OS:6.1.7600 
 CPU#15 AffMask:0x0000000000008000 APIC_ID:0x00000015 Phys_ID:000 Core_ID:10 SMT_ID:01 PhysMask:0x000000000000ff00 

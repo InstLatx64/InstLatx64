@@ -3,7 +3,7 @@ aida_bench64.dll build: 2.7.392.0 Nov 11 2011 14:01:52
 H8DGI CPUCount: 32, Size of Memory: 33552508KB
 ProcMask: 0x00000000ffffffff 
 H8DGI OS:6.1.7601 Service Pack 1 Priority:020 NUMA:3
-CPU#00 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#00 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#00 Freq: 2200.04MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#00 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#00 AffMask: 0x0000000000000001 
@@ -13,7 +13,7 @@ CPU#00 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000003
 CPU#00 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000001 
 CPU#00 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000003 , exclusive
 CPU#00 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#01 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#01 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#01 Freq: 2200.07MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#01 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#01 AffMask: 0x0000000000000002 
@@ -23,7 +23,7 @@ CPU#01 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000003
 CPU#01 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000002 
 CPU#01 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000003 , exclusive
 CPU#01 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#02 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#02 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#02 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#02 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#02 AffMask: 0x0000000000000004 
@@ -33,7 +33,7 @@ CPU#02 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000000000c
 CPU#02 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000004 
 CPU#02 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000000000c , exclusive
 CPU#02 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#03 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#03 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#03 Freq: 2200.07MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#03 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#03 AffMask: 0x0000000000000008 
@@ -43,7 +43,7 @@ CPU#03 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000000000c
 CPU#03 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000008 
 CPU#03 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000000000c , exclusive
 CPU#03 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#04 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#04 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#04 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#04 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#04 AffMask: 0x0000000000000010 
@@ -53,7 +53,7 @@ CPU#04 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000030
 CPU#04 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000010 
 CPU#04 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000030 , exclusive
 CPU#04 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#05 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#05 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#05 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#05 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#05 AffMask: 0x0000000000000020 
@@ -63,7 +63,7 @@ CPU#05 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000030
 CPU#05 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000020 
 CPU#05 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000030 , exclusive
 CPU#05 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#06 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#06 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#06 Freq: 2200.07MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#06 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#06 AffMask: 0x0000000000000040 
@@ -73,7 +73,7 @@ CPU#06 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000000000000c0
 CPU#06 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000040 
 CPU#06 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:00000000000000c0 , exclusive
 CPU#06 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#07 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#07 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#07 Freq: 2200.07MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#07 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#07 AffMask: 0x0000000000000080 
@@ -83,7 +83,7 @@ CPU#07 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000000000000c0
 CPU#07 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000080 
 CPU#07 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:00000000000000c0 , exclusive
 CPU#07 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000000000ff , exclusive
-CPU#08 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#08 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#08 Freq: 2200.04MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#08 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#08 AffMask: 0x0000000000000100 
@@ -93,7 +93,7 @@ CPU#08 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000300
 CPU#08 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000100 
 CPU#08 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000300 , exclusive
 CPU#08 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#09 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#09 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#09 Freq: 2200.08MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#09 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#09 AffMask: 0x0000000000000200 
@@ -103,7 +103,7 @@ CPU#09 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000300
 CPU#09 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000200 
 CPU#09 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000300 , exclusive
 CPU#09 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#10 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#10 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#10 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#10 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#10 AffMask: 0x0000000000000400 
@@ -113,7 +113,7 @@ CPU#10 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000c00
 CPU#10 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000400 
 CPU#10 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000c00 , exclusive
 CPU#10 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#11 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#11 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#11 Freq: 2200.07MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#11 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#11 AffMask: 0x0000000000000800 
@@ -123,7 +123,7 @@ CPU#11 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000c00
 CPU#11 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000800 
 CPU#11 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000c00 , exclusive
 CPU#11 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#12 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#12 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#12 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#12 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#12 AffMask: 0x0000000000001000 
@@ -133,7 +133,7 @@ CPU#12 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000003000
 CPU#12 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000001000 
 CPU#12 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000003000 , exclusive
 CPU#12 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#13 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#13 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#13 Freq: 2200.08MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#13 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#13 AffMask: 0x0000000000002000 
@@ -143,7 +143,7 @@ CPU#13 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000003000
 CPU#13 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000002000 
 CPU#13 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000003000 , exclusive
 CPU#13 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#14 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#14 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#14 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#14 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#14 AffMask: 0x0000000000004000 
@@ -153,7 +153,7 @@ CPU#14 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000000c000
 CPU#14 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000004000 
 CPU#14 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000000c000 , exclusive
 CPU#14 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#15 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#15 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#15 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#15 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#15 AffMask: 0x0000000000008000 
@@ -163,7 +163,7 @@ CPU#15 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000000c000
 CPU#15 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000008000 
 CPU#15 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000000c000 , exclusive
 CPU#15 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000ff00 , exclusive
-CPU#16 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#16 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#16 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#16 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#16 AffMask: 0x0000000000010000 
@@ -173,7 +173,7 @@ CPU#16 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000030000
 CPU#16 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000010000 
 CPU#16 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000030000 , exclusive
 CPU#16 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#17 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#17 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#17 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#17 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#17 AffMask: 0x0000000000020000 
@@ -183,7 +183,7 @@ CPU#17 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000030000
 CPU#17 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000020000 
 CPU#17 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000030000 , exclusive
 CPU#17 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#18 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#18 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#18 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#18 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#18 AffMask: 0x0000000000040000 
@@ -193,7 +193,7 @@ CPU#18 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000000000c0000
 CPU#18 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000040000 
 CPU#18 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:00000000000c0000 , exclusive
 CPU#18 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#19 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#19 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#19 Freq: 2200.08MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#19 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#19 AffMask: 0x0000000000080000 
@@ -203,7 +203,7 @@ CPU#19 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000000000c0000
 CPU#19 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000080000 
 CPU#19 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:00000000000c0000 , exclusive
 CPU#19 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#20 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#20 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#20 Freq: 2200.08MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#20 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#20 AffMask: 0x0000000000100000 
@@ -213,7 +213,7 @@ CPU#20 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000300000
 CPU#20 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000100000 
 CPU#20 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000300000 , exclusive
 CPU#20 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#21 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#21 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#21 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#21 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#21 AffMask: 0x0000000000200000 
@@ -223,7 +223,7 @@ CPU#21 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000300000
 CPU#21 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000200000 
 CPU#21 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000300000 , exclusive
 CPU#21 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#22 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#22 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#22 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#22 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#22 AffMask: 0x0000000000400000 
@@ -233,7 +233,7 @@ CPU#22 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000c00000
 CPU#22 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000400000 
 CPU#22 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000c00000 , exclusive
 CPU#22 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#23 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#23 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#23 Freq: 2200.09MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#23 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#23 AffMask: 0x0000000000800000 
@@ -243,7 +243,7 @@ CPU#23 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000c00000
 CPU#23 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000800000 
 CPU#23 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000c00000 , exclusive
 CPU#23 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000ff0000 , exclusive
-CPU#24 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#24 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#24 Freq: 2200.09MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#24 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#24 AffMask: 0x0000000001000000 
@@ -253,7 +253,7 @@ CPU#24 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000003000000
 CPU#24 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000001000000 
 CPU#24 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000003000000 , exclusive
 CPU#24 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000ff000000 , exclusive
-CPU#25 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#25 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#25 Freq: 2200.08MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#25 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#25 AffMask: 0x0000000002000000 
@@ -263,7 +263,7 @@ CPU#25 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000003000000
 CPU#25 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000002000000 
 CPU#25 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000003000000 , exclusive
 CPU#25 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000ff000000 , exclusive
-CPU#26 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#26 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#26 Freq: 2200.04MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#26 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#26 AffMask: 0x0000000004000000 
@@ -273,7 +273,7 @@ CPU#26 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000c000000
 CPU#26 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000004000000 
 CPU#26 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000c000000 , exclusive
 CPU#26 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000ff000000 , exclusive
-CPU#27 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#27 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#27 Freq: 2200.05MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#27 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#27 AffMask: 0x0000000008000000 
@@ -283,7 +283,7 @@ CPU#27 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000c000000
 CPU#27 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000008000000 
 CPU#27 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000c000000 , exclusive
 CPU#27 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000ff000000 , exclusive
-CPU#28 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#28 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#28 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#28 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#28 AffMask: 0x0000000010000000 
@@ -293,7 +293,7 @@ CPU#28 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000030000000
 CPU#28 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000010000000 
 CPU#28 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000030000000 , exclusive
 CPU#28 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000ff000000 , exclusive
-CPU#29 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#29 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#29 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#29 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#29 AffMask: 0x0000000020000000 
@@ -303,7 +303,7 @@ CPU#29 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000030000000
 CPU#29 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000020000000 
 CPU#29 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000030000000 , exclusive
 CPU#29 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000ff000000 , exclusive
-CPU#30 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#30 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#30 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#30 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#30 AffMask: 0x0000000040000000 
@@ -313,7 +313,7 @@ CPU#30 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000000c0000000
 CPU#30 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000040000000 
 CPU#30 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:00000000c0000000 , exclusive
 CPU#30 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:00000000ff000000 , exclusive
-CPU#31 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#31 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#31 Freq: 2200.06MHz Type: "AMD Opteron(TM) Processor 6274                 "
 CPU#31 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#31 AffMask: 0x0000000080000000 

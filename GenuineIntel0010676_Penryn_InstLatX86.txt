@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 2, procMask: 0x00000003 Size of Memory: 3109976KB Priority:080
 CPU#00 Vendor: GenuineIntel CoreType:0x20010676
-CPU#00 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz"
+CPU#00 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, CMPXCHG8B, HTT
 CPU#00 Frequency: 2260.90MHz  OS:5.1.2600 Szervizcsomag 3
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000003 
@@ -10,7 +10,7 @@ CPU#00 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000001
 CPU#00 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000001
 CPU#00 L2  cache:  3072KB,   64 byte cache line, 12 way, SMask:00000003
 CPU#01 Vendor: GenuineIntel CoreType:0x20010676
-CPU#01 Family: 6 Modell: 17 Stepping: 6 Type: "Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz"
+CPU#01 Family: 6 Model: 17 Stepping: 6 Type: "Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz"
 CPU#01 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, CMPXCHG8B, HTT
 CPU#01 Frequency: 2260.87MHz  OS:5.1.2600 Szervizcsomag 3
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 PhysMask:0x00000003 

@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 4, procMask: 0x0000000f Size of Memory: 1046204KB Priority:080
 CPU#00 Vendor: GenuineIntel CoreType:0x200006f7
-CPU#00 Family: 6 Modell: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
+CPU#00 Family: 6 Model: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, HTT
 CPU#00 Frequency: 2133.44MHz  OS:5.1.2600 Service Pack 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x0000000f 
@@ -10,7 +10,7 @@ CPU#00 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000001
 CPU#00 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000001
 CPU#00 L2  cache:  4096KB,   64 byte cache line, 16 way, SMask:00000005
 CPU#01 Vendor: GenuineIntel CoreType:0x200006f7
-CPU#01 Family: 6 Modell: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
+CPU#01 Family: 6 Model: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
 CPU#01 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, HTT
 CPU#01 Frequency: 2133.44MHz  OS:5.1.2600 Service Pack 2
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000002 Phys_ID:000 Core_ID:00 SMT_ID:02 PhysMask:0x0000000f 
@@ -18,7 +18,7 @@ CPU#01 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000002
 CPU#01 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000002
 CPU#01 L2  cache:  4096KB,   64 byte cache line, 16 way, SMask:0000000a
 CPU#02 Vendor: GenuineIntel CoreType:0x200006f7
-CPU#02 Family: 6 Modell: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
+CPU#02 Family: 6 Model: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
 CPU#02 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, HTT
 CPU#02 Frequency: 2133.44MHz  OS:5.1.2600 Service Pack 2
 CPU#02 AffMask:0x00000004 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 PhysMask:0x0000000f 
@@ -26,7 +26,7 @@ CPU#02 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000004
 CPU#02 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000004
 CPU#02 L2  cache:  4096KB,   64 byte cache line, 16 way, SMask:00000005
 CPU#03 Vendor: GenuineIntel CoreType:0x200006f7
-CPU#03 Family: 6 Modell: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
+CPU#03 Family: 6 Model: 0f Stepping: 7 Type: "Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz"
 CPU#03 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, CMPXCHG8B, HTT
 CPU#03 Frequency: 2133.44MHz  OS:5.1.2600 Service Pack 2
 CPU#03 AffMask:0x00000008 APIC_ID:0x00000003 Phys_ID:000 Core_ID:00 SMT_ID:03 PhysMask:0x0000000f 

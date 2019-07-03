@@ -2,7 +2,7 @@ Copyright (C) 2003, 2008 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench_x64.dll build: 2.3.237.0 Sep  4 2008 23:31:05
 CPUCount: 24, procMask: 0x0000000000ffffff Size of Memory: 4192592KB
 CPU#0 Vendor: GenuineIntel APIC_ID:0x00000000 CoreID:0x200106d1 Priority:020
-CPU#0 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#0 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#0 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#0 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#0 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -10,7 +10,7 @@ CPU#0 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#0 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#0 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#1 Vendor: GenuineIntel APIC_ID:0x00000001 CoreID:0x200106d1 Priority:020
-CPU#1 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#1 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#1 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#1 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#1 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -18,7 +18,7 @@ CPU#1 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#1 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#1 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#2 Vendor: GenuineIntel APIC_ID:0x00000002 CoreID:0x200106d1 Priority:020
-CPU#2 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#2 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#2 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#2 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#2 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -26,7 +26,7 @@ CPU#2 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#2 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#2 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#3 Vendor: GenuineIntel APIC_ID:0x00000003 CoreID:0x200106d1 Priority:020
-CPU#3 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#3 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#3 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#3 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#3 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -34,7 +34,7 @@ CPU#3 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#3 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#3 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#4 Vendor: GenuineIntel APIC_ID:0x00000004 CoreID:0x200106d1 Priority:020
-CPU#4 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#4 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#4 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#4 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#4 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -42,7 +42,7 @@ CPU#4 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#4 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#4 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#5 Vendor: GenuineIntel APIC_ID:0x00000005 CoreID:0x200106d1 Priority:020
-CPU#5 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#5 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#5 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#5 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#5 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -50,7 +50,7 @@ CPU#5 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#5 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#5 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#6 Vendor: GenuineIntel APIC_ID:0x00000008 CoreID:0x200106d1 Priority:020
-CPU#6 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#6 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#6 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#6 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#6 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -58,7 +58,7 @@ CPU#6 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#6 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#6 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#7 Vendor: GenuineIntel APIC_ID:0x00000009 CoreID:0x200106d1 Priority:020
-CPU#7 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#7 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#7 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#7 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#7 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -66,7 +66,7 @@ CPU#7 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#7 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#7 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#8 Vendor: GenuineIntel APIC_ID:0x0000000a CoreID:0x200106d1 Priority:020
-CPU#8 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#8 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#8 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#8 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#8 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -74,7 +74,7 @@ CPU#8 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#8 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#8 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#9 Vendor: GenuineIntel APIC_ID:0x0000000b CoreID:0x200106d1 Priority:020
-CPU#9 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#9 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#9 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#9 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#9 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -82,7 +82,7 @@ CPU#9 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#9 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#9 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#10 Vendor: GenuineIntel APIC_ID:0x0000000c CoreID:0x200106d1 Priority:020
-CPU#10 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#10 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#10 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#10 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#10 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -90,7 +90,7 @@ CPU#10 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#10 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#10 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#11 Vendor: GenuineIntel APIC_ID:0x0000000d CoreID:0x200106d1 Priority:020
-CPU#11 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#11 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#11 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#11 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#11 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -98,7 +98,7 @@ CPU#11 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#11 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#11 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#12 Vendor: GenuineIntel APIC_ID:0x00000010 CoreID:0x200106d1 Priority:020
-CPU#12 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#12 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#12 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#12 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#12 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -106,7 +106,7 @@ CPU#12 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#12 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#12 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#13 Vendor: GenuineIntel APIC_ID:0x00000011 CoreID:0x200106d1 Priority:020
-CPU#13 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#13 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#13 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#13 Frequency: 2393.96MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#13 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -114,7 +114,7 @@ CPU#13 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#13 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#13 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#14 Vendor: GenuineIntel APIC_ID:0x00000012 CoreID:0x200106d1 Priority:020
-CPU#14 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#14 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#14 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#14 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#14 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -122,7 +122,7 @@ CPU#14 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#14 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#14 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#15 Vendor: GenuineIntel APIC_ID:0x00000013 CoreID:0x200106d1 Priority:020
-CPU#15 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#15 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#15 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#15 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#15 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -130,7 +130,7 @@ CPU#15 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#15 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#15 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#16 Vendor: GenuineIntel APIC_ID:0x00000014 CoreID:0x200106d1 Priority:020
-CPU#16 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#16 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#16 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#16 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#16 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -138,7 +138,7 @@ CPU#16 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#16 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#16 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#17 Vendor: GenuineIntel APIC_ID:0x00000015 CoreID:0x200106d1 Priority:020
-CPU#17 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#17 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#17 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#17 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#17 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -146,7 +146,7 @@ CPU#17 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#17 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#17 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#18 Vendor: GenuineIntel APIC_ID:0x00000018 CoreID:0x200106d1 Priority:020
-CPU#18 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#18 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#18 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#18 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#18 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -154,7 +154,7 @@ CPU#18 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#18 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#18 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#19 Vendor: GenuineIntel APIC_ID:0x00000019 CoreID:0x200106d1 Priority:020
-CPU#19 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#19 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#19 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#19 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#19 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -162,7 +162,7 @@ CPU#19 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#19 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#19 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#20 Vendor: GenuineIntel APIC_ID:0x0000001a CoreID:0x200106d1 Priority:020
-CPU#20 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#20 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#20 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#20 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#20 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -170,7 +170,7 @@ CPU#20 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#20 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#20 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#21 Vendor: GenuineIntel APIC_ID:0x0000001b CoreID:0x200106d1 Priority:020
-CPU#21 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#21 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#21 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#21 Frequency: 2393.93MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#21 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -178,7 +178,7 @@ CPU#21 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#21 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#21 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#22 Vendor: GenuineIntel APIC_ID:0x0000001c CoreID:0x200106d1 Priority:020
-CPU#22 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#22 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#22 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#22 Frequency: 2393.95MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#22 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 
@@ -186,7 +186,7 @@ CPU#22 L1D cache:    32KB,   64 byte cache line,  8 way,  1 thread
 CPU#22 L2  cache:  3072KB,   64 byte cache line, 12 way,  2 threads
 CPU#22 L3  cache: 12288KB,   64 byte cache line, 12 way,  8 threads
 CPU#23 Vendor: GenuineIntel APIC_ID:0x0000001d CoreID:0x200106d1 Priority:020
-CPU#23 Family: 6 Modell: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
+CPU#23 Family: 6 Model: 1d Stepping: 1 Type: "Genuine Intel(R) CPU                  @ 2.40GHz"
 CPU#23 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#23 Frequency: 2393.94MHz Cores: 8 OS:6.0.6001 Service Pack 1
 CPU#23 L1I cache:    32KB,   64 byte cache line,  8 way,  1 thread 

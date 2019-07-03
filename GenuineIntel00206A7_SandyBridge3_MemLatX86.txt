@@ -2,7 +2,7 @@ Copyright (C) 1995-2011 FinalWire Ltd. All rights reserved.
 aida_bench32.dll build: 2.7.363.0 May  5 2011 23:48:15
 P8P67 CPUCount: 8, procMask: 0x000000ff Size of Memory: 4170644KB
 P8P67 OS:6.1.7601 Service Pack 1 Priority:080 NUMA:0
-CPU#00 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#00 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#00 Freq: 3411.14MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#00 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x000000ff 
@@ -10,7 +10,7 @@ CPU#00 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#00 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#00 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#00 L3  cache:  8192KB,   64 byte cache line, 16 way, SMask:000000ff, SLLC
-CPU#01 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#01 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#01 Freq: 3411.19MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#01 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 PhysMask:0x000000ff 
@@ -18,7 +18,7 @@ CPU#01 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#01 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#01 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#01 L3  cache:  8192KB,   64 byte cache line, 16 way, SMask:000000ff, SLLC
-CPU#02 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#02 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#02 Freq: 3411.13MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#02 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#02 AffMask:0x00000004 APIC_ID:0x00000002 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x000000ff 
@@ -26,7 +26,7 @@ CPU#02 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000c
 CPU#02 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000c
 CPU#02 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000c
 CPU#02 L3  cache:  8192KB,   64 byte cache line, 16 way, SMask:000000ff, SLLC
-CPU#03 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#03 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#03 Freq: 3411.18MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#03 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#03 AffMask:0x00000008 APIC_ID:0x00000003 Phys_ID:000 Core_ID:01 SMT_ID:01 PhysMask:0x000000ff 
@@ -34,7 +34,7 @@ CPU#03 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000c
 CPU#03 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:0000000c
 CPU#03 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:0000000c
 CPU#03 L3  cache:  8192KB,   64 byte cache line, 16 way, SMask:000000ff, SLLC
-CPU#04 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#04 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#04 Freq: 3411.08MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#04 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#04 AffMask:0x00000010 APIC_ID:0x00000004 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x000000ff 
@@ -42,7 +42,7 @@ CPU#04 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000030
 CPU#04 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000030
 CPU#04 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000030
 CPU#04 L3  cache:  8192KB,   64 byte cache line, 16 way, SMask:000000ff, SLLC
-CPU#05 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#05 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#05 Freq: 3411.14MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#05 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#05 AffMask:0x00000020 APIC_ID:0x00000005 Phys_ID:000 Core_ID:02 SMT_ID:01 PhysMask:0x000000ff 
@@ -50,7 +50,7 @@ CPU#05 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:00000030
 CPU#05 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:00000030
 CPU#05 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:00000030
 CPU#05 L3  cache:  8192KB,   64 byte cache line, 16 way, SMask:000000ff, SLLC
-CPU#06 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#06 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#06 Freq: 3411.15MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#06 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#06 AffMask:0x00000040 APIC_ID:0x00000006 Phys_ID:000 Core_ID:03 SMT_ID:00 PhysMask:0x000000ff 
@@ -58,7 +58,7 @@ CPU#06 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:000000c0
 CPU#06 L1D cache:    32KB,   64 byte cache line,  8 way, SMask:000000c0
 CPU#06 L2  cache:   256KB,   64 byte cache line,  8 way, SMask:000000c0
 CPU#06 L3  cache:  8192KB,   64 byte cache line, 16 way, SMask:000000ff, SLLC
-CPU#07 Vendor: GenuineIntel Family: 6 Modell: 2a Stepping: 7 CoreType:0x200206a7
+CPU#07 Vendor: GenuineIntel Family: 6 Model: 2a Stepping: 7 CoreType:0x200206a7
 CPU#07 Freq: 3411.15MHz Type: "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"
 CPU#07 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, CMPXCHG8B, CLMUL, AESNI, AVX, HTT, CLFLUSH, X2APIC, TSCINV, RDTSCP, LNOP
 CPU#07 AffMask:0x00000080 APIC_ID:0x00000007 Phys_ID:000 Core_ID:03 SMT_ID:01 PhysMask:0x000000ff 

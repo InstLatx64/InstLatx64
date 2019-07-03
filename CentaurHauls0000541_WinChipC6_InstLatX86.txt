@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.5.290.0 Mar  2 2010 18:16:35
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 261664KB Priority:080
 CPU#00 Vendor: CentaurHauls CoreType:0x30000541
-CPU#00 Family: 5 Modell: 04 Stepping: 1
+CPU#00 Family: 5 Model: 04 Stepping: 1
 CPU#00 Features: TSC, FPU, MMX, CMPXCHG8B
 CPU#00 Frequency:  240.86MHz  OS:5.1.2600 Service Pack 3, v.5857
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 

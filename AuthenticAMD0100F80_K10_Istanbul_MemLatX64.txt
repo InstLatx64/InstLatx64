@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench_x64.dll build: 2.4.264.0 Jul 17 2009 02:27:45
 CPUCount: 12, procMask: 0x0000000000000fff Size of Memory: 4193260KB Priority:080
 CPU#00 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#00 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#00 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#00 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#00 Frequency: 2399.61MHz  OS:5.2.3790 Service Pack 2
 CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x000000000000003f 
@@ -11,7 +11,7 @@ CPU#00 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000001
 CPU#00 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000001, exclusive
 CPU#00 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
 CPU#01 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#01 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#01 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#01 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#01 Frequency: 2398.78MHz  OS:5.2.3790 Service Pack 2
 CPU#01 AffMask:0x0000000000000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x000000000000003f 
@@ -20,7 +20,7 @@ CPU#01 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000002
 CPU#01 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000002, exclusive
 CPU#01 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
 CPU#02 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#02 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#02 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#02 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#02 Frequency: 2398.81MHz  OS:5.2.3790 Service Pack 2
 CPU#02 AffMask:0x0000000000000004 APIC_ID:0x00000002 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x000000000000003f 
@@ -29,7 +29,7 @@ CPU#02 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000004
 CPU#02 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000004, exclusive
 CPU#02 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
 CPU#03 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#03 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#03 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#03 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#03 Frequency: 2399.39MHz  OS:5.2.3790 Service Pack 2
 CPU#03 AffMask:0x0000000000000008 APIC_ID:0x00000003 Phys_ID:000 Core_ID:03 SMT_ID:00 PhysMask:0x000000000000003f 
@@ -38,7 +38,7 @@ CPU#03 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000008
 CPU#03 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000008, exclusive
 CPU#03 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
 CPU#04 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#04 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#04 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#04 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#04 Frequency: 2399.65MHz  OS:5.2.3790 Service Pack 2
 CPU#04 AffMask:0x0000000000000010 APIC_ID:0x00000004 Phys_ID:000 Core_ID:04 SMT_ID:00 PhysMask:0x000000000000003f 
@@ -47,7 +47,7 @@ CPU#04 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000010
 CPU#04 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000010, exclusive
 CPU#04 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
 CPU#05 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#05 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#05 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#05 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#05 Frequency: 2399.53MHz  OS:5.2.3790 Service Pack 2
 CPU#05 AffMask:0x0000000000000020 APIC_ID:0x00000005 Phys_ID:000 Core_ID:05 SMT_ID:00 PhysMask:0x000000000000003f 
@@ -56,7 +56,7 @@ CPU#05 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000020
 CPU#05 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000020, exclusive
 CPU#05 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:000000000000003f, exclusive
 CPU#06 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#06 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#06 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#06 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#06 Frequency: 2398.21MHz  OS:5.2.3790 Service Pack 2
 CPU#06 AffMask:0x0000000000000040 APIC_ID:0x00000008 Phys_ID:001 Core_ID:00 SMT_ID:00 PhysMask:0x0000000000000fc0 
@@ -65,7 +65,7 @@ CPU#06 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000040
 CPU#06 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000040, exclusive
 CPU#06 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000000fc0, exclusive
 CPU#07 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#07 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#07 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#07 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#07 Frequency: 2399.61MHz  OS:5.2.3790 Service Pack 2
 CPU#07 AffMask:0x0000000000000080 APIC_ID:0x00000009 Phys_ID:001 Core_ID:01 SMT_ID:00 PhysMask:0x0000000000000fc0 
@@ -74,7 +74,7 @@ CPU#07 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000080
 CPU#07 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000080, exclusive
 CPU#07 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000000fc0, exclusive
 CPU#08 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#08 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#08 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#08 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#08 Frequency: 2399.54MHz  OS:5.2.3790 Service Pack 2
 CPU#08 AffMask:0x0000000000000100 APIC_ID:0x0000000a Phys_ID:001 Core_ID:02 SMT_ID:00 PhysMask:0x0000000000000fc0 
@@ -83,7 +83,7 @@ CPU#08 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000100
 CPU#08 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000100, exclusive
 CPU#08 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000000fc0, exclusive
 CPU#09 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#09 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#09 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#09 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#09 Frequency: 2399.41MHz  OS:5.2.3790 Service Pack 2
 CPU#09 AffMask:0x0000000000000200 APIC_ID:0x0000000b Phys_ID:001 Core_ID:03 SMT_ID:00 PhysMask:0x0000000000000fc0 
@@ -92,7 +92,7 @@ CPU#09 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000200
 CPU#09 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000200, exclusive
 CPU#09 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000000fc0, exclusive
 CPU#10 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#10 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#10 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#10 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#10 Frequency: 2399.36MHz  OS:5.2.3790 Service Pack 2
 CPU#10 AffMask:0x0000000000000400 APIC_ID:0x0000000c Phys_ID:001 Core_ID:04 SMT_ID:00 PhysMask:0x0000000000000fc0 
@@ -101,7 +101,7 @@ CPU#10 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000400
 CPU#10 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000400, exclusive
 CPU#10 L3  cache:  6144KB,   64 byte cache line, 48 way, SMask:0000000000000fc0, exclusive
 CPU#11 Vendor: AuthenticAMD CoreType:0x10100f80
-CPU#11 Family: 1f Modell: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
+CPU#11 Family: 1f Model: 08 Stepping: 0 Type: "Six-Core AMD Opteron(tm) Processor 2431"
 CPU#11 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#11 Frequency: 2399.25MHz  OS:5.2.3790 Service Pack 2
 CPU#11 AffMask:0x0000000000000800 APIC_ID:0x0000000d Phys_ID:001 Core_ID:05 SMT_ID:00 PhysMask:0x0000000000000fc0 

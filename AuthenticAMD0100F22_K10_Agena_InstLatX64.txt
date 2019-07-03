@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench_x64.dll build: 2.4.257.0 Jan 19 2009 01:57:19
 CPUCount: 4, procMask: 0x000000000000000f Size of Memory: 2096248KB Priority:080
 CPU#00 Vendor: AuthenticAMD CoreType:0x10100f22
-CPU#00 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Engineering Sample"
+CPU#00 Family: 1f Model: 02 Stepping: 2 Type: "AMD Engineering Sample"
 CPU#00 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#00 Frequency: 2607.49MHz  OS:5.2.3790 Service Pack 2
 CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x000000000000000f 
@@ -11,7 +11,7 @@ CPU#00 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000001
 CPU#00 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000001, exclusive
 CPU#00 L3  cache:  2048KB,   64 byte cache line, 32 way, SMask:000000000000000f, exclusive
 CPU#01 Vendor: AuthenticAMD CoreType:0x10100f22
-CPU#01 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Engineering Sample"
+CPU#01 Family: 1f Model: 02 Stepping: 2 Type: "AMD Engineering Sample"
 CPU#01 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#01 Frequency: 2607.49MHz  OS:5.2.3790 Service Pack 2
 CPU#01 AffMask:0x0000000000000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x000000000000000f 
@@ -20,7 +20,7 @@ CPU#01 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000002
 CPU#01 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000002, exclusive
 CPU#01 L3  cache:  2048KB,   64 byte cache line, 32 way, SMask:000000000000000f, exclusive
 CPU#02 Vendor: AuthenticAMD CoreType:0x10100f22
-CPU#02 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Engineering Sample"
+CPU#02 Family: 1f Model: 02 Stepping: 2 Type: "AMD Engineering Sample"
 CPU#02 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#02 Frequency: 2607.51MHz  OS:5.2.3790 Service Pack 2
 CPU#02 AffMask:0x0000000000000004 APIC_ID:0x00000002 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x000000000000000f 
@@ -29,7 +29,7 @@ CPU#02 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000004
 CPU#02 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000004, exclusive
 CPU#02 L3  cache:  2048KB,   64 byte cache line, 32 way, SMask:000000000000000f, exclusive
 CPU#03 Vendor: AuthenticAMD CoreType:0x10100f22
-CPU#03 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Engineering Sample"
+CPU#03 Family: 1f Model: 02 Stepping: 2 Type: "AMD Engineering Sample"
 CPU#03 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#03 Frequency: 2607.47MHz  OS:5.2.3790 Service Pack 2
 CPU#03 AffMask:0x0000000000000008 APIC_ID:0x00000003 Phys_ID:000 Core_ID:03 SMT_ID:00 PhysMask:0x000000000000000f 

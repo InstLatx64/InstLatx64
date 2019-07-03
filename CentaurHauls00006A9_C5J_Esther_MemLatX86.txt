@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 458224KB Priority:080
 CPU#00 Vendor: CentaurHauls CoreType:0x300006a9
-CPU#00 Family: 6 Modell: 0a Stepping: 9 Type: "                   VIA Esther processor 1500MHz"
+CPU#00 Family: 6 Model: 0a Stepping: 9 Type: "                   VIA Esther processor 1500MHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, ACE, CMPXCHG8B
 CPU#00 Frequency: 1496.11MHz  OS:5.1.2600 Service Pack 3
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 

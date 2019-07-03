@@ -6,7 +6,7 @@ Memory: 16750276KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
 Memory To Test:16384KB 4K DTLB:512 2M DTLB: 32 CLFlush:64
 ProcMask: 0x000000000000ffff 
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,MOVBE,RDRAND,FSGSBASE,CLFLUSH,X2APIC,TSCINV,RDTSCP,3DNOWPREF,LNOP,ERMS,PSE,RDSEED,SMAP,PAGE1GB,MPE,PT,SHA,CLFLUSHOPT,RDT_A,
-CPU#000 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#000 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#000 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#000 AffMask: 0x0000000000000001 
 CPU#000 PhysMask:0x000000000000ffff 
@@ -18,7 +18,7 @@ CPU#000 L0D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#000 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000001
 CPU#000 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000001
 CPU#000 L1I 4K TLB:            48 entries,           full, SMask:0000000000000001
-CPU#001 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#001 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#001 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#001 AffMask: 0x0000000000000002 
 CPU#001 PhysMask:0x000000000000ffff 
@@ -30,7 +30,7 @@ CPU#001 L0D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#001 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000002
 CPU#001 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000002
 CPU#001 L1I 4K TLB:            48 entries,           full, SMask:0000000000000002
-CPU#002 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#002 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#002 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#002 AffMask: 0x0000000000000004 
 CPU#002 PhysMask:0x000000000000ffff 
@@ -42,7 +42,7 @@ CPU#002 L0D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#002 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000004
 CPU#002 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000004
 CPU#002 L1I 4K TLB:            48 entries,           full, SMask:0000000000000004
-CPU#003 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#003 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#003 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#003 AffMask: 0x0000000000000008 
 CPU#003 PhysMask:0x000000000000ffff 
@@ -54,7 +54,7 @@ CPU#003 L0D 4K TLB:            32 entries,           full, SMask:000000000000000
 CPU#003 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000008
 CPU#003 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000008
 CPU#003 L1I 4K TLB:            48 entries,           full, SMask:0000000000000008
-CPU#004 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#004 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#004 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#004 AffMask: 0x0000000000000010 
 CPU#004 PhysMask:0x000000000000ffff 
@@ -66,7 +66,7 @@ CPU#004 L0D 4K TLB:            32 entries,           full, SMask:000000000000001
 CPU#004 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000010
 CPU#004 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000010
 CPU#004 L1I 4K TLB:            48 entries,           full, SMask:0000000000000010
-CPU#005 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#005 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#005 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#005 AffMask: 0x0000000000000020 
 CPU#005 PhysMask:0x000000000000ffff 
@@ -78,7 +78,7 @@ CPU#005 L0D 4K TLB:            32 entries,           full, SMask:000000000000002
 CPU#005 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000020
 CPU#005 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000020
 CPU#005 L1I 4K TLB:            48 entries,           full, SMask:0000000000000020
-CPU#006 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#006 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#006 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#006 AffMask: 0x0000000000000040 
 CPU#006 PhysMask:0x000000000000ffff 
@@ -90,7 +90,7 @@ CPU#006 L0D 4K TLB:            32 entries,           full, SMask:000000000000004
 CPU#006 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000040
 CPU#006 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000040
 CPU#006 L1I 4K TLB:            48 entries,           full, SMask:0000000000000040
-CPU#007 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#007 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#007 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#007 AffMask: 0x0000000000000080 
 CPU#007 PhysMask:0x000000000000ffff 
@@ -102,7 +102,7 @@ CPU#007 L0D 4K TLB:            32 entries,           full, SMask:000000000000008
 CPU#007 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000080
 CPU#007 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000080
 CPU#007 L1I 4K TLB:            48 entries,           full, SMask:0000000000000080
-CPU#008 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#008 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#008 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#008 AffMask: 0x0000000000000100 
 CPU#008 PhysMask:0x000000000000ffff 
@@ -114,7 +114,7 @@ CPU#008 L0D 4K TLB:            32 entries,           full, SMask:000000000000010
 CPU#008 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000100
 CPU#008 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000100
 CPU#008 L1I 4K TLB:            48 entries,           full, SMask:0000000000000100
-CPU#009 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#009 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#009 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#009 AffMask: 0x0000000000000200 
 CPU#009 PhysMask:0x000000000000ffff 
@@ -126,7 +126,7 @@ CPU#009 L0D 4K TLB:            32 entries,           full, SMask:000000000000020
 CPU#009 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000200
 CPU#009 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000200
 CPU#009 L1I 4K TLB:            48 entries,           full, SMask:0000000000000200
-CPU#010 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#010 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#010 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#010 AffMask: 0x0000000000000400 
 CPU#010 PhysMask:0x000000000000ffff 
@@ -138,7 +138,7 @@ CPU#010 L0D 4K TLB:            32 entries,           full, SMask:000000000000040
 CPU#010 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000400
 CPU#010 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000400
 CPU#010 L1I 4K TLB:            48 entries,           full, SMask:0000000000000400
-CPU#011 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#011 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#011 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#011 AffMask: 0x0000000000000800 
 CPU#011 PhysMask:0x000000000000ffff 
@@ -150,7 +150,7 @@ CPU#011 L0D 4K TLB:            32 entries,           full, SMask:000000000000080
 CPU#011 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000000800
 CPU#011 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000000800
 CPU#011 L1I 4K TLB:            48 entries,           full, SMask:0000000000000800
-CPU#012 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#012 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#012 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#012 AffMask: 0x0000000000001000 
 CPU#012 PhysMask:0x000000000000ffff 
@@ -162,7 +162,7 @@ CPU#012 L0D 4K TLB:            32 entries,           full, SMask:000000000000100
 CPU#012 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000001000
 CPU#012 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000001000
 CPU#012 L1I 4K TLB:            48 entries,           full, SMask:0000000000001000
-CPU#013 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#013 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#013 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#013 AffMask: 0x0000000000002000 
 CPU#013 PhysMask:0x000000000000ffff 
@@ -174,7 +174,7 @@ CPU#013 L0D 4K TLB:            32 entries,           full, SMask:000000000000200
 CPU#013 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000002000
 CPU#013 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000002000
 CPU#013 L1I 4K TLB:            48 entries,           full, SMask:0000000000002000
-CPU#014 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#014 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#014 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#014 AffMask: 0x0000000000004000 
 CPU#014 PhysMask:0x000000000000ffff 
@@ -186,7 +186,7 @@ CPU#014 L0D 4K TLB:            32 entries,           full, SMask:000000000000400
 CPU#014 L1D 4K TLB:           512 entries,          4 way, SMask:0000000000004000
 CPU#014 L1D 2M TLB:            32 entries,          4 way, SMask:0000000000004000
 CPU#014 L1I 4K TLB:            48 entries,           full, SMask:0000000000004000
-CPU#015 Vendor: GenuineIntel Family: 6 Modell: 5f Stepping: 1 CoreType:0x200506f1
+CPU#015 Vendor: GenuineIntel Family: 6 Model: 5f Stepping: 1 CoreType:0x200506f1
 CPU#015 Type: "Intel(R) Atom(TM) CPU C3958 @ 2.00GHz"
 CPU#015 AffMask: 0x0000000000008000 
 CPU#015 PhysMask:0x000000000000ffff 

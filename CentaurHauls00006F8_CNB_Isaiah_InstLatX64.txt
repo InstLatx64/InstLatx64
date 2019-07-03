@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 Benchmarks64.exe build: 2.4.279.0 Nov 13 2009 13:46:00
 CPUCount: 1, procMask: 0x0000000000000001 Size of Memory: 1833360KB Priority:080
 CPU#00 Vendor: CentaurHauls CoreType:0x300006f8
-CPU#00 Family: 6 Modell: 0f Stepping: 8 Type: "                         VIA Nano L3050@1800MHz"
+CPU#00 Family: 6 Model: 0f Stepping: 8 Type: "                         VIA Nano L3050@1800MHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, POPCNT, ACE, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#00 Frequency: 1799.90MHz  OS:6.1.7600 
 CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x0000000000000001 

@@ -2,14 +2,14 @@ Copyright (C) 2003, 2007 Lavalys Consulting Group, Inc. All rights reserved.
 InstLat.x64.exe build: 0.6.8.0 Jun  8 2008 20:34:56
 CPUCount: 2, procMask: 0x0000000000000003 Size of Memory: 2095436KB
 CPU#0 Vendor: GenuineIntel APIC_ID:0x00000000
-CPU#0 Family: 6 Modell: 0f Stepping: 4 Type: "Genuine Intel(R) CPU                  @ 2.66GHz"
+CPU#0 Family: 6 Model: 0f Stepping: 4 Type: "Genuine Intel(R) CPU                  @ 2.66GHz"
 CPU#0 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#0 Frequency: 2669.95MHz OS:5.2.3790 Service Pack 1
 CPU#0 L1I cache:   32KB,   64 byte cache line, 8 way
 CPU#0 L1D cache:   32KB,   64 byte cache line, 8 way
 CPU#0 L2  cache: 4096KB,   64 byte cache line, 16 way
 CPU#1 Vendor: GenuineIntel APIC_ID:0x00000001
-CPU#1 Family: 6 Modell: 0f Stepping: 4 Type: "Genuine Intel(R) CPU                  @ 2.66GHz"
+CPU#1 Family: 6 Model: 0f Stepping: 4 Type: "Genuine Intel(R) CPU                  @ 2.66GHz"
 CPU#1 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#1 Frequency: 2669.97MHz OS:5.2.3790 Service Pack 1
 CPU#1 L1I cache:   32KB,   64 byte cache line, 8 way

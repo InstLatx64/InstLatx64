@@ -6,7 +6,7 @@ Memory: 7810752KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
 Memory To Test:16384KB 4K DTLB: 96 2M DTLB:  0 CLFlush:64
 ProcMask: 0x000000000000000f 
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,ABM,SSE4.1,SSE4.2,POPCNT,VIAAES,LAHF,CMPX8,CMPX16,AESNI,CLMUL,AVX,MOVBE,F16C,VIAHASH,VIARNG,RDRAND,FSGSBASE,BMI,CLFLUSH,RDTSCP,3DNOWPREF,LNOP,AVX2,BMI2,XRNG2,PSE,RDSEED,ADX,PAGE1GB,
-CPU#000 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: e CoreType:0x300006fe
+CPU#000 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: e CoreType:0x300006fe
 CPU#000 Type: "            ZHAOXIN KaiXian ZX-C+ C4580@1.83GHz"
 CPU#000 AffMask: 0x0000000000000001 
 CPU#000 PhysMask:0x000000000000000f 
@@ -16,7 +16,7 @@ CPU#000 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:000000000000000
 CPU#000 L2  cache:   2048KB,   64 byte cache line, 16 way, SMask:000000000000000f, Nano L2
 CPU#000 L1D 4K TLB:            96 entries,          6 way, SMask:0000000000000001
 CPU#000 L1I 4K TLB:            96 entries,          6 way, SMask:0000000000000001
-CPU#001 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: e CoreType:0x300006fe
+CPU#001 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: e CoreType:0x300006fe
 CPU#001 Type: "            ZHAOXIN KaiXian ZX-C+ C4580@1.83GHz"
 CPU#001 AffMask: 0x0000000000000002 
 CPU#001 PhysMask:0x000000000000000f 
@@ -26,7 +26,7 @@ CPU#001 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:000000000000000
 CPU#001 L2  cache:   2048KB,   64 byte cache line, 16 way, SMask:000000000000000f, Nano L2
 CPU#001 L1D 4K TLB:            96 entries,          6 way, SMask:0000000000000002
 CPU#001 L1I 4K TLB:            96 entries,          6 way, SMask:0000000000000002
-CPU#002 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: e CoreType:0x300006fe
+CPU#002 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: e CoreType:0x300006fe
 CPU#002 Type: "            ZHAOXIN KaiXian ZX-C+ C4580@1.83GHz"
 CPU#002 AffMask: 0x0000000000000004 
 CPU#002 PhysMask:0x000000000000000f 
@@ -36,7 +36,7 @@ CPU#002 L1D cache:     32KB,   64 byte cache line,  8 way, SMask:000000000000000
 CPU#002 L2  cache:   2048KB,   64 byte cache line, 16 way, SMask:000000000000000f, Nano L2
 CPU#002 L1D 4K TLB:            96 entries,          6 way, SMask:0000000000000004
 CPU#002 L1I 4K TLB:            96 entries,          6 way, SMask:0000000000000004
-CPU#003 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: e CoreType:0x300006fe
+CPU#003 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: e CoreType:0x300006fe
 CPU#003 Type: "            ZHAOXIN KaiXian ZX-C+ C4580@1.83GHz"
 CPU#003 AffMask: 0x0000000000000008 
 CPU#003 PhysMask:0x000000000000000f 

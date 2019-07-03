@@ -6,7 +6,7 @@ Memory: 2097024KB AllocGran:0x00010000 P:0x00001000 LP:0x00200000
 Memory To Test:32768KB Small DTLB:512 Large DTLB:512 Huge DTLB:512 CLFlush:64
 ProcMask: 0x000000ff 
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,MMXP,SSSE3,SSE4A,ABM,SSE4.1,SSE4.2,POPCNT,XOP,LAHF,CMPX8,AESNI,CLMUL,AVX,FMA3,FMA4,F16C,BMI,TBM,CLFLUSH,TSCINV,TOPEX,RDTSCP,3DNOWPREF,MISALIGNSSE,LNOP,PSE,4LTOP,PAGE1GB,FP128,
-CPU#000 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#000 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#000 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#000 AffMask: 0x00000001 
 CPU#000 PhysMask:0x000000ff 
@@ -27,7 +27,7 @@ CPU#000 L1I 1G TLB:           24 entries,           full, SMask:00000001
 CPU#000 L2I 4K TLB:          512 entries,          4 way, SMask:00000003
 CPU#000 L2I 2M TLB:         1024 entries,          8 way, SMask:00000003
 CPU#000 L2I 1G TLB:         1024 entries,          8 way, SMask:00000003
-CPU#001 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#001 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#001 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#001 AffMask: 0x00000002 
 CPU#001 PhysMask:0x000000ff 
@@ -48,7 +48,7 @@ CPU#001 L1I 1G TLB:           24 entries,           full, SMask:00000002
 CPU#001 L2I 4K TLB:          512 entries,          4 way, SMask:00000003
 CPU#001 L2I 2M TLB:         1024 entries,          8 way, SMask:00000003
 CPU#001 L2I 1G TLB:         1024 entries,          8 way, SMask:00000003
-CPU#002 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#002 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#002 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#002 AffMask: 0x00000004 
 CPU#002 PhysMask:0x000000ff 
@@ -69,7 +69,7 @@ CPU#002 L1I 1G TLB:           24 entries,           full, SMask:00000004
 CPU#002 L2I 4K TLB:          512 entries,          4 way, SMask:0000000c
 CPU#002 L2I 2M TLB:         1024 entries,          8 way, SMask:0000000c
 CPU#002 L2I 1G TLB:         1024 entries,          8 way, SMask:0000000c
-CPU#003 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#003 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#003 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#003 AffMask: 0x00000008 
 CPU#003 PhysMask:0x000000ff 
@@ -90,7 +90,7 @@ CPU#003 L1I 1G TLB:           24 entries,           full, SMask:00000008
 CPU#003 L2I 4K TLB:          512 entries,          4 way, SMask:0000000c
 CPU#003 L2I 2M TLB:         1024 entries,          8 way, SMask:0000000c
 CPU#003 L2I 1G TLB:         1024 entries,          8 way, SMask:0000000c
-CPU#004 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#004 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#004 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#004 AffMask: 0x00000010 
 CPU#004 PhysMask:0x000000ff 
@@ -111,7 +111,7 @@ CPU#004 L1I 1G TLB:           24 entries,           full, SMask:00000010
 CPU#004 L2I 4K TLB:          512 entries,          4 way, SMask:00000030
 CPU#004 L2I 2M TLB:         1024 entries,          8 way, SMask:00000030
 CPU#004 L2I 1G TLB:         1024 entries,          8 way, SMask:00000030
-CPU#005 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#005 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#005 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#005 AffMask: 0x00000020 
 CPU#005 PhysMask:0x000000ff 
@@ -132,7 +132,7 @@ CPU#005 L1I 1G TLB:           24 entries,           full, SMask:00000020
 CPU#005 L2I 4K TLB:          512 entries,          4 way, SMask:00000030
 CPU#005 L2I 2M TLB:         1024 entries,          8 way, SMask:00000030
 CPU#005 L2I 1G TLB:         1024 entries,          8 way, SMask:00000030
-CPU#006 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#006 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#006 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#006 AffMask: 0x00000040 
 CPU#006 PhysMask:0x000000ff 
@@ -153,7 +153,7 @@ CPU#006 L1I 1G TLB:           24 entries,           full, SMask:00000040
 CPU#006 L2I 4K TLB:          512 entries,          4 way, SMask:000000c0
 CPU#006 L2I 2M TLB:         1024 entries,          8 way, SMask:000000c0
 CPU#006 L2I 1G TLB:         1024 entries,          8 way, SMask:000000c0
-CPU#007 Vendor: AuthenticAMD Family: 6f Modell: 02 Stepping: 0 CoreType:0x10600f20
+CPU#007 Vendor: AuthenticAMD Family: 6f Model: 02 Stepping: 0 CoreType:0x10600f20
 CPU#007 Type: "AMD FX(tm)-8350 Eight-Core Processor           "
 CPU#007 AffMask: 0x00000080 
 CPU#007 PhysMask:0x000000ff 

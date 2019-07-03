@@ -2,7 +2,7 @@ Copyright (C) 2003, 2007 Lavalys Consulting Group, Inc. All rights reserved.
 InstLat.x64.exe build: 0.6.5.0 Nov 29 2007 21:45:15
 CPUCount: 4, procMask: 0x000000000000000f Size of Memory: 1046400KB
 CPU#0 Vendor: AuthenticAMD APIC_ID:0x00000000
-CPU#0 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
+CPU#0 Family: 1f Model: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
 CPU#0 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#0 Frequency: 2208.77MHz OS:6.0.6000 
 CPU#0 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -10,7 +10,7 @@ CPU#0 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#0 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#0 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#1 Vendor: AuthenticAMD APIC_ID:0x00000001
-CPU#1 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
+CPU#1 Family: 1f Model: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
 CPU#1 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#1 Frequency: 2209.80MHz OS:6.0.6000 
 CPU#1 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -18,7 +18,7 @@ CPU#1 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#1 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#1 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#2 Vendor: AuthenticAMD APIC_ID:0x00000002
-CPU#2 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
+CPU#2 Family: 1f Model: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
 CPU#2 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#2 Frequency: 2208.65MHz OS:6.0.6000 
 CPU#2 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -26,7 +26,7 @@ CPU#2 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#2 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#2 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#3 Vendor: AuthenticAMD APIC_ID:0x00000003
-CPU#3 Family: 1f Modell: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
+CPU#3 Family: 1f Model: 02 Stepping: 2 Type: "AMD Phenom(tm) 9500 Quad-Core Processor"
 CPU#3 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#3 Frequency: 2209.77MHz OS:6.0.6000 
 CPU#3 L1I cache:   64KB,   64 byte cache line, 2 way

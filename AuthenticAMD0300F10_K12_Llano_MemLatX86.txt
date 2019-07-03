@@ -2,28 +2,28 @@ Copyright (C) 1995-2011 FinalWire Ltd. All rights reserved.
 aida_bench32.dll build: 2.7.380.0 Jun 15 2011 13:59:25
 A75M CPUCount: 4, procMask: 0x0000000f Size of Memory: 3405176KB
 A75M OS:6.1.7601 Service Pack 1 Priority:100 NUMA:0
-CPU#00 Vendor: AuthenticAMD Family: 3f Modell: 01 Stepping: 0 CoreType:0x10300f10
+CPU#00 Vendor: AuthenticAMD Family: 3f Model: 01 Stepping: 0 CoreType:0x10300f10
 CPU#00 Freq: 2899.94MHz Type: "AMD A8-3850 APU with Radeon(tm) HD Graphics"
 CPU#00 Feats: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, SSE4A, LZCNT, POPCNT, CMPXCHG8B, CLFLUSH, TSCINV, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x0000000f 
 CPU#00 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000001
 CPU#00 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:00000001
 CPU#00 L2  cache:  1024KB,   64 byte cache line, 16 way, SMask:00000001, exclusive
-CPU#01 Vendor: AuthenticAMD Family: 3f Modell: 01 Stepping: 0 CoreType:0x10300f10
+CPU#01 Vendor: AuthenticAMD Family: 3f Model: 01 Stepping: 0 CoreType:0x10300f10
 CPU#01 Freq: 2899.82MHz Type: "AMD A8-3850 APU with Radeon(tm) HD Graphics"
 CPU#01 Feats: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, SSE4A, LZCNT, POPCNT, CMPXCHG8B, CLFLUSH, TSCINV, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000002 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x0000000f 
 CPU#01 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000002
 CPU#01 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:00000002
 CPU#01 L2  cache:  1024KB,   64 byte cache line, 16 way, SMask:00000002, exclusive
-CPU#02 Vendor: AuthenticAMD Family: 3f Modell: 01 Stepping: 0 CoreType:0x10300f10
+CPU#02 Vendor: AuthenticAMD Family: 3f Model: 01 Stepping: 0 CoreType:0x10300f10
 CPU#02 Freq: 2899.89MHz Type: "AMD A8-3850 APU with Radeon(tm) HD Graphics"
 CPU#02 Feats: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, SSE4A, LZCNT, POPCNT, CMPXCHG8B, CLFLUSH, TSCINV, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#02 AffMask:0x00000004 APIC_ID:0x00000001 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x0000000f 
 CPU#02 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000004
 CPU#02 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:00000004
 CPU#02 L2  cache:  1024KB,   64 byte cache line, 16 way, SMask:00000004, exclusive
-CPU#03 Vendor: AuthenticAMD Family: 3f Modell: 01 Stepping: 0 CoreType:0x10300f10
+CPU#03 Vendor: AuthenticAMD Family: 3f Model: 01 Stepping: 0 CoreType:0x10300f10
 CPU#03 Freq: 2899.89MHz Type: "AMD A8-3850 APU with Radeon(tm) HD Graphics"
 CPU#03 Feats: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, SSE4A, LZCNT, POPCNT, CMPXCHG8B, CLFLUSH, TSCINV, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#03 AffMask:0x00000008 APIC_ID:0x00000003 Phys_ID:000 Core_ID:03 SMT_ID:00 PhysMask:0x0000000f 

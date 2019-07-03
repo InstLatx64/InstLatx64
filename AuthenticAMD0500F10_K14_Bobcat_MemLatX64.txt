@@ -2,14 +2,14 @@ Copyright (C) 1995-2010 FinalWire Ltd. All rights reserved.
 aida_bench64.dll build: 2.7.334.0 Jan  2 2011 16:59:28
 CPUCount: 2, procMask: 0x0000000000000003 Size of Memory: 1701572KB
 OS:6.1.7601 Service Pack 1, v.721 Priority:080 NUMA:0
-CPU#00 Vendor: AuthenticAMD Family: 5f Modell: 01 Stepping: 0 CoreType:0x10500f10
+CPU#00 Vendor: AuthenticAMD Family: 5f Model: 01 Stepping: 0 CoreType:0x10500f10
 CPU#00 Freq: 1600.01MHz Type: "AMD E-350 Processor"
 CPU#00 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x0000000000000003 
 CPU#00 L1I cache:    32KB,   64 byte cache line,  2 way, SMask:0000000000000001
 CPU#00 L1D cache:    32KB,   64 byte cache line, 16 way, SMask:0000000000000001
 CPU#00 L2  cache:   512KB,   64 byte cache line, 16 way, SMask:0000000000000001
-CPU#01 Vendor: AuthenticAMD Family: 5f Modell: 01 Stepping: 0 CoreType:0x10500f10
+CPU#01 Vendor: AuthenticAMD Family: 5f Model: 01 Stepping: 0 CoreType:0x10500f10
 CPU#01 Freq: 1600.04MHz Type: "AMD E-350 Processor"
 CPU#01 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#01 AffMask:0x0000000000000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x0000000000000003 

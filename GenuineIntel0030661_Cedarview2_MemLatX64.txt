@@ -4,7 +4,7 @@ D2500CC CPUCount: 2, Size of Memory: 4180696KB
 ProcMask: 0x0000000000000003 
 D2500CC OS:6.1.7601 Service Pack 1 Freq: 1862.00MHz Priority:020 NUMA:0
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,AMD64,SSSE3,LAHF,CMPX8,CMPX16,MOVBE,CLFLUSH,TSCINV,LNOP,
-CPU#000 Vendor: GenuineIntel Family: 6 Modell: 36 Stepping: 1 CoreType:0x20030661
+CPU#000 Vendor: GenuineIntel Family: 6 Model: 36 Stepping: 1 CoreType:0x20030661
 CPU#000 Type: "        Intel(R) Atom(TM) CPU D2500   @ 1.86GHz"
 CPU#000 AffMask: 0x0000000000000001 
 CPU#000 PhysMask:0x0000000000000003 
@@ -12,7 +12,7 @@ CPU#000 APIC_ID:0x00000000 Phys_ID:000 Node_ID:00 CU_ID:00 Core_ID:00
 CPU#000 L1I cache:    32KB,   64 byte cache line,  8 way, SMask:0000000000000001 
 CPU#000 L1D cache:    24KB,   64 byte cache line,  6 way, SMask:0000000000000001 
 CPU#000 L2  cache:   512KB,   64 byte cache line,  8 way, SMask:0000000000000001 
-CPU#001 Vendor: GenuineIntel Family: 6 Modell: 36 Stepping: 1 CoreType:0x20030661
+CPU#001 Vendor: GenuineIntel Family: 6 Model: 36 Stepping: 1 CoreType:0x20030661
 CPU#001 Type: "        Intel(R) Atom(TM) CPU D2500   @ 1.86GHz"
 CPU#001 AffMask: 0x0000000000000002 
 CPU#001 PhysMask:0x0000000000000003 

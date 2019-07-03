@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.273.0 Oct 21 2009 23:53:40
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 523764KB Priority:020
 CPU#00 Vendor: AuthenticAMD CoreType:0x10000500
-CPU#00 Family: 5 Modell: 00 Stepping: 0
+CPU#00 Family: 5 Model: 00 Stepping: 0
 CPU#00 Features: TSC, FPU, CMPXCHG8B
 CPU#00 Frequency:   74.86MHz  OS:5.1.2600 Szervizcsomag 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 

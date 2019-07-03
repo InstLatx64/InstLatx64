@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 2, procMask: 0x00000003 Size of Memory: 523824KB Priority:080
 CPU#00 Vendor: GenuineIntel CoreType:0x20000683
-CPU#00 Family: 6 Modell: 08 Stepping: 3
+CPU#00 Family: 6 Model: 08 Stepping: 3
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, CMPXCHG8B
 CPU#00 Frequency:  730.79MHz  OS:5.1.2600 Service Pack 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 
@@ -10,7 +10,7 @@ CPU#00 L1I cache:    16KB,   32 byte cache line,  4 way, SMask:00000001
 CPU#00 L1D cache:    16KB,   32 byte cache line,  4 way, SMask:00000001
 CPU#00 L2  cache:   256KB,   32 byte cache line,  8 way, SMask:00000001
 CPU#01 Vendor: GenuineIntel CoreType:0x20000683
-CPU#01 Family: 6 Modell: 08 Stepping: 3
+CPU#01 Family: 6 Model: 08 Stepping: 3
 CPU#01 Features: TSC, FPU, CMOV, MMX, SSE, CMPXCHG8B
 CPU#01 Frequency:  730.78MHz  OS:5.1.2600 Service Pack 2
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000000 Phys_ID:001 Core_ID:00 SMT_ID:00 PhysMask:0x00000002 

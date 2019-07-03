@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 2, procMask: 0x00000003 Size of Memory: 1047896KB Priority:080
 CPU#00 Vendor: GenuineIntel CoreType:0x20000f43
-CPU#00 Family: f Modell: 04 Stepping: 3 Type: "                  Intel(R) Xeon(TM) CPU 3.20GHz"
+CPU#00 Family: f Model: 04 Stepping: 3 Type: "                  Intel(R) Xeon(TM) CPU 3.20GHz"
 CPU#00 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, CMPXCHG8B, HTT
 CPU#00 Frequency: 3192.02MHz  OS:5.1.2600 Service Pack 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000003 
@@ -10,7 +10,7 @@ CPU#00 L1I cache:    12K uops trace,              8 way, SMask:00000003
 CPU#00 L1D cache:    16KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#00 L2  cache:  2048KB,   64 byte cache line,  8 way, SMask:00000003
 CPU#01 Vendor: GenuineIntel CoreType:0x20000f43
-CPU#01 Family: f Modell: 04 Stepping: 3 Type: "                  Intel(R) Xeon(TM) CPU 3.20GHz"
+CPU#01 Family: f Model: 04 Stepping: 3 Type: "                  Intel(R) Xeon(TM) CPU 3.20GHz"
 CPU#01 Features: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, CMPXCHG8B, HTT
 CPU#01 Frequency: 3192.02MHz  OS:5.1.2600 Service Pack 2
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:00 SMT_ID:01 PhysMask:0x00000003 

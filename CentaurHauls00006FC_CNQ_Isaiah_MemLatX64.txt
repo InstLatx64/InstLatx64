@@ -2,28 +2,28 @@ Copyright (C) 1995-2011 FinalWire Ltd. All rights reserved.
 aida_bench64.dll build: 2.7.371.0 May 26 2011 13:14:09
 CPUCount: 4, procMask: 0x000000000000000f Size of Memory: 1834296KB
 OS:6.1.7601 Service Pack 1 Priority:100 NUMA:0
-CPU#00 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: c CoreType:0x300006fc
+CPU#00 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: c CoreType:0x300006fc
 CPU#00 Freq: 1466.60MHz Type: "                  VIA QuadCore L4700 @ 1.2+ GHz"
 CPU#00 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, POPCNT, VIAAES, VIARNG, VIAHASH, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLFLUSH, LNOP
 CPU#00 AffMask:0x0000000000000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x000000000000000f 
 CPU#00 L1I cache:    64KB,   64 byte cache line, 16 way, SMask:0000000000000001
 CPU#00 L1D cache:    64KB,   64 byte cache line, 16 way, SMask:0000000000000001
 CPU#00 L2  cache:  1024KB,   64 byte cache line, 32 way, SMask:0000000000000001, exclusive
-CPU#01 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: c CoreType:0x300006fc
+CPU#01 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: c CoreType:0x300006fc
 CPU#01 Freq: 1466.60MHz Type: "                  VIA QuadCore L4700 @ 1.2+ GHz"
 CPU#01 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, POPCNT, VIAAES, VIARNG, VIAHASH, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLFLUSH, LNOP
 CPU#01 AffMask:0x0000000000000002 APIC_ID:0x00000002 Phys_ID:000 Core_ID:02 SMT_ID:00 PhysMask:0x000000000000000f 
 CPU#01 L1I cache:    64KB,   64 byte cache line, 16 way, SMask:0000000000000002
 CPU#01 L1D cache:    64KB,   64 byte cache line, 16 way, SMask:0000000000000002
 CPU#01 L2  cache:  1024KB,   64 byte cache line, 32 way, SMask:0000000000000002, exclusive
-CPU#02 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: c CoreType:0x300006fc
+CPU#02 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: c CoreType:0x300006fc
 CPU#02 Freq: 1466.60MHz Type: "                  VIA QuadCore L4700 @ 1.2+ GHz"
 CPU#02 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, POPCNT, VIAAES, VIARNG, VIAHASH, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLFLUSH, LNOP
 CPU#02 AffMask:0x0000000000000004 APIC_ID:0x00000004 Phys_ID:000 Core_ID:04 SMT_ID:00 PhysMask:0x000000000000000f 
 CPU#02 L1I cache:    64KB,   64 byte cache line, 16 way, SMask:0000000000000004
 CPU#02 L1D cache:    64KB,   64 byte cache line, 16 way, SMask:0000000000000004
 CPU#02 L2  cache:  1024KB,   64 byte cache line, 32 way, SMask:0000000000000004, exclusive
-CPU#03 Vendor: CentaurHauls Family: 6 Modell: 0f Stepping: c CoreType:0x300006fc
+CPU#03 Vendor: CentaurHauls Family: 6 Model: 0f Stepping: c CoreType:0x300006fc
 CPU#03 Freq: 1466.60MHz Type: "                  VIA QuadCore L4700 @ 1.2+ GHz"
 CPU#03 Feats: TSC, FPU, CMOV, MMX, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4.1, POPCNT, VIAAES, VIARNG, VIAHASH, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLFLUSH, LNOP
 CPU#03 AffMask:0x0000000000000008 APIC_ID:0x00000006 Phys_ID:000 Core_ID:06 SMT_ID:00 PhysMask:0x000000000000000f 

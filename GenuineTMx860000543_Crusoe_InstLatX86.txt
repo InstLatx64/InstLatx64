@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.257.0 Jan 19 2009 01:57:35
 CPUCount: 1, procMask: 0x00000001 Size of Memory: 245232KB Priority:080
 CPU#00 Vendor: GenuineTMx86 CoreType:0x50000543
-CPU#00 Family: 5 Modell: 04 Stepping: 3 Type: "Transmeta(tm) Crusoe(tm) Processor TM5800"
+CPU#00 Family: 5 Model: 04 Stepping: 3 Type: "Transmeta(tm) Crusoe(tm) Processor TM5800"
 CPU#00 Features: TSC, FPU, CMOV, MMX, CMPXCHG8B
 CPU#00 Frequency:  998.15MHz  OS:5.1.2600 Szervizcsomag 2
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000001 

@@ -2,7 +2,7 @@ Copyright (C) 2003, 2009 Lavalys Consulting Group, Inc. All rights reserved.
 everest_bench.dll build: 2.4.266.0 Aug 17 2009 22:59:04
 CPUCount: 2, procMask: 0x00000003 Size of Memory: 2095280KB Priority:080
 CPU#00 Vendor: AuthenticAMD CoreType:0x10100f62
-CPU#00 Family: 1f Modell: 06 Stepping: 2 Type: "AMD Athlon(tm) II X2 245 Processor"
+CPU#00 Family: 1f Model: 06 Stepping: 2 Type: "AMD Athlon(tm) II X2 245 Processor"
 CPU#00 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, SSE4A, LZCNT, POPCNT, CMPXCHG8B
 CPU#00 Frequency: 2899.59MHz  OS:5.1.2600 Service Pack 3
 CPU#00 AffMask:0x00000001 APIC_ID:0x00000000 Phys_ID:000 Core_ID:00 SMT_ID:00 PhysMask:0x00000003 
@@ -10,7 +10,7 @@ CPU#00 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:00000001
 CPU#00 L1D cache:    64KB,   64 byte cache line,  2 way, SMask:00000001
 CPU#00 L2  cache:  1024KB,   64 byte cache line, 16 way, SMask:00000001, exclusive
 CPU#01 Vendor: AuthenticAMD CoreType:0x10100f62
-CPU#01 Family: 1f Modell: 06 Stepping: 2 Type: "AMD Athlon(tm) II X2 245 Processor"
+CPU#01 Family: 1f Model: 06 Stepping: 2 Type: "AMD Athlon(tm) II X2 245 Processor"
 CPU#01 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, SSE4A, LZCNT, POPCNT, CMPXCHG8B
 CPU#01 Frequency: 2899.57MHz  OS:5.1.2600 Service Pack 3
 CPU#01 AffMask:0x00000002 APIC_ID:0x00000001 Phys_ID:000 Core_ID:01 SMT_ID:00 PhysMask:0x00000003 

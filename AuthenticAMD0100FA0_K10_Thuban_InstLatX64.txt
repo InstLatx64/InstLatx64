@@ -6,7 +6,7 @@ Memory: 2095604KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
 Memory To Test:32768KB 4K DTLB:512 2M DTLB:128 1G DTLB: 48 CLFlush:64
 ProcMask: 0x000000000000003f 
 Features: X86,TSC,X87,CMOV,MMX,3DNOW,3DNOWP,SSE,SSE2,SSE3,MMXP,AMD64,SSE4A,ABM,POPCNT,LAHF,CMPX8,CMPX16,CLFLUSH,TSCINV,RDTSCP,3DNOWPREF,MISALIGNSSE,LNOP,PSE,PAGE1GB,FP128,
-CPU#000 Vendor: AuthenticAMD Family: 1f Modell: 0a Stepping: 0 CoreType:0x10100fa0
+CPU#000 Vendor: AuthenticAMD Family: 1f Model: 0a Stepping: 0 CoreType:0x10100fa0
 CPU#000 Type: "AMD Phenom(tm) II X6 1055T Processor"
 CPU#000 AffMask: 0x0000000000000001 
 CPU#000 PhysMask:0x000000000000003f 
@@ -24,7 +24,7 @@ CPU#000 L2D 1G TLB:            16 entries,          8 way, SMask:000000000000000
 CPU#000 L1I 4K TLB:            32 entries,           full, SMask:0000000000000001
 CPU#000 L1I 2M TLB:            16 entries,           full, SMask:0000000000000001
 CPU#000 L2I 4K TLB:           512 entries,          4 way, SMask:0000000000000001
-CPU#001 Vendor: AuthenticAMD Family: 1f Modell: 0a Stepping: 0 CoreType:0x10100fa0
+CPU#001 Vendor: AuthenticAMD Family: 1f Model: 0a Stepping: 0 CoreType:0x10100fa0
 CPU#001 Type: "AMD Phenom(tm) II X6 1055T Processor"
 CPU#001 AffMask: 0x0000000000000002 
 CPU#001 PhysMask:0x000000000000003f 
@@ -42,7 +42,7 @@ CPU#001 L2D 1G TLB:            16 entries,          8 way, SMask:000000000000000
 CPU#001 L1I 4K TLB:            32 entries,           full, SMask:0000000000000002
 CPU#001 L1I 2M TLB:            16 entries,           full, SMask:0000000000000002
 CPU#001 L2I 4K TLB:           512 entries,          4 way, SMask:0000000000000002
-CPU#002 Vendor: AuthenticAMD Family: 1f Modell: 0a Stepping: 0 CoreType:0x10100fa0
+CPU#002 Vendor: AuthenticAMD Family: 1f Model: 0a Stepping: 0 CoreType:0x10100fa0
 CPU#002 Type: "AMD Phenom(tm) II X6 1055T Processor"
 CPU#002 AffMask: 0x0000000000000004 
 CPU#002 PhysMask:0x000000000000003f 
@@ -60,7 +60,7 @@ CPU#002 L2D 1G TLB:            16 entries,          8 way, SMask:000000000000000
 CPU#002 L1I 4K TLB:            32 entries,           full, SMask:0000000000000004
 CPU#002 L1I 2M TLB:            16 entries,           full, SMask:0000000000000004
 CPU#002 L2I 4K TLB:           512 entries,          4 way, SMask:0000000000000004
-CPU#003 Vendor: AuthenticAMD Family: 1f Modell: 0a Stepping: 0 CoreType:0x10100fa0
+CPU#003 Vendor: AuthenticAMD Family: 1f Model: 0a Stepping: 0 CoreType:0x10100fa0
 CPU#003 Type: "AMD Phenom(tm) II X6 1055T Processor"
 CPU#003 AffMask: 0x0000000000000008 
 CPU#003 PhysMask:0x000000000000003f 
@@ -78,7 +78,7 @@ CPU#003 L2D 1G TLB:            16 entries,          8 way, SMask:000000000000000
 CPU#003 L1I 4K TLB:            32 entries,           full, SMask:0000000000000008
 CPU#003 L1I 2M TLB:            16 entries,           full, SMask:0000000000000008
 CPU#003 L2I 4K TLB:           512 entries,          4 way, SMask:0000000000000008
-CPU#004 Vendor: AuthenticAMD Family: 1f Modell: 0a Stepping: 0 CoreType:0x10100fa0
+CPU#004 Vendor: AuthenticAMD Family: 1f Model: 0a Stepping: 0 CoreType:0x10100fa0
 CPU#004 Type: "AMD Phenom(tm) II X6 1055T Processor"
 CPU#004 AffMask: 0x0000000000000010 
 CPU#004 PhysMask:0x000000000000003f 
@@ -96,7 +96,7 @@ CPU#004 L2D 1G TLB:            16 entries,          8 way, SMask:000000000000001
 CPU#004 L1I 4K TLB:            32 entries,           full, SMask:0000000000000010
 CPU#004 L1I 2M TLB:            16 entries,           full, SMask:0000000000000010
 CPU#004 L2I 4K TLB:           512 entries,          4 way, SMask:0000000000000010
-CPU#005 Vendor: AuthenticAMD Family: 1f Modell: 0a Stepping: 0 CoreType:0x10100fa0
+CPU#005 Vendor: AuthenticAMD Family: 1f Model: 0a Stepping: 0 CoreType:0x10100fa0
 CPU#005 Type: "AMD Phenom(tm) II X6 1055T Processor"
 CPU#005 AffMask: 0x0000000000000020 
 CPU#005 PhysMask:0x000000000000003f 

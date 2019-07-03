@@ -3,7 +3,7 @@ aida_bench64.dll build: 2.7.389.0 Oct  6 2011 15:15:13
 CPUCount: 6, Size of Memory: 8332652KB
 ProcMask: 0x000000000000003f 
 OS:6.1.7601 Service Pack 1 Priority:020 NUMA:0
-CPU#00 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#00 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#00 Freq: 3311.16MHz Type: "AMD FX(tm)-6100 Six-Core Processor             "
 CPU#00 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#00 AffMask: 0x0000000000000001 
@@ -13,7 +13,7 @@ CPU#00 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000003
 CPU#00 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000001 
 CPU#00 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000003 , exclusive
 CPU#00 L3  cache:  8192KB,   64 byte cache line, 64 way, SMask:000000000000003f , exclusive
-CPU#01 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#01 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#01 Freq: 3311.16MHz Type: "AMD FX(tm)-6100 Six-Core Processor             "
 CPU#01 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#01 AffMask: 0x0000000000000002 
@@ -23,7 +23,7 @@ CPU#01 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000003
 CPU#01 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000002 
 CPU#01 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000003 , exclusive
 CPU#01 L3  cache:  8192KB,   64 byte cache line, 64 way, SMask:000000000000003f , exclusive
-CPU#02 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#02 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#02 Freq: 3311.17MHz Type: "AMD FX(tm)-6100 Six-Core Processor             "
 CPU#02 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#02 AffMask: 0x0000000000000004 
@@ -33,7 +33,7 @@ CPU#02 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000000000c
 CPU#02 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000004 
 CPU#02 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000000000c , exclusive
 CPU#02 L3  cache:  8192KB,   64 byte cache line, 64 way, SMask:000000000000003f , exclusive
-CPU#03 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#03 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#03 Freq: 3311.14MHz Type: "AMD FX(tm)-6100 Six-Core Processor             "
 CPU#03 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#03 AffMask: 0x0000000000000008 
@@ -43,7 +43,7 @@ CPU#03 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:000000000000000c
 CPU#03 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000008 
 CPU#03 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:000000000000000c , exclusive
 CPU#03 L3  cache:  8192KB,   64 byte cache line, 64 way, SMask:000000000000003f , exclusive
-CPU#04 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#04 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#04 Freq: 3311.15MHz Type: "AMD FX(tm)-6100 Six-Core Processor             "
 CPU#04 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#04 AffMask: 0x0000000000000010 
@@ -53,7 +53,7 @@ CPU#04 L1I cache:    64KB,   64 byte cache line,  2 way, SMask:0000000000000030
 CPU#04 L1D cache:    16KB,   64 byte cache line,  4 way, SMask:0000000000000010 
 CPU#04 L2  cache:  2048KB,   64 byte cache line, 16 way, SMask:0000000000000030 , exclusive
 CPU#04 L3  cache:  8192KB,   64 byte cache line, 64 way, SMask:000000000000003f , exclusive
-CPU#05 Vendor: AuthenticAMD Family: 6f Modell: 01 Stepping: 2 CoreType:0x10600f12
+CPU#05 Vendor: AuthenticAMD Family: 6f Model: 01 Stepping: 2 CoreType:0x10600f12
 CPU#05 Freq: 3311.15MHz Type: "AMD FX(tm)-6100 Six-Core Processor             "
 CPU#05 Feats: TSC, FPU, CMOV, MMX, MMX+, SSE, SSE2, SSE3, SSSE3, AMD64, SSE4A, LZCNT, SSE4.1, SSE4.2, POPCNT, XOP, L/SAHF, CMPXCHG8B, CMPXCHG16B, CLMUL, AESNI, AVX, FMA4, CLFLUSH, TSCINV, TOPEX, RDTSCP, 3DNOWPREF, MISALIGNSSE, LNOP
 CPU#05 AffMask: 0x0000000000000020 

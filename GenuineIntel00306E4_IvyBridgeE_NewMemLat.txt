@@ -6,7 +6,7 @@ Memory: 2097024KB AllocGran:0x00010000 P:0x00001000 LP:0x00200000
 Memory To Test:65536KB 4K DTLB:256 2M DTLB:  0 1G DTLB:  2 CLFlush:64
 ProcMask: 0x00000fff 
 Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,SSSE3,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,AESNI,CLMUL,AVX,F16C,HTT,RDRAND,FSGSBASE,CLFLUSH,X2APIC,TSCINV,RDTSCP,LNOP,ERMS,PSE,PAGE1GB,
-CPU#000 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#000 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#000 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#000 AffMask: 0x00000001 
 CPU#000 PhysMask:0x00000fff 
@@ -20,7 +20,7 @@ CPU#000 L1D 1G TLB:             4 entries,          4 way, SMask:00000041
 CPU#000 L1I 4K TLB:            64 entries,          4 way, SMask:00000041
 CPU#000 L1I 2M TLB:             8 entries,           full, SMask:00000041
 CPU#000 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000041
-CPU#001 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#001 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#001 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#001 AffMask: 0x00000002 
 CPU#001 PhysMask:0x00000fff 
@@ -34,7 +34,7 @@ CPU#001 L1D 1G TLB:             4 entries,          4 way, SMask:00000082
 CPU#001 L1I 4K TLB:            64 entries,          4 way, SMask:00000082
 CPU#001 L1I 2M TLB:             8 entries,           full, SMask:00000082
 CPU#001 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000082
-CPU#002 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#002 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#002 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#002 AffMask: 0x00000004 
 CPU#002 PhysMask:0x00000fff 
@@ -48,7 +48,7 @@ CPU#002 L1D 1G TLB:             4 entries,          4 way, SMask:00000104
 CPU#002 L1I 4K TLB:            64 entries,          4 way, SMask:00000104
 CPU#002 L1I 2M TLB:             8 entries,           full, SMask:00000104
 CPU#002 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000104
-CPU#003 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#003 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#003 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#003 AffMask: 0x00000008 
 CPU#003 PhysMask:0x00000fff 
@@ -62,7 +62,7 @@ CPU#003 L1D 1G TLB:             4 entries,          4 way, SMask:00000208
 CPU#003 L1I 4K TLB:            64 entries,          4 way, SMask:00000208
 CPU#003 L1I 2M TLB:             8 entries,           full, SMask:00000208
 CPU#003 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000208
-CPU#004 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#004 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#004 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#004 AffMask: 0x00000010 
 CPU#004 PhysMask:0x00000fff 
@@ -76,7 +76,7 @@ CPU#004 L1D 1G TLB:             4 entries,          4 way, SMask:00000410
 CPU#004 L1I 4K TLB:            64 entries,          4 way, SMask:00000410
 CPU#004 L1I 2M TLB:             8 entries,           full, SMask:00000410
 CPU#004 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000410
-CPU#005 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#005 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#005 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#005 AffMask: 0x00000020 
 CPU#005 PhysMask:0x00000fff 
@@ -90,7 +90,7 @@ CPU#005 L1D 1G TLB:             4 entries,          4 way, SMask:00000820
 CPU#005 L1I 4K TLB:            64 entries,          4 way, SMask:00000820
 CPU#005 L1I 2M TLB:             8 entries,           full, SMask:00000820
 CPU#005 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000820
-CPU#006 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#006 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#006 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#006 AffMask: 0x00000040 
 CPU#006 PhysMask:0x00000fff 
@@ -104,7 +104,7 @@ CPU#006 L1D 1G TLB:             4 entries,          4 way, SMask:00000041
 CPU#006 L1I 4K TLB:            64 entries,          4 way, SMask:00000041
 CPU#006 L1I 2M TLB:             8 entries,           full, SMask:00000041
 CPU#006 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000041
-CPU#007 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#007 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#007 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#007 AffMask: 0x00000080 
 CPU#007 PhysMask:0x00000fff 
@@ -118,7 +118,7 @@ CPU#007 L1D 1G TLB:             4 entries,          4 way, SMask:00000082
 CPU#007 L1I 4K TLB:            64 entries,          4 way, SMask:00000082
 CPU#007 L1I 2M TLB:             8 entries,           full, SMask:00000082
 CPU#007 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000082
-CPU#008 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#008 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#008 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#008 AffMask: 0x00000100 
 CPU#008 PhysMask:0x00000fff 
@@ -132,7 +132,7 @@ CPU#008 L1D 1G TLB:             4 entries,          4 way, SMask:00000104
 CPU#008 L1I 4K TLB:            64 entries,          4 way, SMask:00000104
 CPU#008 L1I 2M TLB:             8 entries,           full, SMask:00000104
 CPU#008 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000104
-CPU#009 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#009 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#009 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#009 AffMask: 0x00000200 
 CPU#009 PhysMask:0x00000fff 
@@ -146,7 +146,7 @@ CPU#009 L1D 1G TLB:             4 entries,          4 way, SMask:00000208
 CPU#009 L1I 4K TLB:            64 entries,          4 way, SMask:00000208
 CPU#009 L1I 2M TLB:             8 entries,           full, SMask:00000208
 CPU#009 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000208
-CPU#010 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#010 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#010 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#010 AffMask: 0x00000400 
 CPU#010 PhysMask:0x00000fff 
@@ -160,7 +160,7 @@ CPU#010 L1D 1G TLB:             4 entries,          4 way, SMask:00000410
 CPU#010 L1I 4K TLB:            64 entries,          4 way, SMask:00000410
 CPU#010 L1I 2M TLB:             8 entries,           full, SMask:00000410
 CPU#010 L2I+D 4K TLB:         512 entries,          4 way, SMask:00000410
-CPU#011 Vendor: GenuineIntel Family: 6 Modell: 3e Stepping: 4 CoreType:0x200306e4
+CPU#011 Vendor: GenuineIntel Family: 6 Model: 3e Stepping: 4 CoreType:0x200306e4
 CPU#011 Type: "       Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz"
 CPU#011 AffMask: 0x00000800 
 CPU#011 PhysMask:0x00000fff 

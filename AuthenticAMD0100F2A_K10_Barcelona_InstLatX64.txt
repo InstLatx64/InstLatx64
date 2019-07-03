@@ -2,7 +2,7 @@ Copyright (C) 2003, 2007 Lavalys Consulting Group, Inc. All rights reserved.
 InstLat.x64.exe build: 0.6.10.0 Jun 27 2008 22:12:09
 CPUCount: 8, procMask: 0x00000000000000ff Size of Memory: 4192944KB
 CPU#0 Vendor: AuthenticAMD APIC_ID:0x00000000
-CPU#0 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#0 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#0 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#0 Frequency: 1699.97MHz OS:5.2.3790 Service Pack 1
 CPU#0 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -10,7 +10,7 @@ CPU#0 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#0 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#0 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#1 Vendor: AuthenticAMD APIC_ID:0x00000001
-CPU#1 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#1 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#1 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#1 Frequency: 1699.97MHz OS:5.2.3790 Service Pack 1
 CPU#1 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -18,7 +18,7 @@ CPU#1 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#1 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#1 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#2 Vendor: AuthenticAMD APIC_ID:0x00000002
-CPU#2 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#2 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#2 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#2 Frequency: 1699.96MHz OS:5.2.3790 Service Pack 1
 CPU#2 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -26,7 +26,7 @@ CPU#2 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#2 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#2 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#3 Vendor: AuthenticAMD APIC_ID:0x00000003
-CPU#3 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#3 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#3 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#3 Frequency: 1699.97MHz OS:5.2.3790 Service Pack 1
 CPU#3 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -34,7 +34,7 @@ CPU#3 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#3 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#3 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#4 Vendor: AuthenticAMD APIC_ID:0x00000004
-CPU#4 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#4 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#4 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#4 Frequency: 1699.97MHz OS:5.2.3790 Service Pack 1
 CPU#4 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -42,7 +42,7 @@ CPU#4 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#4 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#4 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#5 Vendor: AuthenticAMD APIC_ID:0x00000005
-CPU#5 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#5 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#5 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#5 Frequency: 1699.97MHz OS:5.2.3790 Service Pack 1
 CPU#5 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -50,7 +50,7 @@ CPU#5 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#5 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#5 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#6 Vendor: AuthenticAMD APIC_ID:0x00000006
-CPU#6 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#6 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#6 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#6 Frequency: 1699.96MHz OS:5.2.3790 Service Pack 1
 CPU#6 L1I cache:   64KB,   64 byte cache line, 2 way
@@ -58,7 +58,7 @@ CPU#6 L1D cache:   64KB,   64 byte cache line, 2 way
 CPU#6 L2  cache:  512KB,   64 byte cache line, 16 way
 CPU#6 L3  cache: 2048KB,   64 byte cache line, 32 way
 CPU#7 Vendor: AuthenticAMD APIC_ID:0x00000007
-CPU#7 Family: 1f Modell: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
+CPU#7 Family: 1f Model: 02 Stepping: a Type: "Quad-Core AMD Opteron(tm) Processor 2344 HE"
 CPU#7 Features: TSC, FPU, CMOV, MMX, MMX+, 3DNow!, 3DNow!+, SSE, SSE2, SSE3, AMD64, SSE4A, LZCNT, POPCNT, L/SAHF, CMPXCHG8B, CMPXCHG16B
 CPU#7 Frequency: 1698.04MHz OS:5.2.3790 Service Pack 1
 CPU#7 L1I cache:   64KB,   64 byte cache line, 2 way
