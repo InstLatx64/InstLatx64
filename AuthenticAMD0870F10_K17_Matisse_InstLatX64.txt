@@ -2056,9 +2056,9 @@ Inst 2217 AVX2            : VEXTRACTI128 xmm, ymm, imm8             L:   0.73ns=
 Inst 2218 AVX2            : VINSERTI128 ym, ym, xm, im8             L:   0.24ns=  1.0c  T:   0.24ns=  1.00c
 Inst 2219 AVX2            : VPERM2I128 ym, ym, ym, im8              L:   0.73ns=  3.0c  T:   0.24ns=  1.00c
 Inst 2220 AVX2            : VPERMD ymm, ymm, ymm                    L:   1.95ns=  8.0c  T:   0.49ns=  2.00c
-Inst 2221 AVX2            : VPERMQ ymm, ymm, imm8                   L:   1.46ns=  6.0c  T:   0.14ns=  0.57c
+Inst 2221 AVX2            : VPERMQ ymm, ymm, imm8                   L:   1.46ns=  6.0c  T:   0.14ns=  1.25c
 Inst 2222 AVX2            : VPERMPS ymm, ymm, ymm                   L:   1.95ns=  8.0c  T:   0.49ns=  2.00c
-Inst 2223 AVX2            : VPERMPD ymm, ymm, imm8                  L:   1.46ns=  6.0c  T:   0.14ns=  0.57c
+Inst 2223 AVX2            : VPERMPD ymm, ymm, imm8                  L:   1.46ns=  6.0c  T:   0.14ns=  1.25c
 Inst 2224 AVX2            : VPSLLVD xmm, xmm, xmm                   L:   0.73ns=  3.0c  T:   0.49ns=  2.00c
 Inst 2225 AVX2            : VPSLLVD ymm, ymm, ymm                   L:   0.73ns=  3.0c  T:   0.49ns=  2.00c
 Inst 2226 AVX2            : VPSLLVQ xmm, xmm, xmm                   L:   0.73ns=  3.0c  T:   0.49ns=  2.00c
