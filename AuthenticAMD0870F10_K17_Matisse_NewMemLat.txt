@@ -1,0 +1,770 @@
+Copyright (C) 1995-2019 FinalWire Ltd. All rights reserved.
+aida_bench64.dll build: 4.5.15812.0 Oct  3 2019 09:40:52
+X570AE Arch:X64 CPUCount:24 NUMA:0 Freq: 3094.04MHz Priority:080
+OS:6.3.18362 
+Memory: 8336952KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
+Memory To Test:65536KB 4K DTLB:1024 2M DTLB:1024 1G DTLB: 32 CLFlush:64
+ProcMask: 0x0000000000ffffff 
+Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,MMXP,AMD64,SSSE3,SSE4A,ABM,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,AVX,FMA3,MOVBE,F16C,HTT,RDRAND,FSGSBASE,BMI,CLFLUSH,TSCINV,TOPEX,RDTSCP,3DNOWPREF,MISALIGNSSE,LNOP,AVX2,BMI2,PSE,RDSEED,ADX,SMAP,PAGE1GB,FP256,SHA,CLFLUSHOPT,RDT_M,RDT_A,CLWB,CLZERO,MONITORX,UMIP,RDPID,5LTOP,SEV,SME,RDPRU,MCOMMIT,
+CPU#000 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#000 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#000 AffMask: 0x0000000000000001 
+CPU#000 PhysMask:0x0000000000ffffff 
+CPU#000 APIC_ID:0x00000000 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:00 SMT_ID:00 
+CPU#000 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#000 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#000 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000003, Zen L2
+CPU#000 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000003f, Zen L3
+CPU#000 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000003
+CPU#000 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000003
+CPU#000 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#000 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#001 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#001 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#001 AffMask: 0x0000000000000002 
+CPU#001 PhysMask:0x0000000000ffffff 
+CPU#001 APIC_ID:0x00000001 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:00 SMT_ID:01 
+CPU#001 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#001 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#001 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000003, Zen L2
+CPU#001 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000003f, Zen L3
+CPU#001 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000003
+CPU#001 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000003
+CPU#001 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#001 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#002 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#002 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#002 AffMask: 0x0000000000000004 
+CPU#002 PhysMask:0x0000000000ffffff 
+CPU#002 APIC_ID:0x00000002 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:01 SMT_ID:00 
+CPU#002 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#002 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#002 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000000c, Zen L2
+CPU#002 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000003f, Zen L3
+CPU#002 L1D 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1D 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1D 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000000c
+CPU#002 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000000c
+CPU#002 L1I 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1I 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1I 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#002 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#003 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#003 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#003 AffMask: 0x0000000000000008 
+CPU#003 PhysMask:0x0000000000ffffff 
+CPU#003 APIC_ID:0x00000003 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:01 SMT_ID:01 
+CPU#003 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#003 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#003 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000000c, Zen L2
+CPU#003 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000003f, Zen L3
+CPU#003 L1D 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1D 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1D 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000000c
+CPU#003 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000000c
+CPU#003 L1I 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1I 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1I 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#003 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#004 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#004 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#004 AffMask: 0x0000000000000010 
+CPU#004 PhysMask:0x0000000000ffffff 
+CPU#004 APIC_ID:0x00000004 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:02 SMT_ID:00 
+CPU#004 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#004 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#004 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000030, Zen L2
+CPU#004 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000003f, Zen L3
+CPU#004 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000030
+CPU#004 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000030
+CPU#004 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#004 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#005 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#005 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#005 AffMask: 0x0000000000000020 
+CPU#005 PhysMask:0x0000000000ffffff 
+CPU#005 APIC_ID:0x00000005 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:02 SMT_ID:01 
+CPU#005 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#005 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#005 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000030, Zen L2
+CPU#005 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000003f, Zen L3
+CPU#005 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000030
+CPU#005 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000030
+CPU#005 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#005 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#006 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#006 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#006 AffMask: 0x0000000000000040 
+CPU#006 PhysMask:0x0000000000ffffff 
+CPU#006 APIC_ID:0x00000008 Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:00 SMT_ID:00 
+CPU#006 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#006 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#006 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000000c0, Zen L2
+CPU#006 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000000fc0, Zen L3
+CPU#006 L1D 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1D 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1D 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000000c0
+CPU#006 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000000c0
+CPU#006 L1I 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1I 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1I 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#006 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#007 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#007 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#007 AffMask: 0x0000000000000080 
+CPU#007 PhysMask:0x0000000000ffffff 
+CPU#007 APIC_ID:0x00000009 Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:00 SMT_ID:01 
+CPU#007 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#007 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#007 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000000c0, Zen L2
+CPU#007 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000000fc0, Zen L3
+CPU#007 L1D 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1D 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1D 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000000c0
+CPU#007 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000000c0
+CPU#007 L1I 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1I 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1I 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#007 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#008 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#008 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#008 AffMask: 0x0000000000000100 
+CPU#008 PhysMask:0x0000000000ffffff 
+CPU#008 APIC_ID:0x0000000a Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:01 SMT_ID:00 
+CPU#008 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#008 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#008 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000300, Zen L2
+CPU#008 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000000fc0, Zen L3
+CPU#008 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000300
+CPU#008 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000300
+CPU#008 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#008 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#009 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#009 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#009 AffMask: 0x0000000000000200 
+CPU#009 PhysMask:0x0000000000ffffff 
+CPU#009 APIC_ID:0x0000000b Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:01 SMT_ID:01 
+CPU#009 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#009 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#009 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000300, Zen L2
+CPU#009 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000000fc0, Zen L3
+CPU#009 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000300
+CPU#009 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000300
+CPU#009 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#009 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#010 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#010 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#010 AffMask: 0x0000000000000400 
+CPU#010 PhysMask:0x0000000000ffffff 
+CPU#010 APIC_ID:0x0000000c Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:02 SMT_ID:00 
+CPU#010 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#010 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#010 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000c00, Zen L2
+CPU#010 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000000fc0, Zen L3
+CPU#010 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000c00
+CPU#010 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000c00
+CPU#010 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#010 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#011 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#011 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#011 AffMask: 0x0000000000000800 
+CPU#011 PhysMask:0x0000000000ffffff 
+CPU#011 APIC_ID:0x0000000d Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:02 SMT_ID:01 
+CPU#011 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#011 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#011 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000c00, Zen L2
+CPU#011 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000000fc0, Zen L3
+CPU#011 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000c00
+CPU#011 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000c00
+CPU#011 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#011 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#012 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#012 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#012 AffMask: 0x0000000000001000 
+CPU#012 PhysMask:0x0000000000ffffff 
+CPU#012 APIC_ID:0x00000010 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:00 SMT_ID:00 
+CPU#012 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#012 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#012 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000003000, Zen L2
+CPU#012 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000003f000, Zen L3
+CPU#012 L1D 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1D 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1D 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000003000
+CPU#012 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000003000
+CPU#012 L1I 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1I 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1I 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#012 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#013 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#013 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#013 AffMask: 0x0000000000002000 
+CPU#013 PhysMask:0x0000000000ffffff 
+CPU#013 APIC_ID:0x00000011 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:00 SMT_ID:01 
+CPU#013 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#013 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#013 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000003000, Zen L2
+CPU#013 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000003f000, Zen L3
+CPU#013 L1D 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1D 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1D 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000003000
+CPU#013 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000003000
+CPU#013 L1I 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1I 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1I 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#013 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#014 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#014 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#014 AffMask: 0x0000000000004000 
+CPU#014 PhysMask:0x0000000000ffffff 
+CPU#014 APIC_ID:0x00000012 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:01 SMT_ID:00 
+CPU#014 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#014 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#014 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000c000, Zen L2
+CPU#014 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000003f000, Zen L3
+CPU#014 L1D 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1D 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1D 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000c000
+CPU#014 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000c000
+CPU#014 L1I 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1I 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1I 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#014 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#015 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#015 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#015 AffMask: 0x0000000000008000 
+CPU#015 PhysMask:0x0000000000ffffff 
+CPU#015 APIC_ID:0x00000013 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:01 SMT_ID:01 
+CPU#015 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#015 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#015 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000c000, Zen L2
+CPU#015 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000003f000, Zen L3
+CPU#015 L1D 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1D 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1D 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000c000
+CPU#015 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000c000
+CPU#015 L1I 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1I 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1I 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#015 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#016 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#016 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#016 AffMask: 0x0000000000010000 
+CPU#016 PhysMask:0x0000000000ffffff 
+CPU#016 APIC_ID:0x00000014 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:02 SMT_ID:00 
+CPU#016 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#016 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#016 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000030000, Zen L2
+CPU#016 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000003f000, Zen L3
+CPU#016 L1D 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1D 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1D 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000030000
+CPU#016 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000030000
+CPU#016 L1I 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1I 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1I 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#016 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#017 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#017 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#017 AffMask: 0x0000000000020000 
+CPU#017 PhysMask:0x0000000000ffffff 
+CPU#017 APIC_ID:0x00000015 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:02 SMT_ID:01 
+CPU#017 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#017 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#017 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000030000, Zen L2
+CPU#017 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000003f000, Zen L3
+CPU#017 L1D 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1D 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1D 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000030000
+CPU#017 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000030000
+CPU#017 L1I 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1I 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1I 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#017 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#018 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#018 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#018 AffMask: 0x0000000000040000 
+CPU#018 PhysMask:0x0000000000ffffff 
+CPU#018 APIC_ID:0x00000018 Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:00 SMT_ID:00 
+CPU#018 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#018 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#018 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000c0000, Zen L2
+CPU#018 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000fc0000, Zen L3
+CPU#018 L1D 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1D 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1D 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000c0000
+CPU#018 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000c0000
+CPU#018 L1I 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1I 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1I 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#018 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#019 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#019 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#019 AffMask: 0x0000000000080000 
+CPU#019 PhysMask:0x0000000000ffffff 
+CPU#019 APIC_ID:0x00000019 Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:00 SMT_ID:01 
+CPU#019 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#019 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#019 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000c0000, Zen L2
+CPU#019 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000fc0000, Zen L3
+CPU#019 L1D 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1D 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1D 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000c0000
+CPU#019 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000c0000
+CPU#019 L1I 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1I 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1I 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#019 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#020 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#020 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#020 AffMask: 0x0000000000100000 
+CPU#020 PhysMask:0x0000000000ffffff 
+CPU#020 APIC_ID:0x0000001a Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:01 SMT_ID:00 
+CPU#020 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#020 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#020 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000300000, Zen L2
+CPU#020 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000fc0000, Zen L3
+CPU#020 L1D 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1D 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1D 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000300000
+CPU#020 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000300000
+CPU#020 L1I 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1I 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1I 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#020 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#021 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#021 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#021 AffMask: 0x0000000000200000 
+CPU#021 PhysMask:0x0000000000ffffff 
+CPU#021 APIC_ID:0x0000001b Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:01 SMT_ID:01 
+CPU#021 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#021 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#021 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000300000, Zen L2
+CPU#021 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000fc0000, Zen L3
+CPU#021 L1D 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1D 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1D 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000300000
+CPU#021 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000300000
+CPU#021 L1I 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1I 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1I 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#021 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#022 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#022 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#022 AffMask: 0x0000000000400000 
+CPU#022 PhysMask:0x0000000000ffffff 
+CPU#022 APIC_ID:0x0000001c Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:02 SMT_ID:00 
+CPU#022 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#022 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#022 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000c00000, Zen L2
+CPU#022 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000fc0000, Zen L3
+CPU#022 L1D 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1D 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1D 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000c00000
+CPU#022 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000c00000
+CPU#022 L1I 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1I 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1I 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+CPU#022 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+CPU#023 Vendor: AuthenticAMD Family: 8f Model: 71 Stepping: 0 CoreType:0x10870f10
+CPU#023 Type: "AMD Ryzen 9 PRO 3900 12-Core Processor         "
+CPU#023 AffMask: 0x0000000000800000 
+CPU#023 PhysMask:0x0000000000ffffff 
+CPU#023 APIC_ID:0x0000001d Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:02 SMT_ID:01 
+CPU#023 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#023 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#023 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000c00000, Zen L2
+CPU#023 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000fc0000, Zen L3
+CPU#023 L1D 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1D 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1D 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000c00000
+CPU#023 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000c00000
+CPU#023 L1I 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1I 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1I 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+CPU#023 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+NGMemLat #  0 Pmask:0x0000000000800000 Thread(s):  1
+Page_Random Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   7    7    7    8    8    8   12   12   13   13    4    4 
+      64 KB   8    8    9   10    9    9   12   12   12   13    4    4 
+      96 KB  10   10   10   11   11   11   12   12   12   13   13    4 
+     128 KB  10   10   11   11   11   11   12   12   12   13   13    4 
+     192 KB  11   11   11   12   12   12   12   12   13   13   13   13 
+     256 KB  11   11   11   12   12   12   12   12   13   13   13   13 
+     384 KB  11   12   12   12   12   12   12   12   14   13   13   13 
+     512 KB  13   13   13   13   13   13   14   14   14   16   13   13 
+     768 KB  24   25   28   33   36   38   39   40   40   42   26   13 
+    1024 KB  29   30   32   35   39   42   43   43   43   44   38   23 
+    1536 KB  35   35   36   39   41   43   44   44   44   45   40   36 
+    2048 KB  37   38   39   40   41   44   44   44   45   45   40   35 
+    3072 KB  40   40   41   42   42   45   45   45   45   46   46   36 
+    4096 KB  41   42   42   43   43   45   45   45   45   46   46   38 
+    6144 KB  40   40   41   42   42   45   45   45   46   47   47   46 
+    8192 KB  42   42   42   43   43   46   46   47   48   49   48   48 
+   12288 KB  42   42   43   44   44   47   47   48   51   55   61   61 
+   16384 KB  51   56   64   71   76   76   80   84   77   87   73   72 
+   24576 KB  55   69   95  156  242  241  241  241  244  250  145  116 
+   32768 KB  56   71  100  160  254  254  256  258  261  267  206  146 
+   49152 KB  56   71  101  161  257  257  259  261  264  271  231  206 
+   65536 KB  56   71  101  161  257  257  259  261  264  271  240  210 
+   98304 KB  56   71  101  161  257  257  259  261  264  271  273  211 
+  131072 KB  56   71  101  161  257  257  259  261  265  272  282  221 
+  196608 KB  56   71  101  161  258  258  260  262  266  272  282  268 
+  262144 KB  56   71  101  162  258  258  260  263  266  273  283  287 
+Linear_Forward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   4    4    4    5    8   12   12   12   12   13    4    4 
+      64 KB   4    4    4    5    7   12   12   12   12   13    4    4 
+      96 KB   4    4    4    5    6   12   12   12   12   13   13    4 
+     128 KB   4    4    4    5    5   12   12   12   12   13   13    4 
+     192 KB   4    4    4    5    5   12   12   12   12   13   13   13 
+     256 KB   4    4    4    5    5   12   12   12   12   13   13   13 
+     384 KB   4    4    4    5    4   12   12   12   12   13   13   13 
+     512 KB   4    4    4    6    4   13   13   14   15   17   13   13 
+     768 KB   4    4    4    6    5   26   37   37   39   41   26   13 
+    1024 KB   4    4    4    6    5   28   40   40   41   44   38   23 
+    1536 KB   4    4    4    6    5   27   40   40   41   44   39   36 
+    2048 KB   4    4    4    6    5   27   40   40   41   44   41   35 
+    3072 KB   4    4    4    6    5   27   40   40   41   44   45   35 
+    4096 KB   4    4    4    6    5   27   40   40   41   44   46   37 
+    6144 KB   4    4    4    6    5   27   40   40   42   44   46   46 
+    8192 KB   4    4    4    6    5   28   40   41   42   47   47   47 
+   12288 KB   4    4    4    6    5   28   41   42   45   53   61   61 
+   16384 KB   4    4    5    9    7   60   78   73   80   87   78   71 
+   24576 KB   4    4    7   13   23  130  231  233  239  246  156  113 
+   32768 KB   4    4    7   13   25  133  249  251  256  264  203  142 
+   49152 KB   4    4    7   13   26  134  251  253  258  268  228  205 
+   65536 KB   4    4    7   13   26  134  251  253  259  268  240  207 
+   98304 KB   4    4    7   13   26  134  251  253  259  268  272  208 
+  131072 KB   4    4    7   13   26  134  251  253  259  268  280  217 
+  196608 KB   4    4    7   13   26  134  251  254  259  268  280  263 
+  262144 KB   4    4    7   13   26  134  251  254  259  269  281  284 
+Linear_Backward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   4    4    4    5    8   12   12   12   12   13    4    4 
+      64 KB   4    4    4    5    9   12   12   12   12   13    4    4 
+      96 KB   4    4    4    5   10   12   12   12   12   13   13    4 
+     128 KB   4    4    4    5   11   12   12   12   12   13   13    4 
+     192 KB   4    4    4    5   11   12   12   12   12   13   13   13 
+     256 KB   4    4    4    5   11   12   12   12   12   13   13   13 
+     384 KB   4    4    4    5   12   12   12   12   12   18   13   13 
+     512 KB   4    4    4    6   12   13   13   14   15   17   13   13 
+     768 KB   4    4    4    6   13   26   37   37   39   42   26   13 
+    1024 KB   4    4    4    6   13   27   40   40   41   44   35   23 
+    1536 KB   4    4    4    6   13   27   40   40   41   44   38   36 
+    2048 KB   4    4    4    6   13   27   40   40   41   44   41   35 
+    3072 KB   4    4    4    6   13   27   40   40   41   44   45   36 
+    4096 KB   4    4    4    6   13   27   40   40   41   44   46   36 
+    6144 KB   4    4    4    6   13   27   40   40   42   45   47   45 
+    8192 KB   4    4    4    6   13   28   40   41   43   46   47   47 
+   12288 KB   4    4    4    6   13   28   41   43   46   53   60   61 
+   16384 KB   4    4    5    9   13   54   76   76   78  104   75   68 
+   24576 KB   4    4    7   13   21  129  229  231  238  245  153  112 
+   32768 KB   4    4    7   13   24  133  248  251  256  264  203  143 
+   49152 KB   4    4    7   13   25  133  251  253  258  268  229  207 
+   65536 KB   4    4    7   13   26  133  251  253  259  268  241  209 
+   98304 KB   4    4    7   13   26  133  251  254  259  268  273  209 
+  131072 KB   4    4    7   13   26  134  251  253  259  269  282  221 
+  196608 KB   4    4    7   13   26  134  251  253  259  268  281  265 
+  262144 KB   4    4    7   13   26  134  251  253  260  268  280  283 
+Random_Full Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   7    7    7    8    8    9   12   12   13   13    4    4 
+      64 KB   8    8    9   10   10    9   12   12   13   13    4    4 
+      96 KB  10   10   10   11   11   11   12   12   13   13   14    4 
+     128 KB  10   10   11   11   11   12   12   12   13   13   13    4 
+     192 KB  11   11   11   12   12   12   12   12   12   13   13   13 
+     256 KB  11   11   11   12   12   12   12   12   13   13   13   13 
+     384 KB  11   12   12   12   12   13   12   12   12   13   13   13 
+     512 KB  13   13   13   13   13   13   14   14   14   16   13   13 
+     768 KB  24   25   27   33   36   38   39   40   40   42   26   13 
+    1024 KB  29   30   32   35   39   41   43   43   43   44   35   18 
+    1536 KB  35   35   37   39   41   43   44   44   44   45   40   35 
+    2048 KB  37   38   39   40   41   44   44   44   45   45   41   35 
+    3072 KB  40   40   41   42   42   45   45   45   45   46   45   36 
+    4096 KB  41   42   42   43   43   45   45   45   45   46   46   36 
+    6144 KB  44   43   44   44   43   46   46   46   46   46   47   46 
+    8192 KB  46   45   45   46   44   48   47   48   48   48   48   47 
+   12288 KB  50   52   53   52   51   53   51   54   54   53   61   61 
+   16384 KB  68   65   73   84   89   91   94   95   90   91   68   69 
+   24576 KB 143  150  163  197  255  252  253  251  251  252  151  117 
+   32768 KB 180  186  197  221  271  271  272  271  272  273  207  147 
+   49152 KB 217  221  230  247  281  280  280  279  279  280  235  210 
+   65536 KB 237  241  247  260  285  285  283  282  282  282  247  214 
+   98304 KB 260  262  266  275  291  290  287  286  285  285  280  216 
+  131072 KB 272  274  277  284  296  293  289  287  286  287  289  229 
+  196608 KB 286  287  290  294  302  296  292  289  289  289  291  273 
+  262144 KB 294  295  297  300  305  298  294  291  292  291  292  292 
+CacheLine_Forward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      64 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      96 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     128 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     192 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     256 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     384 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     512 KB   8    8    9    9    8   13   13   13   13   13   13   13 
+     768 KB  21   21   21   21   21   28   28   25   25   26   25   26 
+    1024 KB  23   23   23   23   23   29   29   26   25   26   26   27 
+    1536 KB  23   23   23   23   23   29   29   25   25   26   26   27 
+    2048 KB  23   23   23   23   23   29   29   25   25   26   26   27 
+    3072 KB  23   23   23   23   23   29   29   25   25   26   26   27 
+    4096 KB  23   23   23   23   23   29   29   25   25   26   26   27 
+    6144 KB  23   23   23   23   23   29   29   26   26   26   26   27 
+    8192 KB  23   23   23   23   23   29   29   26   26   26   27   28 
+   12288 KB  23   23   23   23   23   29   30   27   26   26   27   28 
+   16384 KB  42   42   39   39   38   55   59   56   53   49   59   56 
+   24576 KB 119  118  119  119  119  141  141  133  136  132  132  129 
+   32768 KB 126  127  126  127  126  144  145  143  142  135  135  133 
+   49152 KB 128  128  128  128  128  147  145  141  143  136  136  134 
+   65536 KB 128  128  128  128  128  145  145  142  142  136  136  134 
+   98304 KB 128  128  128  128  128  145  144  142  143  136  136  134 
+  131072 KB 128  128  128  128  128  145  144  143  144  136  136  134 
+  196608 KB 128  128  128  128  128  145  145  143  143  136  136  134 
+  262144 KB 128  128  128  128  128  145  145  143  144  136  136  134 
+CacheLine_Backward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      64 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      96 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     128 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     192 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     256 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     384 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     512 KB   9    8    9    8    9   13   13   13   13   13   13   13 
+     768 KB  21   21   21   21   21   26   26   25   25   25   25   26 
+    1024 KB  23   23   23   23   23   27   27   26   26   26   26   27 
+    1536 KB  23   23   23   23   23   27   27   26   26   26   27   27 
+    2048 KB  23   23   23   23   23   27   27   26   26   26   26   27 
+    3072 KB  23   23   23   23   23   27   27   26   26   26   26   27 
+    4096 KB  23   23   23   23   23   27   27   26   26   26   26   27 
+    6144 KB  23   23   23   23   23   27   27   26   26   26   26   27 
+    8192 KB  23   23   23   23   23   28   28   27   27   26   26   28 
+   12288 KB  23   23   23   23   23   28   28   27   27   27   27   28 
+   16384 KB  37   43   40   39   41   62   55   53   50   60   53   54 
+   24576 KB 116  117  117  116  117  136  138  138  138  130  130  129 
+   32768 KB 126  126  126  126  126  140  141  142  144  134  133  133 
+   49152 KB 127  127  127  127  127  141  142  143  143  135  134  133 
+   65536 KB 127  127  127  127  127  141  141  143  144  135  134  133 
+   98304 KB 127  127  127  127  127  141  141  144  143  135  134  133 
+  131072 KB 128  127  127  128  127  141  142  144  144  135  134  134 
+  196608 KB 127  127  127  127  127  141  142  144  144  135  134  133 
+  262144 KB 127  128  128  128  128  141  141  143  143  135  134  134 
+Page_Random 2CL Tests
+Block:       4K   8K  16K  32K  64K 128K 256K 512K   1M   2M   4M 
+       4 KB   4 
+       6 KB   4 
+       8 KB   4    4 
+      12 KB   4    4 
+      16 KB   4    4    4 
+      24 KB   4    4    4 
+      32 KB   4    4    4    4 
+      48 KB   7    7    7    7 
+      64 KB   7    7    7    7    9 
+      96 KB   7    7    7    7    9 
+     128 KB   7    7    7    7   10   11 
+     192 KB   7    7    7    7   10   11 
+     256 KB   7    7    7    7   10   11   12 
+     384 KB   7    7    7    7   10   11   12 
+     512 KB   7    7    7    7   10   12   12   13 
+     768 KB  13   13   13   13   21   28   31   33 
+    1024 KB  13   14   13   13   22   30   33   36   39 
+    1536 KB  13   13   13   13   22   30   33   36   38 
+    2048 KB  14   13   13   13   22   30   33   36   39   41 
+    3072 KB  14   13   13   13   22   30   33   36   39   41 
+    4096 KB  14   13   13   13   22   30   33   36   39   41   43 
+    6144 KB  14   13   13   13   22   30   33   36   39   42   42 
+    8192 KB  14   13   13   13   22   30   33   36   40   42   43 
+   12288 KB  14   13   13   13   22   30   34   36   40   42   43 
+   16384 KB  23   23   21   21   37   62   74   72   76   71   76 
+   24576 KB  65   64   64   64  119  176  205  222  234  238  242 
+   32768 KB  69   68   68   67  126  187  218  235  246  251  254 
+   49152 KB  70   69   69   68  127  189  220  237  247  253  257 
+   65536 KB  70   69   69   68  127  189  220  237  248  253  257 
+   98304 KB  70   69   69   69  127  189  220  237  248  253  257 
+  131072 KB  70   69   69   69  127  189  220  237  247  255  260 
+  196608 KB  71   71   70   70  129  191  223  240  251  256  257 
+  262144 KB  70   69   69   69  127  189  220  237  247  253  257 
+Page_Random 1CL Tests
+Block:       4K   8K  16K  32K  64K 128K 256K 512K   1M   2M   4M 
+       4 KB   4 
+       6 KB   4 
+       8 KB   4    4 
+      12 KB   4    4 
+      16 KB   4    4    4 
+      24 KB   4    4    4 
+      32 KB   4    4    4    4 
+      48 KB   8    9    8    8 
+      64 KB   8    8    8    8   10 
+      96 KB   8    8    8    8   10 
+     128 KB   8    8    8    8   10   11 
+     192 KB   8    8    8    8   10   11 
+     256 KB   8    8    8    8   10   11   12 
+     384 KB   8    8    8    8   10   11   12 
+     512 KB   8    9    9    8   10   12   12   14 
+     768 KB  16   16   17   15   21   26   28   31 
+    1024 KB  17   17   17   16   22   27   28   30   35 
+    1536 KB  17   16   17   16   22   27   28   30   34 
+    2048 KB  17   16   17   16   22   27   28   30   36   40 
+    3072 KB  17   16   17   16   22   27   28   30   36   39 
+    4096 KB  17   16   17   16   22   27   28   30   36   41   43 
+    6144 KB  16   16   17   15   22   27   28   30   36   41   42 
+    8192 KB  17   16   17   16   22   27   28   30   36   41   43 
+   12288 KB  16   17   17   16   22   27   29   31   36   41   44 
+   16384 KB  27   30   28   26   41   48   58   56   62   66   69 
+   24576 KB  79   78   78   73  109  142  151  156  158  157  155 
+   32768 KB  83   83   83   77  115  149  159  162  164  162  160 
+   49152 KB  84   83   84   78  116  150  160  163  165  163  161 
+   65536 KB  83   83   84   78  116  150  160  163  165  163  161 
+   98304 KB  83   83   84   78  116  150  160  163  165  163  162 
+  131072 KB  84   84   85   79  117  151  161  166  165  163  161 
+  196608 KB  83   83   84   77  116  150  160  163  165  163  161 
+  262144 KB  83   83   84   78  116  150  160  163  165  163  161 
+NGMemLat #  0 Pmask:0x0000000000800000 Thread(s):  1
+Best Page_Random Tests
+M32768 Mem   82.859 nsec  256.371 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 11.121 s) ------
+M32768 L1D    1.294 nsec    4.003 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.001 s) ------
+M32768 L2     3.817 nsec   11.811 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.007 s) ------
+M32768 L3    14.079 nsec   43.561 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.039 s) ------
+Best Linear_Forward Tests
+M32769 Mem    8.295 nsec   25.664 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 10.020 s) ------
+M32769 L1D    1.294 nsec    4.003 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.002 s) ------
+M32769 L2     1.756 nsec    5.432 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.001 s) ------
+M32769 L3     2.001 nsec    6.190 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.003 s) ------
+Best Linear_Backward Tests
+M32770 Mem    8.310 nsec   25.710 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 10.038 s) ------
+M32770 L1D    1.294 nsec    4.004 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.000 s) ------
+M32770 L2     1.757 nsec    5.438 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.003 s) ------
+M32770 L3     2.006 nsec    6.207 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.013 s) ------
+Best Random_Full Tests
+M32771 Mem   92.166 nsec  285.166 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 12.370 s) ------
+M32771 L1D    1.294 nsec    4.004 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.002 s) ------
+M32771 L2     3.811 nsec   11.791 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.006 s) ------
+M32771 L3    14.678 nsec   45.415 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.097 s) ------
