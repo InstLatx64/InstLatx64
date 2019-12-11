@@ -1,0 +1,1530 @@
+Copyright (C) 1995-2019 FinalWire Ltd. All rights reserved.
+aida_bench64.dll build: 4.5.820.15 Dec 11 2019 11:24:31
+TR3 Arch:X64 CPUCount:64 NUMA:1 Freq: 3700.26MHz Priority:080
+OS:6.3.18363 
+Memory: 134102812KB AllocGran:0x00010000 P:0x00001000 LP:0x0000000000200000
+Memory To Test:65536KB 4K DTLB:1024 2M DTLB:1024 1G DTLB: 32 CLFlush:64
+ProcMask: 0xffffffffffffffff 
+Features: X86,TSC,X87,CMOV,MMX,SSE,SSE2,SSE3,MMXP,AMD64,SSSE3,SSE4A,ABM,SSE4.1,SSE4.2,POPCNT,LAHF,CMPX8,CMPX16,AESNI,CLMUL,AVX,FMA3,MOVBE,F16C,HTT,RDRAND,FSGSBASE,BMI,CLFLUSH,TSCINV,TOPEX,RDTSCP,3DNOWPREF,MISALIGNSSE,LNOP,AVX2,BMI2,PSE,RDSEED,ADX,SMAP,PAGE1GB,FP256,SHA,CLFLUSHOPT,RDT_M,RDT_A,CLWB,CLZERO,MONITORX,UMIP,RDPID,5LTOP,SEV,SME,RDPRU,MCOMMIT,
+CPU#000 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#000 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#000 AffMask: 0x0000000000000001 
+CPU#000 PhysMask:0xffffffffffffffff 
+CPU#000 APIC_ID:0x00000000 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:00 SMT_ID:00 
+CPU#000 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#000 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#000 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000003, Zen L2
+CPU#000 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#000 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000003
+CPU#000 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000003
+CPU#000 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#000 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#000 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#001 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#001 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#001 AffMask: 0x0000000000000002 
+CPU#001 PhysMask:0xffffffffffffffff 
+CPU#001 APIC_ID:0x00000001 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:00 SMT_ID:01 
+CPU#001 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#001 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000003 
+CPU#001 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000003, Zen L2
+CPU#001 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#001 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000003
+CPU#001 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000003
+CPU#001 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000003
+CPU#001 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#001 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000003
+CPU#002 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#002 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#002 AffMask: 0x0000000000000004 
+CPU#002 PhysMask:0xffffffffffffffff 
+CPU#002 APIC_ID:0x00000002 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:01 SMT_ID:00 
+CPU#002 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#002 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#002 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000000c, Zen L2
+CPU#002 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#002 L1D 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1D 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1D 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000000c
+CPU#002 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000000c
+CPU#002 L1I 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1I 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L1I 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#002 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#002 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#003 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#003 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#003 AffMask: 0x0000000000000008 
+CPU#003 PhysMask:0xffffffffffffffff 
+CPU#003 APIC_ID:0x00000003 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:01 SMT_ID:01 
+CPU#003 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#003 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000000c 
+CPU#003 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000000c, Zen L2
+CPU#003 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#003 L1D 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1D 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1D 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000000c
+CPU#003 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000000c
+CPU#003 L1I 4K TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1I 2M TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L1I 1G TLB:                     64 entries,   full, SMask:000000000000000c
+CPU#003 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#003 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000000c
+CPU#004 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#004 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#004 AffMask: 0x0000000000000010 
+CPU#004 PhysMask:0xffffffffffffffff 
+CPU#004 APIC_ID:0x00000004 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:02 SMT_ID:00 
+CPU#004 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#004 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#004 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000030, Zen L2
+CPU#004 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#004 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000030
+CPU#004 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000030
+CPU#004 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#004 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#004 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#005 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#005 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#005 AffMask: 0x0000000000000020 
+CPU#005 PhysMask:0xffffffffffffffff 
+CPU#005 APIC_ID:0x00000005 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:02 SMT_ID:01 
+CPU#005 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#005 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000030 
+CPU#005 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000030, Zen L2
+CPU#005 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#005 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000030
+CPU#005 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000030
+CPU#005 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000030
+CPU#005 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#005 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000030
+CPU#006 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#006 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#006 AffMask: 0x0000000000000040 
+CPU#006 PhysMask:0xffffffffffffffff 
+CPU#006 APIC_ID:0x00000006 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:03 SMT_ID:00 
+CPU#006 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#006 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#006 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000000c0, Zen L2
+CPU#006 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#006 L1D 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1D 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1D 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000000c0
+CPU#006 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000000c0
+CPU#006 L1I 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1I 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L1I 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#006 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#006 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#007 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#007 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#007 AffMask: 0x0000000000000080 
+CPU#007 PhysMask:0xffffffffffffffff 
+CPU#007 APIC_ID:0x00000007 Socket_ID:00 Node_ID:00 CCX_ID:00 Core_ID:03 SMT_ID:01 
+CPU#007 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#007 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000000c0 
+CPU#007 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000000c0, Zen L2
+CPU#007 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000000000ff, Zen L3
+CPU#007 L1D 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1D 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1D 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000000c0
+CPU#007 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000000c0
+CPU#007 L1I 4K TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1I 2M TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L1I 1G TLB:                     64 entries,   full, SMask:00000000000000c0
+CPU#007 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#007 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000000c0
+CPU#008 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#008 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#008 AffMask: 0x0000000000000100 
+CPU#008 PhysMask:0xffffffffffffffff 
+CPU#008 APIC_ID:0x00000008 Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:00 SMT_ID:00 
+CPU#008 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#008 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#008 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000300, Zen L2
+CPU#008 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#008 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000300
+CPU#008 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000300
+CPU#008 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#008 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#008 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#009 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#009 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#009 AffMask: 0x0000000000000200 
+CPU#009 PhysMask:0xffffffffffffffff 
+CPU#009 APIC_ID:0x00000009 Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:00 SMT_ID:01 
+CPU#009 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#009 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000300 
+CPU#009 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000300, Zen L2
+CPU#009 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#009 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000300
+CPU#009 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000300
+CPU#009 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000300
+CPU#009 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#009 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000300
+CPU#010 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#010 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#010 AffMask: 0x0000000000000400 
+CPU#010 PhysMask:0xffffffffffffffff 
+CPU#010 APIC_ID:0x0000000a Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:01 SMT_ID:00 
+CPU#010 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#010 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#010 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000c00, Zen L2
+CPU#010 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#010 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000c00
+CPU#010 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000c00
+CPU#010 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#010 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#010 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#011 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#011 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#011 AffMask: 0x0000000000000800 
+CPU#011 PhysMask:0xffffffffffffffff 
+CPU#011 APIC_ID:0x0000000b Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:01 SMT_ID:01 
+CPU#011 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#011 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000000c00 
+CPU#011 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000000c00, Zen L2
+CPU#011 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#011 L1D 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1D 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1D 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000000c00
+CPU#011 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000000c00
+CPU#011 L1I 4K TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1I 2M TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L1I 1G TLB:                     64 entries,   full, SMask:0000000000000c00
+CPU#011 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#011 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000000c00
+CPU#012 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#012 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#012 AffMask: 0x0000000000001000 
+CPU#012 PhysMask:0xffffffffffffffff 
+CPU#012 APIC_ID:0x0000000c Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:02 SMT_ID:00 
+CPU#012 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#012 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#012 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000003000, Zen L2
+CPU#012 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#012 L1D 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1D 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1D 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000003000
+CPU#012 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000003000
+CPU#012 L1I 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1I 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L1I 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#012 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#012 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#013 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#013 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#013 AffMask: 0x0000000000002000 
+CPU#013 PhysMask:0xffffffffffffffff 
+CPU#013 APIC_ID:0x0000000d Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:02 SMT_ID:01 
+CPU#013 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#013 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000003000 
+CPU#013 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000003000, Zen L2
+CPU#013 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#013 L1D 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1D 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1D 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000003000
+CPU#013 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000003000
+CPU#013 L1I 4K TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1I 2M TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L1I 1G TLB:                     64 entries,   full, SMask:0000000000003000
+CPU#013 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#013 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000003000
+CPU#014 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#014 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#014 AffMask: 0x0000000000004000 
+CPU#014 PhysMask:0xffffffffffffffff 
+CPU#014 APIC_ID:0x0000000e Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:03 SMT_ID:00 
+CPU#014 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#014 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#014 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000c000, Zen L2
+CPU#014 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#014 L1D 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1D 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1D 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000c000
+CPU#014 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000c000
+CPU#014 L1I 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1I 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L1I 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#014 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#014 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#015 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#015 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#015 AffMask: 0x0000000000008000 
+CPU#015 PhysMask:0xffffffffffffffff 
+CPU#015 APIC_ID:0x0000000f Socket_ID:00 Node_ID:00 CCX_ID:01 Core_ID:03 SMT_ID:01 
+CPU#015 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#015 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000000c000 
+CPU#015 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000000c000, Zen L2
+CPU#015 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000000000ff00, Zen L3
+CPU#015 L1D 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1D 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1D 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000000c000
+CPU#015 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000000c000
+CPU#015 L1I 4K TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1I 2M TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L1I 1G TLB:                     64 entries,   full, SMask:000000000000c000
+CPU#015 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#015 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000000c000
+CPU#016 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#016 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#016 AffMask: 0x0000000000010000 
+CPU#016 PhysMask:0xffffffffffffffff 
+CPU#016 APIC_ID:0x00000010 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:00 SMT_ID:00 
+CPU#016 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#016 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#016 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000030000, Zen L2
+CPU#016 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#016 L1D 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1D 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1D 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000030000
+CPU#016 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000030000
+CPU#016 L1I 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1I 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L1I 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#016 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#016 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#017 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#017 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#017 AffMask: 0x0000000000020000 
+CPU#017 PhysMask:0xffffffffffffffff 
+CPU#017 APIC_ID:0x00000011 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:00 SMT_ID:01 
+CPU#017 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#017 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000030000 
+CPU#017 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000030000, Zen L2
+CPU#017 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#017 L1D 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1D 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1D 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000030000
+CPU#017 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000030000
+CPU#017 L1I 4K TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1I 2M TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L1I 1G TLB:                     64 entries,   full, SMask:0000000000030000
+CPU#017 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#017 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000030000
+CPU#018 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#018 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#018 AffMask: 0x0000000000040000 
+CPU#018 PhysMask:0xffffffffffffffff 
+CPU#018 APIC_ID:0x00000012 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:01 SMT_ID:00 
+CPU#018 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#018 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#018 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000c0000, Zen L2
+CPU#018 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#018 L1D 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1D 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1D 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000c0000
+CPU#018 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000c0000
+CPU#018 L1I 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1I 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L1I 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#018 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#018 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#019 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#019 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#019 AffMask: 0x0000000000080000 
+CPU#019 PhysMask:0xffffffffffffffff 
+CPU#019 APIC_ID:0x00000013 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:01 SMT_ID:01 
+CPU#019 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#019 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000000c0000 
+CPU#019 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000000c0000, Zen L2
+CPU#019 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#019 L1D 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1D 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1D 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000000c0000
+CPU#019 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000000c0000
+CPU#019 L1I 4K TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1I 2M TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L1I 1G TLB:                     64 entries,   full, SMask:00000000000c0000
+CPU#019 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#019 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000000c0000
+CPU#020 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#020 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#020 AffMask: 0x0000000000100000 
+CPU#020 PhysMask:0xffffffffffffffff 
+CPU#020 APIC_ID:0x00000014 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:02 SMT_ID:00 
+CPU#020 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#020 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#020 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000300000, Zen L2
+CPU#020 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#020 L1D 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1D 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1D 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000300000
+CPU#020 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000300000
+CPU#020 L1I 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1I 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L1I 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#020 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#020 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#021 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#021 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#021 AffMask: 0x0000000000200000 
+CPU#021 PhysMask:0xffffffffffffffff 
+CPU#021 APIC_ID:0x00000015 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:02 SMT_ID:01 
+CPU#021 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#021 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000300000 
+CPU#021 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000300000, Zen L2
+CPU#021 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#021 L1D 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1D 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1D 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000300000
+CPU#021 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000300000
+CPU#021 L1I 4K TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1I 2M TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L1I 1G TLB:                     64 entries,   full, SMask:0000000000300000
+CPU#021 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#021 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000300000
+CPU#022 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#022 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#022 AffMask: 0x0000000000400000 
+CPU#022 PhysMask:0xffffffffffffffff 
+CPU#022 APIC_ID:0x00000016 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:03 SMT_ID:00 
+CPU#022 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#022 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#022 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000c00000, Zen L2
+CPU#022 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#022 L1D 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1D 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1D 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000c00000
+CPU#022 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000c00000
+CPU#022 L1I 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1I 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L1I 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#022 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+CPU#022 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+CPU#023 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#023 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#023 AffMask: 0x0000000000800000 
+CPU#023 PhysMask:0xffffffffffffffff 
+CPU#023 APIC_ID:0x00000017 Socket_ID:00 Node_ID:01 CCX_ID:00 Core_ID:03 SMT_ID:01 
+CPU#023 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#023 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000000c00000 
+CPU#023 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000000c00000, Zen L2
+CPU#023 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000000000ff0000, Zen L3
+CPU#023 L1D 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1D 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1D 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000000c00000
+CPU#023 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000000c00000
+CPU#023 L1I 4K TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1I 2M TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L1I 1G TLB:                     64 entries,   full, SMask:0000000000c00000
+CPU#023 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+CPU#023 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000000c00000
+CPU#024 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#024 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#024 AffMask: 0x0000000001000000 
+CPU#024 PhysMask:0xffffffffffffffff 
+CPU#024 APIC_ID:0x00000018 Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:00 SMT_ID:00 
+CPU#024 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000003000000 
+CPU#024 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000003000000 
+CPU#024 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000003000000, Zen L2
+CPU#024 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#024 L1D 4K TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#024 L1D 2M TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#024 L1D 1G TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#024 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000003000000
+CPU#024 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000003000000
+CPU#024 L1I 4K TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#024 L1I 2M TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#024 L1I 1G TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#024 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000003000000
+CPU#024 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000003000000
+CPU#025 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#025 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#025 AffMask: 0x0000000002000000 
+CPU#025 PhysMask:0xffffffffffffffff 
+CPU#025 APIC_ID:0x00000019 Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:00 SMT_ID:01 
+CPU#025 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000003000000 
+CPU#025 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000003000000 
+CPU#025 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000003000000, Zen L2
+CPU#025 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#025 L1D 4K TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#025 L1D 2M TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#025 L1D 1G TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#025 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000003000000
+CPU#025 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000003000000
+CPU#025 L1I 4K TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#025 L1I 2M TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#025 L1I 1G TLB:                     64 entries,   full, SMask:0000000003000000
+CPU#025 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000003000000
+CPU#025 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000003000000
+CPU#026 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#026 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#026 AffMask: 0x0000000004000000 
+CPU#026 PhysMask:0xffffffffffffffff 
+CPU#026 APIC_ID:0x0000001a Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:01 SMT_ID:00 
+CPU#026 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000c000000 
+CPU#026 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000c000000 
+CPU#026 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000c000000, Zen L2
+CPU#026 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#026 L1D 4K TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#026 L1D 2M TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#026 L1D 1G TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#026 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000c000000
+CPU#026 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000c000000
+CPU#026 L1I 4K TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#026 L1I 2M TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#026 L1I 1G TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#026 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000c000000
+CPU#026 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000c000000
+CPU#027 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#027 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#027 AffMask: 0x0000000008000000 
+CPU#027 PhysMask:0xffffffffffffffff 
+CPU#027 APIC_ID:0x0000001b Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:01 SMT_ID:01 
+CPU#027 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000000c000000 
+CPU#027 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000000c000000 
+CPU#027 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000000c000000, Zen L2
+CPU#027 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#027 L1D 4K TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#027 L1D 2M TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#027 L1D 1G TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#027 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000000c000000
+CPU#027 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000000c000000
+CPU#027 L1I 4K TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#027 L1I 2M TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#027 L1I 1G TLB:                     64 entries,   full, SMask:000000000c000000
+CPU#027 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000000c000000
+CPU#027 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000000c000000
+CPU#028 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#028 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#028 AffMask: 0x0000000010000000 
+CPU#028 PhysMask:0xffffffffffffffff 
+CPU#028 APIC_ID:0x0000001c Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:02 SMT_ID:00 
+CPU#028 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000030000000 
+CPU#028 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000030000000 
+CPU#028 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000030000000, Zen L2
+CPU#028 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#028 L1D 4K TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#028 L1D 2M TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#028 L1D 1G TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#028 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000030000000
+CPU#028 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000030000000
+CPU#028 L1I 4K TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#028 L1I 2M TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#028 L1I 1G TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#028 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000030000000
+CPU#028 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000030000000
+CPU#029 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#029 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#029 AffMask: 0x0000000020000000 
+CPU#029 PhysMask:0xffffffffffffffff 
+CPU#029 APIC_ID:0x0000001d Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:02 SMT_ID:01 
+CPU#029 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000030000000 
+CPU#029 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000030000000 
+CPU#029 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000030000000, Zen L2
+CPU#029 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#029 L1D 4K TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#029 L1D 2M TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#029 L1D 1G TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#029 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000030000000
+CPU#029 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000030000000
+CPU#029 L1I 4K TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#029 L1I 2M TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#029 L1I 1G TLB:                     64 entries,   full, SMask:0000000030000000
+CPU#029 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000030000000
+CPU#029 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000030000000
+CPU#030 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#030 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#030 AffMask: 0x0000000040000000 
+CPU#030 PhysMask:0xffffffffffffffff 
+CPU#030 APIC_ID:0x0000001e Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:03 SMT_ID:00 
+CPU#030 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000c0000000 
+CPU#030 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000c0000000 
+CPU#030 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000c0000000, Zen L2
+CPU#030 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#030 L1D 4K TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#030 L1D 2M TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#030 L1D 1G TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#030 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000c0000000
+CPU#030 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000c0000000
+CPU#030 L1I 4K TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#030 L1I 2M TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#030 L1I 1G TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#030 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000c0000000
+CPU#030 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000c0000000
+CPU#031 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#031 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#031 AffMask: 0x0000000080000000 
+CPU#031 PhysMask:0xffffffffffffffff 
+CPU#031 APIC_ID:0x0000001f Socket_ID:00 Node_ID:01 CCX_ID:01 Core_ID:03 SMT_ID:01 
+CPU#031 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000000c0000000 
+CPU#031 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000000c0000000 
+CPU#031 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000000c0000000, Zen L2
+CPU#031 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00000000ff000000, Zen L3
+CPU#031 L1D 4K TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#031 L1D 2M TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#031 L1D 1G TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#031 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000000c0000000
+CPU#031 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000000c0000000
+CPU#031 L1I 4K TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#031 L1I 2M TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#031 L1I 1G TLB:                     64 entries,   full, SMask:00000000c0000000
+CPU#031 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000000c0000000
+CPU#031 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000000c0000000
+CPU#032 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#032 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#032 AffMask: 0x0000000100000000 
+CPU#032 PhysMask:0xffffffffffffffff 
+CPU#032 APIC_ID:0x00000020 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:00 SMT_ID:00 
+CPU#032 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000300000000 
+CPU#032 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000300000000 
+CPU#032 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000300000000, Zen L2
+CPU#032 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#032 L1D 4K TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#032 L1D 2M TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#032 L1D 1G TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#032 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000300000000
+CPU#032 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000300000000
+CPU#032 L1I 4K TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#032 L1I 2M TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#032 L1I 1G TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#032 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000300000000
+CPU#032 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000300000000
+CPU#033 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#033 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#033 AffMask: 0x0000000200000000 
+CPU#033 PhysMask:0xffffffffffffffff 
+CPU#033 APIC_ID:0x00000021 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:00 SMT_ID:01 
+CPU#033 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000300000000 
+CPU#033 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000300000000 
+CPU#033 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000300000000, Zen L2
+CPU#033 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#033 L1D 4K TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#033 L1D 2M TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#033 L1D 1G TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#033 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000300000000
+CPU#033 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000300000000
+CPU#033 L1I 4K TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#033 L1I 2M TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#033 L1I 1G TLB:                     64 entries,   full, SMask:0000000300000000
+CPU#033 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000300000000
+CPU#033 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000300000000
+CPU#034 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#034 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#034 AffMask: 0x0000000400000000 
+CPU#034 PhysMask:0xffffffffffffffff 
+CPU#034 APIC_ID:0x00000022 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:01 SMT_ID:00 
+CPU#034 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000c00000000 
+CPU#034 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000c00000000 
+CPU#034 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000c00000000, Zen L2
+CPU#034 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#034 L1D 4K TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#034 L1D 2M TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#034 L1D 1G TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#034 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000c00000000
+CPU#034 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000c00000000
+CPU#034 L1I 4K TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#034 L1I 2M TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#034 L1I 1G TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#034 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000c00000000
+CPU#034 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000c00000000
+CPU#035 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#035 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#035 AffMask: 0x0000000800000000 
+CPU#035 PhysMask:0xffffffffffffffff 
+CPU#035 APIC_ID:0x00000023 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:01 SMT_ID:01 
+CPU#035 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000000c00000000 
+CPU#035 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000000c00000000 
+CPU#035 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000000c00000000, Zen L2
+CPU#035 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#035 L1D 4K TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#035 L1D 2M TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#035 L1D 1G TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#035 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000000c00000000
+CPU#035 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000000c00000000
+CPU#035 L1I 4K TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#035 L1I 2M TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#035 L1I 1G TLB:                     64 entries,   full, SMask:0000000c00000000
+CPU#035 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000000c00000000
+CPU#035 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000000c00000000
+CPU#036 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#036 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#036 AffMask: 0x0000001000000000 
+CPU#036 PhysMask:0xffffffffffffffff 
+CPU#036 APIC_ID:0x00000024 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:02 SMT_ID:00 
+CPU#036 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000003000000000 
+CPU#036 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000003000000000 
+CPU#036 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000003000000000, Zen L2
+CPU#036 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#036 L1D 4K TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#036 L1D 2M TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#036 L1D 1G TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#036 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000003000000000
+CPU#036 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000003000000000
+CPU#036 L1I 4K TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#036 L1I 2M TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#036 L1I 1G TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#036 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000003000000000
+CPU#036 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000003000000000
+CPU#037 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#037 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#037 AffMask: 0x0000002000000000 
+CPU#037 PhysMask:0xffffffffffffffff 
+CPU#037 APIC_ID:0x00000025 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:02 SMT_ID:01 
+CPU#037 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000003000000000 
+CPU#037 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000003000000000 
+CPU#037 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000003000000000, Zen L2
+CPU#037 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#037 L1D 4K TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#037 L1D 2M TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#037 L1D 1G TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#037 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000003000000000
+CPU#037 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000003000000000
+CPU#037 L1I 4K TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#037 L1I 2M TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#037 L1I 1G TLB:                     64 entries,   full, SMask:0000003000000000
+CPU#037 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000003000000000
+CPU#037 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000003000000000
+CPU#038 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#038 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#038 AffMask: 0x0000004000000000 
+CPU#038 PhysMask:0xffffffffffffffff 
+CPU#038 APIC_ID:0x00000026 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:03 SMT_ID:00 
+CPU#038 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000c000000000 
+CPU#038 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000c000000000 
+CPU#038 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000c000000000, Zen L2
+CPU#038 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#038 L1D 4K TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#038 L1D 2M TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#038 L1D 1G TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#038 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000c000000000
+CPU#038 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000c000000000
+CPU#038 L1I 4K TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#038 L1I 2M TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#038 L1I 1G TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#038 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000c000000000
+CPU#038 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000c000000000
+CPU#039 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#039 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#039 AffMask: 0x0000008000000000 
+CPU#039 PhysMask:0xffffffffffffffff 
+CPU#039 APIC_ID:0x00000027 Socket_ID:00 Node_ID:02 CCX_ID:00 Core_ID:03 SMT_ID:01 
+CPU#039 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000000c000000000 
+CPU#039 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000000c000000000 
+CPU#039 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000000c000000000, Zen L2
+CPU#039 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:000000ff00000000, Zen L3
+CPU#039 L1D 4K TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#039 L1D 2M TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#039 L1D 1G TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#039 L2D 4K TLB:                   2048 entries,  8 way, SMask:000000c000000000
+CPU#039 L2D 2M TLB:                   2048 entries,  4 way, SMask:000000c000000000
+CPU#039 L1I 4K TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#039 L1I 2M TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#039 L1I 1G TLB:                     64 entries,   full, SMask:000000c000000000
+CPU#039 L2I 4K TLB:                   1024 entries,  8 way, SMask:000000c000000000
+CPU#039 L2I 2M TLB:                   1024 entries,  8 way, SMask:000000c000000000
+CPU#040 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#040 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#040 AffMask: 0x0000010000000000 
+CPU#040 PhysMask:0xffffffffffffffff 
+CPU#040 APIC_ID:0x00000028 Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:00 SMT_ID:00 
+CPU#040 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000030000000000 
+CPU#040 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000030000000000 
+CPU#040 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000030000000000, Zen L2
+CPU#040 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#040 L1D 4K TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#040 L1D 2M TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#040 L1D 1G TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#040 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000030000000000
+CPU#040 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000030000000000
+CPU#040 L1I 4K TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#040 L1I 2M TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#040 L1I 1G TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#040 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000030000000000
+CPU#040 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000030000000000
+CPU#041 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#041 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#041 AffMask: 0x0000020000000000 
+CPU#041 PhysMask:0xffffffffffffffff 
+CPU#041 APIC_ID:0x00000029 Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:00 SMT_ID:01 
+CPU#041 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000030000000000 
+CPU#041 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000030000000000 
+CPU#041 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000030000000000, Zen L2
+CPU#041 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#041 L1D 4K TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#041 L1D 2M TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#041 L1D 1G TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#041 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000030000000000
+CPU#041 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000030000000000
+CPU#041 L1I 4K TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#041 L1I 2M TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#041 L1I 1G TLB:                     64 entries,   full, SMask:0000030000000000
+CPU#041 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000030000000000
+CPU#041 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000030000000000
+CPU#042 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#042 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#042 AffMask: 0x0000040000000000 
+CPU#042 PhysMask:0xffffffffffffffff 
+CPU#042 APIC_ID:0x0000002a Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:01 SMT_ID:00 
+CPU#042 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000c0000000000 
+CPU#042 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000c0000000000 
+CPU#042 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000c0000000000, Zen L2
+CPU#042 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#042 L1D 4K TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#042 L1D 2M TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#042 L1D 1G TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#042 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000c0000000000
+CPU#042 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000c0000000000
+CPU#042 L1I 4K TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#042 L1I 2M TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#042 L1I 1G TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#042 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000c0000000000
+CPU#042 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000c0000000000
+CPU#043 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#043 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#043 AffMask: 0x0000080000000000 
+CPU#043 PhysMask:0xffffffffffffffff 
+CPU#043 APIC_ID:0x0000002b Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:01 SMT_ID:01 
+CPU#043 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00000c0000000000 
+CPU#043 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00000c0000000000 
+CPU#043 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00000c0000000000, Zen L2
+CPU#043 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#043 L1D 4K TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#043 L1D 2M TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#043 L1D 1G TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#043 L2D 4K TLB:                   2048 entries,  8 way, SMask:00000c0000000000
+CPU#043 L2D 2M TLB:                   2048 entries,  4 way, SMask:00000c0000000000
+CPU#043 L1I 4K TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#043 L1I 2M TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#043 L1I 1G TLB:                     64 entries,   full, SMask:00000c0000000000
+CPU#043 L2I 4K TLB:                   1024 entries,  8 way, SMask:00000c0000000000
+CPU#043 L2I 2M TLB:                   1024 entries,  8 way, SMask:00000c0000000000
+CPU#044 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#044 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#044 AffMask: 0x0000100000000000 
+CPU#044 PhysMask:0xffffffffffffffff 
+CPU#044 APIC_ID:0x0000002c Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:02 SMT_ID:00 
+CPU#044 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000300000000000 
+CPU#044 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000300000000000 
+CPU#044 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000300000000000, Zen L2
+CPU#044 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#044 L1D 4K TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#044 L1D 2M TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#044 L1D 1G TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#044 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000300000000000
+CPU#044 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000300000000000
+CPU#044 L1I 4K TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#044 L1I 2M TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#044 L1I 1G TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#044 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000300000000000
+CPU#044 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000300000000000
+CPU#045 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#045 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#045 AffMask: 0x0000200000000000 
+CPU#045 PhysMask:0xffffffffffffffff 
+CPU#045 APIC_ID:0x0000002d Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:02 SMT_ID:01 
+CPU#045 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000300000000000 
+CPU#045 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000300000000000 
+CPU#045 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000300000000000, Zen L2
+CPU#045 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#045 L1D 4K TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#045 L1D 2M TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#045 L1D 1G TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#045 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000300000000000
+CPU#045 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000300000000000
+CPU#045 L1I 4K TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#045 L1I 2M TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#045 L1I 1G TLB:                     64 entries,   full, SMask:0000300000000000
+CPU#045 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000300000000000
+CPU#045 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000300000000000
+CPU#046 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#046 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#046 AffMask: 0x0000400000000000 
+CPU#046 PhysMask:0xffffffffffffffff 
+CPU#046 APIC_ID:0x0000002e Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:03 SMT_ID:00 
+CPU#046 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000c00000000000 
+CPU#046 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000c00000000000 
+CPU#046 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000c00000000000, Zen L2
+CPU#046 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#046 L1D 4K TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#046 L1D 2M TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#046 L1D 1G TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#046 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000c00000000000
+CPU#046 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000c00000000000
+CPU#046 L1I 4K TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#046 L1I 2M TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#046 L1I 1G TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#046 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000c00000000000
+CPU#046 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000c00000000000
+CPU#047 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#047 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#047 AffMask: 0x0000800000000000 
+CPU#047 PhysMask:0xffffffffffffffff 
+CPU#047 APIC_ID:0x0000002f Socket_ID:00 Node_ID:02 CCX_ID:01 Core_ID:03 SMT_ID:01 
+CPU#047 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0000c00000000000 
+CPU#047 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0000c00000000000 
+CPU#047 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0000c00000000000, Zen L2
+CPU#047 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:0000ff0000000000, Zen L3
+CPU#047 L1D 4K TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#047 L1D 2M TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#047 L1D 1G TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#047 L2D 4K TLB:                   2048 entries,  8 way, SMask:0000c00000000000
+CPU#047 L2D 2M TLB:                   2048 entries,  4 way, SMask:0000c00000000000
+CPU#047 L1I 4K TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#047 L1I 2M TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#047 L1I 1G TLB:                     64 entries,   full, SMask:0000c00000000000
+CPU#047 L2I 4K TLB:                   1024 entries,  8 way, SMask:0000c00000000000
+CPU#047 L2I 2M TLB:                   1024 entries,  8 way, SMask:0000c00000000000
+CPU#048 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#048 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#048 AffMask: 0x0001000000000000 
+CPU#048 PhysMask:0xffffffffffffffff 
+CPU#048 APIC_ID:0x00000030 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:00 SMT_ID:00 
+CPU#048 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0003000000000000 
+CPU#048 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0003000000000000 
+CPU#048 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0003000000000000, Zen L2
+CPU#048 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#048 L1D 4K TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#048 L1D 2M TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#048 L1D 1G TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#048 L2D 4K TLB:                   2048 entries,  8 way, SMask:0003000000000000
+CPU#048 L2D 2M TLB:                   2048 entries,  4 way, SMask:0003000000000000
+CPU#048 L1I 4K TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#048 L1I 2M TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#048 L1I 1G TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#048 L2I 4K TLB:                   1024 entries,  8 way, SMask:0003000000000000
+CPU#048 L2I 2M TLB:                   1024 entries,  8 way, SMask:0003000000000000
+CPU#049 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#049 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#049 AffMask: 0x0002000000000000 
+CPU#049 PhysMask:0xffffffffffffffff 
+CPU#049 APIC_ID:0x00000031 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:00 SMT_ID:01 
+CPU#049 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0003000000000000 
+CPU#049 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0003000000000000 
+CPU#049 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0003000000000000, Zen L2
+CPU#049 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#049 L1D 4K TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#049 L1D 2M TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#049 L1D 1G TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#049 L2D 4K TLB:                   2048 entries,  8 way, SMask:0003000000000000
+CPU#049 L2D 2M TLB:                   2048 entries,  4 way, SMask:0003000000000000
+CPU#049 L1I 4K TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#049 L1I 2M TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#049 L1I 1G TLB:                     64 entries,   full, SMask:0003000000000000
+CPU#049 L2I 4K TLB:                   1024 entries,  8 way, SMask:0003000000000000
+CPU#049 L2I 2M TLB:                   1024 entries,  8 way, SMask:0003000000000000
+CPU#050 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#050 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#050 AffMask: 0x0004000000000000 
+CPU#050 PhysMask:0xffffffffffffffff 
+CPU#050 APIC_ID:0x00000032 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:01 SMT_ID:00 
+CPU#050 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000c000000000000 
+CPU#050 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000c000000000000 
+CPU#050 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000c000000000000, Zen L2
+CPU#050 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#050 L1D 4K TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#050 L1D 2M TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#050 L1D 1G TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#050 L2D 4K TLB:                   2048 entries,  8 way, SMask:000c000000000000
+CPU#050 L2D 2M TLB:                   2048 entries,  4 way, SMask:000c000000000000
+CPU#050 L1I 4K TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#050 L1I 2M TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#050 L1I 1G TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#050 L2I 4K TLB:                   1024 entries,  8 way, SMask:000c000000000000
+CPU#050 L2I 2M TLB:                   1024 entries,  8 way, SMask:000c000000000000
+CPU#051 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#051 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#051 AffMask: 0x0008000000000000 
+CPU#051 PhysMask:0xffffffffffffffff 
+CPU#051 APIC_ID:0x00000033 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:01 SMT_ID:01 
+CPU#051 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:000c000000000000 
+CPU#051 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:000c000000000000 
+CPU#051 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:000c000000000000, Zen L2
+CPU#051 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#051 L1D 4K TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#051 L1D 2M TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#051 L1D 1G TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#051 L2D 4K TLB:                   2048 entries,  8 way, SMask:000c000000000000
+CPU#051 L2D 2M TLB:                   2048 entries,  4 way, SMask:000c000000000000
+CPU#051 L1I 4K TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#051 L1I 2M TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#051 L1I 1G TLB:                     64 entries,   full, SMask:000c000000000000
+CPU#051 L2I 4K TLB:                   1024 entries,  8 way, SMask:000c000000000000
+CPU#051 L2I 2M TLB:                   1024 entries,  8 way, SMask:000c000000000000
+CPU#052 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#052 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#052 AffMask: 0x0010000000000000 
+CPU#052 PhysMask:0xffffffffffffffff 
+CPU#052 APIC_ID:0x00000034 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:02 SMT_ID:00 
+CPU#052 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0030000000000000 
+CPU#052 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0030000000000000 
+CPU#052 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0030000000000000, Zen L2
+CPU#052 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#052 L1D 4K TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#052 L1D 2M TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#052 L1D 1G TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#052 L2D 4K TLB:                   2048 entries,  8 way, SMask:0030000000000000
+CPU#052 L2D 2M TLB:                   2048 entries,  4 way, SMask:0030000000000000
+CPU#052 L1I 4K TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#052 L1I 2M TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#052 L1I 1G TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#052 L2I 4K TLB:                   1024 entries,  8 way, SMask:0030000000000000
+CPU#052 L2I 2M TLB:                   1024 entries,  8 way, SMask:0030000000000000
+CPU#053 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#053 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#053 AffMask: 0x0020000000000000 
+CPU#053 PhysMask:0xffffffffffffffff 
+CPU#053 APIC_ID:0x00000035 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:02 SMT_ID:01 
+CPU#053 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0030000000000000 
+CPU#053 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0030000000000000 
+CPU#053 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0030000000000000, Zen L2
+CPU#053 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#053 L1D 4K TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#053 L1D 2M TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#053 L1D 1G TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#053 L2D 4K TLB:                   2048 entries,  8 way, SMask:0030000000000000
+CPU#053 L2D 2M TLB:                   2048 entries,  4 way, SMask:0030000000000000
+CPU#053 L1I 4K TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#053 L1I 2M TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#053 L1I 1G TLB:                     64 entries,   full, SMask:0030000000000000
+CPU#053 L2I 4K TLB:                   1024 entries,  8 way, SMask:0030000000000000
+CPU#053 L2I 2M TLB:                   1024 entries,  8 way, SMask:0030000000000000
+CPU#054 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#054 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#054 AffMask: 0x0040000000000000 
+CPU#054 PhysMask:0xffffffffffffffff 
+CPU#054 APIC_ID:0x00000036 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:03 SMT_ID:00 
+CPU#054 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00c0000000000000 
+CPU#054 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00c0000000000000 
+CPU#054 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00c0000000000000, Zen L2
+CPU#054 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#054 L1D 4K TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#054 L1D 2M TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#054 L1D 1G TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#054 L2D 4K TLB:                   2048 entries,  8 way, SMask:00c0000000000000
+CPU#054 L2D 2M TLB:                   2048 entries,  4 way, SMask:00c0000000000000
+CPU#054 L1I 4K TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#054 L1I 2M TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#054 L1I 1G TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#054 L2I 4K TLB:                   1024 entries,  8 way, SMask:00c0000000000000
+CPU#054 L2I 2M TLB:                   1024 entries,  8 way, SMask:00c0000000000000
+CPU#055 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#055 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#055 AffMask: 0x0080000000000000 
+CPU#055 PhysMask:0xffffffffffffffff 
+CPU#055 APIC_ID:0x00000037 Socket_ID:00 Node_ID:03 CCX_ID:00 Core_ID:03 SMT_ID:01 
+CPU#055 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:00c0000000000000 
+CPU#055 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:00c0000000000000 
+CPU#055 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:00c0000000000000, Zen L2
+CPU#055 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:00ff000000000000, Zen L3
+CPU#055 L1D 4K TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#055 L1D 2M TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#055 L1D 1G TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#055 L2D 4K TLB:                   2048 entries,  8 way, SMask:00c0000000000000
+CPU#055 L2D 2M TLB:                   2048 entries,  4 way, SMask:00c0000000000000
+CPU#055 L1I 4K TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#055 L1I 2M TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#055 L1I 1G TLB:                     64 entries,   full, SMask:00c0000000000000
+CPU#055 L2I 4K TLB:                   1024 entries,  8 way, SMask:00c0000000000000
+CPU#055 L2I 2M TLB:                   1024 entries,  8 way, SMask:00c0000000000000
+CPU#056 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#056 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#056 AffMask: 0x0100000000000000 
+CPU#056 PhysMask:0xffffffffffffffff 
+CPU#056 APIC_ID:0x00000038 Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:00 SMT_ID:00 
+CPU#056 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0300000000000000 
+CPU#056 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0300000000000000 
+CPU#056 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0300000000000000, Zen L2
+CPU#056 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#056 L1D 4K TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#056 L1D 2M TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#056 L1D 1G TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#056 L2D 4K TLB:                   2048 entries,  8 way, SMask:0300000000000000
+CPU#056 L2D 2M TLB:                   2048 entries,  4 way, SMask:0300000000000000
+CPU#056 L1I 4K TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#056 L1I 2M TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#056 L1I 1G TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#056 L2I 4K TLB:                   1024 entries,  8 way, SMask:0300000000000000
+CPU#056 L2I 2M TLB:                   1024 entries,  8 way, SMask:0300000000000000
+CPU#057 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#057 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#057 AffMask: 0x0200000000000000 
+CPU#057 PhysMask:0xffffffffffffffff 
+CPU#057 APIC_ID:0x00000039 Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:00 SMT_ID:01 
+CPU#057 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0300000000000000 
+CPU#057 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0300000000000000 
+CPU#057 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0300000000000000, Zen L2
+CPU#057 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#057 L1D 4K TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#057 L1D 2M TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#057 L1D 1G TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#057 L2D 4K TLB:                   2048 entries,  8 way, SMask:0300000000000000
+CPU#057 L2D 2M TLB:                   2048 entries,  4 way, SMask:0300000000000000
+CPU#057 L1I 4K TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#057 L1I 2M TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#057 L1I 1G TLB:                     64 entries,   full, SMask:0300000000000000
+CPU#057 L2I 4K TLB:                   1024 entries,  8 way, SMask:0300000000000000
+CPU#057 L2I 2M TLB:                   1024 entries,  8 way, SMask:0300000000000000
+CPU#058 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#058 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#058 AffMask: 0x0400000000000000 
+CPU#058 PhysMask:0xffffffffffffffff 
+CPU#058 APIC_ID:0x0000003a Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:01 SMT_ID:00 
+CPU#058 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0c00000000000000 
+CPU#058 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0c00000000000000 
+CPU#058 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0c00000000000000, Zen L2
+CPU#058 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#058 L1D 4K TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#058 L1D 2M TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#058 L1D 1G TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#058 L2D 4K TLB:                   2048 entries,  8 way, SMask:0c00000000000000
+CPU#058 L2D 2M TLB:                   2048 entries,  4 way, SMask:0c00000000000000
+CPU#058 L1I 4K TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#058 L1I 2M TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#058 L1I 1G TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#058 L2I 4K TLB:                   1024 entries,  8 way, SMask:0c00000000000000
+CPU#058 L2I 2M TLB:                   1024 entries,  8 way, SMask:0c00000000000000
+CPU#059 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#059 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#059 AffMask: 0x0800000000000000 
+CPU#059 PhysMask:0xffffffffffffffff 
+CPU#059 APIC_ID:0x0000003b Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:01 SMT_ID:01 
+CPU#059 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:0c00000000000000 
+CPU#059 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:0c00000000000000 
+CPU#059 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:0c00000000000000, Zen L2
+CPU#059 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#059 L1D 4K TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#059 L1D 2M TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#059 L1D 1G TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#059 L2D 4K TLB:                   2048 entries,  8 way, SMask:0c00000000000000
+CPU#059 L2D 2M TLB:                   2048 entries,  4 way, SMask:0c00000000000000
+CPU#059 L1I 4K TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#059 L1I 2M TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#059 L1I 1G TLB:                     64 entries,   full, SMask:0c00000000000000
+CPU#059 L2I 4K TLB:                   1024 entries,  8 way, SMask:0c00000000000000
+CPU#059 L2I 2M TLB:                   1024 entries,  8 way, SMask:0c00000000000000
+CPU#060 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#060 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#060 AffMask: 0x1000000000000000 
+CPU#060 PhysMask:0xffffffffffffffff 
+CPU#060 APIC_ID:0x0000003c Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:02 SMT_ID:00 
+CPU#060 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:3000000000000000 
+CPU#060 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:3000000000000000 
+CPU#060 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:3000000000000000, Zen L2
+CPU#060 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#060 L1D 4K TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#060 L1D 2M TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#060 L1D 1G TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#060 L2D 4K TLB:                   2048 entries,  8 way, SMask:3000000000000000
+CPU#060 L2D 2M TLB:                   2048 entries,  4 way, SMask:3000000000000000
+CPU#060 L1I 4K TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#060 L1I 2M TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#060 L1I 1G TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#060 L2I 4K TLB:                   1024 entries,  8 way, SMask:3000000000000000
+CPU#060 L2I 2M TLB:                   1024 entries,  8 way, SMask:3000000000000000
+CPU#061 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#061 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#061 AffMask: 0x2000000000000000 
+CPU#061 PhysMask:0xffffffffffffffff 
+CPU#061 APIC_ID:0x0000003d Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:02 SMT_ID:01 
+CPU#061 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:3000000000000000 
+CPU#061 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:3000000000000000 
+CPU#061 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:3000000000000000, Zen L2
+CPU#061 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#061 L1D 4K TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#061 L1D 2M TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#061 L1D 1G TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#061 L2D 4K TLB:                   2048 entries,  8 way, SMask:3000000000000000
+CPU#061 L2D 2M TLB:                   2048 entries,  4 way, SMask:3000000000000000
+CPU#061 L1I 4K TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#061 L1I 2M TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#061 L1I 1G TLB:                     64 entries,   full, SMask:3000000000000000
+CPU#061 L2I 4K TLB:                   1024 entries,  8 way, SMask:3000000000000000
+CPU#061 L2I 2M TLB:                   1024 entries,  8 way, SMask:3000000000000000
+CPU#062 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#062 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#062 AffMask: 0x4000000000000000 
+CPU#062 PhysMask:0xffffffffffffffff 
+CPU#062 APIC_ID:0x0000003e Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:03 SMT_ID:00 
+CPU#062 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:c000000000000000 
+CPU#062 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:c000000000000000 
+CPU#062 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:c000000000000000, Zen L2
+CPU#062 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#062 L1D 4K TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#062 L1D 2M TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#062 L1D 1G TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#062 L2D 4K TLB:                   2048 entries,  8 way, SMask:c000000000000000
+CPU#062 L2D 2M TLB:                   2048 entries,  4 way, SMask:c000000000000000
+CPU#062 L1I 4K TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#062 L1I 2M TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#062 L1I 1G TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#062 L2I 4K TLB:                   1024 entries,  8 way, SMask:c000000000000000
+CPU#062 L2I 2M TLB:                   1024 entries,  8 way, SMask:c000000000000000
+CPU#063 Vendor: AuthenticAMD Family: 8f Model: 31 Stepping: 0 CoreType:0x10830f10
+CPU#063 Type: "AMD Ryzen Threadripper 3970X 32-Core Processor "
+CPU#063 AffMask: 0x8000000000000000 
+CPU#063 PhysMask:0xffffffffffffffff 
+CPU#063 APIC_ID:0x0000003f Socket_ID:00 Node_ID:03 CCX_ID:01 Core_ID:03 SMT_ID:01 
+CPU#063 L1I cache:     32KB,    64 byte cache line,  8 way, SMask:c000000000000000 
+CPU#063 L1D cache:     32KB,    64 byte cache line,  8 way, SMask:c000000000000000 
+CPU#063 L2  cache:    512KB,    64 byte cache line,  8 way, SMask:c000000000000000, Zen L2
+CPU#063 L3  cache:  16384KB,    64 byte cache line, 16 way, SMask:ff00000000000000, Zen L3
+CPU#063 L1D 4K TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#063 L1D 2M TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#063 L1D 1G TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#063 L2D 4K TLB:                   2048 entries,  8 way, SMask:c000000000000000
+CPU#063 L2D 2M TLB:                   2048 entries,  4 way, SMask:c000000000000000
+CPU#063 L1I 4K TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#063 L1I 2M TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#063 L1I 1G TLB:                     64 entries,   full, SMask:c000000000000000
+CPU#063 L2I 4K TLB:                   1024 entries,  8 way, SMask:c000000000000000
+CPU#063 L2I 2M TLB:                   1024 entries,  8 way, SMask:c000000000000000
+NGMemLat #  0 Pmask:0x8000000000000000 Thread(s):  1
+Page_Random Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   7    7    7    8   12    9   12   12   13   13    4    4 
+      64 KB   8    9    9   10   12   10   12   12   12   13    4    4 
+      96 KB  10   10   10   11   11   12   12   12   12   13   13    4 
+     128 KB  10   10   11   11   11   12   12   12   12   13   13    4 
+     192 KB  11   11   11   12   12   12   12   12   13   13   13   13 
+     256 KB  11   11   11   12   12   12   12   12   13   13   13   13 
+     384 KB  12   14   14   13   15   14   14   14   15   19   13   13 
+     512 KB  15   15   15   15   15   16   16   16   16   19   13   13 
+     768 KB  26   27   29   34   41   44   45   45   46   46   27   13 
+    1024 KB  31   31   34   37   43   47   48   49   49   50   37   24 
+    1536 KB  36   36   37   40   46   48   49   49   49   50   42   37 
+    2048 KB  38   38   39   41   46   49   49   49   49   50   42   39 
+    3072 KB  41   41   42   43   47   49   50   49   50   50   49   39 
+    4096 KB  42   42   42   43   47   49   50   50   50   50   50   41 
+    6144 KB  41   41   48   43   54   49   55   50   50   56   54   49 
+    8192 KB  44   46   52   57   69   76   74   72   73   75   58   51 
+   12288 KB  46   50   58   76   97   96  104  114  107  116   92   77 
+   16384 KB  51   56   71  100  140  133  138  133  139  146  107  113 
+   24576 KB  59   77  113  191  304  302  304  308  315  313  191  139 
+   32768 KB  61   81  121  201  332  333  337  345  348  348  249  199 
+   49152 KB  62   82  122  203  336  338  340  346  351  353  287  247 
+   65536 KB  61   82  122  203  336  337  342  345  349  353  333  257 
+   98304 KB  62   82  123  203  336  339  342  343  345  355  350  259 
+  131072 KB  62   82  123  203  337  337  341  342  345  354  364  272 
+  196608 KB  61   82  122  203  337  338  342  343  346  354  364  339 
+  262144 KB  61   82  122  203  336  338  340  343  347  354  365  370 
+Linear_Forward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   4    4    4    5    8   12   12   12   12   13    4    4 
+      64 KB   4    4    4    5    7   12   12   12   12   13    4    4 
+      96 KB   4    4    4    5    6   12   12   12   12   13   13    4 
+     128 KB   4    4    4    5    5   12   12   12   12   13   13    4 
+     192 KB   4    4    4    5    5   12   12   12   12   13   13   13 
+     256 KB   4    4    4    5    5   12   12   12   12   13   13   13 
+     384 KB   4    4    4    5    5   12   13   14   15   19   13   13 
+     512 KB   4    4    4    6    4   13   13   14   15   18   13   13 
+     768 KB   4    4    4    6    5   29   41   42   43   46   27   13 
+    1024 KB   4    4    4    6    5   30   44   45   46   50   39   24 
+    1536 KB   4    4    4    6    5   30   44   45   46   50   41   40 
+    2048 KB   4    4    4    6    5   30   44   45   46   50   44   38 
+    3072 KB   4    4    4    6    5   30   44   45   46   49   50   40 
+    4096 KB   4    4    4    6    5   30   44   44   46   49   50   41 
+    6144 KB   4    4    4    6    5   30   44   45   63   64   50   49 
+    8192 KB   4    4    4    7    7   44   60   63   65   68   54   54 
+   12288 KB   4    4    5    8    8   59   87   91   93  104   86   89 
+   16384 KB   4    4    6   10   12   83  126  125  135  143  113   99 
+   24576 KB   4    5    8   15   28  165  289  293  309  308  195  136 
+   32768 KB   4    5    8   15   31  170  320  331  338  343  247  188 
+   49152 KB   4    5    8   15   32  171  323  330  337  346  284  250 
+   65536 KB   4    5    8   15   32  171  324  329  336  346  302  317 
+   98304 KB   4    5    8   15   32  170  322  328  335  345  349  258 
+  131072 KB   4    5    8   15   32  170  323  327  336  345  358  272 
+  196608 KB   4    5    8   15   32  170  322  326  334  345  358  336 
+  262144 KB   4    5    8   15   32  170  322  325  334  345  358  362 
+Linear_Backward Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   4    4    4    5    8   12   12   12   12   13    4    4 
+      64 KB   4    4    4    5    9   12   12   12   12   13    4    4 
+      96 KB   4    4    4    5   10   12   12   12   12   13   13    4 
+     128 KB   4    4    4    5   11   12   12   12   12   13   13    4 
+     192 KB   4    4    4    5   11   12   12   12   12   13   13   13 
+     256 KB   4    4    4    5   11   12   12   12   12   13   13   13 
+     384 KB   4    4    4    5   12   12   13   14   16   19   13   13 
+     512 KB   4    4    4    6   12   13   13   14   16   18   13   13 
+     768 KB   4    4    4    6   13   29   41   42   43   46   27   13 
+    1024 KB   4    4    4    6   13   30   44   45   46   49   40   24 
+    1536 KB   4    4    4    6   13   30   44   45   46   50   43   40 
+    2048 KB   4    4    4    6   13   30   44   45   46   50   43   38 
+    3072 KB   4    4    4    6   13   30   44   45   46   49   49   39 
+    4096 KB   4    4    4    6   13   30   44   45   46   49   50   41 
+    6144 KB   4    4    4    7   13   40   44   55   60   50   60   49 
+    8192 KB   4    4    4    7   13   46   63   61   64   80   65   56 
+   12288 KB   4    4    5    8   14   57   84   96   95  100   85   74 
+   16384 KB   4    4    5   10   15   85  120  124  127  138  117  108 
+   24576 KB   4    5    8   15   26  163  292  289  303  307  193  148 
+   32768 KB   4    5    8   15   30  172  322  322  337  348  239  183 
+   49152 KB   4    5    8   15   33  172  326  326  333  348  292  250 
+   65536 KB   4    5    8   15   33  172  324  325  333  348  303  259 
+   98304 KB   4    5    8   15   34  171  323  326  334  347  349  255 
+  131072 KB   4    5    8   15   34  170  323  325  334  347  360  270 
+  196608 KB   4    5    8   15   34  170  323  325  334  346  359  336 
+  262144 KB   4    5    8   15   34  170  322  325  335  346  358  361 
+Random_Full Tests
+Stride:       8   16   32   64  128  256  512   1K   2K   4K   8K  16K 
+       2 KB   4    4    4    4    4    4    4    4 
+       3 KB   4    4    4    4    4    4    4    4 
+       4 KB   4    4    4    4    4    4    4    4    4 
+       6 KB   4    4    4    4    4    4    4    4    4 
+       8 KB   4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   7    7    7   11    9    9   12   12   13   13    4    4 
+      64 KB   8    8    9   11   10    9   12   12   13   13    4    4 
+      96 KB  10   10   10   12   11   11   12   12   13   13   14    4 
+     128 KB  10   10   11   11   11   12   12   12   13   13   13    4 
+     192 KB  11   11   11   12   12   12   12   12   12   13   13   13 
+     256 KB  11   11   11   12   12   12   12   12   13   13   13   13 
+     384 KB  13   13   14   14   14   14   14   14   15   19   13   13 
+     512 KB  15   15   15   15   15   15   16   16   16   19   13   13 
+     768 KB  26   27   30   34   41   44   45   46   46   46   19   13 
+    1024 KB  31   32   33   37   44   47   48   48   49   50   40   24 
+    1536 KB  36   36   37   40   46   48   49   49   49   50   43   39 
+    2048 KB  38   39   39   41   46   49   49   49   49   50   43   39 
+    3072 KB  41   41   42   43   47   49   49   50   50   50   49   39 
+    4096 KB  42   42   43   43   47   50   50   50   50   50   50   40 
+    6144 KB  49   50   52   44   55   57   67   67   67   51   51   49 
+    8192 KB  54   58   55   65   71   73   79   79   72   74   56   51 
+   12288 KB  72   71   75   80  100  106  113  107  109  110   90   80 
+   16384 KB  91   89   95  114  165  149  141  151  135  142  108  111 
+   24576 KB 172  177  194  240  320  319  323  322  320  323  186  152 
+   32768 KB 217  224  241  279  351  358  359  361  354  360  256  189 
+   49152 KB 270  276  288  314  361  366  364  365  362  364  296  256 
+   65536 KB 298  302  311  329  365  370  365  367  366  367  313  265 
+   98304 KB 327  330  336  348  372  373  369  367  368  370  359  329 
+  131072 KB 342  345  349  358  376  375  372  368  369  371  375  286 
+  196608 KB 359  362  364  370  382  378  373  371  372  373  374  350 
+  262144 KB 368  369  372  376  385  380  375  373  374  374  375  375 
+CacheLine_Forward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      64 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      96 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     128 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     192 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     256 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     384 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     512 KB   9    9    9    9    9   13   13   13   13   13   13   13 
+     768 KB  23   23   23   23   23   27   27   27   27   26   26   29 
+    1024 KB  25   25   25   25   25   28   27   27   27   27   27   30 
+    1536 KB  25   25   25   25   25   27   27   27   27   27   28   30 
+    2048 KB  25   25   25   25   25   27   27   27   27   27   27   30 
+    3072 KB  25   25   25   25   25   27   27   28   27   28   28   30 
+    4096 KB  25   25   25   25   25   27   28   28   27   27   27   30 
+    6144 KB  25   37   32   37   32   28   27   34   38   39   38   41 
+    8192 KB  33   34   34   37   38   40   39   39   39   41   44   40 
+   12288 KB  44   43   43   44   51   61   57   51   57   55   47   57 
+   16384 KB  66   67   61   62   62   81   87   74   79   84   83   81 
+   24576 KB 149  150  147  144  150  170  166  164  168  168  165  165 
+   32768 KB 167  168  163  163  166  178  173  172  176  175  171  171 
+   49152 KB 167  166  164  164  166  176  174  173  174  174  172  170 
+   65536 KB 166  166  163  164  165  175  174  174  174  173  172  171 
+   98304 KB 165  164  163  163  165  174  174  173  174  173  172  171 
+  131072 KB 165  164  163  163  164  174  174  173  174  172  171  171 
+  196608 KB 164  164  164  163  164  174  174  174  174  172  171  170 
+  262144 KB 164  164  164  163  164  173  173  173  173  171  171  170 
+CacheLine_Backward Tests
+Distance:     8   16   24   32   48   64   96  128  160  192  224  256 
+       8 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      12 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      16 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      24 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      32 KB   4    4    4    4    4    4    4    4    4    4    4    4 
+      48 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      64 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+      96 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     128 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     192 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     256 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     384 KB   8    8    8    8    8   12   12   12   12   12   12   12 
+     512 KB   9    9    9    9    9   13   13   13   13   13   13   13 
+     768 KB  23   23   23   23   23   28   28   27   27   27   27   29 
+    1024 KB  25   25   25   25   25   29   29   29   28   28   29   30 
+    1536 KB  25   25   25   25   25   29   29   28   28   29   29   30 
+    2048 KB  25   25   25   25   25   29   29   28   28   29   28   30 
+    3072 KB  25   25   25   25   25   29   29   29   28   29   28   30 
+    4096 KB  25   25   25   25   25   29   29   28   29   28   29   30 
+    6144 KB  32   29   37   29   36   39   39   38   45   38   38   40 
+    8192 KB  36   37   38   34   35   44   44   38   39   40   43   37 
+   12288 KB  49   44   47   47   49   50   51   50   52   53   56   57 
+   16384 KB  65   64   70   65   67   92   83   78   78   77   74   86 
+   24576 KB 151  149  145  146  148  168  166  167  167  165  164  166 
+   32768 KB 165  167  162  164  164  176  175  175  174  174  174  174 
+   49152 KB 167  166  164  165  165  175  173  174  176  171  171  172 
+   65536 KB 165  166  164  165  165  174  173  174  174  173  171  172 
+   98304 KB 164  165  163  164  164  173  173  173  173  172  171  171 
+  131072 KB 164  164  164  163  163  174  174  175  175  171  172  171 
+  196608 KB 164  163  164  164  163  174  174  175  175  171  171  171 
+  262144 KB 164  163  164  164  163  174  173  174  175  171  171  170 
+Page_Random 2CL Tests
+Block:       4K   8K  16K  32K  64K 128K 256K 512K   1M   2M   4M 
+       4 KB   4 
+       6 KB   4 
+       8 KB   4    4 
+      12 KB   4    4 
+      16 KB   4    4    4 
+      24 KB   4    4    4 
+      32 KB   4    4    4    4 
+      48 KB   7    7    7    9 
+      64 KB   7    7    7    7   12 
+      96 KB   7    7    7   10    9 
+     128 KB   7    7    7   11   12   11 
+     192 KB   7    7    7    7   12   11 
+     256 KB   7    7    7    7   10   11   12 
+     384 KB   7    7    7    7   10   12   12 
+     512 KB   7    7    7    7   10   12   13   14 
+     768 KB  14   14   14   14   23   31   35   37 
+    1024 KB  14   14   14   14   24   33   37   41   44 
+    1536 KB  14   14   14   14   24   33   37   41   43 
+    2048 KB  14   14   14   14   24   33   37   42   45   46 
+    3072 KB  15   14   14   14   24   33   37   42   45   45 
+    4096 KB  15   14   14   14   24   33   37   41   45   46   47 
+    6144 KB  14   14   17   18   28   44   44   49   59   55   47 
+    8192 KB  18   18   19   19   34   45   50   65   56   65   76 
+   12288 KB  24   26   25   24   50   72   69   84   89   93   99 
+   16384 KB  39   39   37   35   63  103  111  122  132  121  136 
+   24576 KB  82   81   81   79  149  222  263  282  299  305  311 
+   32768 KB  86   87   88   87  161  248  287  310  322  330  334 
+   49152 KB  87   87   88   87  163  247  289  312  326  334  339 
+   65536 KB  87   87   88   87  163  247  290  313  327  334  338 
+   98304 KB  87   87   88   87  163  247  289  312  326  334  338 
+  131072 KB  87   87   87   86  163  247  289  312  326  334  338 
+  196608 KB  87   87   87   86  163  247  289  312  326  333  338 
+  262144 KB  87   87   87   86  163  247  289  312  325  333  337 
+Page_Random 1CL Tests
+Block:       4K   8K  16K  32K  64K 128K 256K 512K   1M   2M   4M 
+       4 KB   4 
+       6 KB   4 
+       8 KB   4    4 
+      12 KB   4    4 
+      16 KB   4    4    4 
+      24 KB   4    4    4 
+      32 KB   4    4    4    4 
+      48 KB  10    9    9    8 
+      64 KB  10    9    9   12   10 
+      96 KB   9   10    8    9   12 
+     128 KB   8    8    8    8   10   11 
+     192 KB   9    9    9    8   10   11 
+     256 KB   8    9    8   12   10   12   12 
+     384 KB   8    8    9    8   12   11   12 
+     512 KB   8    9    9    8   10   12   12   15 
+     768 KB  17   17   17   15   22   26   28   32 
+    1024 KB  17   17   17   16   22   27   29   31   37 
+    1536 KB  17   17   17   16   22   27   28   33   36 
+    2048 KB  17   16   17   16   22   27   28   32   38   41 
+    3072 KB  17   16   17   16   22   27   28   32   38   40 
+    4096 KB  16   16   17   16   22   27   28   32   37   41   43 
+    6144 KB  16   16   17   16   22   27   28   32   37   41   43 
+    8192 KB  16   16   17   16   22   27   28   31   37   41   44 
+   12288 KB  16   17   17   16   22   27   29   31   37   41   44 
+   16384 KB  30   38   30   30   41   58   65   59   74   70   71 
+   24576 KB  97   97   97   92  140  181  194  203  203  201  197 
+   32768 KB 104  104  105   98  147  192  207  211  212  207  203 
+   49152 KB 105  105  107   99  149  195  209  213  213  208  204 
+   65536 KB 104  105  107   99  149  195  209  213  213  208  204 
+   98304 KB 104  105  107   99  149  195  209  213  213  208  204 
+  131072 KB 104  105  106   99  149  195  208  213  213  208  204 
+  196608 KB 104  105  106   99  149  195  208  213  212  208  204 
+  262144 KB 104  104  106   99  149  195  208  212  212  208  204 
+NGMemLat #  0 Pmask:0x8000000000000000 Thread(s):  1
+Best Page_Random Tests
+M32768 Mem   91.489 nsec  338.532 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 12.279 s) ------
+M32768 L1D    1.083 nsec    4.009 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.001 s) ------
+M32768 L2     3.227 nsec   11.942 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.004 s) ------
+M32768 L3    11.772 nsec   43.560 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.073 s) ------
+Best Linear_Forward Tests
+M32769 Mem    8.722 nsec   32.273 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 10.243 s) ------
+M32769 L1D    1.083 nsec    4.008 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.000 s) ------
+M32769 L2     1.470 nsec    5.440 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.001 s) ------
+M32769 L3     1.669 nsec    6.177 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.012 s) ------
+Best Linear_Backward Tests
+M32770 Mem    9.032 nsec   33.421 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 10.001 s) ------
+M32770 L1D    1.083 nsec    4.009 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.001 s) ------
+M32770 L2     1.470 nsec    5.440 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.002 s) ------
+M32770 L3     1.678 nsec    6.209 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.008 s) ------
+Best Random_Full Tests
+M32771 Mem   98.876 nsec  365.866 clks (MemSize:  65536 KiB Stride:  128 Movs:   64 Reps: 524288 B:4194304 RT: 13.271 s) ------
+M32771 L1D    1.083 nsec    4.009 clks (MemSize:     32 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.002 s) ------
+M32771 L2     3.226 nsec   11.937 clks (MemSize:    256 KiB Stride:   64 Movs:   64 Reps:  32768 B:4194304 RT: 10.006 s) ------
+M32771 L3    12.469 nsec   46.140 clks (MemSize:   8192 KiB Stride:   64 Movs:   64 Reps: 131072 B:4194304 RT: 10.042 s) ------
