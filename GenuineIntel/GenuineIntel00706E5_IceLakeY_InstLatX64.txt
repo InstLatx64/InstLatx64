@@ -639,42 +639,42 @@ Instruction Latency: Used CPUs:  1 ProcMask: 0x0000000000000080
  506 X86                 :CMPSW                                 L:   3.06ns=  4.0c  T:   3.06ns=  3.97c
  507 X86                 :CMPSD                                 L:   3.06ns=  4.0c  T:   3.06ns=  3.97c
  508 AMD64               :CMPSQ                                 L:   3.06ns=  4.0c  T:   3.06ns=  3.97c
- 509 X86                 :REPE CMPSB                            BW in L1D: 0.86 B/c   1294MiB/s
- 510 X86                 :REPE CMPSW                            BW in L1D: 1.73 B/c   2587MiB/s
- 511 X86                 :REPE CMPSD                            BW in L1D: 3.45 B/c   5160MiB/s
- 512 AMD64               :REPE CMPSQ                            BW in L1D: 6.85 B/c  10265MiB/s
+ 509 X86                 :REPE CMPSB                            BW in L1D: 1.00 B/c   1489MiB/s
+ 510 X86                 :REPE CMPSW                            BW in L1D: 1.99 B/c   2974MiB/s
+ 511 X86                 :REPE CMPSD                            BW in L1D: 3.97 B/c   5931MiB/s
+ 512 AMD64               :REPE CMPSQ                            BW in L1D: 7.87 B/c  11799MiB/s
  513 X86                 :LODSB                                 L:   0.95ns=  1.2c  T:   0.95ns=  1.23c
  514 X86                 :LODSW                                 L:   0.95ns=  1.2c  T:   0.95ns=  1.23c
  515 X86                 :LODSD                                 L:   0.78ns=  1.0c  T:   0.78ns=  1.02c
  516 AMD64               :LODSQ                                 L:   0.78ns=  1.0c  T:   0.78ns=  1.02c
- 517 X86                 :REP LODSB                             BW in L1D: 0.43 B/c    647MiB/s
- 518 X86                 :REP LODSW                             BW in L1D: 0.86 B/c   1295MiB/s
- 519 X86                 :REP LODSD                             BW in L1D: 1.73 B/c   2589MiB/s
- 520 AMD64               :REP LODSQ                             BW in L1D: 3.45 B/c   5169MiB/s
+ 517 X86                 :REP LODSB                             BW in L1D: 0.49 B/c    745MiB/s
+ 518 X86                 :REP LODSW                             BW in L1D: 1.00 B/c   1490MiB/s
+ 519 X86                 :REP LODSD                             BW in L1D: 1.99 B/c   2976MiB/s
+ 520 AMD64               :REP LODSQ                             BW in L1D: 3.97 B/c   5941MiB/s
  521 X86                 :STOSB                                 L:   0.78ns=  1.0c  T:   0.78ns=  1.02c
  522 X86                 :STOSW                                 L:   0.78ns=  1.0c  T:   0.78ns=  1.02c
  523 X86                 :STOSD                                 L:   0.78ns=  1.0c  T:   0.78ns=  1.02c
  524 AMD64               :STOSQ                                 L:   0.78ns=  1.0c  T:   0.78ns=  1.02c
- 525 X86                 :REP STOSB                             BW in L1D:53.31 B/c  79835MiB/s
- 526 X86                 :REP STOSW                             BW in L1D:53.43 B/c  80008MiB/s
- 527 X86                 :REP STOSD                             BW in L1D:53.37 B/c  79922MiB/s
- 528 AMD64               :REP STOSQ                             BW in L1D:53.31 B/c  79835MiB/s
+ 525 X86                 :REP STOSB                             BW in L1D:61.34 B/c  91863MiB/s
+ 526 X86                 :REP STOSW                             BW in L1D:61.34 B/c  91863MiB/s
+ 527 X86                 :REP STOSD                             BW in L1D:61.34 B/c  91863MiB/s
+ 528 AMD64               :REP STOSQ                             BW in L1D:61.34 B/c  91863MiB/s
  529 X86                 :MOVSB                                 L:   3.06ns=  4.0c  T:   3.06ns=  3.97c
  530 X86                 :MOVSW                                 L:   3.06ns=  4.0c  T:   3.06ns=  3.97c
  531 X86                 :MOVSD                                 L:   3.06ns=  4.0c  T:   3.06ns=  3.97c
  532 AMD64               :MOVSQ                                 L:   3.06ns=  4.0c  T:   3.06ns=  3.97c
- 533 X86                 :REP MOVSB                             BW in L1D:102.40 B/c 153350MiB/s
- 534 X86                 :REP MOVSW                             BW in L1D:101.14 B/c 151456MiB/s
- 535 X86                 :REP MOVSD                             BW in L1D:101.14 B/c 151456MiB/s
- 536 AMD64               :REP MOVSQ                             BW in L1D:101.14 B/c 151456MiB/s
+ 533 X86                 :REP MOVSB                             BW in L1D:118.16 B/c 176999MiB/s
+ 534 X86                 :REP MOVSW                             BW in L1D:116.44 B/c 174445MiB/s
+ 535 X86                 :REP MOVSD                             BW in L1D:116.44 B/c 174445MiB/s
+ 536 AMD64               :REP MOVSQ                             BW in L1D:115.75 B/c 173372MiB/s
  537 X86                 :SCASB                                 L:   0.95ns=  1.2c  T:   0.95ns=  1.23c
  538 X86                 :SCASW                                 L:   0.95ns=  1.2c  T:   0.95ns=  1.23c
  539 X86                 :SCASD                                 L:   0.95ns=  1.2c  T:   0.95ns=  1.23c
  540 AMD64               :SCASQ                                 L:   0.95ns=  1.2c  T:   1.06ns=  1.37c
- 541 X86                 :REPNE SCASB                           BW in L1D: 0.43 B/c    647MiB/s
- 542 X86                 :REPNE SCASW                           BW in L1D: 0.86 B/c   1294MiB/s
- 543 X86                 :REPNE SCASD                           BW in L1D: 1.73 B/c   2587MiB/s
- 544 AMD64               :REPNE SCASQ                           BW in L1D: 3.45 B/c   5161MiB/s
+ 541 X86                 :REPNE SCASB                           BW in L1D: 0.49 B/c    745MiB/s
+ 542 X86                 :REPNE SCASW                           BW in L1D: 1.00 B/c   1489MiB/s
+ 543 X86                 :REPNE SCASD                           BW in L1D: 1.99 B/c   2974MiB/s
+ 544 AMD64               :REPNE SCASQ                           BW in L1D: 3.97 B/c   5932MiB/s
  545 X86                 :XADD r8, r8                           L:   1.56ns=  2.0c  T:   0.45ns=  0.58c
  546 X86                 :XADD r16, r16                         L:   1.56ns=  2.0c  T:   0.72ns=  0.93c
  547 X86                 :XADD r32, r32                         L:   1.56ns=  2.0c  T:   0.72ns=  0.93c
