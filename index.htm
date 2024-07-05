@@ -5,7 +5,7 @@
 </div>
 <br>
 <div align=center>
-Last update: 2024.05.25.<br>
+Last update: 2024.07.05.<br>
 <br>
 <a href=https://twitter.com/InstLatX64>Twitter</a><br>
 <a href=https://github.com/InstLatx64>GitHub Mirror</a><br>
@@ -340,6 +340,7 @@ Last update: 2024.05.25.<br>
 <i>00900F02   <a href=./HygonGenuine/HygonGenuine0900F02_Hygon_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   OctalCore Hygon C86 3185 (Dhyana) (no AES, CLMUL, SHA, SEV, SME)</i>
 <i>00900F02   <a href=./HygonGenuine/HygonGenuine0900F02_Hygon_CPUID3.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   OctalCore Hygon C86 3188 (Dhyana) (no AES, CLMUL, SHA, SEV, SME)</i>
 <i>00900F11   <a href=./HygonGenuine/HygonGenuine0900F11_Hygon_01_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   OctalCore Hygon C86 3250 (AES, CLMUL, SHA, SEV, SME supported)</i>
+<i><b>00900F22   <a href=./HygonGenuine/HygonGenuine0900F22_Hygon_01_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   OctalCore Hygon C86 3350 (AES, CLMUL, SHA, SEV, SME supported)</b></i>
 
   <u><b>Intel</b></u><br>
 <i>00000480   <a href=./GenuineIntel/GenuineIntel0000480_486_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat    [No TSC]    [No TSC]    [No x64]    [No x64]    Intel 486DX100</i>
@@ -354,7 +355,7 @@ Last update: 2024.05.25.<br>
 <i>00000582   <a href=./GenuineIntel/GenuineIntel0000582_P55C_Tillamook_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Intel Pentium MMX Mobile (Tillamook)</i>
 
 <i>00000590   <a href=./GenuineIntel/GenuineIntel0000590_Clanton_03_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Intel Quark X-1000 (Lakemont core, reconstructed from <a href=https://www.intel.com/content/dam/support/us/en/documents/processors/quark/sb/intelquarkcore_devman_001.pdf>Intel® Quark SoC X1000 Core Developer’s Manual, p.310</a>)</i>
-<b><i>00000596   <a href=./GenuineIntel/GenuineIntel0000596_MintValley_01_CPUID.txt>CPUID Dump</a></b>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Intel Quark D2000 (Lakemont core, reconstructed from <a href=https://www.intel.com/content/dam/www/public/us/en/documents/datasheets/quark-d2000-datasheet.pdf>Intel® Quark™ Microcontroller D2000 Data Sheet, p.108</a>)</b></i>
+<i>00000596   <a href=./GenuineIntel/GenuineIntel0000596_MintValley_01_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Intel Quark D2000 (Lakemont core, reconstructed from <a href=https://www.intel.com/content/dam/www/public/us/en/documents/datasheets/quark-d2000-datasheet.pdf>Intel® Quark™ Microcontroller D2000 Data Sheet, p.108</a>)</i>
 <i>000005A0   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Lakemont</i>
 
 <a href=./GenuineIntel/GenuineIntel0000617_P6_CPUID.png>00000617</a>   <a href=./GenuineIntel/GenuineIntel0000617_P6_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   <a href=./GenuineIntel/GenuineIntel0000617_P6_InstLatX86.txt>InstLatX86</a>   <a href=./GenuineIntel/GenuineIntel0000617_P6_MemLatX86.txt>MemLatX86</a>   [No x64]    [No x64]    2x Intel Pentium Pro, 200 MHz (3 x 67) (P6)
@@ -739,23 +740,22 @@ Future Performance optimized cores:
 <s><i>000A06Cx   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Meteor Lake-S (Redwood Cove + Crestmont)</i></s>
 <i>000B065x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Arrow Lake-U ("normal laptop CPU", <a href=https://lore.kernel.org/lkml/20240322161725.195614-1-tony.luck@intel.com/T/>source</a>)</i>
 <i>000B06Cx   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Lunar Lake (Lion Cove + Skymont, source: Intel Software Development Emulator (SDE) 9.24.0)</i>
-<i>000C065x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Arrow Lake-H (Lion Cove + Crestmont?, AVX_VNNI_INT8, AVX-IFMA, CMPCCXADD, AVX-NE-CONVERT, source: Intel Architecture Instruction Set Extensions Programming Reference 319433-049)</i>
-<i>000C066x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Arrow Lake (Lion Cove + Skymont?, Crestmont + AVX_VNNI_INT16, SHA512, SM3, SM4, source: Intel Architecture Instruction Set Extensions Programming Reference 319433-049)</i>
+<i>000C065x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Arrow Lake-H (Lion Cove + Skymont + Crestmont?, AVX_VNNI_INT8, AVX-IFMA, CMPCCXADD, AVX-NE-CONVERT, source: Intel Architecture Instruction Set Extensions Programming Reference 319433-049)</i>
+<i>000C066x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Arrow Lake-S (Lion Cove + Skymont, Crestmont + AVX_VNNI_INT16, SHA512, SM3, SM4, source: Intel Architecture Instruction Set Extensions Programming Reference 319433-049)</i>
+<i><b>000C06Ax   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Arrow Lake Refresh (<a href=https://github.com/platomav/MCExtractor/releases>source</a>)</b></i>
 <i>000C06Cx   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Panther Lake (Lunar Lake successor, source:<a href=https://cdrdv2-public.intel.com/790021/architecture-instruction-set-extensions-programming-reference.pdf>Intel Architecture Instruction Set Extensions Programming Reference 319433-050</a>)</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Bartlett Lake (Raptor Cove + Gracemont, <a href=https://prohardver.hu/hir/intel_ket_asztali_processzorcsalad_keszul_iden.html>source</a>)</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Nova Lake (Panther Cove + Darkmont?, <a href=https://forums.anandtech.com/threads/intel-current-and-future-lakes-rapids-thread.2509080/post-40551904>source</a>)</i>
 
 Future Server variants:
 <i>0005065A   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Cooper Lake (A0 steeping, 14 nm, AVX512_BF16, <a href=https://github.com/qemu/qemu/commit/22a866b6166db5caa4abaa6e656c2a431fa60726#diff-b8f1948d6e81e8ccdbe828ba7973c483>source</a>)</i>
-<i><b>0005065B   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Cooper Lake (A1 steeping, 14 nm, AVX512_BF16, <a href=https://review.coreboot.org/c/coreboot/+/44357/3/src/soc/intel/xeon_sp/cpx/include/soc/cpu.h>source</a>)</b></i>
+<i>0005065B   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Cooper Lake (A1 steeping, 14 nm, AVX512_BF16, <a href=https://review.coreboot.org/c/coreboot/+/44357/3/src/soc/intel/xeon_sp/cpx/include/soc/cpu.h>source</a>)</i>
 <i>0009065x   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Sapphire Rapids (GoldenCove, single FMA?, source: Intel Software Development Emulator (SDE) 9.24.0)</i>
 <i>000A06Dx   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Granite Rapids-SP</i>
 <i>000A06Ex   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Granite Rapids-D</i>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Diamond Rapids</i>
 
 Future Low-power core:
-<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Crestmont (<a href=https://forums.anandtech.com/threads/intel-current-and-future-lakes-rapids-thread.2509080/post-40551904>source</a>)</i>
-<i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Skymont (<a href=https://forums.anandtech.com/threads/intel-current-and-future-lakes-rapids-thread.2509080/post-40551904>source</a>)</s>
 <i>XXXXXXXX   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Darkmont (<a href=https://forums.anandtech.com/threads/intel-current-and-future-lakes-rapids-thread.2509080/post-40551904>source</a>)</s>
 
 Low-power platforms:
@@ -814,6 +814,7 @@ Inference:
   <u><b>Vortex</b></u><br>
 <i>00000522   <a href="./Vortex86_SoC/Vortex86 SoC0000522_Vortex86DX_CPUID.txt">CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Vortex86DX</i>
 <i>00000586   <a href="./Vortex86_SoC/Vortex86 SoC0000586_Vortex86MX_CPUID.txt">CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Vortex86MX</i>
+<i><b>00000586   <a href="./Vortex86_SoC/Vortex86 SoC0000586_Vortex86MX_MMX_CPUID.txt">CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Vortex86MX with MMX (reconstructed from <a href=https://www.flickr.com/photos/46578721@N08/4296160520/>this</a>)</b></i>
 <i>00000611   <a href="./Vortex86_SoC/Vortex86 SoC0000611_Vortex86DX3_CPUID.txt">CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86   [No x64]    [No x64]    Vortex86DX3</i>
 
 </pre> 
