@@ -5,11 +5,11 @@
 </div>
 <br>
 <div align=center>
-Last update: 2025.05.26.<br>
+Last update: 2025.06.07.<br>
 <br>
 1, <a href=https://bsky.app/profile/instlatx64.bsky.social>BlueSky</a> (primary), <a href=https://twitter.com/InstLatX64>Twitter</a> (10 post delayed mirror)<br>
 <a href=https://instlatx64.github.io/InstLatx64/>GitHub Mirror: https://instlatx64.github.io/InstLatx64/</a><br>
-<a href=./ZeroDumps/ZeroDump_20241221.txt>InstLat capabilities<br> (5033 entries, AVX-INT-16, SHA512, SM3, SM4)</a><br>
+<a href=./ZeroDumps/ZeroDump_20250605.txt>InstLat capabilities: (<b>5379</b> entries, <b>AVX10.2, AVX10-VNNI_INT, AMX-TRANSPOSE, AMX-TF32, AMX-AVX512, EVEX_SM4, MOVRS</b>)</a><br>
 
 </div>
 <br>
@@ -257,7 +257,7 @@ Last update: 2025.05.26.<br>
 <i>00A70F80   <a href=./AuthenticAMD/AuthenticAMD0A70F80_K19_Phoenix2_01_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   HexaCore AMD Ryzen Z1 (Phoenix2, 2 Zen4 + 4 Zen4c)</i>
 <i>00A70FC0   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   2C+4c AMD Ryzen 5 8540U (Hawk Point, Zen4 + Zen4c, <a href=https://browser.geekbench.com/v6/cpu/5601227>source</a>)</i>
 
-<i><b>00A30F01</b>   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   <b>64-Core EPYC 7A53 (Badami/Trento Zen3, MI250X</b>, <a href=https://twitter.com/ExecuFix/status/1327377480995500032>source</a>, <a href=https://www.amd.com/en/developer/e-sms/e-smi-in-band-library.html>source2</a>, <a href=https://browser.geekbench.com/v6/compute/4168631><b>source3</b></a>)</i>
+<i>00A30F01   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   64-Core EPYC 7A53 (Badami/Trento Zen3, MI250X, <a href=https://twitter.com/ExecuFix/status/1327377480995500032>source</a>, <a href=https://www.amd.com/en/developer/e-sms/e-smi-in-band-library.html>source2</a>, <a href=https://browser.geekbench.com/v6/compute/4168631>source3</a>)</i>
 <i>00A80F01   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   AMD MI300C (Zen4 server + HBM3) (<a href=https://www.semianalysis.com/p/amd-mi300-taming-the-hype-ai-performance>source</a>, <a href=https://lkml.org/lkml/2023/7/21/835>source2</a>, <a href=https://github.com/platomav/CPUMicrocodes/blob/master/AMD/cpu00A80F01_ver0A80010A_2024-11-19_4B95C54B.bin>source3</a>)</i>
 <i>00A90F01   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   AMD MI300A (Zen4 server + CDNA3 + HBM3) (<a href=https://lkml.org/lkml/2023/7/21/835>source</a>, <a href=https://www.amd.com/en/developer/e-sms/e-smi-in-band-library.html>source2</a>, <a href=https://github.com/platomav/CPUMicrocodes/blob/master/AMD/cpu00A90F01_ver0A90010A_2024-11-13_DED3C69C.bin>source3</a>)</i>
 <i>00AA0F02   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Bergamo (128c Zen4c, SP5, <a href=https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/tuning-guides/58015-epyc-9004-tg-architecture-overview.pdf>source</a>, <a href=https://github.com/platomav/CPUMicrocodes/blob/master/AMD/cpu00AA0F02_ver0AA00219_2024-11-13_D177BF43.bin>source2</a>)</i>
@@ -374,8 +374,9 @@ Last update: 2025.05.26.<br>
 <i>00900F02   <a href=./HygonGenuine/HygonGenuine0900F02_Hygon_CPUID3.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   OctalCore Hygon C86 3188 (Dhyana) (no AES, CLMUL, SHA, SEV, SME)</i>
 <i>00900F11   <a href=./HygonGenuine/HygonGenuine0900F11_Hygon_01_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   OctalCore Hygon C86 3250 (AES, CLMUL, SHA, SEV, SME supported)</i>
 <i>00900F22   <a href=./HygonGenuine/HygonGenuine0900F22_Hygon_01_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   OctalCore Hygon C86 3350 (AES, CLMUL, SHA, SEV, SME supported)</i>
-<i>00900F41   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Hygon C86-4G (OPN:7495, <a href=https://browser.geekbench.com/v6/cpu/11350868>source</a>)</b></i>
-<i>00900F60   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Hygon C86-4G (OPN:5430, <a href=https://browser.geekbench.com/v6/cpu/11227506>source</a>)</b></i>
+<i>00900F41   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Hygon C86-4G (OPN:7495, <a href=https://browser.geekbench.com/v6/cpu/11350868>source</a>)</i>
+<i>00900F60   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Hygon C86-4G (OPN:5430, <a href=https://browser.geekbench.com/v6/cpu/11227506>source</a>)</i>
+<i><b>00910F00   CPUID Dump   C&M_Panel   GPGPU_Panel   NewMemLat   InstLatX86   MemLatX86  InstLatX64   MemLatX64   Hygon C86-4G 3450G (<a href=https://x.com/BenchLeaks/status/1930542854218113347>source</a>)</b></i>
 
   <u><b>Intel</b></u><br>
 <i>00000480   <a href=./GenuineIntel/GenuineIntel0000480_486_CPUID.txt>CPUID Dump</a>   C&M_Panel   GPGPU_Panel   NewMemLat    [No TSC]    [No TSC]    [No x64]    [No x64]    Intel 486DX100</i>
